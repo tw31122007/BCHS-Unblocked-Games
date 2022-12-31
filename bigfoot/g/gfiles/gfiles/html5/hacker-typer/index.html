@@ -1,0 +1,114 @@
+
+<html>
+    <head><script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+        <title>Hacker Typer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor="black">
+        <div id="bg">
+            <img src="0.png" id="bg0" class="bit"/>
+            <img src="1.png" id="bg1" class="bit"/>
+            <img src="0.png" id="bg2" class="bit"/>
+            <img src="1.png" id="bg3" class="bit"/>
+        </div>
+    
+        <div id="d">
+            <text id="text">
+            Start Typing...
+            </text><span id="mock-cursor" class="text">|<br><br></span>
+        </div>
+        
+        <div id="info">
+            <p id="infoText">
+                Score: 0 H<br>
+                <br>
+                Script Kiddies: 0
+                Technicians: 0
+                Hacktivists: 0
+                Insiders: 0
+                Cryptographers: 0
+            </p>
+            
+            <div id="hire">
+                <u class="text header">
+                    <b>Hire</b></u><br><br>
+                <a style="color: red;" href="javascript:;" onclick="buyKiddie();" class="text link" id="buyKiddie">
+                    Script Kiddie (500 H)
+                </a><br>
+                <a style="color: red;" href="javascript:;" onclick="buyTech();" class="text link" id="buyTech">
+                    Technician (1000 H)
+                </a><br>
+                <a style="color: red;" href="javascript:;" onclick="buyHacker();" class="text link" id="buyHacker">
+                    Hacktivist (8000 H)
+                </a><br>
+                <a style="color: red;" href="javascript:;" onclick="buyInsider();" class="text link" id="buyInsider">
+                    Insider (20000 H)
+                </a><br>
+                <a style="color: red;" href="javascript:;" onclick="buyCrypt();" class="text link" id="buyCrypto">
+                    Cryptographer (55000 H)
+                </a>
+            </div>
+            <br>
+            <div id="upgrades">
+                <u class="text header">
+                    <b>Upgrades</b></u><br><br>
+                <a title="Cursor moves faster" style="color: red;" href="javascript:;" onclick="upTypeSpeed();" class="text link" id="upTypeSpeed">
+                    Typing Speed (0/5) (500 H)
+                </a><br>
+                <a title="Workers work more often" style="color: red;" href="javascript:;" onclick="upWorkSpeed();" class="text link" id="upWorkSpeed">
+                    Worker Speed (0/5) (1600 H)
+                </a><br>
+                <a title="Allows text to build up" style="color: red;" href="javascript:;" onclick="upBuffer();" class="text link" id="upBufferSize">
+                    Buffer Size (0/5) (800 H)
+                </a>
+            </div>
+            <br>
+            <div id="themes">
+                <u class="text header">
+                    <b>Themes</b></u><br><br>
+                <a id="themeLight" style="background-color: #F0F0F0; color: #555;" href="javascript:;" onclick="setTheme('Light');" class="text link theme">
+                    Light</a>
+                    <br>
+                <a id="themeCream" style="background-color: #F3E5AB; color: #7e6142;" href="javascript:;" onclick="setTheme('Cream');" class="text link theme">
+                    Cream</a>
+                    <br>
+                <a id="themeDark" style="background-color: #222; color: #CCC;" href="javascript:;" onclick="setTheme('Dark');" class="text link theme">
+                    Dark</a>
+                    <br>
+                <a id="themeUBG100" style="background-color: #E77E7E; color: #1F2029;" href="javascript:;" onclick="setTheme('UBG100');" class="text link theme">
+                    UBG100</a>
+                    <br>
+                <a id="themeHacker" style="background-color: black; color: #00FF00;" href="javascript:;" onclick="setTheme('Hacker');" class="text link theme">
+                    Hacker</a>
+            </div>
+            <br><br><br>
+            <div id="saveLoad">
+                <u class="text header">
+                    <b>Data</b></u><br><br>
+                
+                <div id="saveBox" value="">&nbsp;</div>
+                <a href="javascript:;" onclick="save();" class="text link" id="save">
+                    Save
+                </a><br>
+                
+                <input id="loadBox"></input>
+                <a href="javascript:;" onclick="loadFromBox();" class="text link" id="load">
+                    Load
+                </a>
+            </div><br>
+            <div id="options">
+                <u class="text header">
+                    <b>Options</b></u><br><br>
+                <a href="javascript:;" onclick="toggleOption('SFX');" class="text link" id="optSFX">
+                    Hacking SFX
+                </a><br>
+                
+                <a href="javascript:;" onclick="toggleOption('Glow');" class="text link" id="optGlow">
+                    Text Glow
+                </a>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head><script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+<style>
+body {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    background: #3973aa;
+    color: #fefeff;
+    height: 100vh;
+    margin: 0;
+}
+
+#page {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: -10px;
+    width: 70%;
+    font-size: 1.9vw;
+}
+
+#container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: normal;
+    padding: 0;
+    margin: 25px 0;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 6.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+h5 {
+    line-height: 1.1em;
+    font-size: 1.3em;
+}
+
+#details {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+}
+
+#qr {
+    flex: 0 1 auto;
+}
+
+#image {
+    background: white;
+    padding: 5px;
+    line-height: 0;
+}
+
+#image img {
+    width: 9.8em;
+    height: 9.8em;
+}
+
+#stopcode {
+    padding-left: 10px;
+    flex: 1 1 auto;
+}
+
+@media (min-width: 840px) {
+    #page {
+        font-size: 140%;
+        width: 800px;
+    }
+}
+
+h5 a {
+                color: white;
+                text-decoration: none;
+            }
+
+a {
+                color: white;
+                text-decoration: none;
+            }
+</style>
+</head>
+<body>
+
+<div id="page">
+  <div id="container">
+    <h1>:(</h1>
+    <h2>You ran into a 404 Page. This link has been broken or never existed.</h2>
+    <h2>
+      <span id="percentage">0</span>% complete</h2>
+    <div id="details">
+      <div id="qr">
+        <div id="image">
+          <img src="https://moyaimoment.github.io/img/404qr.png" alt="QR Code" />
+        </div>
+      </div>
+      <div id="stopcode">
+        <h4>For more information about this issue and possible fixes, visit
+          <br/><b><a href="https://moyaimoment.github.io/">The Home Page</a></b></h4>
+        <h5>Alternatively you could 
+          <br/>
+          <b><a href="javascript:window.history.back()">Go Back</a></h5></b>
+      </div>
+    </div>
+  </div>
+</div>

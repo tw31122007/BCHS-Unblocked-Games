@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Flakboy</title>
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta id="viewport" name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+            -webkit-tap-highlight-color: transparent;
+        }
+        body, html {
+            background-color: #294b5b;
+        }
+        @-webkit-keyframes animatedBackground {
+            from { background-position: 0 0; }
+            to { background-position: 100% 0; }
+        }
+        #container {
+            position: absolute;
+        }
+    </style>
+    <script src="https://cdn.flurry.com/js/flurry.js"></script>
+    <!-- cordova goes here -->
+    <script type="text/javascript" src="http://cdn.gameplayer.io/api/js/game.js"></script>
+    <script type="text/javascript">
+        var SpilData = {
+            id: '576742227280292448'
+        };
+
+        try {
+            GameAPI.loadAPI(function (apiInstance) {
+                // The API is ready for use.
+                // It can be accessed by using the "GameAPI" variable
+                // For example: GameAPI.Branding.getLogo();
+                console.log('GameAPI version ' + GameAPI.version + ' loaded!');
+
+                window.SpilGameAPIInstance = apiInstance;
+                window.SpilGameAPIInstance.Branding.displaySplashScreen(function () {
+                });
+
+            }, SpilData);
+        } catch(e) {
+
+        }
+    </script>
+
+    <script>
+        window.AH_navigate = function (url) {
+            window.open(url, "_system");
+        };
+
+        window.AH_canShowAd = function (resumeGame) {
+            // place ad code here
+            resumeGame();
+        };
+
+        window.AH_show_branding = true;
+    </script>
+</head>
+<body>
+<div id="container"></div>
+<script type="text/javascript" src="flakboy.js"></script>
+</body>
+</html>

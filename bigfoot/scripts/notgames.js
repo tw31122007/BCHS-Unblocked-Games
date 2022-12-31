@@ -22,7 +22,7 @@ var buttonArr21 = [
  
   {
    "name": "Clickerheroes",
-   "url": "gfiles/gfiles/flash/?swf=clickerheroes.swf",
+   "url": "https://kkpmooforv24iv2mt8qq6vrvnrpk2gju-a-sites-opensocial.googleusercontent.com/gadgets/ifr?container=enterprise&country=ALL&lang=en&libs=core&mid=130&parent=https://sites.google.com/site/unblockedgames66ez/clicker-heroes&sanitize=0&url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%252Fclicker-heroes.xml&v=e365db07566faba2&view=default#st=e=AIHE3cCaaA2E0KUgmHRwSVh1S%252FPI3sc4gTgeizohwqyU8MgiDsGjINJ3eA3UYMGGDK0HvOSbXlWZZ9UA1TktS0nxoDK5lUefYhTxGdX7lDq2H6okxtaD7Z%252BGyvb6x0a061JuKydKqlUB&c=enterprise&rpctoken=7433018190821894368",
    "img": "thumbnails/img129.webp",
 },
 
@@ -43,15 +43,15 @@ var buttonArr21 = [
         "img": "thumbnails/wingeria.jpg",
        },
        {   "name": "Papas Freezeria",
-         "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+         "url": "gfiles/gfiles/flash/waflash/papas-freezeria/index.html",
         "img": "thumbnails/freezeria.jpg",
        },
        {   "name": "Papas Pancakeria",
-         "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+         "url": "gfiles/gfiles/flash/waflash/papas-pancakeria/index.html",
         "img": "thumbnails/pancakeria.jpg",
        },
        {   "name": "Papas Sushiria",
-         "url": "gfiles/gfiles/flash/waflash/papas-wingeria/index.html",
+         "url": "gfiles/gfiles/flash/waflash/papas-sushiria/index.html",
         "img": "thumbnails/sushiria.jpg",
        },
        {   "name": "Papas Bakeria",

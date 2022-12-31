@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUPERHOT</title>
+  </head>
+  <body style="margin: 0;">
+    <canvas
+      class="emscripten"
+      id="canvas"
+      oncontextmenu="event.preventDefault()"
+      style="width: 900px; height: 600px;"
+    ></canvas>
+    <script type="text/javascript">
+      var Module = {
+        TOTAL_MEMORY: 268435456,
+        errorhandler: null, // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+        compatibilitycheck: null,
+        dataUrl: "Release/webgl.datagz",
+        codeUrl: "Release/webgl.jsgz",
+        memUrl: "Release/webgl.memgz",
+      };
+    </script>
+    <script src="./UnityLoader.js"></script>
+  </body>
+</html>

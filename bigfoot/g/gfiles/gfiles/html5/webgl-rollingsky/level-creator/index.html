@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head><script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Level Designer</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="designer">
+      <table id="grid"></table>
+    </div>
+    <div id="main">
+      
+      <div id="color"></div>
+      <button id="add">Add Row</button>
+      <button id="remove">Remove Row</button>
+      <h1>WebGL Rolling Sky Level Creator</h1>
+      <ol>
+        <li>Click the above circle to change the color of the paint.</li><br>
+        <li>Click or drag the squares to paint them with color. The squares represent the tiles of the game.</li><br>
+        <li>Copy all the text inside the text box below.</li>
+        <li>
+         Go to my <a href="https://repl.it/@jser/Rolling-Sky">WebGL Rolling Sky repl</a>, and replace the content of levels.json with the text you copied. (This will save the REPL as your own)
+         </li>
+      </ol>
+      <textarea readonly id="output"></textarea>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>    
+    <script src="main.js"></script>
+  </body>
+</html>

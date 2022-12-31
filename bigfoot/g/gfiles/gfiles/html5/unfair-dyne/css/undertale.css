@@ -1,0 +1,47 @@
+@import url("webfont.css");
+
+html, body {
+	background-color: black;
+	color: white;
+	font-family: "8-bit Operator Mono", sans-serif;
+}
+
+canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+div.bottom-credits{
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+	line-height: 15px;
+	height: 75px;
+	bottom: 0;
+	left: calc(50% - 300px);
+	width: 600px;
+	padding: 8px 0;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+p.announcement {
+	font-size: 150%;
+}
+
+div.bottom-credits span{
+	display: inline-block;
+}
+
+
+
+a{
+	color: #00ffff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #33cccc;
+}

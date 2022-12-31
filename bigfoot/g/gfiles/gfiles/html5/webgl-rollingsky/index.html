@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head><script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WebGL Rolling Sky</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="icon" href="img/icon.png">
+</head>
+<body>
+  <div id="canvascontainer">
+    <div id="percent">0%</div>
+  </div>
+  <div id="main">
+    <div id="level"></div>
+    <div id="score">Loading...</div>
+    <!--<a id="level-d" href="https://rolling-sky.jser.repl.co/level-creator/">Level Creator (Beta)</a>-->
+    <div class="button" id="play">
+      <img id="play-arrow" src="img/arrow-right.svg">
+    </div>
+    <div class="button" id="retry">
+      <img id="retry-icon" src="img/retry.svg">
+    </div>
+    <div class="button" id="next" onclick="nextLevel()">
+      <img id="next-arrow" src="img/next.svg">
+    </div>
+    <div class="button" id="prev" onclick="prevLevel()">
+      <img id="prev-arrow" src="img/previous.svg">
+    </div>
+  </div>
+	<script src="https://threejs.org/build/three.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="classes.js"></script>
+	<script src="main.js"></script>
+	<script src="controls.js"></script>
+</body>
+</html>

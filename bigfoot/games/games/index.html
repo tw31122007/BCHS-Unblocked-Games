@@ -1,0 +1,172 @@
+<html>
+    <head>
+      <script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../header/style.css">
+        <script src="script.js"></script>
+        <style>
+          form {
+      display: flex;
+      justify-content: center;
+  }
+  form input {
+      font-family: inherit;
+      padding: 0px 25px;
+      height: 48px;
+      border: 1px solid rgba(253, 253, 253, 0.514);
+      outline: none;
+      width: 350px;
+      margin-top: 5px; 
+      color: #000;
+  }
+  .logo-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 10%;
+      background-color: black;
+  }
+  .logo-wrapper .text {
+  
+      font-size: 105px;
+      font-family: A;
+      color: #FFF;
+  }
+  
+  .logo-wrapper h1 {
+      color: white;
+  }
+  
+        </style>
+    </head>
+    
+    <body>
+      <div id="search">
+        <div class="logo-wrapper">
+          <h1>Kardna</h1>
+      </div>
+      <p>Pr<wbr>ox<wbr>y</p>
+        <form id="myForm">
+          <input id="myText" placeholder="Search The Web!">
+          <label for="name"></label>
+      </form>
+      <button onclick="submit();">Su<wbr>bmit</button>
+
+      
+
+      
+      <script>
+          var form = document.getElementById("myForm");
+          function handleForm(event) { event.preventDefault(); } 
+          form.addEventListener('submit', handleForm);
+      
+          var input = document.getElementById("myText");
+              input.addEventListener("keypress", function(event) {
+              if (event.key === "Enter") {
+                  submit();
+              }
+           });
+      
+          function submit() {
+          var input = document.getElementById("myText").value;
+          var encript = btoa(input);
+          var newsource = url + "/uv.html#" + encript
+          window.location.replace(newsource);
+          }
+      
+      </script>
+    
+      </div>
+
+      <div class="header">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'>
+        <link rel="stylesheet" href="./header.css">
+<section class="game-section">
+    <h2 class="line-title">trending games</h2>
+    <div class="owl-carousel custom-carousel owl-theme">
+      <div id="f" onmouseover="mouseoverfortnite();" onmouseout="mouseoutfortnite();"class="item active" style="background-image: url(./img/fortnite.png);">
+        <!--  bg vid      
+            <div class="bg-vid">
+            <video width="320" height="240" autoplay muted loop class="gamevid">
+                <source src="./vids/fortnite.mp4#t=300" type="video/mp4">
+              </video>
+        </div>
+    -->
+                            
+       
+              <div class="item-desc">
+                <h3 style="z-index:100;">Fortnite</h3>
+                <button id="Fotnite" onclick="Fortnite_Trending();">Play</button>
+                <p>Fortnite is at heart a battle royale game, developed by Epic Games. In it, players drop into a map, either on their own or with a team, alongside 99 other players. After landing, it’s a mad dash to pick up as many weapons and items as possible, all while working your way toward the center of the map. Whoever is the last player standing wins the match.</p>
+              </div>
+            </div>
+      <div id="r" onmouseover="mouseoverroblox();" onmouseout="mouseoutroblox();" class="item" style="background-image: url(./img/roblox.png);">
+        <div class="item-desc">
+          <h3>Roblox</h3>
+          <button id="Roblox" onclick="Roblox_Trending();">Play</button>
+          <p>Roblox is a global platform where millions of people gather together every day to imagine, create, and share experiences with each other in immersive, user-generated 3D worlds. The types of gameplay on Roblox are just as limitless as the imagination of the creators themselves.</p>
+        </div>
+      </div>
+      <div id="k" onmouseover="mouseoverkrunker();" onmouseout="mouseoutkrunker();" class="item" style="background-image: url(./img/krunker.png);">
+        <div class="item-desc">
+          <h3>Krunker.io</h3>
+          <button id="Krunker" onclick="Krunker_Trending();">Play</button>
+          <p>Krunker.io is a popular first-person shooter that has various amout of gamemodes and wraps for weapons. </p>
+        </div>
+      </div>
+      <div id="b" onmouseover="mouseoverbbstars();" onmouseout="mouseoutbbstars();" class="item" style="background-image: url(./img/Basketballstars.png);">
+        <div class="item-desc">
+          <h3>BB stars</h3>
+          <button id="Basketballstars" onclick="BBStars_Trending();">Play</button>
+          <p>Basketball Stars is a 2-player basketball game created by Madpuffers. Shoot b-ball with the likes of LeBron James, James Harden, and Stephen Curry in Basketball Stars! You can play solo or with a friend as a variety of legendary basketball players.</p>
+        </div>
+      </div>
+      <div id="a" onmouseover="mouseoveramongus();" onmouseout="mouseoutamongus();" class="item"style="background-image: url(./img/Amongus.png);">
+        <div class="item-desc">
+          <h3>Among Us</h3>
+          <button id="Among US"onclick="Amongus_Trending();">Play</button>
+          <p>Among Us is a online multiplayer social deduction game developed and published by American game studio Innersloth. The game was inspired by the party game Mafia and the science fiction horror film The Thing.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <h2 class="game-title">All Games</h2>
+  <script>
+  $(".custom-carousel").owlCarousel({
+    autoWidth: true,
+    loop: true
+  });
+  $(document).ready(function () {
+    $(".custom-carousel .item").click(function () {
+      $(".custom-carousel .item").not($(this)).removeClass("active");
+      $(this).toggleClass("active");
+    });
+  });</script>
+      </div>
+
+      <iframe style="display: none;"class="header"src="../header/index.html"></iframe>
+
+        <div id="main-games" class="gameslist">
+               <br><div class="row">
+               <div style="padding-left: 20px" id="buttonDiv21"></div>
+               </div>
+               <div style="z-index: 0;" class="gameslist">
+                <div class="row">
+                    <div style="padding-left: 20px" id="buttonDiv7"></div>
+                </div>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+                <script src="index.js"></script>
+            </div>
+              
+    </div>
+
+    <script src="../games1/scripts/index.js"></script>
+    <script src="../header/script.js"></script>
+<!--END FOOTER--></body>
+</html>

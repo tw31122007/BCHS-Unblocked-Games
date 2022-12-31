@@ -1,0 +1,127 @@
+<!--
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+  <script src="/uv/uv.bundle.js"></script>
+  <script src="/uv/uv.config.js"></script>
+  <script src="/register-sw.js"></script>
+  <script src="/search.js"></script>
+    <script>
+        document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+        return false;
+        }
+        }
+        </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+        body {
+            background: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0px;
+            align-items: center;
+        }
+        .msg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        p {
+            font-family: Roboto;
+        }
+        .info {
+            color: #FFF;
+            max-width: 600px;
+            text-align: center;
+            margin: 35px 0px 0px 0px;
+        }
+        .lds-dual-ring {
+        display: inline-block;
+        width: 160px;
+        height: 160px;
+        }
+        .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 128px;
+        height: 128px;
+        margin: 16px;
+        border-radius: 50%;
+        border: 12px solid #fff;
+        border-color: #fff transparent #fff transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+        }
+        @keyframes lds-dual-ring {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+        }
+    </style>
+</head> 
+<body>
+
+    <div class="msg">
+        <div class="lds-dual-ring"></div>
+        <p class="info">
+            Please wait a moment. 
+            Our service maybe under high load causing some slowness on our servers. Your request will eventually be responded to.
+        </p>
+    </div>
+    <script>
+
+"use strict";
+/**
+ * @type {HTMLFormElement}
+ */
+const form = document.getElementById("uv-form");
+/**
+ * @type {HTMLInputElement}
+ */
+const address = document.getElementById("uv-address");
+/**
+ * @type {HTMLInputElement}
+ */
+const searchEngine = document.getElementById("uv-search-engine");
+/**
+ * @type {HTMLParagraphElement}
+ */
+const error = document.getElementById("uv-error");
+/**
+ * @type {HTMLPreElement}
+ */
+const errorCode = document.getElementById("uv-error-code");
+     (async () => {
+      try {
+      const url = atob(decodeURIComponent(window.location.hash.slice(1)));
+      console.log(atob(decodeURIComponent(window.location.hash.slice(1))));
+      await registerSW();
+      console.log("Mainframe Is Restiorewd")
+      location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+      } catch(err) {
+        // etc
+      }
+    })();
+    
+    </script>
+</body>
+
+</html>

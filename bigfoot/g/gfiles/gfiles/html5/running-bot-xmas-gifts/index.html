@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+    <meta charset="UTF-8">
+    <title>Running Bot - Xmas Gifts</title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <link rel="icon" type="image/png" href="assets/images/common/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+</head>
+
+<body>
+    <!-- GAME CANVAS -->
+    <canvas id="game"></canvas>
+
+    <!-- LOADING SCREEN -->
+    <div id="loading">
+        <img src="assets/images/common/icon.png" alt="icon">
+    </div>
+
+    <!--************** GAME UI *****************-->
+    <div id="bottomUI" class="uiContainer">
+        <!-- HEALTH BAR -->
+        <div id="icon-magnet">
+            <img src="assets/images/game/magnet.png" alt="magnet">
+        </div>
+        <!-- HEALTH BAR -->
+        <div id="icon-health">
+            <img src="assets/images/game/heart.png" alt="heart">
+            <img src="assets/images/game/heart.png" alt="heart">
+            <img src="assets/images/game/heart.png" alt="heart">
+            <img src="assets/images/game/heart.png" alt="heart">
+            <img src="assets/images/game/heart.png" alt="heart">
+        </div>
+    </div>
+
+    <!-- MENU -->
+    <div id="menu" class="overlay">
+        <div id="menuBox">
+            <img id="btBGM-off" class="buttonMenu" src="assets/images/menu/bgm-off.png" alt="btBGM">
+            <img id="btBGM-on" class="buttonMenu" src="assets/images/menu/bgm-on.png" alt="btBGM">
+            <img id="btSFX-off" class="buttonMenu" src="assets/images/menu/sfx-off.png" alt="btSFX">
+            <img id="btSFX-on" class="buttonMenu" src="assets/images/menu/sfx-on.png" alt="btSFX">
+            <!-- <img id="btFullscreen" class="buttonMenu" src="assets/images/menu/bt-zoom.png" alt="fullscreen" /> -->
+            <img id="btMoregames" class="buttonMenu" src="assets/images/menu/bt-moregames.png" alt="More games">
+            <img id="us" class="buttonMenu btLanguage" src="assets/images/menu/en.png" alt="ru">
+            <img id="ru" class="buttonMenu btLanguage" src="assets/images/menu/ru.png" alt="us">
+        </div>
+    </div>
+    <div id="btMenu" class="button">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <div id="topUI" class="uiContainer">
+        <!-- SCORE -->
+        <div id="score">0</div>
+        <!-- MUSHROOM -->
+        <div id="mushroom">
+            <img src="assets/images/game/mushroom.png" alt="gift">&nbsp;x <span id="mushroomCollected">0</span><br>
+        </div>
+        <button class="button buttonVideo" id="btCoin" data-reward="coin"><span>+300</span><img src="assets/images/buttons/video-icon.png"></button>
+    </div>
+
+    <!-- GAMEOVER -->
+    <div id="gameOver" class="overlay marked">
+        <div class="popupBox marked">
+            <div class="overUI">
+                <div id="result"></div>
+                <div id="best"></div>
+                <img class="button circleButton" id="btLeaderboard" src="assets/images/buttons/leaderboard.png" alt="btLeaderboard">
+                <img class="button circleButton" id="btUpgrade" src="assets/images/buttons/upgrade.png" alt="btUpgrade">
+                <img class="button circleButton" id="btReplay" src="assets/images/buttons/replay.png" alt="btReplay"><br>
+                <button class="button buttonVideo" id="btContinue" data-reward="continue"><span class="text-Continue">Continue</span> <img src="assets/images/buttons/video-icon.png"></button>
+            </div>
+            <div class="guide marked"><span class="text-TapToContinue marked">Tap To Continue</span></div>
+        </div>
+    </div>
+
+    <div id="upgradeShop" class="overlay">
+        <div class="popupBox">
+            <span class="close">&times;</span>
+            <div class="popupTitle text-Upgrade">UPGRADE</div>
+            <div class="popupMsg">
+                <div id="Powerup" class="tabcontent">
+                    <div class="item" id="magnet">
+                        <div class="thumbnail">
+                            <img src="assets/images/shop/magnet.png">
+                        </div>
+                        <div class="details">
+                            <div class="details-content"><span class="text-Level">Level</span>: <span>1/3</span></div>
+                            <div class="details-content"><span class="text-Duration">Duration</span>: <span>8s</span>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <div class="button btAction" data-item="magnet">
+                                <img src="assets/images/shop/coin.png"> <span>100</span> &nbsp;<img src="assets/images/shop/arrow.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" id="shield">
+                        <div class="thumbnail">
+                            <img src="assets/images/shop/shield.png">
+                        </div>
+                        <div class="details">
+                            <div class="details-content"><span class="text-Level">Level</span>: <span>1/3</span></div>
+                            <div class="details-content"><span class="text-Duration">Duration</span>: <span>8s</span>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <div class="button btAction" data-item="shield">
+                                <img src="assets/images/shop/coin.png"> <span>100</span> &nbsp;<img src="assets/images/shop/arrow.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" id="health">
+                        <div class="thumbnail">
+                            <img src="assets/images/shop/heart.png">
+                        </div>
+                        <div class="details">
+                            <div class="details-content"><span class="text-Level">Level</span>: <span>1/3</span></div>
+                            <div class="details-content"><span class="text-Lives">Health</span>: <span>3</span></div>
+                        </div>
+                        <div class="action">
+                            <div class="button btAction" data-item="health">
+                                <img src="assets/images/shop/coin.png"> <span>100</span> &nbsp;<img src="assets/images/shop/arrow.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popupFooter"></div>
+        </div>
+    </div>
+
+    <!-- TUTORIAL -->
+    <div id="tutorial" class="overlay">
+        <div class="popupBox tutorialBox">
+            <span class="close">&times;</span>
+            <div id="desktop" class="tutorialContent">
+                <div class="tutorialSubContent">
+                    <div class="text-Move">Move</div>
+                    <div>
+                        <img src="assets/images/tutorial/arrow-left.png" alt="arrow-left.png">
+                        <img src="assets/images/tutorial/arrow-right.png" alt="arrow-right.png">
+                    </div>
+                </div>
+                <div class="tutorialSubContent">
+                    <div class="text-Jump">Jump</div>
+                    <div>
+                        <img src="assets/images/tutorial/arrow-up.png" alt="arrow-up.png">
+                    </div>
+                </div>
+            </div>
+            <div id="mobile" class="tutorialContent">
+                <div class="tutorialSubContent">
+                    <div class="text-Move">Move</div>
+                    <div>
+                        <img src="assets/images/tutorial/move.png" alt="move.png">
+                    </div>
+                </div>
+                <div class="tutorialSubContent">
+                    <div class="text-Jump">Jump</div>
+                    <div>
+                        <img src="assets/images/tutorial/swipe-up.png" alt="swipe-up.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LEADERBOARD -->
+    <div id="leaderboard" class="overlay">
+        <div class="popupBox">
+            <span class="close">&times;</span>
+            <div class="popupTitle text-Leaderboard" style="padding-right: 2em;">LEADERBOARD</div>
+            <div class="popupMsg lb-content">
+                <div class="row lb-header">
+                    <div class="column lb-rank text-Rank">Rank</div>
+                    <div class="column lb-username text-Username">Username</div>
+                    <div class="column lb-score text-Score">Distance</div>
+                </div>
+                <div id="lb-data">
+                    <div class="row">
+                        <div class="column lb-rank">1</div>
+                        <div class="column lb-username">User A</div>
+                        <div class="column lb-score">100,000</div>
+                    </div>
+                    <div class="row lb-currentUser">
+                        <div class="column lb-rank">2</div>
+                        <div class="column lb-username">User B</div>
+                        <div class="column lb-score">80,000</div>
+                    </div>
+                    <div class="row">
+                        <div class="column lb-rank">3</div>
+                        <div class="column lb-username">User C</div>
+                        <div class="column lb-score">1,000</div>
+                    </div>
+                </div>
+                <div class="lb-footer" id="lb-footer-2">
+                    <div class="text-Join">Join The Leaderboard?</div>
+                    <a href="javascript:void(0);" id="login" class="text-Login">Login Yandex Passport</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SNACKBAR -->
+    <div id="snackbar">Hello</div>
+
+    <!-- SCRIPTs -->
+    <script src="libs.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>

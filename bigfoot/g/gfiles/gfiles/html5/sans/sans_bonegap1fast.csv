@@ -1,0 +1,17 @@
+0,CombatZoneResize,133,251,508,391,TLResume
+0,HeartTeleport,320,376,,,
+0,HeartMode,1,,,,
+0,TLPause,,,,,
+0,SET,lp,32,,,
+0,SET,ang,0,,,
+0,ADD,ang,$ang,45,,
+0,SIN,fac,$ang,,,
+0,MUL,fac,0.08,$fac,,
+0,ADD,time,0.5,$fac,,
+0,SUB,lp,$lp,1,,
+$time,BoneV,128,261,100,0,230
+0,BoneV,128,375,15,0,230
+0,BoneV,503,261,100,2,230
+0,BoneV,503,375,15,2,230
+0,JMPNZ,7,$lp,,,
+0.5,EndAttack,,,,,

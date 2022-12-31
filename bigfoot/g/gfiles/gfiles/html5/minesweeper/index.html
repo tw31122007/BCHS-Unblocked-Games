@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head><script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+  <meta charset="UTF-8">
+  <title>Minesweeper</title>
+  <link rel="stylesheet" href="./style.css" id="ancss" >
+  <meta name="robots" content="noindex">
+</head>
+<body>
+<head><script async src="https://arc.io/widget.min.js#1ejocRx9"></script>
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Roboto" rel="stylesheet">
+</head>
+<body oncontextmenu="return false;" id="ancss">
+  <div id="wrapper">
+    <div id="toolbox">
+      <div id="left">
+        <div class="digit" value="0"></div>
+        <div class="digit" value="0"></div>
+        <div class="digit" value="0"></div>
+      </div>
+      <div id="smilebtn" onclick="createNew()" state="smile"></div>
+      <div id="time">
+        <div class="digit" value="0"></div>
+        <div class="digit" value="0"></div>
+        <div class="digit" value="0"></div>
+      </div>
+    </div>
+    <div id="setup">
+      <button id="setupbtn" onclick="toggleSetup()">Difficulty</button>
+      <button id="infobtn" onclick="toggleControls()">Controls</button>
+    </div>
+    <div id="playarea" face="front">
+      <div id="backface">
+        
+      </div>
+      <div id="innerwrapper"></div>
+    </div>
+  </div>
+  <div style="display:none">
+    <div id="settingsbuffer">
+      <div id="tablewrapper">
+        <table>
+          <tr>
+            <th>Type</th>
+            <th>W</th>
+            <th>H</th>
+            <th>Mines</th>
+          </tr>
+          <tr id="0">
+            <td>Beginner</td>
+            <td>9</td>
+            <td>9</td>
+            <td>10</td>
+          </tr>
+          <tr id="1">
+            <td>Medium</td>
+            <td>16</td>
+            <td>16</td>
+            <td>40</td>
+          </tr>
+          <tr id="2">
+            <td>Expert</td>
+            <td>30</td>
+            <td>16</td>
+            <td>99</td>
+          </tr>
+          <tr id="3">
+            <td>Custom</td>
+            <td><input class="custominp"></td>
+            <td><input class="custominp"></td>
+            <td><input class="custominp"></td>
+          </tr>
+        </table>
+        <button id="setbtn" onclick="confirmBoard()">Set Difficulty</button>
+      </div>
+    </div>
+    <div id="controlsbuffer">
+      <div id="ctrls">Smiley Face: Reset Game<br><br>Left Click: Interact<br><br>Right Click: Flag<br><br>(Custom difficulties may cause your game to crash)</div>
+    </div>
+  </div>
+</body>
+  <script  src="./script.js"></script>
+</body>
+</html>

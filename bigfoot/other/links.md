@@ -1,0 +1,36 @@
+# Bigfoot's Game Shack Links
+* https://bgs.voids.cf
+* https://bgs.voidsgxmes.ml
+* https://bigfootedu.tk
+* https://bigfootshack.tk
+* https://lenardsbites.ml
+* https://lonelytab.ml
+* https://schoolmatheduscienceenglish.cf
+* https://voids.cf
+* https://www.bigfootedu.tk
+* https://www.bigfootshack.tk
+* https://www.voids.cf
+* https://www.lenardsbites.ml
+* https://www.lonelytab.ml
+* https://www.lonelytab.gq/
+* https://www.schoolmatheduscienceenglish.cf
+* https://bigfootsgs.github.io/
+* https://officialbigfoot.gq
+* https://www.bigfoot.ga
+* https://smallfeet.tk
+* https://smallfeet.ml
+* https://smallfeet.gq
+* https://smallfeet.cf
+* https://smallfeet.ga
+* https://www.bigfootninenineninenine.gq/
+* https://bgs.shockwave.gq/
+* https://bigfootslair9999.tk
+* https://b5q8vxvxvd.cf/
+* https://xboxcontroller.tk/
+* https://www.lenardsbites.cf/
+* https://www.lenardskicks.cf/
+* https://www.mathtutoring.ga/
+# Slope Game
+* https://slope.bigfootgaming.tk
+* https://bigfoot.pages.dev
+* https://bigfoot9999.github.io/Slope-Game/

@@ -70,6 +70,8 @@
     <a onclick="toGoogle()">Google</a>
     <a onclick="toGoogledrive()">Google Drive</a>
     <a onclick="toGoogleclassroom()">Google Classroom</a>
+    <a onclick="toGoogledocs()">Google Docs</a>
+    <a onclick="toGoogleslides()">Google Slides</a>
    
     </div>
   </div>
@@ -81,6 +83,16 @@
   function toGoogledrive() {
     favicon.setAttribute("href", "/assets/img/favicons/google-drive.png")
     document.title = "My Drive - Google Drive"
+  }
+
+  function toGoogledocs() {
+    favicon.setAttribute("href", "/assets/img/favicons/google-docs.png")
+    document.title = "Google Docs"
+  }
+
+  function toGoogleslides() {
+    favicon.setAttribute("href", "/assets/img/favicons/google-slides.ico")
+    document.title = "Google Slides"
   }
 
   function toGoogle() {

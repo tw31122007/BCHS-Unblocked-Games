@@ -66,16 +66,18 @@
     <div class="box">
   
     <div id="glist">
-    <a onclick="toDefault()">Default</a>
-    <a onclick="toGoogle()">Google</a>
-    <a onclick="toGoogledrive()">Google Drive</a>
-    <a onclick="toGoogleclassroom()">Google Classroom</a>
-    <a onclick="toGoogledocs()">Google Docs</a>
-    <a onclick="toGoogleslides()">Google Slides</a>
-   
+    <a href="/tab-cloaked/default.html">Default</a>
+    <a href="/tab-cloaked/google.html">Google</a>
+    <a href="/tab-cloaked/google-drive.html">Google Drive</a>
+    <a href="/tab-cloaked/google-classroom.html">Google Classroom</a>
+    <a href="/tab-cloaked/google-docs.html">Google Docs</a>
+    <a href="/tab-cloaked/google-slides.html">Google Slides</a>
+    <a href="/tab-cloaked/word.html">Word Online</a>
+    <a href="/tab-cloaked/powerpoint.html">Powerpoint Online</a>
     </div>
   </div>
   </div>
+
 
 <script>
   const favicon = document.getElementById("favicon");
@@ -102,6 +104,15 @@
   function toGoogleclassroom() {
     favicon.setAttribute("href", "/assets/img/favicons/classroom1.png")
     document.title = "Classes"
+  }
+
+  function toWord() {
+    favicon.setAttribute("href", "/assets/img/favicons/word.ico")
+    document.title = "Document.docx"
+  }
+  function toPowerpoint() {
+    favicon.setAttribute("href", "/assets/img/favicons/powerpoint.ico")
+    document.title = "Presentation1.pptx"
   }
 
   function toDefault() {

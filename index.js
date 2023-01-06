@@ -192,7 +192,7 @@ function main() {
       iframe.style = "position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;";
       winDoc.body.appendChild(iframe);
       winDoc.close();
-      window.location.replace("https://google.com/");
+      
     }
     window.alert("Click this alert to go into about:blank", null, openAb);
   }

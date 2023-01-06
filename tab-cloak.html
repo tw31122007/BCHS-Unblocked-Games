@@ -68,6 +68,7 @@
     <div id="glist">
     <a class="btn btn-success" onclick=" window.open('https://v4.maths-isfun.com.au','_blank')">Scroll Down For More</a>
     <a class="btn btn-success" onclick=" window.open('https://v4.maths-isfun.com.au','_blank')">Default</a>
+    <a class="btn btn-success" onclick='aboutblank()'>About:Blank</a>
     <a class="btn btn-success" onclick=" window.open('https://v4.maths-isfun.com.au/tab-cloaked/google.html','_blank')">Google</a>
     <a class="btn btn-success" onclick=" window.open('https://v4.maths-isfun.com.au/tab-cloaked/google-drive.html','_blank')">Google Drive</a>
     <a class="btn btn-success" onclick=" window.open('https://v4.maths-isfun.com.au/tab-cloaked/google-classroom.html','_blank')">Google Classroom</a>
@@ -119,6 +120,19 @@
     favicon.setAttribute("href", "/assets/img/favicons/games.png")
     document.title = "BCHS Unblocked Games V4"
   }
+  function aboutblank() {
+              var url = "https://bchs.pages.dev/";document.getElementById('input');
+              var win = window.open();
+              win.document.body.style.margin = '0';
+              win.document.body.style.height = '100vh';
+              var iframe = win.document.createElement('iframe');
+              iframe.style.border = 'none';
+              iframe.style.width = '100%';
+              iframe.style.height = '100%';
+              iframe.style.margin = '0';
+              iframe.src = url;
+              win.document.body.appendChild(iframe);
+          }
 </script>
   
 

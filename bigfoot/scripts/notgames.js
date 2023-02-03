@@ -506,6 +506,21 @@ var buttonArr21 = [
    "url": "gfiles/gfiles/html5/drift-hunters/",
    "img": "thumbnails/drift-hunters.png",
 },
+{
+   "name": "Slope 3",
+   "url": "gfiles/gfiles/html5/slope-3/",
+   "img": "thumbnails/slope-3.png",
+},
+{
+   "name": "Swords and Sandals 2",
+   "url": "gfiles/gfiles/html5/swords-and-sandals-2/",
+   "img": "thumbnails/swords-2.jpg",
+},
+{
+   "name": "Arras.io",
+   "url": "gfiles/gfiles/html5/arras-io/",
+   "img": "thumbnails/arras-io.png",
+},
 
 
   //end gfiles

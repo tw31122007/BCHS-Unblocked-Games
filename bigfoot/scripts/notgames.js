@@ -486,6 +486,21 @@ var buttonArr21 = [
    "url": "gfiles/gfiles/html5/xtreme/",
    "img": "thumbnails/xtreme.jfif",
 },
+{
+   "name": "Chess",
+   "url": "gfiles/gfiles/html5/chess/",
+   "img": "thumbnails/chess.png",
+},
+{
+   "name": "Kirka.io",
+   "url": "gfiles/gfiles/html5/kirka/",
+   "img": "thumbnails/kirka.jfif",
+},
+{
+   "name": "10 Minutes Till Dawn",
+   "url": "gfiles/gfiles/html5/10-mins-till-dawn/",
+   "img": "thumbnails/10-mins.png",
+},
 
 
   //end gfiles
@@ -3160,6 +3175,11 @@ var buttonArr21 = [
         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
         "img": "thumbnails/granny.png",
        },
+       {
+         "name": "Chess",
+         "url": "gfiles/gfiles/lanucher/index.html?url=https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/253523348422157506/1granny.html",
+         "img": "thumbnails/granny.png",
+        },
    
   ]
   var launcherURL = "gfiles/gfiles/lanucher/index.html?url=https://feetbig.pages.dev/g/";

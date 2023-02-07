@@ -526,6 +526,16 @@ var buttonArr21 = [
    "url": "gfiles/gfiles/html5/mad-gunz/",
    "img": "thumbnails/mad-gunz.png",
 },
+{
+   "name": "Apex Legends",
+   "url": "gfiles/gfiles/html5/apex-legends/",
+   "img": "thumbnails/apex.jpg",
+},
+{
+   "name": "Rocket League",
+   "url": "gfiles/gfiles/html5/rocket-league/",
+   "img": "thumbnails/rocket-league.jpg",
+},
 
   //end gfiles
 

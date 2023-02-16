@@ -123,12 +123,12 @@ var buttonArr21 = [
 },
 {
            "name": "Bloons TD",
-           "url": "https://multiple-games-6.tylerwilson32.repl.co/bloonstd/",
+           "url": "gfiles/gfiles/html5/btd/",
            "img": "thumbnails/img110.jpg",
 },
 {
         "name": "Bloons TD 2",
-        "url": "https://multiple-games-6.tylerwilson32.repl.co/bloonstd2/",
+        "url": "gfiles/gfiles/html5/btd-2/",
         "img": "thumbnails/img111.jpg",
 },
 {
@@ -138,7 +138,7 @@ var buttonArr21 = [
 },
 {
            "name": "Bob The Robber",
-           "url": "https://aob092r7v01rd40shm9qfidlnet0sc2a-a-sites-opensocial.googleusercontent.com/gadgets/ifr?container=enterprise&country=ALL&lang=en&libs=core&mid=157&parent=https://sites.google.com/site/unblockedgames66ez/bob-the-robber&sanitize=0&url=https://827403614-058364183759926437.preview.editmysite.com/uploads/b/139890129-762100382149765838/files/bob-the-robber.xml&v=4a8484a4dba9deb0&view=default#st=e=AIHE3cAJvTa%252FB%252FCmNkv42m4X4GbneDvWxLBYR5LoSbM0UmcLl3SR6xf57OtLZwrPBXkS%252BlBS%252BmXKnsot02959RVBlS1CDgQX2wvkSXYfXoKil8j6S0lCvFWGHLV2jHFyT%252Fo%252BajmzQ5Sy&c=enterprise&rpctoken=-5753894780730849322",
+           "url": "gfiles/gfiles/html5/bob-the-robber/",
            "img": "thumbnails/img114.jpg",
 },
 {

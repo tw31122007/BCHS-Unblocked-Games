@@ -1,1 +1,0 @@
-function editon(){<div style="background-color:#b4b4b4d6;z-index:999999999; position: fixed; top:5px;right:5px;height: 300px; width: 400px;border-radius:8px;padding:10px;"><h1>BGS Bookmarklet</h1><a onclick="editon()">Toggle Edit Mode</a></div>}

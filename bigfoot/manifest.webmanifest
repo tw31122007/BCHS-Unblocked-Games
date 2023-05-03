@@ -1,6 +1,6 @@
 {
     "background_color": "White",
-    "description": "Over 200+ Unblocked Games | Bigfoot's Game Shack",
+    "description": "Over 200+ Unblocked Games | BCHS Unblocked Games V4",
     "display": "standalone",
     "icons": [
       {
@@ -9,7 +9,7 @@
         "type": "image/png"
       }
     ],
-    "name": "Bigfoot's Game Shack",
+    "name": "BCHS Unblocked Games V4",
     "short_name": "BGS",
     "start_url": "index.html"
   }

@@ -105,7 +105,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         const style = iframe.style
         const link = doc.createElement("link")
 
-        doc.title = "Bigfoot's Game Shack"
+        doc.title = "BCHS Unblocked Games V4"
         link.rel = "icon";
         link.href = "https://raw.githubusercontent.com/BigfootsGS/BigfootsGS.github.io/main/images/favicon.ico";
         iframe.src = location.href

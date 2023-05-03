@@ -5,7 +5,7 @@
 console.warn(
   "%cNote!",
   "color: purple; font-weight: 600; background: yellow; padding: 0 5px; border-radius: 5px",
-  "Thanks for using Bigfoot's Game Shack! Tab Cloak made by 3kh0! If you are trying to steal my code its literally public on github, if you need games message me on Discord and ill hit you up."
+  "Thanks for using BCHS Unblocked Games V4! Tab Cloak made by 3kh0! If you are trying to steal my code its literally public on github, if you need games message me on Discord and ill hit you up."
 );
 function log(text) {
   console.log("%cSite script", "color: red; font-weight: 600; background: black; padding: 0 5px; border-radius: 5px", text);

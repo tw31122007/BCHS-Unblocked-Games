@@ -11,7 +11,7 @@ const changeTabTitle = () => {
   const newtitle = document.getElementById("userinput");
   if (newtitle.value == ""){ //check if the input is blank when they submit
       window.localStorage.removeItem("title");
-      window.document.title = "Bigfoot's Game Shack"
+      window.document.title = "BCHS Unblocked Games V4"
       document.getElementById("console-output").style.color = "red"; //error = red
       console_output.innerText = "No title entered. Default applied" //return output successful
   } else {

@@ -1,7 +1,7 @@
 const i = Math.floor(r_text.length * Math.random());
 const r_text = [
     "Infinite Possibilities",
-    "Bigfoot's Game Shack",
+    "BCHS Unblocked Games V4",
     "Is Bigfoot real?",
     "Don't Cry because its over, smile because it happened...",
     "Relationships are like farts, if you have to force them they are proably shit...",

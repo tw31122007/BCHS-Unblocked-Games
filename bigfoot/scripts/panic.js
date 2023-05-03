@@ -29,7 +29,7 @@ const handleKeyPress = (e) => {
       if (el.style.display === 'none') {
         el.style.display = 'block';
         btn.style.display = 'none';
-        applyUrl('https://bgs.pages.dev/images/logonew.png', "Bigfoot's Game Shack");
+        applyUrl('https://bgs.pages.dev/images/logonew.png', "BCHS Unblocked Games V4");
 
       } 
       
@@ -54,7 +54,7 @@ const handleKeyPress1 = (e) => {
       if (el.style.display === 'none') {
         el.style.display = 'block';
         btn.style.display = 'none';
-        applyUrl('https://bgs.pages.dev/images/logonew.png', "Bigfoot's Game Shack");
+        applyUrl('https://bgs.pages.dev/images/logonew.png', "BCHS Unblocked Games V4");
 
       } 
       

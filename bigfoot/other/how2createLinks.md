@@ -1,4 +1,4 @@
-# How to create unblocked links for Bigfoot's Game Shack in minutes!
+# How to create unblocked links for BCHS Unblocked Games V4 in minutes!
 ### Step 1, Create a Github Account
 ### Step 2, Click a button below to be redirected to a website hosting service
 ### Step 3, Follow the steps provided, and once the files have been deployed, you should be given a brand new link!

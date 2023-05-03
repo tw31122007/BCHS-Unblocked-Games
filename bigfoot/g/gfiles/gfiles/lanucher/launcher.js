@@ -13,7 +13,7 @@ function blank(){
             const style = iframe.style
             const link = doc.createElement("link")
     
-            doc.title = "Bigfoot's Game Shack"
+            doc.title = "BCHS Unblocked Games V4"
             link.rel = "icon";
             link.href = "link";
             iframe.src = linkparameters;

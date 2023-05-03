@@ -804,7 +804,7 @@ e.selectorText;d.push(s_Yka(f,s_zvb(e.style,c)))}});return s_nvb(d)},s_yvb=funct
 
 </head><script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
     new Crate({
-        server: '829117322223812658', // Bigfoot's Game Shack
+        server: '829117322223812658', // BCHS Unblocked Games V4
         channel: '1035597205354057789' // #school
     })
 </script><body>"+a+"</body></html>");return(new DOMParser).parseFromString(s_9ca(a),"text/html").body.children[0]},

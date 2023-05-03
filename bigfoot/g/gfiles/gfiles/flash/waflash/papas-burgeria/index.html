@@ -1,72 +1,74 @@
+
 <!DOCTYPE html>
-<html lang="en">
-
- <head> <script async src="https://arc.io/widget.min.js#VTeH6AEZ"></script> 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J1D3STC8FC"></script>
+<html lang="en"><head>
+<!--Made with love by Quester#0378-->
+<link href="../css/waflash.css" rel="stylesheet" type="text/css">
+<title>Papa's Burgeria - Bigfoot's Game Shack</title>
+</head><body dir="ltr">
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-J1D3STC8FC');
+		var gameConfig = {
+			swfUrl: 'swf/papasburgeria.swf'
+		}
 </script>
-   
-  <meta name="description" content="BCHS Unblocked Games V4">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script src="https://kit.fontawesome.com/fb203351e2.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
-   
-  <link rel="stylesheet" href="/styles.css">
-  <title>BCHS Unblocked Games V4</title>
-  <script src="particles.min.js"></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7487249208457563"
-  crossorigin="anonymous"></script>
-</head>
-<body>
-  <div id="particles-js"></div>
-
-
-  
-  </div>
-
-
-  <div class="cursor"></div>
-
-  <div class="dropdown">
-    <button class="dropbtn">☰</button>
-    <div class="dropdown-content">
-      <a href="index.html">
-      <i class="fa fa-fw fa-home"></i> Home </a>
-      <a href="/bigfoot/g/index.html">
-      <i class="fa fa-fw fa-gamepad"></i> Games</a>
-      <a href="/proxies.html">
-      <i class="fa-solid fa-globe"></i> Proxies</a>
-      <a href="/tab-cloak.html">
-      <i class="fa-solid fa-eye-slash"></i> Tab Cloaker </a>
-      <a href="links.html">
-      <i class="fa-solid fa-link"></i> Other Links</a>
-      <a href="https://discord.gg/GtTGC8RQmC ">
-      <i class="fa-brands fa-discord"></i> Discord </a>
-    </div>
-  </div>
-
- 
-
-
-  
-  <iframe src="https://multiple-games-6.tylerwilson32.repl.co/papasburgeria/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-    Your browser doesn't support iframes
-</iframe>
-
-  
-
-  <script src="./assets/js/./assets/js/index.js"></script>
-<script defer src="script.js"></script>
-</body>
-
-</html>
+<div id="waflashContainer">
+<canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
+<div id="waflashStatus" style="display: none;">Playing...</div>
+<script>
+		var ua = navigator.userAgent.toLowerCase();
+		if ( (navigator.appName =='Netscape' && ua.indexOf('trident') != -1) || (ua.indexOf("msie") != -1)) {
+    		var waf = document.getElementById('waflashStatus');
+			waf.style.display ='block';
+			waf.innerText ='??? ?????(IE) ??? ??? ???? ???? !\n??, ???? ?? ????? ??????.';
+			gtag('event', 'connect_from_ie', {'event_category': 'error', 'event_label': ua });
+		}
+	</script>
+<script crossorigin="anonymous" type="module">
+		let is_mobile = /Mobi/i.test(window.navigator.userAgent);
+		if (is_mobile) {
+			function scrollToSubject() {
+				try {
+					window.scrollTo({
+						top: 100,
+						left: 0,
+						behavior: 'smooth'
+					});
+				} catch (e) {}
+			}
+			scrollToSubject();
+			window.addEventListener("orientationchange", function() {
+				setTimeout(scrollToSubject, 100);
+			});
+		} else {
+			document.getElementById('canvas').focus();
+		}
+		document.getElementById('canvas').addEventListener("keydown", function(ev) {
+			ev.preventDefault();
+			ev.stopPropagation();
+		});
+		document.getElementById('canvas').addEventListener("click", function() {
+			document.getElementById('canvas').focus();
+		});
+		document.addEventListener("mousedown", (function() {
+			const canvasElement = document.getElementById('canvas');
+			let focused = false;
+			return function(ev) {
+				if (ev.target == canvasElement) {
+					if (!focused) {
+						canvasElement.focus();
+						focused = true;
+					}
+				} else {
+					if (focused) {
+						focused = false;
+					}
+				}
+				return true;
+			}
+		})());
+		import {
+			createWaflash
+		} from 'https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@3f0db6b9a0bed7641e3ed167fc07070b891b72fb/js/waflash-player.min.js';
+		createWaflash(gameConfig.swfUrl, window.wafOptions || {});
+	</script>
+</div>
+</body></html>

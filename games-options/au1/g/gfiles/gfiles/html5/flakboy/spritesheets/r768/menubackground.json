@@ -1,0 +1,20 @@
+{"frames": {
+
+"BK_Flakboy_mainmenu.jpg":
+{
+	"frame": {"x":2,"y":2,"w":1004,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1004,"h":768},
+	"sourceSize": {"w":1004,"h":768}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "menubackground.jpg",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:d8e4cdf793b4f80b4dbe8e33028739d1:5a27dbbb2f56de297b0515c7f064ce4c:332dba670550f5396642466bc1d06143$"
+}
+}

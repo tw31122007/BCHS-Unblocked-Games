@@ -5,7 +5,7 @@ description here...
 
 ## Credits
 
-Probably 90% of the games here are from 3kh0 and this wouldn't be possible without them. 
+Probably 90% (at least) of the games here are from 3kh0 and this wouldn't be possible without them. 
 
 https://github.com/3kh0
 https://bgs.pages.dev/

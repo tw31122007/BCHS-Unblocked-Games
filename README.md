@@ -16,3 +16,4 @@ https://github.com/Joshua-Usi/osw
 https://github.com/titaniumnetwork-dev
 https://github.com/amethystnetwork-dev
 https://kardna.xyz/landing/
+https://github.com/Mahdi7s/angrybirdsx

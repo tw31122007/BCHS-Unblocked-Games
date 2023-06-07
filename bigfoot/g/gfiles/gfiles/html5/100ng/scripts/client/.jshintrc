@@ -1,5 +1,0 @@
-{
-  "esversion": 6,
-  "browser": true,
-  "globals": { "utils" : true, "createPaddle" : true }
-}

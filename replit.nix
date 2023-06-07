@@ -1,7 +1,7 @@
 { pkgs }: {
-	deps = [
-         pkgs.nodejs-16_x
-         pkgs.unzip
-         pkgs.wget
-	];
+    deps = [
+        pkgs.bashInteractive
+        pkgs.nodejs
+        pkgs.gh
+    ];
 }

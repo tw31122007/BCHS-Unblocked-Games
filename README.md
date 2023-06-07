@@ -1,19 +1,20 @@
+<p align="center"><img src="https://raw.githubusercontent.com/AldessScratch/GetTechno-2/main/public/img/logo.PNG" height="200">
+</p>
 
-# BCHS Unblocked Games V4
+<h1 align="center">GetTechno</h1>
 
-description here...
+https://useincog.tk
+
+## Features
+
+- PWA partially supported
+- HTML5 games
+- Integrated proxy
+- Url opener
 
 ## Credits
 
-Probably 90% (at least) of the games here are from 3kh0 and this wouldn't be possible without them. 
-
-https://github.com/3kh0
-https://bgs.pages.dev/
-https://rnv3.pages.dev/
-https://sites.google.com/view/cybercityunblocked
-https://mathgames66.github.io/
-https://github.com/Joshua-Usi/osw
-https://github.com/titaniumnetwork-dev
-https://github.com/amethystnetwork-dev
-https://kardna.xyz/landing/
-https://github.com/Mahdi7s/angrybirdsx
+- Caracal.js (Creator of Ultraviolet)
+- Divide (Creator of TOMP)
+- 3kh0 for most of the games
+- Pix4rt for Logo and Trailer

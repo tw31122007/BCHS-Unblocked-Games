@@ -1,0 +1,208 @@
+{
+    "analytics": {
+        "flurry": {
+            "apiKey": "M338SQ3M6PX3XN744J3C"
+        }
+    },
+    "startingBalance": 600,
+    "levels": [
+        {
+            "id": 1,
+            "target": 200,
+            "unlock": [""],
+            "locked": false
+        },
+        {
+            "id": 2,
+            "target": 300,
+            "unlock": ["Mine2"],
+            "unlockInfo": {
+                "group": "mines",
+                "index": 1
+            },
+            "locked": true
+        },
+        {
+            "id": 3,
+            "target": 400,
+            "unlock": ["Mine2","Bouncer2"],
+            "unlockInfo": {
+                "group": "bouncers",
+                "index": 1
+            },
+            "locked": true
+        },
+        {
+            "id": 4,
+            "target": 500,
+            "unlock": ["Mine2","Bouncer2","Spikes2"],
+            "unlockInfo": {
+                "group": "spikes",
+                "index": 1
+            },
+            "locked": true
+        },
+        {
+            "id": 5,
+            "target": 600,
+            "unlock": ["Mine2","Bouncer2","Spikes2","Turret2"],
+            "unlockInfo": {
+                "group": "turrets",
+                "index": 1
+            },
+            "locked": true
+        },
+        {
+            "id": 6,
+            "target": 700,
+            "unlock": ["Mine2","Bouncer2","Spikes2","Turret2","Mine3"],
+            "unlockInfo": {
+                "group": "mines",
+                "index": 2
+            },
+            "locked": true
+        },
+        {
+            "id": 7,
+            "target": 800,
+            "unlock": ["Mine2","Bouncer2","Spikes2","Turret2","Mine3","Spikes3"],
+            "unlockInfo": {
+                "group": "spikes",
+                "index": 2
+            },
+            "locked": true
+        },
+        {
+            "id": 8,
+            "target": 900,
+            "unlock": ["Mine2","Bouncer2","Spikes2","Turret2","Mine3","Spikes3","Turret3"],
+            "unlockInfo": {
+                "group": "turrets",
+                "index": 2
+            },
+            "locked": true
+        },
+        {
+            "id": 9,
+            "target": 1000,
+            "unlock": ["Mine2","Bouncer2","Spikes2","Turret2","Mine3","Spikes3","Turret3","Bouncer3"],
+            "unlockInfo": {
+                "group": "bouncers",
+                "index": 2
+            },
+            "locked": true
+        },
+        {
+            "id": 10,
+            "target": 1400,
+            "unlock": ["Mine2","Bouncer2","Spikes2","Turret2","Mine3","Spikes3","Turret3","Bouncer3","Mine4"],
+            "unlockInfo": {
+                "group": "mines",
+                "index": 3
+            },
+            "locked": true
+        }
+    ],
+    "tools": {
+        "mines": [
+            {
+                "itemImage": "mine1.png",
+                "name": "weaponry.mine1",
+                "price": 100,
+                "type": "Mine1",
+                "locked": false
+            },
+            {
+                "itemImage": "mine2.png",
+                "name": "weaponry.mine2",
+                "price": 200,
+                "type": "Mine2",
+                "locked": true
+            },
+            {
+                "itemImage": "mine3.png",
+                "name": "weaponry.mine3",
+                "price": 300,
+                "type": "Mine3",
+                "locked": true
+            },
+            {
+                "itemImage": "mine4.png",
+                "name": "weaponry.mine4",
+                "price": 400,
+                "type": "Mine4",
+                "locked": true
+            }
+        ],
+        "turrets": [
+            {
+                "itemImage": "store_turret1.png",
+                "name": "weaponry.turret1",
+                "price": 100,
+                "type": "Turret1",
+                "locked": false
+            },
+            {
+                "itemImage": "store_turret2.png",
+                "name": "weaponry.turret2",
+                "price": 200,
+                "type": "Turret2",
+                "locked": true
+            },
+            {
+                "itemImage": "store_turret3.png",
+                "name": "weaponry.turret3",
+                "price": 300,
+                "type": "Turret3",
+                "locked": true
+            }
+        ],
+        "spikes": [
+            {
+                "itemImage": "store_spikes1.png",
+                "name": "weaponry.spikes1",
+                "price": 100,
+                "type": "Spikes1",
+                "locked": false
+            },
+            {
+                "itemImage": "store_spikes2.png",
+                "name": "weaponry.spikes2",
+                "price": 200,
+                "type": "Spikes2",
+                "locked": true
+            },
+            {
+                "itemImage": "store_spikes3.png",
+                "name": "weaponry.spikes3",
+                "name": "LaserKill WD60",
+                "price": 300,
+                "type": "Spikes3",
+                "locked": true
+            }
+        ],
+        "bouncers": [
+            {
+                "itemImage": "bouncer1_cover.png",
+                "name": "weaponry.bouncer1",
+                "price": 100,
+                "type": "Bouncer1",
+                "locked": false
+            },
+            {
+                "itemImage": "bouncer2_cover.png",
+                "name": "weaponry.bouncer2",
+                "price": 200,
+                "type": "Bouncer2",
+                "locked": true
+            },
+            {
+                "itemImage": "bouncer3_cover.png",
+                "name": "weaponry.bouncer3",
+                "price": 300,
+                "type": "Bouncer3",
+                "locked": true
+            }
+        ]
+    }
+}

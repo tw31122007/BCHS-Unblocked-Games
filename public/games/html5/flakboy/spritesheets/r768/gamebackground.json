@@ -1,0 +1,20 @@
+{"frames": {
+
+"BK_flakboy_lab.png":
+{
+	"frame": {"x":2,"y":2,"w":1004,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1004,"h":768},
+	"sourceSize": {"w":1004,"h":768}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "gamebackground.jpg",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:6903bc3c4e567c97ec07c4138df4ab19:a1f15574aaad6ecebb6bbd9577fae8b8:a7c6a78fb9574f2d1c4aec3c0819e5bc$"
+}
+}

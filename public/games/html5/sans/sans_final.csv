@@ -1,0 +1,305 @@
+0,CombatZoneResize,241,226,406,391,TLResume,,,,
+0,HeartTeleport,320,304,,,,,,,
+0,HeartMode,0,,,,,,,,
+0,TLPause,,,,,,,,,
+0,SansSweat,0,,,,,,,,
+0,SET,I,0,,,,,,,
+0,RND,Direction,4,,,,,,,
+0,ADD,Jump,$Direction,1,,,,,,
+0,JMPREL,$Jump,,,,,,,,
+0,JMPREL,4,,,,,,,,
+0,JMPREL,5,,,,,,,,
+0,JMPREL,6,,,,,,,,
+0,JMPREL,7,,,,,,,,
+0,SansBody,HandRight,,,,,,,,
+0,JMPREL,7,,,,,,,,
+0,SansBody,HandDown,,,,,,,,
+0,JMPREL,5,,,,,,,,
+0,SansBody,HandLeft,,,,,,,,
+0,JMPREL,3,,,,,,,,
+0,SansBody,HandUp,,,,,,,,
+0,JMPREL,1,,,,,,,,
+0.15,SansSlam,$Direction,,,,,,,,
+0,BoneStab,$Direction,35,0.45,0,,,,,
+0,ADD,I,$I,1,,,,,,
+0.32,JMPL,7,$I,8,,,,,,
+0,HeartMode,0,,,,,,,,
+0,SET,I,0,,,,,,,
+0,RND,Direction,2,,,,,,,
+0,ADD,Jump,$Direction,1,,,,,,
+0,JMPREL,$Jump,,,,,,,,
+0,JMPREL,2,,,,,,,,
+0,JMPREL,4,,,,,,,,
+0,BoneH,130,-10,200,1,475,,,,
+0,BoneH,330,700,200,3,475,,,,
+0,JMPREL,4,,,,,,,,
+0,BoneH,130,700,200,3,475,,,,
+0,BoneH,330,-10,200,1,475,,,,
+0,JMPREL,1,,,,,,,,
+0,ADD,I,$I,1,,,,,,
+0.42,JMPL,28,$I,4,,,,,,
+0.4,SansBody,HandLeft,,,,,,,,
+0.2,SansSlam,2,,,,,,,,
+0.3,SansBody,HandRight,,,,,,,,
+0.2,HeartMaxFallSpeed,450,,,,,,,,
+0,SansSlam,0,,,,,,,,
+0,CombatZoneResizeInstant,241,226,449,391,,,,,
+0,CombatZoneSpeed,900,,,,,,,,
+0,CombatZoneResize,241,226,650,391,,,,,
+0.33333,HeartMaxFallSpeed,-300,,,,,,,,
+0,SansAnimation,Idle,,,,,,,,
+0,SansRepeat,,,,,,,,,
+0,CombatZoneResize,-10,226,650,391,,,,,
+0.3,CombatZoneSpeed,30,,,,,,,,
+0,CombatZoneResize,-10,264,650,369,,,,,
+0.9,GetHeartPos,HeartX,HeartY,,,,,,,
+0,HeartTeleport,$HeartX,$HeartY,,,,,,,
+0,HeartMaxFallSpeed,30,,,,,,,,
+0,SansSlam,0,,,,,,,,
+0,DIV,Deg,180,$pi,,,,,,
+0,SET,I,0,,,,,,,
+0,DIV,Ang,$I,3,,,,,,
+0,MUL,Ang,$Ang,$Deg,,,,,,
+0,SIN,Sine,$Ang,,,,,,,
+0,MUL,Sine,$Sine,25,,,,,,
+0,FLOOR,Sine,$Sine,,,,,,,
+0,MUL,X,$I,30,,,,,,
+0,ADD,X,$X,634,,,,,,
+0,SET,Y,270,,,,,,,
+0,ADD,H,30,$Sine,,,,,,
+0,BoneV,$X,$Y,$H,2,900,,,,
+0,ADD,Y,$Y,$H,,,,,,
+0,ADD,Y,$Y,34,,,,,,
+0,SUB,H,364,$Y,,,,,,
+0,BoneV,$X,$Y,$H,2,900,,,,
+0,ADD,I,$I,1,,,,,,
+0,JMPL,61,$I,82,,,,,,
+0,ADD,X,$X,330,,,,,,
+0,BoneVRepeat,$X,270,50,2,900,4,15,,
+0,ADD,X,$X,300,,,,,,
+0,BoneVRepeat,$X,314,50,2,900,4,15,,
+0,ADD,X,$X,270,,,,,,
+0,BoneVRepeat,$X,270,50,2,900,4,15,,
+0,ADD,X,$X,270,,,,,,
+0,BoneVRepeat,$X,314,50,2,900,4,15,,
+0,ADD,X,$X,240,,,,,,
+0,BoneVRepeat,$X,270,50,2,900,4,15,,
+0,ADD,X,$X,240,,,,,,
+0,BoneVRepeat,$X,314,50,2,900,4,15,,
+0,ADD,X,$X,210,,,,,,
+0,BoneVRepeat,$X,270,50,2,900,4,15,,
+0,ADD,X,$X,300,,,,,,
+0,BoneVRepeat,$X,314,50,2,900,4,15,,
+0,ADD,X,$X,240,,,,,,
+0,BoneVRepeat,$X,270,50,2,900,4,15,,
+0,ADD,X,$X,360,,,,,,
+0,SET,I,0,,,,,,,
+0,MUL,X2,$I,20,,,,,,
+0,ADD,X2,$X2,$X,,,,,,
+0,ADD,H,10,$I,,,,,,
+0,BoneV,$X2,270,$H,2,900,,,,
+0,SUB,Y,365,$H,,,,,,
+0,BoneV,$X2,$Y,$H,2,900,,,,
+0,ADD,I,$I,1,,,,,,
+0,JMPL,97,$I,24,,,,,,
+0,SET,I,0,,,,,,,
+3.33333,HeartMaxFallSpeed,660,,,,,,,,
+0,SansSlam,1,,,,,,,,
+0,BoneStab,1,35,0.4,0,,,,,
+0.33333,SansSlam,3,,,,,,,,
+0,BoneStab,3,35,0.4,0,,,,,
+0.33333,SansSlam,1,,,,,,,,
+0,BoneStab,1,35,0.4,0,,,,,
+0.33333,SansSlam,3,,,,,,,,
+0,BoneStab,3,35,0.4,0,,,,,
+0.33333,SansSlam,1,,,,,,,,
+0,BoneStab,1,35,0.4,0,,,,,
+0.33333,SansSlam,3,,,,,,,,
+0,BoneStab,3,35,0.4,0,,,,,
+0.25,SansSlam,1,,,,,,,,
+0,BoneStab,1,35,0.3,0,,,,,
+0.25,SansSlam,3,,,,,,,,
+0,BoneStab,3,35,0.3,0,,,,,
+0.2,SansSlam,1,,,,,,,,
+0.2,SansSlam,3,,,,,,,,
+0,HeartMaxFallSpeed,50,,,,,,,,
+0,SansSlam,0,,,,,,,,
+0.1,HeartMaxFallSpeed,330,,,,,,,,
+0,SansSlam,0,,,,,,,,
+0,CombatZoneSpeed,540,,,,,,,,
+0,CombatZoneResize,-10,264,410,369,,,,,
+0.7,SansEndRepeat,,,,,,,,,
+0,SansHead,Default,,,,,,,,
+0,SansTorso,Default,,,,,,,,
+0,SansBody,HandLeft,,,,,,,,
+0,BoneStab,0,50,0.6,1,,,,,
+0.9,BlackScreen,1,,,,,,,,
+0,Sound,Flash,,,,,,,,
+0.4,BlackScreen,0,,,,,,,,
+0,Sound,Flash,,,,,,,,
+0,CombatZoneResizeInstant,239,226,404,391,,,,,
+0,HeartTeleport,320,376,,,,,,,
+0,HeartMode,1,,,,,,,,
+0,SansAnimation,HeadBob,,,,,,,,
+0,GasterBlaster,2,499,300,499,300,180,0,0.2,1st
+0,GasterBlaster,2,139,300,139,300,0,0.03333,0.2,RightBlast
+0,GasterBlaster,2,499,250,499,250,180,0.06666,0.2,2nd
+0,GasterBlaster,2,139,250,139,250,0,0.1,0.2,RightBlast
+0,GasterBlaster,2,499,200,499,200,180,0.13333,0.2,3rd
+0,GasterBlaster,2,139,200,139,200,0,0.16666,0.2,RightBlast
+0,GasterBlaster,2,139,384,139,384,0,0.53333,0.2,1st
+0,GasterBlaster,2,499,384,499,384,180,0.56666,0.2,LeftBlast
+0,GasterBlaster,2,139,434,139,434,0,0.6,0.2,2nd
+0,GasterBlaster,2,499,434,499,434,180,0.63333,0.2,LeftBlast
+0,GasterBlaster,2,139,484,139,484,0,0.66666,0.2,3rd
+0,GasterBlaster,2,499,484,499,484,180,0.7,0.2,LeftBlast
+0.9,BlackScreen,1,,,,,,,,
+0,Sound,Flash,,,,,,,,
+0.1,BlackScreen,0,,,,,,,,
+0,Sound,Flash,,,,,,,,
+0,HeartTeleport,255,240,,,,,,,
+0,SansSlam,3,,,,,,,,
+0,GasterBlaster,2,139,315,139,315,0,0,0.2,1st L
+0,GasterBlaster,2,325,484,325,484,270,0,0.2,1st U
+0,GasterBlaster,2,499,315,499,315,180,0.03333,0.2,1st LP
+0,GasterBlaster,2,325,133,325,133,90,0.03333,0.2,1st UP
+0,GasterBlaster,2,139,365,139,365,0,0.06666,0.2,2nd L
+0,GasterBlaster,2,375,484,375,484,270,0.06666,0.2,2nd U
+0,GasterBlaster,2,499,365,499,365,180,0.1,0.2,2nd LP
+0,GasterBlaster,2,375,133,375,133,90,0.1,0.2,2nd UP
+0,GasterBlaster,2,139,415,139,415,0,0.13333,0.2,3rd L
+0,GasterBlaster,2,425,484,425,484,270,0.13333,0.2,3rd U
+0,GasterBlaster,2,499,415,499,415,180,0.16666,0.2,3rd LP
+0,GasterBlaster,2,425,133,425,133,90,0.16666,0.2,3rd UP
+0,GasterBlaster,2,499,230,499,230,180,0.53333,0.2,1st R
+0,GasterBlaster,2,240,133,240,133,90,0.53333,0.2,1st D
+0,GasterBlaster,2,139,230,139,230,0,0.56666,0.2,1st RP
+0,GasterBlaster,2,240,484,240,484,270,0.56666,0.2,1st DP
+0,GasterBlaster,2,499,180,499,180,180,0.6,0.2,2nd R
+0,GasterBlaster,2,190,133,190,133,90,0.6,0.2,2nd D
+0,GasterBlaster,2,139,180,139,180,0,0.63333,0.2,2nd RP
+0,GasterBlaster,2,190,484,190,484,270,0.63333,0.2,2nd DP
+0,GasterBlaster,2,499,130,499,130,180,0.66666,0.2,3rd R
+0,GasterBlaster,2,140,133,140,133,90,0.66666,0.2,3rd D
+0,GasterBlaster,2,139,130,139,130,0,0.7,0.2,3rd RP
+0,GasterBlaster,2,140,484,140,484,270,0.7,0.2,3rd DP
+0.9,BlackScreen,1,,,,,,,,
+0,Sound,Flash,,,,,,,,
+0.1,BlackScreen,0,,,,,,,,
+0,Sound,Flash,,,,,,,,
+0,HeartTeleport,391,376,,,,,,,
+0,SansSlam,0,,,,,,,,
+0,GasterBlaster,2,549,300,549,300,180,0,0.2,1st R
+0,GasterBlaster,2,310,183,310,183,90,0,0.2,1st D
+0,GasterBlaster,2,139,300,139,300,0,0.03333,0.2,1st RP
+0,GasterBlaster,2,310,484,310,484,270,0.03333,0.2,1st DP
+0,GasterBlaster,2,549,250,549,250,180,0.06666,0.2,2nd R
+0,GasterBlaster,2,260,183,260,183,90,0.06666,0.2,2nd D
+0,GasterBlaster,2,139,250,139,250,0,0.1,0.2,2nd RP
+0,GasterBlaster,2,260,484,260,484,270,0.1,0.2,2nd DP
+0,GasterBlaster,2,549,200,549,200,180,0.13333,0.2,3rd R
+0,GasterBlaster,2,210,183,210,183,90,0.13333,0.2,3rd D
+0,GasterBlaster,2,139,200,139,200,0,0.16666,0.2,3rd RP
+0,GasterBlaster,2,210,484,210,484,270,0.16666,0.2,3rd DP
+0,GasterBlaster,2,139,383,139,383,0,0.53333,0.2,1st L
+0,GasterBlaster,2,403,484,403,484,270,0.53333,0.2,1st U
+0,GasterBlaster,2,549,383,549,383,180,0.56666,0.2,1st LP
+0,GasterBlaster,2,403,183,403,183,90,0.56666,0.2,1st UP
+0,GasterBlaster,2,139,433,139,433,0,0.6,0.2,2nd L
+0,GasterBlaster,2,453,484,453,484,270,0.6,0.2,2nd U
+0,GasterBlaster,2,549,433,549,433,180,0.63333,0.2,2nd LP
+0,GasterBlaster,2,453,183,453,183,90,0.63333,0.2,2nd UP
+0,GasterBlaster,2,139,483,139,483,0,0.66666,0.2,3rd L
+0,GasterBlaster,2,503,484,503,484,270,0.66666,0.2,3rd U
+0,GasterBlaster,2,549,483,549,483,180,0.7,0.2,3rd LP
+0,GasterBlaster,2,503,183,503,183,90,0.7,0.2,3rd UP
+0.9,BlackScreen,1,,,,,,,,
+0,Sound,Flash,,,,,,,,
+0.1,BlackScreen,0,,,,,,,,
+0,Sound,Flash,,,,,,,,
+0,HeartTeleport,262,240,,,,,,,
+0,SansSlam,2,,,,,,,,
+0,SansX,320,,,,,,,,
+0.03333,GasterBlaster,2,325,484,325,484,270,0,0.2,1st U
+0,GasterBlaster,2,325,133,325,133,90,0.03333,0.2,1st UP
+0,GasterBlaster,2,375,484,375,484,270,0.06666,0.2,2nd U
+0,GasterBlaster,2,375,133,375,133,90,0.1,0.2,2nd UP
+0,GasterBlaster,2,425,484,425,484,270,0.13333,0.2,3rd U
+0,GasterBlaster,2,425,133,425,133,90,0.16666,0.2,3rd UP
+0,BoneStab,2,48,0.7,1,,,,,
+0.7,HeartMode,0,,,,,,,,
+0,SET,gt,0,,,,,,,
+0,SET,gin,1,,,,,,,
+0,MUL,Ang,$gt,-6,,,,,,
+0,COS,X,$Ang,,,,,,,
+0,SIN,Y,$Ang,,,,,,,
+0,MUL,EndX,$X,150,,,,,,
+0,MUL,EndY,$Y,150,,,,,,
+0,MUL,X,$EndX,3,,,,,,
+0,MUL,Y,$EndY,3,,,,,,
+0,ADD,X,$X,320,,,,,,
+0,ADD,Y,$Y,306,,,,,,
+0,ADD,EndX,$EndX,320,,,,,,
+0,ADD,EndY,$EndY,306,,,,,,
+0,ADD,Ang2,$Ang,90,,,,,,
+0,COS,N,$Ang2,,,,,,,
+0,SIN,O,$Ang2,,,,,,,
+0,MUL,EndN,$N,150,,,,,,
+0,MUL,EndO,$O,150,,,,,,
+0,MUL,N,$EndN,3,,,,,,
+0,MUL,O,$EndO,3,,,,,,
+0,ADD,N,$N,320,,,,,,
+0,ADD,O,$O,306,,,,,,
+0,ADD,EndN,$EndN,320,,,,,,
+0,ADD,EndO,$EndO,306,,,,,,
+0,ADD,Ang2,$Ang2,180,,,,,,
+0,ADD,Ang,$Ang,180,,,,,,
+0,GasterBlaster,0,$X,$Y,$EndX,$EndY,$Ang,0.5,0,
+0,GasterBlaster,0,$N,$O,$EndN,$EndO,$Ang2,0.5,0,
+0,ADD,gt,$gt,$gin,,,,,,
+0,JMPNL,262,$gin,2.63,,,,,,
+0,ADD,gin,$gin,0.015,,,,,,
+0.06666,JMPL,233,$gt,195,,,,,,
+0,SansSweat,1,,,,,,,,
+0,SET,gt,0,,,,,,,
+0,SET,gin,2.63,,,,,,,
+0,MUL,Ang,$gt,-6,,,,,,
+0,ADD,Ang,$Ang,90,,,,,,
+0,COS,X,$Ang,,,,,,,
+0,SIN,Y,$Ang,,,,,,,
+0,MUL,EndX,$X,150,,,,,,
+0,MUL,EndY,$Y,150,,,,,,
+0,MUL,X,$EndX,3,,,,,,
+0,MUL,Y,$EndY,3,,,,,,
+0,ADD,X,$X,320,,,,,,
+0,ADD,Y,$Y,306,,,,,,
+0,ADD,EndX,$EndX,320,,,,,,
+0,ADD,EndY,$EndY,306,,,,,,
+0,ADD,Ang,$Ang,180,,,,,,
+0,GasterBlaster,0,$X,$Y,$EndX,$EndY,$Ang,0.5,0,
+0,ADD,gt,$gt,$gin,,,,,,
+0,JMPNL,282,$gin,4,,,,,,
+0,ADD,gin,$gin,0.015,,,,,,
+0.06666,JMPL,266,$gt,195,,,,,,
+0,SansSweat,2,,,,,,,,
+0,SET,gt,0,,,,,,,
+0,SET,gin,9,,,,,,,
+0,MUL,Ang,$gt,-6,,,,,,
+0,ADD,Ang,$Ang,90,,,,,,
+0,COS,X,$Ang,,,,,,,
+0,SIN,Y,$Ang,,,,,,,
+0,MUL,EndX,$X,150,,,,,,
+0,MUL,EndY,$Y,150,,,,,,
+0,MUL,X,$EndX,3,,,,,,
+0,MUL,Y,$EndY,3,,,,,,
+0,ADD,X,$X,320,,,,,,
+0,ADD,Y,$Y,306,,,,,,
+0,ADD,EndX,$EndX,320,,,,,,
+0,ADD,EndY,$EndY,306,,,,,,
+0,ADD,Ang,$Ang,180,,,,,,
+0,GasterBlaster,0,$X,$Y,$EndX,$EndY,$Ang,0.5,0,
+0,ADD,gt,$gt,$gin,,,,,,
+0,JMPNL,304,$gin,10,,,,,,
+0,ADD,gin,$gin,0.01,,,,,,
+0.05,JMPL,287,$gt,1000,,,,,,
+2.4,EndAttack,,,,,,,,,

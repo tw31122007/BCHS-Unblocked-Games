@@ -1,1 +1,0 @@
-javascript: (function () {document.body.innerHTML += '<div style="background-color:red;z-index:999999999; position: fixed; top:5px;right5px;height: 300px; width: 400px;"></div>';})();

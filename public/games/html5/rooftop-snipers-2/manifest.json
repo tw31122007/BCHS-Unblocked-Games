@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/icon128.png",
+         "16": "images/icon16.png",
+         "180": "images/icon180.png",
+         "32": "images/icon32.png",
+         "48": "images/icon48.png"
+      },
+      "default_title": "Rooftop Snipers 2 Unblocked"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' ; object-src 'self'; child-src 'self'; worker-src 'self'",
+      "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; object-src 'self' 'unsafe-eval' blob: 'unsafe-inline';child-src 'self' 'unsafe-eval' blob: 'unsafe-inline' ; worker-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; script-src-elem 'self' 'unsafe-eval' blob: 'unsafe-inline'"
+   },
+   "default_locale": "en",
+   "description": "Rooftop Snipers 2 Unblocked",
+   "homepage_url": "https://ubg365.github.io/rooftop-snipers-2/",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "180": "images/icon180.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm9KPEhhGTIUMVv9UOrpSjNy7Wmnz2izKTiQHJHaFLgEvDmbV8riprzZn7d49bRIFMuCbgYOBs9G8Cse10vH0tL76HJ5difTcnWbfr2mGjWbueQFJUzbD4fCOq4kmiNmyr9QpKWqjGT9mkQC5+9PXR9F3N8UdcXEjTzScFSRp0PZqCiv5NWUbCnTu56EtRS+OaoQ64jn6sno+VIv5MMbyeeijk6jhSD9Vl5frd8qfg1hMAbhBmtMK2u012ccbxKEtECR5Lm/hg3dbfQMneQUeB4V5BEFNGHZb3MHEcPrsSpxMPocBStdqxXfjWbJnyt2n7iYA+3hSxKRntCC5cz7SkQIDAQAB",
+   "manifest_version": 3,
+   "name": "Rooftop Snipers 2 Unblocked",
+   "sandbox": {
+      "pages": [ "index.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

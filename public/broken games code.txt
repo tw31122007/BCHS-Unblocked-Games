@@ -1,0 +1,9 @@
+            <a href="/games/html5/clicker-heroes/"><div class="card p clicker-heroes" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>Clicker Heroes</i></h2>
+            </div></a>
+             <a href="/games/html5/happy-wheels/"><div class="card p happy-wheels" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>Happy Wheels</i></h2>
+            </div></a>
+            <a href="/games/html5/run-3/"><div class="card p run-3" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>Run 3</i></h2>
+            </div></a>

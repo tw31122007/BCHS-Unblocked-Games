@@ -118,4 +118,10 @@
             <a href="/games/html5/finns-fantastic-food-machine/"><div class="card p finns-fantastic-food-machine" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Finns Fantastic Food Machine</i></h2>
             </div></a>
+            <a href="/games/html5/iscribble-io/"><div class="card p iscribble-io" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>iScribble.io</i></h2>
+            </div></a>
+            <a href="/games/html5/just-fall-lol/"><div class="card p just-fall-lol" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>Just Fall.lol</i></h2>
+            </div></a>
             

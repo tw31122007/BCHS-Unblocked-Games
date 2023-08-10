@@ -195,8 +195,29 @@ header .image-text .profession{
 .cards .core-ball {
     background-image: url("/assets/img/thumbnails/core-ball.png");
 }
+.cards .airport-madness {
+    background-image: url("/assets/img/thumbnails/airport-madness.png");
+}
+.cards .a5-mins-to-kill-yourself {
+    background-image: url("/assets/img/thumbnails/5-mins-to-kill-yourself.png");
+}
+.cards .run {
+    background-image: url("/assets/img/thumbnails/run.png");
+}
+.cards .boxing-random {
+    background-image: url("/assets/img/thumbnails/boxing-random.png");
+}
+.cards .run-2 {
+    background-image: url("/assets/img/thumbnails/run-2.png");
+}
+.cards .a60-second-burger-run {
+    background-image: url("/assets/img/thumbnails/60-second-burger-run.png");
+}
 .cards .craftmine {
     background-image: url("/assets/img/thumbnails/craftmine.png");
+}
+.cards .bad-time-simulator {
+    background-image: url("/assets/img/thumbnails/bad-time-simulator.png");
 }
 .cards .crossy-road {
     background-image: url("/assets/img/thumbnails/crossy-road.png");
@@ -327,11 +348,23 @@ header .image-text .profession{
 .cards .getaway-shootout {
     background-image: url("/assets/img/thumbnails/getaway-shootout.png");
 }
+.cards .awesome-tanks {
+    background-image: url("/assets/img/thumbnails/getaway-shootout.png");
+}
+.cards .bacon-may-die {
+    background-image: url("/assets/img/thumbnails/bacon-may-die.png");
+}
 .cards .wordle {
     background-image: url("/assets/img/thumbnails/wordle.png");
 }
+.cards .bloons-td-4-expansion-pack {
+    background-image: url("/assets/img/thumbnails/bloons-td-4-expansion-pack.png");
+}
 .cards .worlds-hardest-game {
     background-image: url("/assets/img/thumbnails/worlds-hardest-game.png");
+}
+.cards .achievement-unlocked {
+    background-image: url("/assets/img/thumbnails/achievement-unlocked.png");
 }
 .cards .a100-player-pong {
     background-image: url("/assets/img/thumbnails/100-player-pong.png");

@@ -10,9 +10,6 @@
             <a href="/games/html5/minecraft/"><div class="card p minecraft" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Minecraft</i></h2>
             </div></a>
-             <a href="/games/html5/volley-random/"><div class="card p volley-random" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
-                <h2 class="black"><i>Volley Random</i></h2>
-            </div></a>
             <a href="/games/html5/rhythm-plus/"><div class="card p rhythm-plus" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Rhythm Plus</i></h2>
             </div></a>

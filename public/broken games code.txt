@@ -97,4 +97,13 @@
             <a href="/games/html5"><div class="card p doom-64" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Doom 64</i></h2>
             </div></a>
+            <a href="/games/html5/8ball-billards-classic/"><div class="card p a8-ball-billards-classic" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>8 Ball Billards Classic</i></h2>
+            </div></a>
+            <a href="/games/html5"><div class="card p a8-ball-pool" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>8 Ball Pool</i></h2>
+            </div></a>
+            <a href="/games/html5"><div class="card p a10-more-bullets" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>10 More Bullets</i></h2>
+            </div></a>
             

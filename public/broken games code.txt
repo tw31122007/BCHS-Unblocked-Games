@@ -16,17 +16,8 @@
             <a href="/games/html5/earn-to-die-2012-part-2/"><div class="card p earn-to-die-2012-part-2" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Earn to Die 2012 Part 2</i></h2>
             </div></a>
-            <a href="/games/html5/ducklife2/"><div class="card p duck-life-2" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
-                <h2 class="black"><i>Duck Life 2</i></h2>
-            </div></a>
             <a href="/games/html5/granny/"><div class="card p granny" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Granny</i></h2>
-            </div></a>
-            <a href="/games/html5/moto-x3m-2/"><div class="card p moto-x3m-2" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
-                <h2 class="black"><i>Moto X3M 2</i></h2>
-            </div></a>
-            <a href="/games/html5"><div class="card p bloons-td-3" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
-                <h2 class="black"><i>Bloons TD 3</i></h2>
             </div></a>
             <a href="/games/html5/bad-ice"><div class="card p bad-ice-cream" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Bad Ice Cream 1</i></h2>
@@ -45,9 +36,6 @@
             </div></a>
             <a href="/games/html5"><div class="card p super-mario-64" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Super Mario 64</i></h2>
-            </div></a>
-            <a href="/games/html5/sonic-the-hedgehog/"><div class="card p sonic-the-hedgehog" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
-                <h2 class="black"><i>Sonic The Hedgehog</i></h2>
             </div></a>
             <a href="/games/html5/papas-pancakeria/"><div class="card p papas-pancakeria" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Papa's Pancakeria</i></h2>
@@ -103,9 +91,6 @@
             <a href="/games/html5/pacman-fps/"><div class="card p pacman-fps" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Pacman FPS</i></h2>
             </div></a>
-            <a href="/games/html5"><div class="card p a12-mini-battles" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
-                <h2 class="black"><i>12 Mini Battles</i></h2>
-            </div></a>
             <a href="/games/html5/dont-drop-the-white-ball-2/"><div class="card p dont-drop-the-white-ball-2" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Don't Drop The White Ball 2</i></h2>
             </div></a>
@@ -120,9 +105,6 @@
             </div></a>
             <a href="/games/html5/slither-io/"><div class="card p slither-io" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Slither.io</i></h2>
-            </div></a>
-            <a href="/games/html5/fnaf/"><div class="card p fnaf" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
-                <h2 class="black"><i>FNAF</i></h2>
             </div></a>
             <a href="/games/html5/another-gentlemans-adventure/"><div class="card p another-gentlemans-adventure" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>Another Gentleman's Adventure</i></h2>

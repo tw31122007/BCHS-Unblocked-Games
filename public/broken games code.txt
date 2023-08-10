@@ -106,4 +106,16 @@
             <a href="/games/html5"><div class="card p a10-more-bullets" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
                 <h2 class="black"><i>10 More Bullets</i></h2>
             </div></a>
+            <a href="/games/html5/pacman-fps/"><div class="card p pacman-fps" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>Pacman FPS</i></h2>
+            </div></a>
+            <a href="/games/html5"><div class="card p a12-mini-battles" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>12 Mini Battles</i></h2>
+            </div></a>
+            <a href="/games/html5/dont-drop-the-white-ball-2/"><div class="card p dont-drop-the-white-ball-2" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>Don't Drop The White Ball 2</i></h2>
+            </div></a>
+            <a href="/games/html5/finns-fantastic-food-machine/"><div class="card p finns-fantastic-food-machine" onclick="localStorage.setItem('iframeurl', 'games/2048/index.html');localStorage.setItem('staturl', './iframe.html');localStorage.setItem('image', './img/games/2048.jpg');localStorage.setItem('appname', '2048')">
+                <h2 class="black"><i>Finns Fantastic Food Machine</i></h2>
+            </div></a>
             

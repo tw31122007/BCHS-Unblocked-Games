@@ -1,0 +1,26 @@
+<head>
+    <script  src="/test/cloak.js"></script>
+</head>
+<body>
+
+
+    <script>
+        const drive = () => localStorage.cloaker = JSON.stringify({
+          "title": "My Drive - Google Drive",
+          "icon": "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"
+        });
+        const classroom = () => localStorage.cloaker = JSON.stringify({
+          "title": "Classes",
+          "icon": "https://ssl.gstatic.com/classroom/favicon.png"
+        });
+        const google = () => localStorage.cloaker = JSON.stringify({
+          "title": "Google",
+          "icon": "https://www.google.com/favicon.ico"
+        });
+        document.getElementById("uvBackend").value = localStorage.uvBackend;
+        function updateBackend()
+        {
+          localStorage.uvBackend = document.getElementById("uvBackend").value;
+        }
+      </script>
+</body>

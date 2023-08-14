@@ -14,6 +14,7 @@
         <link rel="icon" type="image/x-icon" href="/assets/img/favicons/google-drive.png">
     </head>
     <body class="light">
+<!-- Start Navbar Code-->
         <nav class="navbar">
             <div class="navbar-container container">
               <input type="checkbox" name="" id="">
@@ -37,42 +38,102 @@
               <img src="/assets/img/logo-text/420x32/logo_text_long_white.png" width="420" height="32" alt="logo small">
             </div>
           </nav>
+<!-- End Navbar Cod -->
           <br>
           <br>
           <br>
           <br>
           <p class="gamescategory" style="width: 300px;height: 55px;font-size: 45px;">Tab Cloaker</p>
           <br>
+          <p class="gamescategory" style="width: 710px;height: 75px;font-size: 30px;">Click on Generate Bookmarklet and then drag the blue button next to it into your bookmarks bar</p>
           <br>
-          <p class="gamescategory" style="width: 500px;height: 55px;font-size: 23px;">Click on Generate Bookmarklet and then drag the blue button next to it into your bookmarks bar.</p>
-          <br>
-          <p class="gamescategory" style="width: 500px;height: 55px;font-size: 23px;"> <a>Google: </a><button class="button-green" id="generate-button" onclick="toGoogle()">Generate Bookmarklet</button>  <a id="bookmarklet-link" class="button-blue"  href="javascript:void(0);" draggable="true">Google</a>
+          <p class="gamescategory" style="width: 700px;height: 400px;font-size: 23px;">
+            <!-- Google Bookmarklet -->
+            <a>Google: </a><button class="button-green" onclick="toGoogle()">Generate Bookmarklet</button>
+            <a id="google-bookmarklet-link" class="button-blue" href="javascript:void(0);" draggable="true">Google</a>
+            <br>
+            <!-- Google Drive Bookmarklet -->
+            <a>Google Drive: </a><button class="button-green" onclick="toGoogleDrive()">Generate Bookmarklet</button>
+            <a id="google-drive-bookmarklet-link" class="button-blue" href="javascript:void(0);" draggable="true">Google Drive</a>
+            <br>
+            <!-- Google Classroom Bookmarklet -->
+            <a>Google Classroom: </a><button class="button-green" onclick="toGoogleClassroom()">Generate Bookmarklet</button>
+            <a id="google-classroom-bookmarklet-link" class="button-blue" href="javascript:void(0);" draggable="true">Google Classroom</a>
         </p>
-          <script>
-            function toGoogle() {
-                var jsCode = `
-                    (function() {
-                        var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
-                        link.type = 'image/x-icon';
-                        link.rel = 'shortcut icon';
-                        link.href = 'https://www.google.com/favicon.ico';
-                        document.title = 'Google';
-                        console.log(document.title);
-                        document.getElementsByTagName('head')[0].appendChild(link);
-                        setInterval(function() {
-                            var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
-                            link.type = 'image/x-icon';
-                            link.rel = 'shortcut icon';
-                            link.href = 'https://www.google.com/favicon.ico';
-                            document.title = 'Google';
-                            console.log(document.title);
-                            document.getElementsByTagName('head')[0].appendChild(link);
-                        }, 1000);
-                    })();
-                `;
-    
-                var bookmarkletLink = document.getElementById('bookmarklet-link');
-                bookmarkletLink.href = 'javascript:' + encodeURIComponent(jsCode);
-            }
-        </script>
+        <script>
+          // Google Bookmarklet
+          function toGoogle() {
+              var jsCode = `(function() {
+                  var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
+                  link.type = 'image/x-icon';
+                  link.rel = 'shortcut icon';
+                  link.href = 'https://www.google.com/favicon.ico';
+                  document.title = 'Google';
+                  console.log(document.title);
+                  document.getElementsByTagName('head')[0].appendChild(link);
+                  setInterval(function() {
+                      var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
+                      link.type = 'image/x-icon';
+                      link.rel = 'shortcut icon';
+                      link.href = 'https://www.google.com/favicon.ico';
+                      document.title = 'Google';
+                      console.log(document.title);
+                      document.getElementsByTagName('head')[0].appendChild(link);
+                  }, 1000);
+              })();`;
+              
+              var bookmarkletLink = document.getElementById('google-bookmarklet-link');
+              bookmarkletLink.href = 'javascript:' + encodeURIComponent(jsCode);
+          }
+  
+          // Google Drive Bookmarklet
+          function toGoogleDrive() {
+              var jsCode = `(function() {
+                  var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
+                  link.type = 'image/x-icon';
+                  link.rel = 'shortcut icon';
+                  link.href = 'https://hehemaths.gq/assets/img/favicons/google-drive-ico.ico';
+                  document.title = 'My Drive - Google Drive';
+                  console.log(document.title);
+                  document.getElementsByTagName('head')[0].appendChild(link);
+                  setInterval(function() {
+                      var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
+                      link.type = 'image/x-icon';
+                      link.rel = 'shortcut icon';
+                      link.href = 'https://hehemaths.gq/assets/img/favicons/google-drive-ico.ico';
+                      document.title = 'My Drive - Google Drive';
+                      console.log(document.title);
+                      document.getElementsByTagName('head')[0].appendChild(link);
+                  }, 1000);
+              })();`;
+              
+              var bookmarkletLink = document.getElementById('google-drive-bookmarklet-link');
+              bookmarkletLink.href = 'javascript:' + encodeURIComponent(jsCode);
+          }
+  
+          // Google Classroom Bookmarklet
+          function toGoogleClassroom() {
+              var jsCode = `(function() {
+                  var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
+                  link.type = 'image/x-icon';
+                  link.rel = 'shortcut icon';
+                  link.href = 'https://hehemaths.gq/assets/img/favicons/google-classroom.ico';
+                  document.title = 'Home';
+                  console.log(document.title);
+                  document.getElementsByTagName('head')[0].appendChild(link);
+                  setInterval(function() {
+                      var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
+                      link.type = 'image/x-icon';
+                      link.rel = 'shortcut icon';
+                      link.href = 'https://hehemaths.gq/assets/img/favicons/google-classroom.ico';
+                      document.title = 'Home';
+                      console.log(document.title);
+                      document.getElementsByTagName('head')[0].appendChild(link);
+                  }, 1000);
+              })();`;
+              
+              var bookmarkletLink = document.getElementById('google-classroom-bookmarklet-link');
+              bookmarkletLink.href = 'javascript:' + encodeURIComponent(jsCode);
+          }
+      </script>
     </body>

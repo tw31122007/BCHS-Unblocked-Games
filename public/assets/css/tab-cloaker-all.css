@@ -23,12 +23,12 @@ body {
 body {
   justify-content: center;
   align-items: center;
-  background-image: url('/assets/img/backgrounds/4.gif');
+  background-image: url('/assets/img/backgrounds/2.gif');
   background-size: cover;
 }
 
 body.light {
-  background-image: url('/assets/img/backgrounds/4.gif');
+  background-image: url('/assets/img/backgrounds/2.gif');
   background-size: cover;
   /*background-color: #36393e;*/
   color: black;
@@ -37,7 +37,7 @@ body.light {
 
 body.dark {
   background-size: cover;
-  background-image: url('/assets/img/backgrounds/4.gif');
+  background-image: url('/assets/img/backgrounds/2.gif');
   color: white;
   overflow-x: hidden;
 }

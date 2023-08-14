@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarklet Button</title>
+    <script>
+        function generateBookmarklet() {
+            var jsCode = `
+                (function() {
+                    var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
+                    link.type = 'image/x-icon';
+                    link.rel = 'shortcut icon';
+                    link.href = 'https://www.google.com/favicon.ico';
+                    document.title = 'Google';
+                    console.log(document.title);
+                    document.getElementsByTagName('head')[0].appendChild(link);
+                    setInterval(function() {
+                        var link = document.querySelector('link[rel*="icon"]') || document.createElement('link');
+                        link.type = 'image/x-icon';
+                        link.rel = 'shortcut icon';
+                        link.href = 'https://www.google.com/favicon.ico';
+                        document.title = 'Google';
+                        console.log(document.title);
+                        document.getElementsByTagName('head')[0].appendChild(link);
+                    }, 1000);
+                })();
+            `;
+
+            var bookmarkletLink = document.getElementById('bookmarklet-link');
+            bookmarkletLink.href = 'javascript:' + encodeURIComponent(jsCode);
+        }
+    </script>
+</head>
+<body>
+    <button id="generate-button" onclick="generateBookmarklet()">Generate Bookmarklet</button>
+    <a id="bookmarklet-link" href="javascript:void(0);" draggable="true">Drag me to your bookmarks bar!</a>
+</body>
+</html>

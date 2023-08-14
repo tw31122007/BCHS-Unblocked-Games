@@ -2,7 +2,13 @@
     <script  src="/test/cloak.js"></script>
 </head>
 <body>
-
+    <btn class="recent" onclick="google();cloak();">Cloak Google</btn>
+    <br>
+    <br><br>
+    <btn class="recent" onclick="classroom();cloak();">Cloak Google Classroom</btn>
+    <br>
+    <br><br>
+    <btn class="recent" onclick="drive();cloak();">Cloak Google Drive</btn>
 
     <script>
         const drive = () => localStorage.cloaker = JSON.stringify({

@@ -1,0 +1,40 @@
+<head>
+    <script  src="/test/cloak.js"></script>
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/204c1cf7c6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700" rel="stylesheet">
+</head>
+<body>
+    <button class="button-green" onclick="google();cloak();">Cloak Google</button>
+    <br>
+    <br><br>
+    <button class="button-green" onclick="classroom();cloak();">Cloak Google Classroom</button>
+    <br>
+    <br><br>
+    <button class="button-green" onclick="drive();cloak();">Cloak Google Drive</button>
+
+    <script>
+        const drive = () => localStorage.cloaker = JSON.stringify({
+          "title": "My Drive - Google Drive",
+          "icon": "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"
+        });
+        const classroom = () => localStorage.cloaker = JSON.stringify({
+          "title": "Classes",
+          "icon": "https://ssl.gstatic.com/classroom/favicon.png"
+        });
+        const google = () => localStorage.cloaker = JSON.stringify({
+          "title": "Google",
+          "icon": "https://www.google.com/favicon.ico"
+        });
+        document.getElementById("uvBackend").value = localStorage.uvBackend;
+        function updateBackend()
+        {
+          localStorage.uvBackend = document.getElementById("uvBackend").value;
+        }
+      </script>
+</body>

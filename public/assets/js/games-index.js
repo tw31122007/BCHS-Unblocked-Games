@@ -37,4 +37,18 @@ function openURL(url) {
   
     });
 };
+function searchFunction() {
+    let input = document.getElementById('searchInput');
+    let filter = input.value.toUpperCase();
+    let cards = document.getElementsByClassName('card');
 
+    for (i = 0; i < cards.length; i++) {
+        let title = cards[i].getElementsByTagName('h2')[0];
+        let txtValue = title.textContent || title.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
+        }
+    }
+}

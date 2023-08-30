@@ -17,6 +17,12 @@ body {
     background-color: var(--primary-color);
     color: #fff;
 }
+::-webkit-scrollbar {
+    display: none;
+}
+#searchInput::placeholder {
+    text-align: center;
+}
 header .image-text .name {
     margin-top: 2px;
     font-size: 18px;
@@ -40,6 +46,7 @@ header .image-text .profession{
     height: 100vh;
     width: 100%;
     transition: var(--tran-05);
+    margin-top: 50px;
 }
 .home .text{
     font-size: 30px;

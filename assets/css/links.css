@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  background-image: url('/assets/img/backgrounds/7.gif');
+  background-size: cover;
+}
+#glist {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 400px;
+	height: 520px;
+	padding: 0;
+	text-align: center;
+}
+#glist::-webkit-scrollbar {
+	display: none;
+}
+#glist a {
+	display: block;
+	text-decoration: inherit;
+	color: white;
+	font-size: 30px;
+	border: 1px solid #dddddd;
+
+	background-color: transparent;
+	padding: 20px;
+	transition: 0.2s ease;
+  margin-top: 10px;
+  border-radius: 14px;
+  font-family: 'DynaPuff', cursive;
+
+}
+#glist a:hover {
+	text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+.container4 {
+  height: 80vh;
+  position: relative;
+}
+ .center3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

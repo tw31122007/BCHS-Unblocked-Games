@@ -1,0 +1,55 @@
+.footer {
+    background-color: #1e2124;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-sticky {
+    background-color: #1e2124;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* Ensuring it stays above content */
+}
+
+.logo-container {
+    margin-left: 20px;
+}
+
+.footer-logo {
+    width: auto;
+    height: 20px;
+}
+
+.footer-nav {
+    margin-right: 20px;
+}
+
+.footer-link {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: dodgerblue; /* Or any other color you'd prefer for the hover effect */
+}
+.page-container {
+    display: grid;
+    grid-template-rows: 1fr auto; /* 1fr for content to take available space and 'auto' for footer height */
+    min-height: 100vh;
+}
+.content-wrapper {
+    flex: 1; /* This allows the content to expand and push the footer down */
+}

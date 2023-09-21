@@ -1,0 +1,38 @@
+/* Template:
+.cards . {
+    background-image: url(/assets/img/apps);
+}
+*/
+.cards .google {
+    background-image: url(/assets/img/apps/google.png);
+}
+.cards .spotify {
+    background-image: url(/assets/img/apps/spotify.png);
+}
+.cards .youtube {
+    background-image: url(/assets/img/apps/youtube.png);
+}
+.cards .twitch {
+    background-image: url(/assets/img/apps/twitch.png);
+}
+.cards .reddit {
+    background-image: url(/assets/img/apps/reddit.png);
+}
+.cards .twitter {
+    background-image: url(/assets/img/apps/twitter.png);
+}
+.cards .discord {
+    background-image: url(/assets/img/apps/discord.png);
+}
+.cards .tiktok {
+    background-image: url(/assets/img/apps/tiktok.png);
+}
+.cards .retroarch {
+    background-image: url(/assets/img/apps/retroarch.png);
+}
+.cards .coolmath-games {
+    background-image: url(/assets/img/apps/coolmath-games.png);
+}
+.cards .y8 {
+    background-image: url(/assets/img/apps/y8.png);
+}

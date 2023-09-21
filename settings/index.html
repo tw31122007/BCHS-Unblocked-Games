@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+   <link rel="icon" type="image/png" href="/logo.png">
+</head>
+<body>
+   <nav>
+      <div class="logo">
+        <img src="/logo.png" alt="Logo">
+        <h3>TIW</h3>
+      </div>
+      <ul class="menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/games.html">Games</a></li>
+        <li><a href="/static/">Proxy</a></li>
+        <li><a href="/assets/js/settings/">Settings</a></li>
+      </ul>
+    </nav>
+   <div class="container">
+      <div class="row">
+         <div class="category">
+            <div class="name">
+               <i class="fas fa-cog"></i>
+               <p>Search Engine</p>
+               </div>
+               <div class="buttons-container">
+                  <button id="google">Google</button>
+                  <button id="bing">Bing</button>
+                  <button id="yahoo">Yahoo</button>
+                  <button id="duckduckgo">DuckDuckGo</button>
+                  <button id="brave">Brave</button>
+                  <button id="yandex">Yandex</button>
+            </div>
+         </div>
+         <div class="category">
+            <div class="name">
+               <i class="fas fa-cog"></i>
+               <p>Tab Cloaker</p>
+            </div>
+            <div class="buttons">
+               <input id="title" class="input" placeholder="Title" onkeyup="setTitle(this.value)" />
+               <input id="icon" class="input" placeholder="Favicon" onkeyup="setFavicon(this.value.trim())" />
+             </div>
+             <br>
+             <p class="section-text" style="font-size:20px">Ready Made Cloaks</p>
+             <div class="buttons">
+               <select name="Readymade Cloaks" id="premadecloaks" title="Cloaks">
+                 <option value="search">Google Search</option>
+                 <option value="drive">Google Drive</option>
+                 <option value="youtube">YouTube</option>
+                 <option value="gmail">Gmail</option>
+                 <option value="calendar">Google Calendar</option>
+                 <option value="meets">Google Meet</option>
+                 <option value="classroom">Google Classroom</option>
+                 <option value="canvas">Canvas</option>
+                 <option value="zoom">Zoom</option>
+                 <option value="khan">Khan Academy</option>
+                 <div class="select-buttons">
+                 </div>
+               </select><br>
+               <button class="button button2" style="margin-left: 10%;" onclick="setCloak()">Set</button>
+               <button class="button button2" onclick="resetTab()">Reset</button></div>
+               </div>
+         </div>
+      <div class="row">
+         <div class="category">
+            <div class="name">
+              <i class="fas fa-cog"></i>
+              <p>Panic Key</p>
+            </div>
+            <div class="panic-key-container"> <br>
+               <p>Set up your Panic Key to hide this website</p><br>
+              <input id="key-input" type="text" placeholder="Key" value="]">
+              <input id="website-input" type="text" placeholder="Website" value="https://classroom.gooogle.com">
+            </div>
+          </div>
+         <div class="category">
+            <div class="name" style="margin-bottom: 5%;">
+               <i class="fas fa-cog"></i>
+               <p>About:Blank</p>
+            </div>
+            <div class="buttons" style="margin-bottom: 17%;">
+               <button style="width:100%" onclick="openNewTab()">About:Blank Tab</button> <br> <br>
+               <button style="width:100%" onclick="openNewWindow()">About:Blank Window</button>
+             </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
+
+
+<script>
+   // Function to handle button clicks and set the search engine value in local storage
+   function setSearchEngine(value) {
+      localStorage.setItem("searchengine", value);
+   }
+
+   // Add click event listeners to each button
+   document.getElementById("google").addEventListener("click", function() {
+      setSearchEngine("https://www.google.com/search?q=%s");
+   });
+   document.getElementById("bing").addEventListener("click", function() {
+      setSearchEngine("https://www.bing.com/search?form=&q=%s");
+   });
+   document.getElementById("yahoo").addEventListener("click", function() {
+      setSearchEngine("https://search.yahoo.com/search?p=%s");
+   });
+   document.getElementById("duckduckgo").addEventListener("click", function() {
+      setSearchEngine("https://duckduckgo.com/?q=%s");
+      });
+   document.getElementById("brave").addEventListener("click", function() {
+      setSearchEngine("https://search.brave.com/search?q=%s");
+      });
+   document.getElementById("yandex").addEventListener("click", function() {
+      setSearchEngine("https://www.yandex.com/search/?text=%s");
+      });
+</script>
+
+<script src="js/panic.js"></script>
+<script src="js/index.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/aboutblank.js"></script>

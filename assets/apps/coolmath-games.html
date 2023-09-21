@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="/games/games.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/logo.png">
+</head>
+<body>
+    <form id="uv-form"">
+        <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+      </form>
+
+  <script src="/uv/uv.bundle.js" defer></script>
+  <script src="/uv/uv.config.js" defer></script>
+  <script src="/register-sw.js" defer></script>
+  <script src="/search.js" defer></script>
+  <script src="/index.js" defer></script>
+  <script src="/assets/js/panic.js" defer></script>
+  <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
+  <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
+</body>
+</html>
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    launchURL('coolmathgames.com').catch(err => {
+        console.error("Error launching game:", err);
+    });
+});
+</script>
+<script src="/assets/js/settings/index.js"></script>
+<script src="/assets/js/settings.js"></script>

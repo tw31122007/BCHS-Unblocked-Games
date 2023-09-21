@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicons/google-drive-ico.ico">
+  <title>My Drive - Google Drive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/204c1cf7c6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/css/navbar.css">
+  <link rel="stylesheet" href="/assets/css/games.css">
+  <link rel="stylesheet" href="/assets/css/games-list.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+</head>
+<body style="overflow-x: hidden;">
+    <!-- Start Navbar Code-->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/games.html">Games</a></li>
+                <li><a href="/apps.html">Apps</a></li>
+                <li><a href="/links.html">Other Links</a></li>
+                <li><a href="https://forms.gle/it3WqC7rxXLx9ePc8" target="_blank">Request Games</a></li>
+                <li><a href="/settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></li>
+            </ul>
+            <img src="/assets/img/logo-text/420x32/logo_text_long_white.png" width="420" height="32" alt="logo small">
+        </div>
+    </nav>
+    <!-- End Navbar Code -->
+    <div class="home">
+    <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for games.."> 
+    <section class="home">
+        <div class="cards">
+            <a href="./iframe.html"><div class="card p bitlife" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bitlife/');localStorage.setItem('app-name', 'Bitlife');localStorage.setItem('app-image', '/assets/img/thumbnails/bitlife.png')">
+                <h2 class="black"><i>Bitlife</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p alien-invaders-io" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/alien-invaders-io/');localStorage.setItem('app-name', 'Alien Invaders.io');localStorage.setItem('app-image', '/assets/img/thumbnails/alien-invaders-io.png')">
+                <h2 class="black"><i>Alien Invaders.io</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p pvz-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/pvz-2/');localStorage.setItem('app-name', 'PvZ 2');localStorage.setItem('app-image', '/assets/img/thumbnails/pvz-2.png')">
+                <h2 class="black"><i>PvZ 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p slope" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/slope/');localStorage.setItem('app-name', 'Slope');localStorage.setItem('app-image', '/assets/img/thumbnails/slope.png')">
+                <h2 class="black"><i>Slope</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a1v1-lol" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/1v1-lol/');localStorage.setItem('app-name', '1v1.lol');localStorage.setItem('app-image', '/assets/img/thumbnails/1v1-lol.png')">
+                <h2 class="black"><i>1v1.lol</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p retro-bowl" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/retro-bowl/');localStorage.setItem('app-name', 'Retro Bowl');localStorage.setItem('app-image', '/assets/img/thumbnails/retro-bowl.png')">
+                <h2 class="black"><i>Retro Bowl</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p subway-surfers" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/subway-surfers/');localStorage.setItem('app-name', 'Subway Surfers');localStorage.setItem('app-image', '/assets/img/thumbnails/subway-surfers.png')">
+                <h2 class="black"><i>Subway Surfers</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p among-us" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/among-us/');localStorage.setItem('app-name', 'Among Us');localStorage.setItem('app-image', '/assets/img/thumbnails/among-us.png')">
+                <h2 class="black"><i>Among Us</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p soccer-random" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/soccer-random/');localStorage.setItem('app-name', 'Soccer Random');localStorage.setItem('app-image', '/assets/img/thumbnails/soccer-random.png')">
+                <h2 class="black"><i>Soccer Random</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p basket-random" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/basket-random/');localStorage.setItem('app-name', 'Basket Random');localStorage.setItem('app-image', '/assets/img/thumbnails/basket-random.png')">
+                <h2 class="black"><i>Basket Random</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p volley-random" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/volley-random/');localStorage.setItem('app-name', 'Volley Random');localStorage.setItem('app-image', '/assets/img/thumbnails/volley-random.png')">
+                <h2 class="black"><i>Volley Random</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p boxing-random" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/boxing-random/');localStorage.setItem('app-name', 'Boxing Random');localStorage.setItem('app-image', '/assets/img/thumbnails/boxing-random.png')">
+                <h2 class="black"><i>Boxing Random</i></h2>
+            </div></a>
+            <a href="/iframe.html"><div class="card p superhot" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/superhot/');localStorage.setItem('app-name', 'Superhot');localStorage.setItem('app-image', '/assets/img/thumbnails/superhot.png')">
+                <h2 class="black"><i>Superhot</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p temple-run-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/temple-run-2/');localStorage.setItem('app-name', 'Temple Run 2');localStorage.setItem('app-image', '/assets/img/thumbnails/temple-run-2.png')">
+                <h2 class="black"><i>Temple Run 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p fireboy-and-watergirl-1" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/fireboy-and-watergirl-forest-temple/');localStorage.setItem('app-name', 'Fireboy and Watergirl 1');localStorage.setItem('app-image', '/assets/img/thumbnails/fireboy-and-watergirl-1.png')">
+                <h2 class="black"><i>Fireboy and Watergirl 1</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p elastic-man" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/elasticman/');localStorage.setItem('app-name', 'Elastic Man');localStorage.setItem('app-image', '/assets/img/thumbnails/elastic-man.png')">
+                <h2 class="black"><i>Elastic Man</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p rooftop-snipers" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/rooftop-snipers/');localStorage.setItem('app-name', 'Rooftop Snipers');localStorage.setItem('app-image', '/assets/img/thumbnails/rooftop-snipers.png')">
+                <h2 class="black"><i>Rooftop Snipers</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p rooftop-snipers-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/rooftop-snipers-2/');localStorage.setItem('app-name', 'Rooftop Snipers 2');localStorage.setItem('app-image', '/assets/img/thumbnails/rooftop-snipers-2.png')">
+                <h2 class="black"><i>Rooftop Snipers 2</i></h2>
+            </div></a>
+            <a href="/iframe.html"><div class="card p duck-life" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/ducklife/');localStorage.setItem('app-name', 'Duck Life');localStorage.setItem('app-image', '/assets/img/thumbnails/duck-life.png')">
+                <h2 class="black"><i>Duck Life</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p duck-life-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/duck-life-2/');localStorage.setItem('app-name', 'Duck Life 2');localStorage.setItem('app-image', '/assets/img/thumbnails/duck-life-2.png')">
+                <h2 class="black"><i>Duck Life 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p duck-life-3" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/ducklife3/');localStorage.setItem('app-name', 'Duck Life 3');localStorage.setItem('app-image', '/assets/img/thumbnails/duck-life-3.png')">
+                <h2 class="black"><i>Duck Life 3</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p duck-life-4" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/duck-life-4/');localStorage.setItem('app-name', 'Duck Life 4');localStorage.setItem('app-image', '/assets/img/thumbnails/duck-life-4.png')">
+                <h2 class="black"><i>Duck Life 4</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p cookie-clicker" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/cookieclicker/');localStorage.setItem('app-name', 'Cookie Clicker');localStorage.setItem('app-image', '/assets/img/thumbnails/cookie-clicker.png')">
+                <h2 class="black"><i>Cookie Clicker</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p geometry-dash" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/geometrydash/');localStorage.setItem('app-name', 'Geometry Dash (Scratch Edition)');localStorage.setItem('app-image', '/assets/img/thumbnails/geometry-dash.png')">
+                <h2 class="black"><i>Geometry Dash Scratch Edition</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p friday-night-funkin" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/friday-night-funkin--week-6/');localStorage.setItem('app-name', 'Friday Night Funkin');localStorage.setItem('app-image', '/assets/img/thumbnails/friday-night-funkin.png')">
+                <h2 class="black"><i>Friday Night Funkin'</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p getting-over-it-scratch-edition" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/getting-over-it/');localStorage.setItem('app-name', 'Getting Over It (Scratch Edition)');localStorage.setItem('app-image', '/assets/img/thumbnails/getting-over-it-scratch-edition.png')">
+                <h2 class="black"><i>Getting Over It (Scratch Edition)</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p flappy-bird" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/flappybird/');localStorage.setItem('app-name', 'Flappy Bird');localStorage.setItem('app-image', '/assets/img/thumbnails/flappy-bird.png')">
+                <h2 class="black"><i>Flappy Bird</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p learn-to-fly" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/learntofly/');localStorage.setItem('app-name', 'Learn to Fly');localStorage.setItem('app-image', '/assets/img/thumbnails/learn-to-fly.png')">
+                <h2 class="black"><i>Learn to Fly</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p learn-to-fly-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/learntofly2/');localStorage.setItem('app-name', 'Learn to Fly 2');localStorage.setItem('app-image', '/assets/img/thumbnails/learn-to-fly-2.png')">
+                <h2 class="black"><i>Learn to Fly 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p moto-x3m" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/moto-x3m/');localStorage.setItem('app-name', 'Moto X3M');localStorage.setItem('app-image', '/assets/img/thumbnails/moto-x3m.png')">
+                <h2 class="black"><i>Moto X3M</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p moto-x3m-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/moto-x3m-2/');localStorage.setItem('app-name', 'Moto X3M 2');localStorage.setItem('app-image', '/assets/img/thumbnails/moto-x3m-2.png')">
+                <h2 class="black"><i>Moto X3M 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p moto-x3m-spooky-land" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/moto-x3m-spooky-land/');localStorage.setItem('app-name', 'Moto X3M Spooky Land');localStorage.setItem('app-image', '/assets/img/thumbnails/moto-x3m-spooky-land.png')">
+                <h2 class="black"><i>Moto X3M Spooky Land</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p moto-x3m-winter" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/moto-x3m-winter/');localStorage.setItem('app-name', 'Moto X3M Winter');localStorage.setItem('app-image', '/assets/img/thumbnails/moto-x3m-winter.png')">
+                <h2 class="black"><i>Moto X3M Winter</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p moto-x3m-pool-party" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/moto-x3m-pool-party/');localStorage.setItem('app-name', 'Moto X3M Pool Party');localStorage.setItem('app-image', '/assets/img/thumbnails/moto-x3m-pool-party.png')">
+                <h2 class="black"><i>Moto X3M Pool Party</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p boxel-rebound" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/boxel-rebound/');localStorage.setItem('app-name', 'Boxel Rebound');localStorage.setItem('app-image', '/assets/img/thumbnails/boxel-rebound.png')">
+                <h2 class="black"><i>Boxel Rebound</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p doodle-jump" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/doodle-jump/');localStorage.setItem('app-name', 'Doodle Jump');localStorage.setItem('app-image', '/assets/img/thumbnails/doodle-jump.png')">
+                <h2 class="black"><i>Doodle Jump</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p crossy-road" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/crossyroad/');localStorage.setItem('app-name', 'Crossy Road');localStorage.setItem('app-image', '/assets/img/thumbnails/crossy-road.png')">
+                <h2 class="black"><i>Crossy Road</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p colour-switch-2-challenges" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/color-switch-2-challenges/');localStorage.setItem('app-name', 'Colour Switch 2 Challenges');localStorage.setItem('app-image', '/assets/img/thumbnails/colour-switch-2-challenges.png')">
+                <h2 class="black"><i>Colour Switch 2 Challenges</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p doge-miner" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/doge-miner/');localStorage.setItem('app-name', 'Doge Miner');localStorage.setItem('app-image', '/assets/img/thumbnails/dogerminer.png')">
+                <h2 class="black"><i>Doge Miner</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bob-the-robber" onclick="setIframeType('games');localStorage.setItem('storedURL', 'https://aob092r7v01rd40shm9qfidlnet0sc2a-a-sites-opensocial.googleusercontent.com/gadgets/ifr?container=enterprise&country=ALL&lang=en&libs=core&mid=157&parent=https://sites.google.com/site/unblockedgames66ez/bob-the-robber&sanitize=0&url=https://827403614-058364183759926437.preview.editmysite.com/uploads/b/139890129-762100382149765838/files/bob-the-robber.xml&v=4a8484a4dba9deb0&view=default#st=e=AIHE3cAJvTa%252FB%252FCmNkv42m4X4GbneDvWxLBYR5LoSbM0UmcLl3SR6xf57OtLZwrPBXkS%252BlBS%252BmXKnsot02959RVBlS1CDgQX2wvkSXYfXoKil8j6S0lCvFWGHLV2jHFyT%252Fo%252BajmzQ5Sy&c=enterprise&rpctoken=-5753894780730849322');localStorage.setItem('app-name', 'Bob The Robber');localStorage.setItem('app-image', '/assets/img/thumbnails/bob-the-robber.png')">
+                <h2 class="black"><i>Bob The Robber</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p canyon-defense" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/canyondefense/');localStorage.setItem('app-name', 'Canyon Defense');localStorage.setItem('app-image', '/assets/img/thumbnails/canyon-defense.png')">
+                <h2 class="black"><i>Canyon Defense</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p craftmine" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/craftmine/');localStorage.setItem('app-name', 'Craftmine');localStorage.setItem('app-image', '/assets/img/thumbnails/craftmine.png')">
+                <h2 class="black"><i>Craftmine</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bloons-td" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bloonstd/');localStorage.setItem('app-name', 'Bloons TD');localStorage.setItem('app-image', '/assets/img/thumbnails/bloons-td.png')">
+                <h2 class="black"><i>Bloons TD</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bloons-td-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bloonstd2/');localStorage.setItem('app-name', 'Bloons TD 2');localStorage.setItem('app-image', '/assets/img/thumbnails/bloons-td-2.png')">
+                <h2 class="black"><i>Blooons TD 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bloons-td-3" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bloons-td-3/');localStorage.setItem('app-name', 'Bloons TD 3');localStorage.setItem('app-image', '/assets/img/thumbnails/bloons-td-3.png')">
+                <h2 class="black"><i>Bloons TD 3</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bloons-td-4" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bloons-td-3/');localStorage.setItem('app-name', 'Bloons TD 4');localStorage.setItem('app-image', '/assets/img/thumbnails/bloons-td-4.png')">
+                <h2 class="black"><i>Bloons TD 4</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bloons-td-4-expansion-pack" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bloons-td-4-expansion-pack/');localStorage.setItem('app-name', 'Bloons TD 4 Expansion Pack');localStorage.setItem('app-image', '/assets/img/thumbnails/bloons-td-4-expansion-pack.png')">
+                <h2 class="black"><i>Bloons TD 4 Expansion Pack</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p idle-breakout" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/idle-breakout/');localStorage.setItem('app-name', 'Idle Breakout');localStorage.setItem('app-image', '/assets/img/thumbnails/idle-breakout.png')">
+                <h2 class="black"><i>Idle Breakout</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p worlds-hardest-game" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/worlds-hardest-game/');localStorage.setItem('app-name', 'Worlds Hardest Game');localStorage.setItem('app-image', '/assets/img/thumbnails/worlds-hardest-game.png')">
+                <h2 class="black"><i>World's Hardest Game</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p worlds-hardest-game-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/worlds-hardest-game-2/');localStorage.setItem('app-name', 'Worlds Hardest Game 2');localStorage.setItem('app-image', '/assets/img/thumbnails/worlds-hardest-game-2.png')">
+                <h2 class="black"><i>World's Hardest Game 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p wordle" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/wordle/');localStorage.setItem('app-name', 'Wordle +');localStorage.setItem('app-image', '/assets/img/thumbnails/wordle.png')">
+                <h2 class="black"><i>Wordle +</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p paper-io-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/paperio2/');localStorage.setItem('app-name', 'Paper.io 2');localStorage.setItem('app-image', '/assets/img/thumbnails/paper-io-2.png')">
+                <h2 class="black"><i>Paper.io 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bad-ice-cream-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bad-ice-cream-2/');localStorage.setItem('app-name', 'Bad Ice Cream 2');localStorage.setItem('app-image', '/assets/img/thumbnails/bad-ice-cream-2.png')">
+                <h2 class="black"><i>Bad Ice Cream 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bad-ice-cream-3" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bad-ice-cream-3/');localStorage.setItem('app-name', 'Bad Ice Cream 3');localStorage.setItem('app-image', '/assets/img/thumbnails/bad-ice-cream-3.png')">
+                <h2 class="black"><i>Bad Ice Cream 3</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p vex-3" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/vex3/');localStorage.setItem('app-name', 'Vex 3');localStorage.setItem('app-image', '/assets/img/thumbnails/vex-3.png')">
+                <h2 class="black"><i>Vex 3</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p vex-4" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/vex4/');localStorage.setItem('app-name', 'Vex 4');localStorage.setItem('app-image', '/assets/img/thumbnails/vex-4.png')">
+                <h2 class="black"><i>Vex 4</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p vex-5" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/vex5/');localStorage.setItem('app-name', 'Vex 5');localStorage.setItem('app-image', '/assets/img/thumbnails/vex-5.png')">
+                <h2 class="black"><i>Vex 5</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p vex-6" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/vex6/');localStorage.setItem('app-name', 'Vex 6');localStorage.setItem('app-image', '/assets/img/thumbnails/vex-6.png')">
+                <h2 class="black"><i>Vex 6</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a2048" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/2048/');localStorage.setItem('app-name', '2048');localStorage.setItem('app-image', '/assets/img/thumbnails/2048.png')">
+                <h2 class="black"><i>2048</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p flappy-2048" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/flappy-2048/');localStorage.setItem('app-name', 'Flappy 2048');localStorage.setItem('app-image', '/assets/img/thumbnails/flappy-2048.png')">
+                <h2 class="black"><i>Flappy 2048</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p doge-2048" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/doge2048/');localStorage.setItem('app-name', 'Doge 2048');localStorage.setItem('app-image', '/assets/img/thumbnails/doge-2048.png')">
+                <h2 class="black"><i>Doge 2048</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a1" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/1/');localStorage.setItem('app-name', '1');localStorage.setItem('app-image', '/assets/img/thumbnails/1.png')">
+                <h2 class="black"><i>1</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a2048-multitask" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/2048-multitask/');localStorage.setItem('app-name', '2048 Multitask');localStorage.setItem('app-image', '/assets/img/thumbnails/2048-multitask.png')">
+                <h2 class="black"><i>2048 Multitask</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a9007199254740992" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/9007199254740992/');localStorage.setItem('app-name', '9007199254740992');localStorage.setItem('app-image', '/assets/img/thumbnails/907199254740992.png')">
+                <h2 class="black"><i>9007199254</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p meme-2048" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/meme2048/');localStorage.setItem('app-name', 'Meme 2048');localStorage.setItem('app-image', '/assets/img/thumbnails/meme-2048.png')">
+                <h2 class="black"><i>Meme 2048</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p core-ball" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/core-ball/');localStorage.setItem('app-name', 'Core Ball');localStorage.setItem('app-image', '/assets/img/thumbnails/core-ball.png')">
+                <h2 class="black"><i>Core Ball</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bloxors" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bloxors/');localStorage.setItem('app-name', 'Bloxors');localStorage.setItem('app-image', '/assets/img/thumbnails/bloxors.png')">
+                <h2 class="black"><i>Bloxors</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p you-are-bezos" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/you-are-bezos/');localStorage.setItem('app-name', 'You Are Bezos');localStorage.setItem('app-image', '/assets/img/thumbnails/you-are-bezos.png')">
+                <h2 class="black"><i>You Are Bezos</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p cars-simulator" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/car-simulator/');localStorage.setItem('app-name', 'Car Simulator');localStorage.setItem('app-image', '/assets/img/thumbnails/cars-simulator.png')">
+                <h2 class="black"><i>Car Simulator</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p madalin-stunt-cars-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/madalin-stunt-cars-2/');localStorage.setItem('app-name', 'Madalin Stunt Cars 2');localStorage.setItem('app-image', '/assets/img/thumbnails/madalin-stunt-cars-2.png')">
+                <h2 class="black"><i>Madalin Stunt Cars 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p madalin-stunt-cars-3" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/madalin-stunt-cars-3/');localStorage.setItem('app-name', 'Madalin Stunt Cars 3');localStorage.setItem('app-image', '/assets/img/thumbnails/madalin-stunt-cars-3.png')">
+                <h2 class="black"><i>Madalin Stunt Cars 3</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p eggy-car" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/eggy-car/');localStorage.setItem('app-name', 'Eggy Car');localStorage.setItem('app-image', '/assets/img/thumbnails/eggy-car.png')">
+                <h2 class="black"><i>Eggy Car</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p draw-the-hill" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/draw-the-hill/');localStorage.setItem('app-name', 'Draw The Hill');localStorage.setItem('app-image', '/assets/img/thumbnails/draw-the-hill.png')">
+                <h2 class="black"><i>Draw The Hill</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p ball-blast" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/ball-blast/');localStorage.setItem('app-name', 'Ball Blast');localStorage.setItem('app-image', '/assets/img/thumbnails/ball-blast.png')">
+                <h2 class="black"><i>Ball Blast</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p big-red-button" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bigredbutton/');localStorage.setItem('app-name', 'Big Red Button');localStorage.setItem('app-image', '/assets/img/thumbnails/big-red-button.png')">
+                <h2 class="black"><i>Big Red Button</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p rolly-vortex" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/rolly-vortex/');localStorage.setItem('app-name', 'Rolly Vortex');localStorage.setItem('app-image', '/assets/img/thumbnails/rolly-vortex.png')">
+                <h2 class="black"><i>Rolly Vortex</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p just-one-boss" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/just-one-boss/');localStorage.setItem('app-name', 'Just One Boss');localStorage.setItem('app-image', '/assets/img/thumbnails/just-one-boss.png')">
+                <h2 class="black"><i>Just One Boss</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p uno" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/uno/');localStorage.setItem('app-name', 'Uno Online');localStorage.setItem('app-image', '/assets/img/thumbnails/uno.png')">
+                <h2 class="black"><i>Uno Online</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p freddy-fazbears-pizzeria-simulator" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/pizzeria-simulator/');localStorage.setItem('app-name', 'Pizzeria Simulator');localStorage.setItem('app-image', '/assets/img/thumbnails/freddy-fazbears-pizzeria-simulator.png')">
+                <h2 class="black"><i>Pizzeria Simulator</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p cluster-truck" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/cluster-rush/');localStorage.setItem('app-name', 'Cluster Truck');localStorage.setItem('app-image', '/assets/img/thumbnails/cluster-truck.png')">
+                <h2 class="black"><i>Cluster Truck</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p tube-jumpers" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/tube-jumpers/');localStorage.setItem('app-name', 'Tube Jumpers');localStorage.setItem('app-image', '/assets/img/thumbnails/tube-jumpers.png')">
+                <h2 class="black"><i>Tube Jumpers</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p osu" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/osu/');localStorage.setItem('app-name', 'Osu!');localStorage.setItem('app-image', '/assets/img/thumbnails/osu.png')">
+                <h2 class="black"><i>Osu!</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p getaway-shootout" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/getaway-shootout/');localStorage.setItem('app-name', 'Getaway Shootout');localStorage.setItem('app-image', '/assets/img/thumbnails/getaway-shootout.png')">
+                <h2 class="black"><i>Getaway Shootout</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p breaking-the-bank" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/breakingthebank/');localStorage.setItem('app-name', 'Breaking The Bank');localStorage.setItem('app-image', '/assets/img/thumbnails/breaking-the-bank.png')">
+                <h2 class="black"><i>Breaking The Bank</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p papa-louie" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/papa-louie/');localStorage.setItem('app-name', 'Papa Louie');localStorage.setItem('app-image', '/assets/img/thumbnails/papa-louie.png')">
+                <h2 class="black"><i>Papa Louie</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p papa-louie-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/papa-louie-2/');localStorage.setItem('app-name', 'Papa Louie 2');localStorage.setItem('app-image', '/assets/img/thumbnails/papa-louie-2.png')">
+                <h2 class="black"><i>Papa Louie 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p stack" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/stack/');localStorage.setItem('app-name', 'Stack');localStorage.setItem('app-image', '/assets/img/thumbnails/stack.png')">
+                <h2 class="black"><i>Stack</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p tetris" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/tetris/');localStorage.setItem('app-name', 'Tetris');localStorage.setItem('app-image', '/assets/img/thumbnails/tetris.png')">
+                <h2 class="black"><i>Tetris</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a2020-game" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/2020-game/');localStorage.setItem('app-name', '2020 Game');localStorage.setItem('app-image', '/assets/img/thumbnails/2020-game.png')">
+                <h2 class="black"><i>2020 Game</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p hextris" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/hextris/');localStorage.setItem('app-name', 'Hextris');localStorage.setItem('app-image', '/assets/img/thumbnails/hextris.png')">
+                <h2 class="black"><i>Hextris</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p achievement-unlocked" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/achievementunlocked/');localStorage.setItem('app-name', 'Achievement Unlocked');localStorage.setItem('app-image', '/assets/img/thumbnails/achievement-unlocked.png')">
+                <h2 class="black"><i>Achievement Unlocked</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p achievement-unlocked-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/achievement-unlocked-2/');localStorage.setItem('app-name', 'Achievement Unlocked 2');localStorage.setItem('app-image', '/assets/img/thumbnails/achievement-unlocked-2.png')">
+                <h2 class="black"><i>Achievement Unlocked 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p achievement-unlocked-3" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/achievement-unlocked-3/');localStorage.setItem('app-name', 'Achievement Unlocked 3');localStorage.setItem('app-image', '/assets/img/thumbnails/achievement-unlocked-3.png')">
+                <h2 class="black"><i>Achievement Unlocked 3</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p adam-and-eve" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/adam-and-eve/');localStorage.setItem('app-name', 'Adam and Eve');localStorage.setItem('app-image', '/assets/img/thumbnails/adam-and-eve.png')">
+                <h2 class="black"><i>Adam and Eve</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p adam-and-eve-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/adam-and-eve-2/');localStorage.setItem('app-name', 'Adam and Eve 2');localStorage.setItem('app-image', '/assets/img/thumbnails/adam-and-eve-2.png')">
+                <h2 class="black"><i>Adam and Eve 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p adam-and-eve-3" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/adam-and-eve-3/');localStorage.setItem('app-name', 'Adam and Eve 3');localStorage.setItem('app-image', '/assets/img/thumbnails/adam-and-eve-3.png')">
+                <h2 class="black"><i>Adam and Eve 3</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p mini-stilts" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/mini-stilts/');localStorage.setItem('app-name', 'Mini Stilts');localStorage.setItem('app-image', '/assets/img/thumbnails/mini-stilts.png')">
+                <h2 class="black"><i>Mini Stilts</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p green" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/green/');localStorage.setItem('app-name', 'Green');localStorage.setItem('app-image', '/assets/img/thumbnails/green.png')">
+                <h2 class="black"><i>Green</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p dodge" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/dodge/');localStorage.setItem('app-name', 'Dodge');localStorage.setItem('app-image', '/assets/img/thumbnails/dodge.png')">
+                <h2 class="black"><i>Dodge</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p city-blocks" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/city-blocks-2/');localStorage.setItem('app-name', 'City Blocks 2');localStorage.setItem('app-image', '/assets/img/thumbnails/city-blocks.png')">
+                <h2 class="black"><i>City Blocks 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p anti-terrorist-rush" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/anti-terrorist-rush/');localStorage.setItem('app-name', 'Anti Terrorist Rush');localStorage.setItem('app-image', '/assets/img/thumbnails/anti-terrorist-rush.png')">
+                <h2 class="black"><i>Anti Terrorist Rush</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p awesome-tanks" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/awesome-tanks/');localStorage.setItem('app-name', 'Awesome Tanks');localStorage.setItem('app-image', '/assets/img/thumbnails/awesome-tanks.png')">
+                <h2 class="black"><i>Awesome Tanks</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p awesome-tanks-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/awesome-tanks-2/');localStorage.setItem('app-name', 'Awesome Tanks 2');localStorage.setItem('app-image', '/assets/img/thumbnails/awesome-tanks-2.png')">
+                <h2 class="black"><i>Awesome Tanks 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bacon-may-die" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bacon-may-die/');localStorage.setItem('app-name', 'Bacon May Die');localStorage.setItem('app-image', '/assets/img/thumbnails/bacon-may-die.png')">
+                <h2 class="black"><i>Bacon May Die</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a3d-missile" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/3d-missile/');localStorage.setItem('app-name', '3D Missile');localStorage.setItem('app-image', '/assets/img/thumbnails/3d-missile.png')">
+                <h2 class="black"><i>3D Missile</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p gun-blood" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/gun-blood/');localStorage.setItem('app-name', 'Gun Blood');localStorage.setItem('app-image', '/assets/img/thumbnails/gun-blood.png')">
+                <h2 class="black"><i>Gun Blood</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p apple-shooter" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/apple-shooter/');localStorage.setItem('app-name', 'Apple Shooter');localStorage.setItem('app-image', '/assets/img/thumbnails/apple-shooter.png')">
+                <h2 class="black"><i>Apple Shooter</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p kitchen-gun-game" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/kitchen-gun-game/');localStorage.setItem('app-name', 'Kitchen Gun Game');localStorage.setItem('app-image', '/assets/img/thumbnails/kitchen-gun-game.png')">
+                <h2 class="black"><i>Kitchen Gun Game</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p kitten-cannon" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/kittencannon/');localStorage.setItem('app-name', 'Kitten Cannon');localStorage.setItem('app-image', '/assets/img/thumbnails/kitten-cannon.png')">
+                <h2 class="black"><i>Kitten Cannon</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bad-time-simulator" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bad-time-simulator/');localStorage.setItem('app-name', 'Bad Time Simulator');localStorage.setItem('app-image', '/assets/img/thumbnails/bad-time-simulator.png')">
+                <h2 class="black"><i>Bad Time Simulator</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p gimme-the-airpod" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/gimme-the-airpod/');localStorage.setItem('app-name', 'Gimme The Airpod');localStorage.setItem('app-image', '/assets/img/thumbnails/gimme-the-airpod.png')">
+                <h2 class="black"><i>Gimme The Airpod</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p gun-mayhem" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/gun-mayhem/');localStorage.setItem('app-name', 'Gun Mayhem');localStorage.setItem('app-image', '/assets/img/thumbnails/gun-mayhem.png')">
+                <h2 class="black"><i>Gun Mayhem</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p gun-mayhem-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/gun-mayhem-2/');localStorage.setItem('app-name', 'Gun Mayhem 2');localStorage.setItem('app-image', '/assets/img/thumbnails/gun-mayhem-2.png')">
+                <h2 class="black"><i>Gun Mayhem 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bow-man" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bow-man/');localStorage.setItem('app-name', 'Bow Man');localStorage.setItem('app-image', '/assets/img/thumbnails/bow-man.png')">
+                <h2 class="black"><i>Bow Man</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p bow-man-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bow-man-2/');localStorage.setItem('app-name', 'Bow Man 2');localStorage.setItem('app-image', '/assets/img/thumbnails/bow-man-2.png')">
+                <h2 class="black"><i>Bow Man 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p age-of-war" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/age-of-war/');localStorage.setItem('app-name', 'Age of War');localStorage.setItem('app-image', '/assets/img/thumbnails/age-of-war.png')">
+                <h2 class="black"><i>Age of War</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p age-of-war-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/age-of-war-2/');localStorage.setItem('app-name', 'Age of War 2');localStorage.setItem('app-image', '/assets/img/thumbnails/age-of-war-2.png')">
+                <h2 class="black"><i>Age of War 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p protektor" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/protektor/');localStorage.setItem('app-name', 'Protektor');localStorage.setItem('app-image', '/assets/img/thumbnails/protektor.png')">
+                <h2 class="black"><i>Protektor</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p tactical-weapon-pack-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/tactical-weapon-pack-2/');localStorage.setItem('app-name', 'Tactical Weapon Pack 2');localStorage.setItem('app-image', '/assets/img/thumbnails/tactical-weapon-pack-2.png')">
+                <h2 class="black"><i>Tactical Weapon Pack 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p arcade-wizard" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/arcade-wizard/');localStorage.setItem('app-name', 'Arcade Wizard');localStorage.setItem('app-image', '/assets/img/thumbnails/arcade-wizard.png')">
+                <h2 class="black"><i>Arcade Wizard</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p tunnel-rush" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/tunnelrush/');localStorage.setItem('app-name', 'Tunnel Rush');localStorage.setItem('app-image', '/assets/img/thumbnails/tunnel-rush.png')">
+                <h2 class="black"><i>Tunnel Rush</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p push-the-square" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/push-the-square/');localStorage.setItem('app-name', 'Push The Square');localStorage.setItem('app-image', '/assets/img/thumbnails/push-the-square.png')">
+                <h2 class="black"><i>Push The Square</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p push-your-luck" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/push-your-luck/');localStorage.setItem('app-name', 'Push Your Luck');localStorage.setItem('app-image', '/assets/img/thumbnails/push-your-luck.png')">
+                <h2 class="black"><i>Push Your Luck</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p rise-of-the-neon-square" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/rise-of-neon-square/');localStorage.setItem('app-name', 'Rise of The Neon Square');localStorage.setItem('app-image', '/assets/img/thumbnails/rise-of-the-neon-square.png')">
+                <h2 class="black"><i>Rise of The Neon Square</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p short-ride" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/short-ride/');localStorage.setItem('app-name', 'Short Ride');localStorage.setItem('app-image', '/assets/img/thumbnails/short-ride.png')">
+                <h2 class="black"><i>Short Ride</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a99-balls-evo" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/99-balls-evo/');localStorage.setItem('app-name', '99 Balls Evo');localStorage.setItem('app-image', '/assets/img/thumbnails/99-balls-evo.png')">
+                <h2 class="black"><i>99 Balls Evo</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p golf" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/golf/');localStorage.setItem('app-name', 'Golf');localStorage.setItem('app-image', '/assets/img/thumbnails/golf.png')">
+                <h2 class="black"><i>Golf</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p gravity-soccer" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/gravity-soccer/');localStorage.setItem('app-name', 'Gravity Soccer');localStorage.setItem('app-image', '/assets/img/thumbnails/gravity-soccer.png')">
+                <h2 class="black"><i>Gravity Soccer</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p generic-fishing-game" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/generic-fishing-game/');localStorage.setItem('app-name', 'Generic Fishing Game');localStorage.setItem('app-image', '/assets/img/thumbnails/generic-fishing-game.png')">
+                <h2 class="black"><i>Generic Fishing Game</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p cannon-basketball-4" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/cannon-basketball-4/');localStorage.setItem('app-name', 'Cannon Basketball 4');localStorage.setItem('app-image', '/assets/img/thumbnails/cannon-basketball-4.png')">
+                <h2 class="black"><i>Cannon Basketball 4</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p backflip-dive-3d" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/backflip-dive-3d/');localStorage.setItem('app-name', 'Backflip Dive 3D');localStorage.setItem('app-image', '/assets/img/thumbnails/backflip-dive-3d.png')">
+                <h2 class="black"><i>Backflip Dive 3D</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p basket-bros-io" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/basket-bros-io/');localStorage.setItem('app-name', 'Basket Bros.io');localStorage.setItem('app-image', '/assets/img/thumbnails/basket-bros.png')">
+                <h2 class="black"><i>Basket Bros.io</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p basketball-legends-2020" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/basketball-legends-2020/');localStorage.setItem('app-name', 'Basketball Legends');localStorage.setItem('app-image', '/assets/img/thumbnails/basketball-legends.png')">
+                <h2 class="black"><i>Basketball Legends</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p basketball-io" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/basketball-io/');localStorage.setItem('app-name', 'Basketball.io');localStorage.setItem('app-image', '/assets/img/thumbnails/basketball-io.png')">
+                <h2 class="black"><i>Basketball.io</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p basket-and-ball" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/basket-and-ball/');localStorage.setItem('app-name', 'Basket and Ball');localStorage.setItem('app-image', '/assets/img/thumbnails/basket-and-ball.png')">
+                <h2 class="black"><i>Basket and Ball</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p basketball-stars" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/basketball-stars/');localStorage.setItem('app-name', 'Basketball Stars');localStorage.setItem('app-image', '/assets/img/thumbnails/basketball-stars.png')">
+                <h2 class="black"><i>Basketball Stars</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p aspiring-artist" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/aspiring-artist/');localStorage.setItem('app-name', 'Aspiring Artist');localStorage.setItem('app-image', '/assets/img/thumbnails/aspiring-artist.png')">
+                <h2 class="black"><i>Aspiring Artist</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p blocky-snakes" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/blocky-snakes/');localStorage.setItem('app-name', 'Blocky Snakes');localStorage.setItem('app-image', '/assets/img/thumbnails/blocky-snakes.png')">
+                <h2 class="black"><i>Blocky Snakes</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p death-soul" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/death-soul/');localStorage.setItem('app-name', 'Death Soul');localStorage.setItem('app-image', '/assets/img/thumbnails/death-soul.png')">
+                <h2 class="black"><i>Death Soul</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p duke-dashington-remastered" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/duke-dashington-remastered/');localStorage.setItem('app-name', 'Duke Dashington Remastered');localStorage.setItem('app-image', '/assets/img/thumbnails/duke-dashington-remastered.png')">
+                <h2 class="black"><i>Duke Dashington Remastered</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p factory-balls-forever" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/factoryballsforever/');localStorage.setItem('app-name', 'Factory Balls Forever');localStorage.setItem('app-image', '/assets/img/thumbnails/factory-balls-forever.png')">
+                <h2 class="black"><i>Factory Balls Forever</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p flappy-defense" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/flappy-defense/');localStorage.setItem('app-name', 'Flappy Defense');localStorage.setItem('app-image', '/assets/img/thumbnails/flappy-defense.png')">
+                <h2 class="black"><i>Flappy Defense</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p geo-dash-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/geodash-2/');localStorage.setItem('app-name', 'Geo Dash 2');localStorage.setItem('app-image', '/assets/img/thumbnails/geo-dash-2.png')">
+                <h2 class="black"><i>Geo Dash 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p geometry-jump-sketchy" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/geometry_jump_sketchy/');localStorage.setItem('app-name', 'Geometry Jump Sketchy');localStorage.setItem('app-image', '/assets/img/thumbnails/geometry-jump-sketchy.png')">
+                <h2 class="black"><i>Geometry Jump Sketchy</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p klocki" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/klocki/');localStorage.setItem('app-name', 'Klocki');localStorage.setItem('app-image', '/assets/img/thumbnails/klocki.png')">
+                <h2 class="black"><i>Klocki</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p linquest" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/linquest/');localStorage.setItem('app-name', 'Linquest');localStorage.setItem('app-image', '/assets/img/thumbnails/linquest.png')">
+                <h2 class="black"><i>Linquest</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p kart-fight-io" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/kart-fight-io/');localStorage.setItem('app-name', 'Kart Fight.io');localStorage.setItem('app-image', '/assets/img/thumbnails/kart-fight-io.png')">
+                <h2 class="black"><i>Kart Fight.io</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p clean-up-io" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/clean-up-io/');localStorage.setItem('app-name', 'Clean Up.io');localStorage.setItem('app-image', '/assets/img/thumbnails/clean-up-io.png')">
+                <h2 class="black"><i>Clean Up.io</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p one-screen-run" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/one-screen-run/');localStorage.setItem('app-name', 'One Screen Run');localStorage.setItem('app-image', '/assets/img/thumbnails/one-screen-run.png')">
+                <h2 class="black"><i>One Screen Run</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p one-screen-run-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/one-screen-run-2/');localStorage.setItem('app-name', 'One Screen Run 2');localStorage.setItem('app-image', '/assets/img/thumbnails/one-screen-run-2.png')">
+                <h2 class="black"><i>One Screen Run 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p evil-glitch" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/evilglitch/');localStorage.setItem('app-name', 'Evil Glitch');localStorage.setItem('app-image', '/assets/img/thumbnails/evil-glitch.png')">
+                <h2 class="black"><i>Evil Glitch</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p fake-virus" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/fake-virus/');localStorage.setItem('app-name', 'Fake Virus');localStorage.setItem('app-image', '/assets/img/thumbnails/fake-virus.png')">
+                <h2 class="black"><i>Fake Virus</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p fancy-pants-adventures" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/fancypantsadventures/');localStorage.setItem('app-name', 'Fancy Pants Adventures');localStorage.setItem('app-image', '/assets/img/thumbnails/fancy-pants-adventures.png')">
+                <h2 class="black"><i>Fancy Pants Adventures</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p flippy-fish" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/flippy-fish/');localStorage.setItem('app-name', 'Flippy Fish');localStorage.setItem('app-image', '/assets/img/thumbnails/flippy-fish.png')">
+                <h2 class="black"><i>Flippy Fish</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p froggys-battle" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/froggys-battle/');localStorage.setItem('app-name', 'Froggys Battle');localStorage.setItem('app-image', '/assets/img/thumbnails/froggys-battle.png')">
+                <h2 class="black"><i>Froggy's Battle</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p game-inside" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/game-inside-a-game/');localStorage.setItem('app-name', 'Game Inside');localStorage.setItem('app-image', '/assets/img/thumbnails/game-inside.png')">
+                <h2 class="black"><i>Game Inside</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p hacker-typer" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/hacker-typer/');localStorage.setItem('app-name', 'Hacker Typer');localStorage.setItem('app-image', '/assets/img/thumbnails/hacker-typer.png')">
+                <h2 class="black"><i>Hacker Typer</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p george-and-the-printer" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/george-and-the-printer/');localStorage.setItem('app-name', 'George and The Printer');localStorage.setItem('app-image', '/assets/img/thumbnails/george-and-the-printer.png')">
+                <h2 class="black"><i>George and The Printer</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p super-mario-bros" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/FullScreenMario/Source/index.htm');localStorage.setItem('app-name', 'Super Mario Bros');localStorage.setItem('app-image', 'assets/img/thumbnails/super-mario-bros.png')">
+                <h2 class="black"><i>Super Mario Bros</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p burning-man-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/burning-man-2/');localStorage.setItem('app-name', 'Burning Man 2');localStorage.setItem('app-image', '/assets/img/thumbnails/burning-man-2.png')">
+                <h2 class="black"><i>Burning Man 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p grey-box-testing" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/grey-box-testing/');localStorage.setItem('app-name', 'Grey Box Testing');localStorage.setItem('app-image', '/assets/img/thumbnails/grey-box-testing.png')">
+                <h2 class="black"><i>Grey Box Testing</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p grindcraft" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/grindcraft/');localStorage.setItem('app-name', 'Grindcraft');localStorage.setItem('app-image', '/assets/img/thumbnails/grindcraft.png')">
+                <h2 class="black"><i>Grindcraft</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p rolling-forests" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/rolling-forests/');localStorage.setItem('app-name', 'Rolling Forests');localStorage.setItem('app-image', '/assets/img/thumbnails/rolling-forests.png')">
+                <h2 class="black"><i>Rolling Forests</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p minesweeper" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/minesweeper/');localStorage.setItem('app-name', 'Minesweeper');localStorage.setItem('app-image', '/assets/img/thumbnails/minesweeper.png')">
+                <h2 class="black"><i>Minesweeper</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a100-player-pong" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/100ng/');localStorage.setItem('app-name', '100 Player Pong');localStorage.setItem('app-image', '/assets/img/thumbnails/100-player-pong.png')">
+                <h2 class="black"><i>100 Player Pong</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p rocking-sky-trip" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/rocking-sky-trip/');localStorage.setItem('app-name', 'Rocking Sky Trip');localStorage.setItem('app-image', '/assets/img/thumbnails/rocking-sky-trip.png')">
+                <h2 class="black"><i>Rocking Sky Trip</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a1-on-1-soccer" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/1-on-1-soccer/');localStorage.setItem('app-name', '1 on 1 Soccer');localStorage.setItem('app-image', '/assets/img/thumbnails/1-on-1-socer.png')">
+                <h2 class="black"><i>1 on 1 Soccer</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p n-gon" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/n-gon/');localStorage.setItem('app-name', 'N-gon');localStorage.setItem('app-image', '/assets/img/thumbnails/n-gon.png')">
+                <h2 class="black"><i>N-gon</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p chrome-dino" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/chrome-dino/');localStorage.setItem('app-name', 'Chrome Dino');localStorage.setItem('app-image', '/assets/img/thumbnails/chrome-dino.png')">
+                <h2 class="black"><i>Chrome Dino</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p frying-nemo" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/frying-nemo/');localStorage.setItem('app-name', 'Frying Nemo');localStorage.setItem('app-image', '/assets/img/thumbnails/frying-nemo.png')">
+                <h2 class="black"><i>Frying Nemo</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p raft-wars" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/raft-wars/');localStorage.setItem('app-name', 'Raft Wars');localStorage.setItem('app-image', '/assets/img/thumbnails/raft-wars.png')">
+                <h2 class="black"><i>Raft Wars</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p airport-madness-3" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/airport-madness-3/');localStorage.setItem('app-name', 'Airport Madness 3');localStorage.setItem('app-image', '/assets/img/thumbnails/airport-madness.png')">
+                <h2 class="black"><i>Airport Madness 3</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a60-second-burger-run" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/60-second-burger-run/');localStorage.setItem('app-name', '60 Second Burger Run');localStorage.setItem('app-image', '/assets/img/thumbnails/60-second-burger-run.png')">
+                <h2 class="black"><i>60 Second Burger Run</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p run" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/run/');localStorage.setItem('app-name', 'Run');localStorage.setItem('app-image', '/assets/img/thumbnails/run.png')">
+                <h2 class="black"><i>Run</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p run-2" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/run-2/');localStorage.setItem('app-name', 'Run 2');localStorage.setItem('app-image', '/assets/img/thumbnails/run-2.png')">
+                <h2 class="black"><i>Run 2</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p run-3" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/run3/');localStorage.setItem('app-name', 'Run 3');localStorage.setItem('app-image', '/assets/img/thumbnails/run-3.png')">
+                <h2 class="black"><i>Run 3</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p a12-mini-battles" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/12-mini-battles/');localStorage.setItem('app-name', '12 Mini Battles');localStorage.setItem('app-image', '/assets/img/thumbnails/12-mini-battles.png')">
+                <h2 class="black"><i>12 Mini Battles</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p sonic-the-hedgehog" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/sonic-the-hedgehog/');localStorage.setItem('app-name', 'Sonic The Hedgehog');localStorage.setItem('app-image', '/assets/img/thumbnails/sonic-the-hedgehog.png')">
+                <h2 class="black"><i>Sonic The Hedgehog</i></h2>
+            </div></a>
+            <a href="./iframe.html"><div class="card p fnaf" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/fnaf/');localStorage.setItem('app-name', 'FNAF');localStorage.setItem('app-image', '/assets/img/thumbnails/fnaf.png')">
+                <h2 class="black"><i>FNAF</i></h2>
+            </div></a>
+    </section>
+    <script src="/assets/js/online-games.js"></script>
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="logo-container">
+            <img src="/assets/img/logo-text/420x32/logo_text_long_white.png" alt="Logo Small" class="footer-logo">
+        </div>
+        <nav class="footer-nav">
+            <a href="/iframe.html" onclick="setIframeType('games');localStorage.setItem('storedURL', 'https://forms.gle/it3WqC7rxXLx9ePc8')" class="footer-link">Request Games</a>
+            <a href="/iframe.html" onclick="setIframeType('games');localStorage.setItem('storedURL', 'https://forms.gle/jgaXfQ6SYuetojyc8')" class="footer-link">Report a Problem</a>
+            <a href="https://github.com/tw31120071857/BCHS-Unblocked-Games-V4" target="_blank" class="footer-link">Github</a>
+            <a href="/credits.html" class="footer-link">Credits</a>
+            <a href="https://discord.gg/GtTGC8RQmC" target="_blank" class="footer-link">Discord</a>
+        </nav>
+    </footer>
+    <!-- Footer End -->
+    </div>
+    <script src="/assets/js/panic.js" defer></script>
+    <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
+    <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
+    <script>
+        function setIframeType(type) {
+            localStorage.setItem('iframe-type', type);
+        }
+    </script>
+    <script src="/assets/js/cloak.js" defer></script>
+</body>
+</html>

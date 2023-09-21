@@ -8,6 +8,7 @@
 body, html {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 body {
   margin: 0;
@@ -56,6 +57,7 @@ iframe:-ms-fullscreen {
 
 .back-arrow {
   font-size: 35px;
+  color: #ffffff;
 }
 
 .reload {

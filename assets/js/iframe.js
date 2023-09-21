@@ -59,10 +59,6 @@ function backtopage() {
 }
 
 const storedURL = localStorage.getItem('storedURL');
-if (storedURL === 'https://forms.gle/jgaXfQ6SYuetojyc8' || storedURL === 'https://forms.gle/it3WqC7rxXLx9ePc8') {
-  document.getElementById('app-name').style.display = 'none';
-  document.getElementById('app-image').style.display = 'none';
-}
 const iframe = document.getElementById('iframe');
 iframe.src = storedURL;
 

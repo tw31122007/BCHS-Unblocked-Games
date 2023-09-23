@@ -40,12 +40,12 @@ body {
     text-align: center;
 }
 #searchInput {
-    width: 100%;
+    width: 100vw;
     font-size: 24px;
     padding: 12px 20px 12px 40px;
-    text-align: center; /* Add this */
+    text-align: center;
     border: 1px solid #ddd;
-    min-width: 100%;
+    margin-bottom: 12px;
 }
 
 .cards {

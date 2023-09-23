@@ -195,7 +195,7 @@ body.light-theme {
 }
 body.light-theme .modal-content {
   border-color: black;
-  background-color: #ffffff;  /* Ensure background is explicitly set for light theme */
+  background-color: #ffffff;
   color: #000000;
 }
 body.light-theme .modal-content select {
@@ -207,6 +207,9 @@ body.light-theme .modal-content select {
 body.light-theme .buttons {
   border-color: #000000;
 }
+body.light-theme .back-arrow {
+  color: #000000;
+}
 .theme-selection {
   display: flex;
   flex-direction: row;
@@ -217,5 +220,5 @@ body.light-theme .buttons {
 }
 
 .theme-selection label {
-  margin-right: 15px; /* Adjust the value as desired */
+  margin-right: 15px;
 }

@@ -44,7 +44,7 @@
 }
 
 .footer-link:hover {
-    color: dodgerblue; /* Or any other color you'd prefer for the hover effect */
+    color: dodgerblue;
 }
 .page-container {
     display: grid;

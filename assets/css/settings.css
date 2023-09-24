@@ -30,14 +30,14 @@ body.light-theme {
 }
 .content-wrapper {
     width: 100%;
-    height: calc(100vh - 60px); /* subtracting the height of the navbar and some padding */
+    height: calc(100vh - 60px);
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    display: flex;          /* making this a flex container */
-    flex-direction: column; /* stacking children vertically */
-    justify-content: center; /* centering children vertically */
-    align-items: center;     /* centering children horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .row {
     display: flex;
@@ -141,7 +141,7 @@ body.light-theme {
 }
 
 .buttons button {
-    width: calc(50% - 10px); /* Adjusts the width to half the container's width minus the margin. */
+    width: calc(50% - 10px);
     padding: 12px 15px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;

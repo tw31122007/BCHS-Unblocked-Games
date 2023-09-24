@@ -141,7 +141,7 @@ iframe:-ms-fullscreen {
   max-width: 80%;
   z-index: 1001;
   border-radius: 10px;
-  background-color: #ffffff;  /* Add default background color */
+  background-color: #ffffff;
   border: 6px solid transparent; 
 }
 

@@ -1,21 +1,47 @@
+document.getElementById('themeSelector').addEventListener('change', function(e) {
+  const theme = e.target.value;
 
+  // Apply or remove the 'light-theme' class based on the selected theme
+  if(theme === 'light') {
+      document.body.classList.add('light-theme');
+  } else {
+      document.body.classList.remove('light-theme');
+  }
+
+  // Save the theme choice to localStorage
+  localStorage.setItem('theme', theme);
+});
+document.addEventListener('DOMContentLoaded', function() {
+  const savedTheme = localStorage.getItem('theme');
+
+  // If a theme is saved in localStorage, apply it
+  if(savedTheme) {
+      if(savedTheme === 'light') {
+          document.body.classList.add('light-theme');
+      } else {
+          document.body.classList.remove('light-theme');
+      }
+
+      // Update the dropdown selection to reflect the loaded theme
+      document.getElementById('themeSelector').value = savedTheme;
+  }
+});
 
 // Check if there is a saved tab data in localStorage
 var tab = localStorage.getItem("tab");
 
 if (tab) {
-  // If there is saved data, try to parse it
-  try {
-    var tabData = JSON.parse(tab);
-  } catch {
-    // If there is an error in parsing, create an empty object
-    var tabData = {};
-  }
-} else {
-  // If there is no saved data, create an empty object
+// If there is saved data, try to parse it
+try {
+  var tabData = JSON.parse(tab);
+} catch {
+  // If there is an error in parsing, create an empty object
   var tabData = {};
 }
-
+} else {
+// If there is no saved data, create an empty object
+var tabData = {};
+}
 // Set the title and icon fields to the values saved in tabData, if they exist
 if (tabData.title) {
   document.getElementById("title").value = tabData.title;
@@ -111,7 +137,7 @@ function setCloak() { // applies only to premade cloaks
       location.reload();
       break;
     case "drive": // Google Drive
-      setTitle("Google Drive");
+      setTitle("My Dive - Google Drive");
       setFavicon("/assets/img/favicons/google-drive-ico.ico");
       location.reload();
       break;
@@ -175,4 +201,37 @@ function resetTab() {
   document.getElementById("title").value = "";
   document.getElementById("icon").value = "";
   localStorage.setItem("tab", JSON.stringify({}));
+}
+
+function setSearchEngine(value) {
+  localStorage.setItem("searchengine", value);
+}
+
+document.getElementById("google").addEventListener("click", function() {
+  setSearchEngine("https://www.google.com/search?q=%s");
+});
+document.getElementById("bing").addEventListener("click", function() {
+  setSearchEngine("https://www.bing.com/search?form=&q=%s");
+});
+document.getElementById("yahoo").addEventListener("click", function() {
+  setSearchEngine("https://search.yahoo.com/search?p=%s");
+});
+document.getElementById("duckduckgo").addEventListener("click", function() {
+  setSearchEngine("https://duckduckgo.com/?q=%s");
+  });
+document.getElementById("brave").addEventListener("click", function() {
+  setSearchEngine("https://search.brave.com/search?q=%s");
+  });
+document.getElementById("yandex").addEventListener("click", function() {
+  setSearchEngine("https://www.yandex.com/search/?text=%s");
+  });
+
+document.getElementById("searchengineselector").addEventListener('change', function() {
+  setSearchEngine(this.value);
+});
+if (tabData.title) {
+  document.getElementById("title").value = tabData.title;
+}
+if (tabData.icon) {
+  document.getElementById("icon").value = tabData.icon;
 }

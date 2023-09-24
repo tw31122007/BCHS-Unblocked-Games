@@ -150,3 +150,94 @@ body {
     font-size: 14px;
     color: #fff;
 }
+.button2 {
+   width: 80%;
+}
+.buttons {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+}
+
+.select-buttons {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.button {
+   padding: 10px 15px;
+   background-color: #405a92;
+   color: #000;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+.section-text {
+   text-align: center;
+   margin-bottom: 15px;
+   font-size: 20px;
+   color: #fff;
+   font-family: 'Lato', sans-serif;
+}
+.input {
+   background-color: #222;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px;
+   width: 90%;
+   margin-bottom: 10px;
+   color: #fff;
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+}
+.box h2 {
+   font-size: 28px;
+   font-family: 'Lilita One', cursive;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.name p {
+   font-size: 28px;
+   font-family: 'Lilita One', cursive;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.buttons select {
+   appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   background-color: #222;
+   border: 1px solid #405a92; 
+   padding: 10px 30px 10px 15px;
+   border-radius: 5px;
+   color: #fff;
+   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5"><path fill="white" d="M0 0h10L5 5z"/></svg>');
+   background-repeat: no-repeat;
+   background-position: right 10px center;
+   cursor: pointer;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
+}
+
+.buttons select:hover {
+   background-color: #333;
+}
+
+.buttons select:focus {
+   outline: none;
+   border-color: #00aeff;
+}
+
+.buttons option {
+   background-color: #222;
+   color: #fff;
+   padding: 10px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+}

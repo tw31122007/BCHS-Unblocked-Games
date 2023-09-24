@@ -68,10 +68,10 @@ iframe:-ms-fullscreen {
 
 .fullscreen-button {
   font-size: 35px;
-  position: absolute;  /* Make the position absolute */
-  right: 25px;         /* Position it 10px from the right edge */
+  position: absolute;
+  right: 25px;
   top: 50%;            /* Center it vertically */
-  transform: translateY(-50%); /* Fine-tune the vertical centering */
+  transform: translateY(-50%);
 }
 
 .browser-back,
@@ -82,17 +82,17 @@ iframe:-ms-fullscreen {
 }
 
 .browser-back {
-  right: 170px;  /* Adjusted value */
+  right: 170px;
   font-size: 35px;
 }
 
 .browser-forward {
-  right: 120px;   /* Adjusted value */
+  right: 120px;
   font-size: 35px;
 }
 .app-details {
   display: flex;
-  align-items: center;  /* center the image and text vertically */
+  align-items: center;
   position: absolute;
   left: 50%;            /* move to the center of the parent */
   transform: translateX(-50%); /* fine-tune the centering */
@@ -101,14 +101,14 @@ iframe:-ms-fullscreen {
 #app-image {
   border-radius: 50%;  /* make it circular */
   margin-right: 10px;  /* spacing between the image and the app name */
-  width: 30px;
-  height: 30px;
-  object-fit: cover;   /* make sure the image covers the 30x30 area */
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
   background-color: #ffffff;
 }
 
 #app-name {
-  font-size: 22px;  /* or any size you prefer */
+  font-size: 28px;
   white-space: nowrap; /* prevent the name from wrapping to the next line */
   font-family: Lato;
 }

@@ -6,7 +6,9 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
-  background-image: url(/assets/img/backgrounds/1.gif);
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+        url(/assets/img/backgrounds/1.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

@@ -110,7 +110,7 @@ iframe:-ms-fullscreen {
 #app-name {
   font-size: 22px;  /* or any size you prefer */
   white-space: nowrap; /* prevent the name from wrapping to the next line */
-  font-family: Lilita One;
+  font-family: Lato;
 }
 .iframe-settings {
   font-size: 35px;
@@ -147,7 +147,7 @@ iframe:-ms-fullscreen {
 
 .modal-content h2 {
   font-size: 40px;
-  font-family: Lilita One;
+  font-family: Lato;
   margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 70px;

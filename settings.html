@@ -1,7 +1,7 @@
 <head>
   <link rel="stylesheet" href="/assets/css/navbar.css">
   <link rel="stylesheet" href="/assets/css/footer.css">
-  <link rel="stylesheet" href="/assets/css/test.css">
+  <link rel="stylesheet" href="/assets/css/settings.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <script src="https://kit.fontawesome.com/204c1cf7c6.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -77,13 +77,15 @@
       </div>
       <div class="box about-blank">
           <h2>About:Blank</h2>
+          <p>Open this website as an about:blank tab/window to hide it from your search history.</p>
           <div class="buttons">
-              <button style="width:100%" onclick="openNewTab()">About:Blank Tab</button><br><br>
-              <button style="width:100%" onclick="openNewWindow()">About:Blank Window</button>
+              <button onclick="openNewTab()">About:Blank Tab</button>
+              <button onclick="openNewWindow()">About:Blank Window</button>
           </div>
       </div>
       <div class="box theme">
           <h2>Theme</h2>
+          <p>Customise the theme of certain buttons, boxes, menu items etc...</p>
           <div class="buttons">
               <select id="themeSelector">
                   <option value="dark">Dark</option>

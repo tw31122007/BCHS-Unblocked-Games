@@ -29,6 +29,9 @@ body {
 .home {
     margin-top: 64px;
 }
+.no-nav {
+    margin-top: 0px;
+}
 ::selection{
     background-color: var(--primary-color);
     color: #fff;

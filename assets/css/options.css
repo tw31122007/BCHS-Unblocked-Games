@@ -50,7 +50,7 @@ body {
     margin-bottom: 12px;
 }
 .cards {
-    margin-top: 20px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -61,13 +61,13 @@ body {
 }
 
 .cards .g {
-    height: 300px;
-    width: 660px;
+    height: 600px;
+    width: 1320px;
 }
 
 .cards .p {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
 }
 .cards a {
     text-decoration: none;
@@ -88,16 +88,19 @@ body {
 }
 
 .cards .card h2 {
-    margin-left: 18px;
-    margin-bottom: 18px;
-    border-radius: 15px;
-    margin-right: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+    margin-left: 36px;
+    margin-bottom: 36px;
+    border-radius: 30px;
+    font-size: 36px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: 18px;
     text-decoration: none;
     color: var(--widget-text);
     background-color: var(--widget-color);
     box-shadow: 4px 3px 8px 1px #6d6d6d33;
   	-webkit-box-shadow: 4px 3px 8px 1px #6d6d6d33;
+}
+.cards .red-ball-4 {
+    background-image: url(/assets/img/flash-games/red-ball-4.png);
 }

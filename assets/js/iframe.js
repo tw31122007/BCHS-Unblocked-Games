@@ -52,6 +52,8 @@ function backtopage() {
     window.location.href = '/index.html';
   } else if (type === 'settings') {
     window.location.href = '/settings.html';
+  } else if (type === 'games-no-nav') {
+    window.location.href = '/games-no-nav.html';
   } else {
       // Default or error handling, if needed.
       console.error('Unexpected iframe type:', type);

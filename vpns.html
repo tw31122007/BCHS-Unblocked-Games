@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/options.css">
+    <link rel="stylesheet" href="/assets/css/options-medium.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
     <link rel="stylesheet" href="/assets/css/navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -21,7 +21,7 @@
             <ul class="menu-items">
                 <li><a href="/index.html">Home</a></li>
                 <li class="dropdown">
-                    <a href="#">Games <i class="fa-solid fa-angle-down arrow"></i></a>
+                    <span>Games <i class="fa-solid fa-angle-down arrow"></i></span>
                     <ul class="dropdown-menu">
                         <li><a href="/games.html">Online Games</a></li>
                         <li><a href="/pc-games.html">PC Games</a></li>
@@ -32,7 +32,8 @@
                 <li class="dropdown">
                     <a href="/apps.html">Apps <i class="fa-solid fa-angle-down arrow"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="">Flash Player</a></li>
+                        <li><a href="/flash-player.html">Flash Player</a></li>
+                        <li><a href="/vpns.html">VPNs</a></li>
                     </ul>
                 </li>
                 <li><a href="/links.html">Other Links</a></li>
@@ -42,18 +43,21 @@
         </div>
     </nav>
     <!-- End Navbar Code -->
-    <div class="cards-container">
-        <div class="cards">
-            <a href="" target="_blank"><div class="card p setup-vpn">
+    <div class="cards">
+        <div class="row">
+            <a href="/iframe.html"><div class="card p setup-vpn" onclick="setIframeType('vpns');localStorage.setItem('app-name', 'Setup VPN');localStorage.setItem('storedURL', '/assets/html/vpns/setup-vpn/index.html');localStorage.setItem('app-image', '/assets/img/apps/setup-vpn.png')">
                 <h2 class="black"><i>Setup VPN</i></h2>
             </div></a>
-            <a href="" target="_blank"><div class="card p proton-vpn">
+            <a href="/iframe.html"><div class="card p proton-vpn" onclick="setIframeType('vpns');localStorage.setItem('app-name', 'Proton VPN');localStorage.setItem('storedURL', '/assets/html/vpns/proton-vpn/index.html');localStorage.setItem('app-image', '/assets/img/apps/proton-vpn.png')">
                 <h2 class="black"><i>Proton VPN</i></h2>
             </div></a>
-            <a href="" target="_blank"><div class="card p hotspot-shield">
+            <a href="https://drive.google.com/file/d/18HXvhfbV4JbATf_XGyQNNfLYY5q_3HCX/view?usp=drive_link" target="_blank"><div class="card p hotspot-shield">
                 <h2 class="black"><i>Hotspot Shield</i></h2>
             </div></a>
-            <a href="" target="_blank"><div class="card p x-vpn">
+            <a href="/iframe.html"><div class="card p hola" onclick="setIframeType('vpns');localStorage.setItem('app-name', 'Hola VPN');localStorage.setItem('storedURL', '/assets/html/vpns/hola/index.html');localStorage.setItem('app-image', '/assets/img/apps/hola.png')">
+                <h2 class="black"><i>Hola VPN</i></h2>
+            </div></a>
+            <a href="/iframe.html"><div class="card p x-vpn" onclick="setIframeType('vpns');localStorage.setItem('app-name', 'X-VPN');localStorage.setItem('storedURL', '/assets/html/vpns/x-vpn/index.html');localStorage.setItem('app-image', '/assets/img/apps/x-vpn.png')">
                 <h2 class="black"><i>X-VPN</i></h2>
             </div></a>
         </div>
@@ -64,8 +68,8 @@
             <a>BCHS Unblocked Games</a>
         </div>
         <nav class="footer-nav">
-            <a href="/iframe.html" onclick="setIframeType('apps');localStorage.setItem('storedURL', 'https://forms.gle/it3WqC7rxXLx9ePc8')" class="footer-link">Request Games</a>
-            <a href="/iframe.html" onclick="setIframeType('apps');localStorage.setItem('storedURL', 'https://forms.gle/jgaXfQ6SYuetojyc8')" class="footer-link">Report a Problem</a>
+            <a href="/iframe.html" onclick="setIframeType('vpns');localStorage.setItem('storedURL', 'https://forms.gle/it3WqC7rxXLx9ePc8')" class="footer-link">Request Games</a>
+            <a href="/iframe.html" onclick="setIframeType('vpns');localStorage.setItem('storedURL', 'https://forms.gle/jgaXfQ6SYuetojyc8')" class="footer-link">Report a Problem</a>
             <a href="https://github.com/tw31120071857/BCHS-Unblocked-Games-V4" target="_blank" class="footer-link">Github</a>
             <a href="/credits.html" class="footer-link">Credits</a>
         </nav>
@@ -81,6 +85,11 @@
     <script src="search.js" defer></script>
     <script src="index.js" defer></script>
     <script src="/assets/js/settings/index.js"></script>
-    <script src="assets/js/settings/settings.js"></script>
+    <script src="assets/js/settings/settings.js"></script>\
+    <script>
+        function setIframeType(type) {
+            localStorage.setItem('iframe-type', type);
+        }
+    </script>
 </body>
 </html>

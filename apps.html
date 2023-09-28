@@ -25,8 +25,22 @@
             </div>
             <ul class="menu-items">
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="/games.html">Games</a></li>
-                <li><a href="/apps.html">Apps</a></li>
+                <li class="dropdown">
+                    <span>Games <i class="fa-solid fa-angle-down arrow"></i></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="/games.html">Online Games</a></li>
+                        <li><a href="/pc-games.html">PC Games</a></li>
+                        <li><a href="/flash-games.html">Flash Games</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="/apps.html">Apps <i class="fa-solid fa-angle-down arrow"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/flash-player.html">Flash Player</a></li>
+                        <li><a href="/vpns.html">VPNs</a></li>
+                    </ul>
+                </li>
                 <li><a href="/links.html">Other Links</a></li>
                 <li><a href="/settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></li>
             </ul>
@@ -56,13 +70,13 @@
             <a href="/iframe.html"><div class="card p x-vpn" onclick="setIframeType('apps');localStorage.setItem('app-name', 'X-VPN');localStorage.setItem('storedURL', '/assets/html/vpns/x-vpn/index.html');localStorage.setItem('app-image', '/assets/img/apps/x-vpn.png')">
                 <h2 class="black"><i>X-VPN</i></h2>
             </div></a>
-            <a href="/iframe.html"><div class="card p wallpaper-engine" onclick="setIframeType('apps');localStorage.setItem('app-name', '');localStorage.setItem('storedURL', '/');localStorage.setItem('app-image', '/assets/img/')">
+            <a href="https://schoolsnsw-my.sharepoint.com/personal/tyler_wilson34_education_nsw_gov_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ftyler%5Fwilson34%5Feducation%5Fnsw%5Fgov%5Fau%2FDocuments%2Fmy%20stuff%2Fapps%2FWallpaper%2EEngine%2Ev2%2E0%2E48%2Erar&parent=%2Fpersonal%2Ftyler%5Fwilson34%5Feducation%5Fnsw%5Fgov%5Fau%2FDocuments%2Fmy%20stuff%2Fapps&ga=1" target="_blank"><div class="card p wallpaper-engine">
                 <h2 class="black"><i>Wallpaper Engine</i></h2>
             </div></a>
-            <a href="/iframe.html"><div class="card p autoclicker" onclick="setIframeType('apps');localStorage.setItem('app-name', '');localStorage.setItem('storedURL', '/');localStorage.setItem('app-image', '/assets/img/')">
+            <a href="https://drive.google.com/file/d/1qdpo0qSu4N2FPkqqE9Zg4uje_KY8zJMx/view" target="_blank"><div class="card p autoclicker">
                 <h2 class="black"><i>Autoclicker</i></h2>
             </div></a>
-            <a href="/iframe.html"><div class="card p hyper-write" onclick="setIframeType('apps');localStorage.setItem('app-name', '');localStorage.setItem('storedURL', '/');localStorage.setItem('app-image', '/assets/img/')">
+            <a href="https://drive.google.com/file/d/1Q3GNH9nG6Bg212UMSpdk0YBI0Y3kD7Jf/view?usp=drive_link" target="_blank"><div class="card p hyper-write">
                 <h2 class="black"><i>Hyper Write</i></h2>
             </div></a>
     </section>
@@ -88,17 +102,17 @@
         function setIframeType(type) {
             localStorage.setItem('iframe-type', type);
         }
-        </script>
-        <script src="/assets/js/panic.js" defer></script>
-      <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
-      <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
-      <script src="/assets/js/cloak.js" defer></script>
-      <script src="uv/uv.bundle.js" defer></script>
-      <script src="uv/uv.config.js" defer></script>
-      <script src="register-sw.js" defer></script>
-      <script src="search.js" defer></script>
-      <script src="index.js" defer></script>
-      <script src="/assets/js/settings/index.js"></script>
-      <script src="assets/js/settings/settings.js"></script>
+    </script>
+    <script src="/assets/js/panic.js" defer></script>
+    <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
+    <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
+    <script src="/assets/js/cloak.js" defer></script>
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="index.js" defer></script>
+    <script src="/assets/js/settings/index.js"></script>
+    <script src="assets/js/settings/settings.js"></script>
 </body>
 </html>

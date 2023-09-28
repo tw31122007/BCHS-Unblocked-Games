@@ -54,6 +54,8 @@ function backtopage() {
     window.location.href = '/settings.html';
   } else if (type === 'websites') {
     window.location.href = '/websites.html';
+  } else if (type === 'vpns') {
+    window.location.href = '/vpns.html';
   } else {
       // Default or error handling, if needed.
       console.error('Unexpected iframe type:', type);

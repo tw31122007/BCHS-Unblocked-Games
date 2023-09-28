@@ -27,7 +27,6 @@ body {
 	color: white;
 	font-size: 30px;
 	border: 1px solid #dddddd;
-
 	background-color: transparent;
 	padding: 20px;
 	transition: 0.2s ease;
@@ -50,4 +49,7 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+.page-container {
+  margin-top: 64px;
 }

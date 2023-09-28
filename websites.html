@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicons/google-drive-ico.ico">
+  <title>My Drive - Google Drive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/204c1cf7c6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/css/navbar.css">
+  <link rel="stylesheet" href="/assets/css/websites.css">
+  <link rel="stylesheet" href="/assets/css/websites-list.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+</head>
+<body style="overflow-x: hidden;">
+    <!-- Start Navbar Code-->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/games.html">Games</a></li>
+                <li><a href="/apps.html">Apps</a></li>
+                <li><a href="/links.html">Other Links</a></li>
+                <li><a href="/settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></li>
+            </ul>
+            <img src="/assets/img/logo-text/420x32/logo_text_long_white.png" width="420" height="32" alt="logo small">
+        </div>
+    </nav>
+    <!-- End Navbar Code -->
+    <div class="home">
+    <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for apps.."> 
+    <section class="home">
+        <div class="cards">
+            <a href="/assets/html/websites/google.html"><div class="card p google" onclick="setIframeType('apps');localStorage.setItem('app-name', 'Google');localStorage.setItem('app-image', '/assets/img/apps/google.png')">
+                <h2 class="black"><i>Google</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/youtube.html"><div class="card p youtube" onclick="setIframeType('apps');localStorage.setItem('app-name', 'YouTube');localStorage.setItem('app-image', '/assets/img/apps/youtube.png')">
+                <h2 class="black"><i>YouTube</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/tiktok.html"><div class="card p tiktok" onclick="setIframeType('apps');localStorage.setItem('app-name', 'TikTok');localStorage.setItem('app-image', '/assets/img/apps/tiktok.png')">
+                <h2 class="black"><i>TikTok</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/spotify.html"><div class="card p spotify" onclick="setIframeType('apps');localStorage.setItem('app-name', 'Spotify');localStorage.setItem('app-image', '/assets/img/apps/spotify.png')">
+                <h2 class="black"><i>Spotify</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/reddit.html"><div class="card p reddit" onclick="setIframeType('apps');localStorage.setItem('app-name', 'Reddit');localStorage.setItem('app-image', '/assets/img/apps/reddit.png')">
+                <h2 class="black"><i>Reddit</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/discord.html"><div class="card p discord" onclick="setIframeType('apps');localStorage.setItem('app-name', 'Discord');localStorage.setItem('app-image', '/assets/img/apps/discord.png')">
+                <h2 class="black"><i>Discord</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/twitter.html"><div class="card p twitter" onclick="setIframeType('apps');localStorage.setItem('app-name', 'Twitter');localStorage.setItem('app-image', '/assets/img/apps/twitter.png')">
+                <h2 class="black"><i>Twitter</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/twitch.html"><div class="card p twitch" onclick="setIframeType('apps');localStorage.setItem('app-name', 'Twitch');localStorage.setItem('app-image', '/assets/img/apps/twitch.png')">
+                <h2 class="black"><i>Twitch</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/y8.html"><div class="card p y8" onclick="setIframeType('apps');localStorage.setItem('app-name', 'y8');localStorage.setItem('app-image', '/assets/img/apps/y8.png')">
+                <h2 class="black"><i>y8</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/coolmath-games.html"><div class="card p coolmath-games" onclick="setIframeType('apps');localStorage.setItem('app-name', 'Coolmath Games');localStorage.setItem('app-image', '/assets/img/apps/coolmath-games.png')">
+                <h2 class="black"><i>Coolmath Games</i></h2>
+            </div></a>
+            <a href="/assets/html/websites/retroarch.html"><div class="card p retroarch" onclick="localStorage.setItem('app-image', '/assets/img/apps/retroarch.png')">
+                <h2 class="black"><i>Retroarch</i></h2>
+            </div></a>
+    </section>
+    <form id="uv-form">
+        <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+    </form>
+    <script src="/assets/js/openurl.js"></script>
+    <!-- Footer Start -->
+    <footer class="footer-sticky">
+        <div class="logo-container">
+            <a>BCHS Unblocked Games</a>
+        </div>
+        <nav class="footer-nav">
+            <a href="/iframe.html" onclick="setIframeType('apps');localStorage.setItem('storedURL', 'https://forms.gle/it3WqC7rxXLx9ePc8')" class="footer-link">Request Games</a>
+            <a href="/iframe.html" onclick="setIframeType('apps');localStorage.setItem('storedURL', 'https://forms.gle/jgaXfQ6SYuetojyc8')" class="footer-link">Report a Problem</a>
+            <a href="https://github.com/tw31120071857/BCHS-Unblocked-Games-V4" target="_blank" class="footer-link">Github</a>
+            <a href="/credits.html" class="footer-link">Credits</a>
+        </nav>
+    </footer>
+    <!-- Footer End -->
+    </div>
+    <script>
+        function setIframeType(type) {
+            localStorage.setItem('iframe-type', type);
+        }
+        </script>
+        <script src="/assets/js/panic.js" defer></script>
+      <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
+      <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
+      <script src="/assets/js/cloak.js" defer></script>
+      <script src="uv/uv.bundle.js" defer></script>
+      <script src="uv/uv.config.js" defer></script>
+      <script src="register-sw.js" defer></script>
+      <script src="search.js" defer></script>
+      <script src="index.js" defer></script>
+      <script src="/assets/js/settings/index.js"></script>
+      <script src="assets/js/settings/settings.js"></script>
+</body>
+</html>

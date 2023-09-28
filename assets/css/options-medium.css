@@ -15,9 +15,7 @@
 }
 body {
     min-height: 100vh;
-    background-image: url(/assets/img/backgrounds/10.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(/assets/img/backgrounds/5.gif);
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -30,6 +28,9 @@ body {
 }
 .home {
     margin-top: 64px;
+}
+.no-nav {
+    margin-top: 0px;
 }
 ::selection{
     background-color: var(--primary-color);
@@ -49,29 +50,27 @@ body {
     border: 1px solid #ddd;
     margin-bottom: 12px;
 }
-.cards-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 64px);
-}
+
 .cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: 100vh;
     width: 100%;
     padding: 0 20px;
     font-family: 'Poppins', sans-serif !important;
-    align-items: center;
+    margin-bottom: 40px;
 }
+
 .cards .g {
-    height: 600px;
-    width: 1320px;
+    height: 180px;
+    width: 396px;
 }
 
 .cards .p {
-    height: 300px;
-    width: 300px;
+    height: 180px;
+    width: 180px;
 }
 .cards a {
     text-decoration: none;
@@ -92,12 +91,12 @@ body {
 }
 
 .cards .card h2 {
-    margin-left: 36px;
-    margin-bottom: 36px;
-    border-radius: 30px;
-    font-size: 36px;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+    border-radius: 15px;
+    margin-right: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-size: 18px;
     text-decoration: none;
     color: var(--widget-text);
@@ -105,14 +104,18 @@ body {
     box-shadow: 4px 3px 8px 1px #6d6d6d33;
   	-webkit-box-shadow: 4px 3px 8px 1px #6d6d6d33;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 90vw;
+}
 /* template
 .cards . {
     background-image: url(/assets/img/);
 }
 */
-.cards .red-ball-4 {
-    background-image: url(/assets/img/flash-games/red-ball-4.png);
-}
 .cards .windows {
     background-image: url(/assets/img/apps/windows.png);
 }
@@ -122,18 +125,15 @@ body {
 .cards .linux {
     background-image: url(/assets/img/apps/linux.png);
 }
-.cards .setup-vpn {
-    background-image: url(/assets/img/apps/setup-vpn.png);
+.cards .android {
+    background-image: url(/assets/img/apps/android.png);
 }
-.cards .hotspot-shield {
-    background-image: url(/assets/img/apps/hotspot-shield.png);
+.cards .chrome {
+    background-image: url(/assets/img/apps/chrome.png);
 }
-.cards .proton-vpn {
-    background-image: url(/assets/img/apps/proton-vpn.png);
+.cards .firefox {
+    background-image: url(/assets/img/apps/firefox.png);
 }
-.cards .x-vpn {
-    background-image: url(/assets/img/apps/x-vpn.png);
-}
-.cards .macos {
-    background-image: url(/assets/img/apps/macos.jpg);
+.cards .edge {
+    background-image: url(/assets/img/apps/edge.png);
 }

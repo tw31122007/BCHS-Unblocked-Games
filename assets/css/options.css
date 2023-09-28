@@ -106,15 +106,32 @@ body {
     box-shadow: 4px 3px 8px 1px #6d6d6d33;
   	-webkit-box-shadow: 4px 3px 8px 1px #6d6d6d33;
 }
+/* template
+.cards . {
+    background-image: url(/assets/img/);
+}
+*/
 .cards .red-ball-4 {
     background-image: url(/assets/img/flash-games/red-ball-4.png);
 }
 .cards .windows {
-    background-image: url(/assets/img/flash-player/windows.png);
+    background-image: url(/assets/img/apps/windows.png);
 }
 .cards .macos {
-    background-image: url(/assets/img/flash-player/macos.jpg);
+    background-image: url(/assets/img/apps/macos.jpg);
 }
 .cards .linux {
-    background-image: url(/assets/img/flash-player/linux.png);
+    background-image: url(/assets/img/apps/linux.png);
+}
+.cards .setup-vpn {
+    background-image: url(/assets/img/apps/setup-vpn.png);
+}
+.cards .hotspot-shield {
+    background-image: url(/assets/img/apps/hotspot-shield.png);
+}
+.cards .proton-vpn {
+    background-image: url(/assets/img/apps/proton-vpn.png);
+}
+.cards .x-vpn {
+    background-image: url(/assets/img/apps/x-vpn.png);
 }

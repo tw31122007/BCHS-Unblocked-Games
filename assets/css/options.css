@@ -50,14 +50,19 @@ body {
     margin-bottom: 12px;
 }
 .cards {
-    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     padding: 0 20px;
     font-family: 'Poppins', sans-serif !important;
-    margin-bottom: 40px;
+    align-items: center;;
+}
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 64px);
 }
 
 .cards .g {
@@ -103,4 +108,13 @@ body {
 }
 .cards .red-ball-4 {
     background-image: url(/assets/img/flash-games/red-ball-4.png);
+}
+.cards .windows {
+    background-image: url(/assets/img/flash-player/windows.png);
+}
+.cards .macos {
+    background-image: url(/assets/img/flash-player/macos.jpg);
+}
+.cards .linux {
+    background-image: url(/assets/img/flash-player/linux.png);
 }

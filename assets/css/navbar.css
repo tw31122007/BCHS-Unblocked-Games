@@ -65,6 +65,9 @@
 .navbar a:hover{
     color: dodgerblue;
 }
+.menu-items li a, .nav-title {
+    font-family: 'Lato';
+}
 
 @media (max-width: 710px){
     .navbar{

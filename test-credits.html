@@ -1,47 +1,50 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/test-navbar.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
     <link rel="stylesheet" href="/assets/css/test-credits.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
     <script src="https://kit.fontawesome.com/204c1cf7c6.js" crossorigin="anonymous"></script>
     <title>My Drive - Google Drive</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicons/google-drive-ico.ico">
-  </head>
-  
-  <body>
+</head>
+<body>
     <!-- Start Navbar Code-->
     <nav class="navbar">
       <div class="navbar-container">
-          <input type="checkbox" name="" id="">
+          <input type="checkbox" name="" id="menuToggle">
           <div class="hamburger-lines">
               <span class="line line1"></span>
               <span class="line line2"></span>
               <span class="line line3"></span>
+          </div>
+          <div class="mobile-logo" id="mobileLogo">
+            <span>BCHS Unblocked Games</span>
           </div>
           <ul class="menu-items">
               <li><a href="/index.html">Home</a></li>
               <li class="dropdown">
                   <span class="nav-title">Games <i class="fa-solid fa-angle-down arrow"></i></span>
                   <ul class="dropdown-menu">
-                      <li><a href="/games.html">Online Games</a></li>
-                      <li><a href="/pc-games.html">PC Games</a></li>
-                      <li><a href="/flash-games.html">Flash Games</a></li>
+                      <li class="dropdown-item"><a href="/games.html">Online Games</a></li>
+                      <li class="dropdown-item"><a href="/pc-games.html">PC Games</a></li>
+                      <li class="dropdown-item"><a href="/flash-games.html">Flash Games</a></li>
                   </ul>
               </li>
               
               <li class="dropdown">
                   <a href="/apps.html">Apps <i class="fa-solid fa-angle-down arrow"></i></a>
                   <ul class="dropdown-menu">
-                      <li><a href="/flash-player.html">Flash Player</a></li>
-                      <li><a href="/vpns.html">VPNs</a></li>
+                      <li class="dropdown-item"><a href="/flash-player.html">Flash Player</a></li>
+                      <li class="dropdown-item"><a href="/vpns.html">VPNs</a></li>
                   </ul>
               </li>
               <li><a href="/links.html">Other Links</a></li>
               <li><a href="/settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></li>
           </ul>
-          <img src="/assets/img/logo-text/420x32/logo_text_long_white.png" width="420" height="32" alt="logo small">
+          <span class="desktop-logo">BCHS Unblocked Games</span>
       </div>
   </nav>
   <!-- End Navbar Code -->
@@ -69,6 +72,7 @@
   </div>
   <script src="/assets/js/panic.js" defer></script>
   <script src="/assets/js/cloak.js" defer></script>
+  <script src="/assets/js/touchscreen.js"></script>
   <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
   <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
-  </body>
+</body>

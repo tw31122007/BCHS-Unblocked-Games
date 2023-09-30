@@ -15,7 +15,6 @@
 }
 body {
     min-height: 100vh;
-    background-image: url(/assets/img/backgrounds/10.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -27,6 +26,12 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+}
+#vpns {
+    background-image: url(/assets/img/backgrounds/2.gif);
+}
+#flash-player {
+    background-image: url(/assets/img/backgrounds/3.gif);
 }
 .home {
     margin-top: 64px;

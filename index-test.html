@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/options.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/assets/css/test-navbar.css">
+    <link rel="stylesheet" href="/assets/css/index-test.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>My Drive - Google Drive</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicons/google-drive-ico.ico">
 </head>
-<body id="flash-player">
+<body>
     <!-- Start Navbar Code-->
     <nav class="navbar">
         <div class="navbar-container">
@@ -43,19 +48,29 @@
         </div>
     </nav>
     <!-- End Navbar Code -->
-    <div class="cards-container">
-        <div class="cards">
-            <a href="/assets/files/flash-player/flashplayer_32_sa_debug.exe" target="_blank"><div class="card p windows">
-                <h2 class="black"><i>Windows 10/11</i></h2>
-            </div></a>
-            <a href="/assets/files/flash-player/flashplayer_32_sa_debug.dmg" target="_blank"><div class="card p macos">
-                <h2 class="black"><i>MacOs</i></h2>
-            </div></a>
-            <a href="/assets/files/flash-player/flash_player_sa_linux_debug.x86_64.tar.gz" target="_blank"><div class="card p linux">
-                <h2 class="black"><i>Linux</i></h2>
-            </div></a>
-        </div>
-    </div>
+  <div class="page-container">
+   <div class="content-wrapper">
+      <div id="header">
+      </div>
+      <div id="content" class="center">
+         <div class="large-logo">
+            <p>BCHS</p>
+            <p>Unblocked</p>
+            <p>Games</p>
+         </div>
+         <form id="uv-form">
+            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+            <div class="search-container">
+                <input id="uv-address" type="text" placeholder="Search Google or type a URL" class="form__input"/>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+         </form>
+          <div class="desc left-margin">
+            <p id="uv-error"></p>
+            <pre id="uv-error-code"></pre>
+          </div>
+      </div>
+   </div>
     <!-- Footer Start -->
     <footer class="footer-sticky">
         <div class="logo-container">
@@ -69,16 +84,17 @@
         </nav>
     </footer>
     <!-- Footer End -->
-    <script src="/assets/js/panic.js" defer></script>
-    <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
-    <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
-    <script src="/assets/js/cloak.js" defer></script>
-    <script src="uv/uv.bundle.js" defer></script>
-    <script src="uv/uv.config.js" defer></script>
-    <script src="register-sw.js" defer></script>
-    <script src="search.js" defer></script>
-    <script src="index.js" defer></script>
-    <script src="/assets/js/settings/index.js"></script>
-    <script src="assets/js/settings/settings.js"></script>
+  </div>
+      <script src="uv/uv.bundle.js" defer></script>
+      <script src="uv/uv.config.js" defer></script>
+      <script src="register-sw.js" defer></script>
+      <script src="search.js" defer></script>
+      <script src="index.js" defer></script>
+      <script src="/assets/js/panic.js" defer></script>
+      <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
+      <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
+      <script src="/assets/js/cloak.js" defer></script>
+      <script src="/assets/js/touchscreen.js"></script>
+
 </body>
 </html>

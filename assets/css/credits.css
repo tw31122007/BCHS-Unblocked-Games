@@ -13,18 +13,100 @@ body {
   overflow-x: hidden;
 }
 
-.box-title {
-  background-color: #1f2124;
-  border-radius: 20px;
-  margin: auto;
-  width: 200px;
-  height: 55px;
-  box-shadow: 0px 5px 10px 0px #2e2e2e;
-  font-family: 'Lilita One';
-  font-size: 40px;
-  text-align: center;
-  color: white;
-}
 ::-webkit-scrollbar {
   display: none;
+}
+.box-title {
+    background-color: #1f2124;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 5px 10px 0px #2e2e2e;
+    font-family: 'Lilita One';
+    text-align: center;
+    color: white;
+  }
+.title {
+    margin-top: 80px;
+}
+  
+.credits {
+    height: auto;
+    padding: 1rem;
+}
+@media (max-width: 600px) {
+    .title {
+        width: 180px;
+        height: 3.4rem;
+        font-size: 2.8rem;
+    }
+    .credits {
+        width: 95%;
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+    .title {
+        width: 204px;
+        height: 3.9rem;
+        font-size: 3.2rem;
+    }
+    .credits {
+        width: 570px;
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 701px) and (max-width: 800px) {
+    .title {
+        width: 210px;
+        height: 4.4rem;
+        font-size: 3.6rem;
+    }
+    .credits {
+        width: 651px;
+        font-size: 1.8rem;
+    }
+}
+@media (min-width: 801px) and (max-width: 900px) {
+    .title {
+        width: 208px;
+        height: 4.4rem;
+        font-size: 3.6rem;
+    }
+    .credits {
+        width: 672px;
+        font-size: 1.8rem;
+    }
+}
+@media (min-width: 901px) and (max-width: 1000px) {
+    .title {
+        width: 200px;
+        height: 3.8rem;
+        font-size: 3.2rem;
+    }
+    .credits {
+        width: 675px;
+        font-size: 1.8rem;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1100px) {
+    .title {
+        width: 200px;
+        height: 3.8rem;
+        font-size: 3.2rem;
+    }
+    .credits {
+        width: 590px;
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1101px) {
+    .title {
+        width: 187px;
+        height: 3.8rem;
+        font-size: 3.2rem;
+    }
+    .credits {
+        width: 594px;
+        font-size: 1.5rem;
+    }
 }

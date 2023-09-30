@@ -212,15 +212,22 @@
         text-align: center;
     }
 }
+
 @media (max-width: 400px) {
     .navbar .menu-items {
-        max-width: 100%;
+        max-width: 100vw;
         transform: translate(-100%);
     }
 }
-@media (min-width: 401px) and (max-width: 600px) {
+@media (min-width: 401px) and (max-width: 500px) {
     .navbar .menu-items {
-        max-width: 80%;
+        max-width: 100vw;
+        transform: translate(-100%);
+    }
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    .navbar .menu-items {
+        max-width: 80vw;
         transform: translate(-100%);
     }
 }

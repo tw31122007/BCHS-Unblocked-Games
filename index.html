@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/assets/css/test-navbar.css">
     <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -53,11 +53,18 @@
       <div id="header">
       </div>
       <div id="content" class="center">
-         <img src="/assets/img/logo-text/1718.8x840/logo_text_white.png" width="720" height="360" alt="logo">
+         <div class="large-logo">
+            <p>BCHS</p>
+            <p>Unblocked</p>
+            <p>Games</p>
+         </div>
          <form id="uv-form">
             <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
-            <input id="uv-address" type="text" placeholder="Search Google or type a URL" class="form__input"/>
-          </form>
+            <div class="search-container">
+                <input id="uv-address" type="text" placeholder="Search Google or type a URL" class="form__input"/>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+         </form>
           <div class="desc left-margin">
             <p id="uv-error"></p>
             <pre id="uv-error-code"></pre>
@@ -87,6 +94,7 @@
       <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
       <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
       <script src="/assets/js/cloak.js" defer></script>
+      <script src="/assets/js/touchscreen.js"></script>
 
 </body>
 </html>

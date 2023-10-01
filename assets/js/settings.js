@@ -202,9 +202,3 @@ function resetTab() {
   document.getElementById("icon").value = "";
   localStorage.setItem("tab", JSON.stringify({}));
 }
-
-var swiper = new Swiper('.swiper-container', {
-  direction: 'horizontal', // For horizontal scrolling
-  slidesPerView: 'auto', // Adjust the number of slides shown at once
-  spaceBetween: 10 // Space between slides
-});

@@ -89,7 +89,55 @@ body {
     box-shadow: 4px 3px 8px 1px #6d6d6d33;
   	-webkit-box-shadow: 4px 3px 8px 1px #6d6d6d33;
 }
-@media (max-width: 450px) {
+@media (max-width: 400px) {
+    .cards {
+        padding: 0 10px;
+    }
+
+    .cards .card {
+        margin: 0 10px 20px;
+        border-radius: 15px;
+    }
+
+    .cards .p {
+        height: 70px;
+        width: 70px;
+    }
+
+    .cards .card h2 {
+        font-size: 10px;
+        margin-left: 12px;
+        margin-bottom: 12px;
+    }
+    #searchInput {
+        font-size: 14px;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    .cards {
+        padding: 0 10px;
+    }
+
+    .cards .card {
+        margin: 0 10px 20px;
+        border-radius: 15px;
+    }
+
+    .cards .p {
+        height: 70px;
+        width: 70px;
+    }
+
+    .cards .card h2 {
+        font-size: 10px;
+        margin-left: 12px;
+        margin-bottom: 12px;
+    }
+    #searchInput {
+        font-size: 14px;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px){
     .cards {
         padding: 0 10px; /* reduce side padding */
     }
@@ -113,7 +161,7 @@ body {
         font-size: 14px;
     }
 }
-@media (min-width: 451px) and (max-width: 700px){
+@media (min-width: 601px) and (max-width: 700px){
     .cards {
         padding: 0 10px; /* reduce side padding */
     }

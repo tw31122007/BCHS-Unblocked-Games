@@ -45,7 +45,7 @@ body {
 #searchInput {
     margin-top: 64px;
     width: 100vw;
-    padding: 12px 20px 12px 40px;
+    padding: 8px 20px 8px 40px;
     text-align: center;
     border: 1px solid #ddd;
 }
@@ -139,21 +139,21 @@ body {
 }
 @media (min-width: 501px) and (max-width: 600px){
     .cards {
-        padding: 0 10px; /* reduce side padding */
+        padding: 0 10px;
     }
 
     .cards .card {
-        margin: 0 10px 20px; /* reduce margins and increase space between cards */
-        border-radius: 15px; /* reduce border radius */
+        margin: 0 10px 20px;
+        border-radius: 15px;
     }
 
     .cards .p {
-        height: 70px; /* reduce height */
-        width: 70px; /* reduce width */
+        height: 70px;
+        width: 70px;
     }
 
     .cards .card h2 {
-        font-size: 10px; /* reduce font size */
+        font-size: 10px;
         margin-left: 12px;
         margin-bottom: 12px;
     }
@@ -163,21 +163,21 @@ body {
 }
 @media (min-width: 601px) and (max-width: 700px){
     .cards {
-        padding: 0 10px; /* reduce side padding */
+        padding: 0 10px;
     }
 
     .cards .card {
-        margin: 0 10px 20px; /* reduce margins and increase space between cards */
-        border-radius: 15px; /* reduce border radius */
+        margin: 0 10px 20px;
+        border-radius: 15px;
     }
 
     .cards .p {
-        height: 70px; /* reduce height */
-        width: 70px; /* reduce width */
+        height: 70px;
+        width: 70px;
     }
 
     .cards .card h2 {
-        font-size: 10px; /* reduce font size */
+        font-size: 10px;
         margin-left: 12px;
         margin-bottom: 12px;
     }
@@ -187,12 +187,12 @@ body {
 }
 @media (min-width: 701px) and (max-width: 899px){
     .cards {
-        padding: 0 10px; /* reduce side padding */
+        padding: 0 10px;
     }
 
     .cards .card {
-        margin: 0 10px 20px; /* reduce margins and increase space between cards */
-        border-radius: 15px; /* reduce border radius */
+        margin: 0 10px 20px;
+        border-radius: 15px;
     }
 
     .cards .p {
@@ -201,19 +201,19 @@ body {
     }
 
     .cards .card h2 {
-        font-size: 14px; /* reduce font size */
+        font-size: 14px;
         margin-left: 12px;
         margin-bottom: 12px;
     }
     #searchInput {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
 @media (min-width: 900px) {
     .cards .g {
-        height: 150px;
-        width: 330px;
+        height: 120px;
+        width: 264px;
     }
     
     .cards .p {
@@ -221,9 +221,9 @@ body {
         width: 120px;
     }
     .cards .card h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
     #searchInput {
-        font-size: 24px;
+        font-size: 20px;
     }
 }

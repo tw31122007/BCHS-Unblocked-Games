@@ -7,8 +7,8 @@
     align-items: center;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    height: 45px;
+    font-size: 14px;
+    height: 30px;
 }
 .footer-sticky {
     background-color: #1e2124;
@@ -24,13 +24,13 @@
     left: 0;
     right: 0;
     z-index: 10;
-    font-size: 16px;
-    height: 45px;
+    font-size: 14px;
+    height: 30px;
 }
 .logo-container {
     margin-left: 20px;
     font-family: 'Press Start 2P', cursive;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .footer-nav {

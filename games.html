@@ -8,7 +8,7 @@
   <title>My Drive - Google Drive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <script src="https://kit.fontawesome.com/204c1cf7c6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/assets/css/navbar.css">
+  <link rel="stylesheet" href="/assets/css/test-navbar.css">
   <link rel="stylesheet" href="/assets/css/games.css">
   <link rel="stylesheet" href="/assets/css/games-list.css">
   <link rel="stylesheet" href="/assets/css/footer.css">
@@ -48,8 +48,8 @@
         </div>
     </nav>
     <!-- End Navbar Code -->
+    <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for Games.."> 
     <div class="home">
-    <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for games.."> 
     <section class="home">
         <div class="cards">
             <a href="./iframe.html"><div class="card p bitlife" onclick="setIframeType('games');localStorage.setItem('storedURL', '/games/html5/bitlife/');localStorage.setItem('app-name', 'Bitlife');localStorage.setItem('app-image', '/assets/img/thumbnails/bitlife.png')">
@@ -614,5 +614,6 @@
         }
     </script>
     <script src="/assets/js/cloak.js" defer></script>
+    <script src="/assets/js/touchscreen.js"></script>
 </body>
 </html>

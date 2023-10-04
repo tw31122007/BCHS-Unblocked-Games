@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow-x: hidden;
+  background-color: #121212;
+  color: #ffffff;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+iframe:fullscreen,
+iframe:-webkit-full-screen,
+iframe:-moz-full-screen,
+iframe:-ms-fullscreen {
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#iframe {
+  width: 100%;
+  height: calc(100vh - 55px);
+  border: none;
+  position: absolute;
+  bottom: 0; 
+}
+
+.buttons {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border: 6px solid #000;
+  box-sizing: border-box;
+}
+
+.back-arrow {
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.reload {
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+
+.fullscreen-button {
+  font-size: 35px;
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.browser-back,
+.browser-forward {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.browser-back {
+  right: 170px;
+  font-size: 35px;
+}
+
+.browser-forward {
+  right: 120px;
+  font-size: 35px;
+}
+.app-details {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#app-image {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  background-color: #ffffff;
+}
+
+#app-name {
+  font-size: 28px;
+  white-space: nowrap;
+  font-family: Lato;
+}
+.iframe-settings {
+  font-size: 35px;
+  right: 225px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Lato;
+  max-width: 80%;
+  z-index: 1001;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 6px solid transparent; 
+}
+
+.modal-content h2 {
+  font-size: 40px;
+  font-family: Lato;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.modal-content select {
+  font-size: 26px;
+  font-family: Lato;
+  border: 6px solid #000;
+}
+.modal-content label {
+  font-size: 26px;
+  font-family: Lato;
+}
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 55px;
+}
+body.dark-theme {
+  background-color: #121212; 
+  color: #ffffff;
+}
+body.dark-theme .modal-content {
+  border-color: white;
+  background-color: #121212; 
+  color: #ffffff;
+}
+body.dark-theme .modal-content select { 
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 10px;
+  background-color: #222; 
+}
+body.dark-theme .buttons {
+  border-color: #ffffff;
+}
+
+body.light-theme {
+  background-color: #ffffff; 
+  color: #000000;
+}
+body.light-theme .modal-content {
+  border-color: black;
+  background-color: #ffffff;
+  color: #000000;
+}
+body.light-theme .modal-content select {
+  color: #000000;
+  border-color: #000000;
+  border-radius: 10px;
+  background-color: #d4caca; 
+}
+body.light-theme .buttons {
+  border-color: #000000;
+}
+body.light-theme .back-arrow {
+  color: #000000;
+}
+.theme-selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media (min-width: 601px) and (max-width: 700px) {
+  .buttons {
+    height: 100px;
+  }
+}
+@media (min-width: 701px) and (max-width: 800px) {
+  .buttons {
+    height: 65px;
+  }
+}
+.theme-selection label {
+  margin-right: 15px;
+}
+@media (min-width: 801px) {
+  .buttons {
+    height: 55px;
+  }
+}

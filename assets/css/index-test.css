@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+        url(/assets/img/backgrounds/1.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#content {
+  text-align: center;
+  padding: 20px;
+  margin-top: -4%;
+}
+
+#content h1 {
+  font-size: 24px;
+  cursor:pointer;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#searchbar {
+  text-align: center;
+  margin: 20px auto;
+}
+.search-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    pointer-events: none;
+  }
+.form__input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    padding-right: 40px; /* Adjusted padding to make room for the icon */
+  }
+.form__input::placeholder {
+  color: #fff;
+  text-align: center;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(252, 252, 252, 0.5);
+}
+.large-logo p {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 0;
+}
+.large-logo {
+    margin-bottom: 30px;
+}
+@media (max-width: 400px) {
+    .large-logo {
+        font-size: 38px;
+    }
+    .form__input {
+        width: 80vw;
+        font-size: 16px;
+    }
+    .search-icon {
+        right: 55px;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    .large-logo {
+        font-size: 40px;
+    }
+    .form__input {
+        width: 280px;
+        font-size: 16px;
+    }
+    .search-icon {
+        right: 55px;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    .large-logo {
+        font-size: 46px;
+    }
+    .form__input {
+        width: 300px;
+        font-size: 17px;
+    }
+    .search-icon {
+        right: 85px;
+    }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+    .large-logo {
+        font-size: 56px;
+    }
+    .form__input {
+        width: 300px;
+        font-size: 18px;
+    }
+    .search-icon {
+        right: 125px;
+    }
+}
+@media (min-width: 701px) {
+    .large-logo {
+        font-size: 56px;
+    }
+    .form__input {
+        width: 300px;
+        font-size: 18px;
+    }
+    .search-icon {
+        right: 125px;
+    }
+}

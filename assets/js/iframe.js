@@ -56,6 +56,8 @@ function backtopage() {
     window.location.href = '/websites.html';
   } else if (type === 'vpns') {
     window.location.href = '/vpns.html';
+  } else if (type === 'games-no-nav') {
+    window.location.href = '/games-no-nav.html';
   } else {
       // Default or error handling, if needed.
       console.error('Unexpected iframe type:', type);

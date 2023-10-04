@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+        url(/assets/img/backgrounds/1.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#content {
+  text-align: center;
+  padding: 20px;
+  margin-top: -4%;
+}
+
+#content h1 {
+  font-size: 24px;
+  cursor:pointer;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#searchbar {
+  text-align: center;
+  margin: 20px auto;
+}
+.search-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    pointer-events: none;
+  }
+.form__input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    background-color: rgba(147, 141, 141, 0.8);
+    text-align: center;
+    color: #fff;
+    padding-right: 40px;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    transition: width 0.3s ease;
+  }
+.form__input::placeholder {
+  color: #fff;
+  text-align: center;
+}
+.form__input:hover::placeholder {
+    color: transparent;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(252, 252, 252, 0.5);
+}
+.large-logo p {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 0;
+}
+.large-logo {
+    margin-bottom: 30px;
+}
+@media (max-width: 400px) {
+    .large-logo {
+        font-size: 38px;
+    }
+    .form__input {
+        width: 80vw;
+        font-size: 16px;
+    }
+    .search-icon {
+        right: 55px;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    .large-logo {
+        font-size: 40px;
+    }
+    .form__input {
+        width: 280px;
+        font-size: 16px;
+    }
+    .search-icon {
+        right: 55px;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    .large-logo {
+        font-size: 46px;
+    }
+    .form__input {
+        width: 300px;
+        font-size: 17px;
+    }
+    .search-icon {
+        right: 85px;
+    }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+    .large-logo {
+        font-size: 56px;
+    }
+    .form__input {
+        width: 300px;
+        font-size: 18px;
+    }
+    .search-icon {
+        right: 125px;
+    }
+}
+@media (min-width: 701px) {
+    .large-logo {
+        font-size: 56px;
+    }
+    .form__input {
+        width: 350px;
+        font-size: 20px;
+    }
+    .search-icon {
+        right: 140px;
+    }
+    .form__input:hover {
+        width: 400px;
+    }
+    .form__input:hover ~ .search-icon {
+        right: 120px;
+    }
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.box, .add-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: space-between;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+a.box {
+    text-decoration: none;
+    color: inherit;
+}
+.box img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.box:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+.add-box:hover {
+    background-color: rgba(65, 63, 63, 1);
+}
+
+.add-box {
+    background-color: rgba(65, 63, 63, 0.8);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.add-box i {
+    font-size: 28px;
+    color: #ffffff;
+}
+/* template
+.box. {
+    background-image: url("/assets/img/websites/");
+}
+*/
+.box.youtube {
+    background-image: url("/assets/img/websites/youtube.png");
+}
+.box.reddit {
+    background-image: url("/assets/img/websites/reddit.png");
+}
+.box.google {
+    background-image: url("/assets/img/websites/google.png");
+}
+.box.tiktok {
+    background-image: url("/assets/img/websites/tiktok.png");
+}
+.box.spotify {
+    background-image: url("/assets/img/websites/spotify.png");
+}
+.box.discord {
+    background-image: url("/assets/img/websites/discord.png");
+}
+.box.twitter {
+    background-image: url("/assets/img/websites/twitter.png");
+}
+.box.twitch {
+    background-image: url("/assets/img/websites/twitch.png");
+}
+.box.y8 {
+    background-image: url("/assets/img/websites/y8.png");
+}
+.box.coolmath-games {
+    background-image: url("/assets/img/websites/coolmath-games.png");
+}
+.box.retroarch {
+    background-image: url("/assets/img/websites/retroarch.png");
+}
+.menu-bar {
+    width: 100%;
+}
+.tabs-container {
+    background-color: #1c1c1c; /* Just an example color. Adjust as needed */
+    padding: 5px 10px;
+}
+.navbar-container {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Color of the button-group */
+    padding: 5px 10px;
+    width: 100vw;   /* Full viewport width */
+    box-sizing: border-box; /* Ensures padding doesn't make it wider than viewport */
+    position: relative; /* To ensure it's positioned as intended */
+    left: 50%;    /* Centers the element */
+    transform: translateX(-50%); /* Corrects the position */
+}
+.tabs {
+    display: flex;
+    align-items: center; /* Aligns the tabs and buttons vertically */
+    padding-left: 10px;  /* Padding to align with the navigation button box */
+    margin-bottom: 0;
+}
+.tab {
+    width: 170px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;  /* Pulls the inactive tabs up */
+    font-size: 16px;
+    transition: background-color 0.3s ease, margin-bottom 0.3s ease;
+    margin-bottom: -2px;
+}
+.add-tab-btn i.fa-plus {
+    font-size: 14px; /* Adjust this value to your liking */
+}
+.tab, .add-tab-btn {
+    background-color: #1c1c1c; /* Dark gray background for consistency */
+    border: none;
+    height: 38px;  /* Set a fixed height for consistency with navigation buttons */
+    line-height: 38px; /* To vertically center the text inside */
+    border-radius: 15px;
+    padding: 0 20px; /* Increased horizontal padding for a better look */
+    margin: 10px 10px 10px 0; /* Space between tabs and on the top */
+    color: #fff; /* White text for consistency */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: -5px;
+}
+.tab.active-tab {
+    background-color: #333;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -5px;
+}
+
+.tab:hover, .add-tab-btn:hover {
+    margin-bottom: -5px;
+    background-color: #555;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.tab.active-tab:hover {
+    background-color: #333;
+}
+.tab-content {
+    position: relative;
+    display: none;
+    z-index: 9999;
+}
+
+.close-tab-btn {
+    border-radius: 50%;     /* Circular close button */
+    padding: 5px;      /* Adjust padding around the X icon */
+    color: #fff;            /* White text for the close 'X' */
+    cursor: pointer;        /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    display: inline-flex; /* Helps in vertically centering the icon */
+    align-items: center;  /* Vertically center the X icon */
+    justify-content: center; /* Horizontally center the X icon */
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.close-tab-btn i.fa-x {
+    font-size: 10px; /* Adjust size as needed */
+}
+
+.close-tab-btn:hover {
+    background-color: #9d9a9a; /* Red color on hover for close tab button */
+}
+.favicon {
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    margin-right: 8px;
+    display: inline-flex; /* Change to flex */
+    align-items: center;  /* Align children vertically in the center */
+    justify-content: center;  /* Align children horizontally in the center */
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.favicon .fa-solid.fa-house {
+    font-size: 14px; /* Set a fixed size for the home icon */
+    margin-right: 15px; /* Add spacing between the icon and the title */
+    align-items: center;
+}
+.tab-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 30px); /* Adjust this value depending on the size of your close button and desired padding */
+    display: inline-block; /* To ensure overflow works */
+}
+
+.tab-content iframe[empty="true"] {
+    pointer-events: none;
+    visibility: hidden;  /* optional: to hide it visually too */
+}
+.new-tab-page {
+    display: none;
+}
+/* Default: display the first tab content */
+#tab1Content {
+    display: block;
+}
+/* Style for the group of buttons */
+.button-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.nav-btn {
+    background-color: transparent; /* No background */
+    border: none;       /* Remove any default border */
+    padding: 5px 10px;  /* Some padding for spacing */
+    margin: 0 5px;     /* Space between buttons */
+    cursor: pointer;   /* Change cursor on hover to indicate interactivity */
+    color: #fff;       /* White color for the icons */
+    font-size: 17px;   /* Slightly bigger icons */
+    transition: opacity 0.3s ease; /* Smooth transition on hover */
+}
+.nav-btn:hover {
+    opacity: 0.7;      /* Slight transparency on hover for a subtle effect */
+}
+.tab-content iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+[draggable] {
+    transition: transform 0.2s;
+}
+.being-dragged {
+    cursor: grabbing;
+    opacity: 0.5;
+}
+.url-bar {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.url-bar input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    background-color: #555;  /* Darker background color */
+    color: #fff;  /* White text */
+}

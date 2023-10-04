@@ -32,13 +32,23 @@ form.addEventListener("submit", async (event) => {
 
   const url = search(address.value, searchEngine.value);
   const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
-  localStorage.setItem('storedURL', encodedUrl);
-  localStorage.setItem('app-name', 'Google')
-  localStorage.setItem('app-image', '/assets/img/websites/google.png')
-  setIframeType('index')
-  location.href="/iframe.html"
+  loadURLInActiveTab(encodedUrl)
 });
+function loadURLInActiveTab(url) {
+  const activeTabButton = document.querySelector('.tab.active-tab');
+  const tabId = activeTabButton.getAttribute('data-tab-id');
+  if(!tabId) {
+      console.error("No tab ID found for active tab!");
+      return;
+  }
 
+  const iframe = document.querySelector(`#${tabId} iframe`);
+  iframe.parentElement.style.display = 'block';
+  iframe.style.display = 'block';
+  iframe.src = url; // This is the key change, moving src change here.
+  iframe.focus();
+  updateTabInfoFromIframe(tabId, iframe);
+}
 async function launchURL(openURL) {
   try {
     await registerSW();
@@ -51,9 +61,8 @@ async function launchURL(openURL) {
   const url = search(openURL, searchEngine.value);
   const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
   localStorage.setItem('storedURL', encodedUrl);
-  window.location.href="/iframe.html"
+  location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 }
-
 // Makes the back button on the iframe page go back to the previous page correctly
 function setIframeType(type) {
   localStorage.setItem('iframe-type', type);

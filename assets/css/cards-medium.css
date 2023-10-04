@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root{
+    --body-color: #18191a;
+    --sidebar-color: #242526;
+    --primary-color: #cccccc;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #fff;
+    --text-color: #ccc;
+    --widget-text: rgb(255, 255, 255);
+    --widget-color: #3a3b3ca8;
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+body {
+    min-height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+#vpns {
+    background-image: url(/assets/img/backgrounds/2.gif);
+}
+.home {
+    margin-top: 64px;
+}
+.no-nav {
+    margin-top: 0px;
+}
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#searchInput::placeholder {
+    text-align: center;
+}
+#searchInput {
+    width: 100vw;
+    font-size: 24px;
+    padding: 12px 20px 12px 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif !important;
+    margin-bottom: 40px;
+}
+
+.cards .g {
+    height: 180px;
+    width: 396px;
+}
+
+.cards .p {
+    height: 180px;
+    width: 180px;
+}
+.cards a {
+    text-decoration: none;
+}
+
+.cards .card {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin: 0 15px 30px;
+    border-radius: 25px;
+    box-shadow: 4px 3px 8px 1px #96969633;
+  	-webkit-box-shadow: 4px 3px 8px 1px #96969633;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.cards .card h2 {
+    margin-left: 18px;
+    margin-bottom: 18px;
+    border-radius: 15px;
+    margin-right: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--widget-text);
+    background-color: var(--widget-color);
+    box-shadow: 4px 3px 8px 1px #6d6d6d33;
+  	-webkit-box-shadow: 4px 3px 8px 1px #6d6d6d33;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 90vw;
+}
+/* template
+.cards . {
+    background-image: url(/assets/img/);
+}
+*/
+.cards .windows {
+    background-image: url(/assets/img/apps/windows.png);
+}
+.cards .macos {
+    background-image: url(/assets/img/apps/macos.jpg);
+}
+.cards .linux {
+    background-image: url(/assets/img/apps/linux.png);
+}
+.cards .android {
+    background-image: url(/assets/img/apps/android.png);
+}
+.cards .chrome {
+    background-image: url(/assets/img/apps/chrome.png);
+}
+.cards .firefox {
+    background-image: url(/assets/img/apps/firefox.png);
+}
+.cards .edge {
+    background-image: url(/assets/img/apps/edge.png);
+}
+.cards .setup-vpn {
+    background-image: url(/assets/img/apps/setup-vpn.png);
+}
+.cards .hotspot-shield {
+    background-image: url(/assets/img/apps/hotspot-shield.png);
+}
+.cards .proton-vpn {
+    background-image: url(/assets/img/apps/proton-vpn.png);
+}
+.cards .x-vpn {
+    background-image: url(/assets/img/apps/x-vpn.png);
+}
+.cards .hola {
+    background-image: url(/assets/img/apps/hola.png);
+}

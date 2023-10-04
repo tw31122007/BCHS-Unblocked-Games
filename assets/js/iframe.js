@@ -52,6 +52,10 @@ function backtopage() {
     window.location.href = '/index.html';
   } else if (type === 'settings') {
     window.location.href = '/settings.html';
+  } else if (type === 'websites') {
+    window.location.href = '/websites.html';
+  } else if (type === 'vpns') {
+    window.location.href = '/vpns.html';
   } else if (type === 'games-no-nav') {
     window.location.href = '/games-no-nav.html';
   } else {

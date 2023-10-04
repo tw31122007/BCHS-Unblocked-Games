@@ -202,36 +202,3 @@ function resetTab() {
   document.getElementById("icon").value = "";
   localStorage.setItem("tab", JSON.stringify({}));
 }
-
-function setSearchEngine(value) {
-  localStorage.setItem("searchengine", value);
-}
-
-document.getElementById("google").addEventListener("click", function() {
-  setSearchEngine("https://www.google.com/search?q=%s");
-});
-document.getElementById("bing").addEventListener("click", function() {
-  setSearchEngine("https://www.bing.com/search?form=&q=%s");
-});
-document.getElementById("yahoo").addEventListener("click", function() {
-  setSearchEngine("https://search.yahoo.com/search?p=%s");
-});
-document.getElementById("duckduckgo").addEventListener("click", function() {
-  setSearchEngine("https://duckduckgo.com/?q=%s");
-  });
-document.getElementById("brave").addEventListener("click", function() {
-  setSearchEngine("https://search.brave.com/search?q=%s");
-  });
-document.getElementById("yandex").addEventListener("click", function() {
-  setSearchEngine("https://www.yandex.com/search/?text=%s");
-  });
-
-document.getElementById("searchengineselector").addEventListener('change', function() {
-  setSearchEngine(this.value);
-});
-if (tabData.title) {
-  document.getElementById("title").value = tabData.title;
-}
-if (tabData.icon) {
-  document.getElementById("icon").value = tabData.icon;
-}

@@ -15,7 +15,12 @@ body {
   padding: 0;
   background: #000;
   overflow-x: hidden;
-  background-color: #121212;
+  background-image: url(/assets/img/backgrounds/loading.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 50%;
+  height: 100vh;
   color: #ffffff;
 }
 *, *:before, *:after {
@@ -51,8 +56,8 @@ iframe:-ms-fullscreen {
   align-items: center;
   padding-left: 20px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  border: 6px solid #000; /* Default border color for light theme */
-  box-sizing: border-box; /* This ensures that the total width including padding and border remains consistent */
+  border: 6px solid #000;
+  box-sizing: border-box;
 }
 
 .back-arrow {
@@ -68,10 +73,10 @@ iframe:-ms-fullscreen {
 
 .fullscreen-button {
   font-size: 35px;
-  position: absolute;  /* Make the position absolute */
-  right: 25px;         /* Position it 10px from the right edge */
-  top: 50%;            /* Center it vertically */
-  transform: translateY(-50%); /* Fine-tune the vertical centering */
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .browser-back,
@@ -82,35 +87,35 @@ iframe:-ms-fullscreen {
 }
 
 .browser-back {
-  right: 170px;  /* Adjusted value */
+  right: 170px;
   font-size: 35px;
 }
 
 .browser-forward {
-  right: 120px;   /* Adjusted value */
+  right: 120px;
   font-size: 35px;
 }
 .app-details {
   display: flex;
-  align-items: center;  /* center the image and text vertically */
+  align-items: center;
   position: absolute;
-  left: 50%;            /* move to the center of the parent */
-  transform: translateX(-50%); /* fine-tune the centering */
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #app-image {
-  border-radius: 50%;  /* make it circular */
-  margin-right: 10px;  /* spacing between the image and the app name */
-  width: 30px;
-  height: 30px;
-  object-fit: cover;   /* make sure the image covers the 30x30 area */
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
   background-color: #ffffff;
 }
 
 #app-name {
-  font-size: 22px;  /* or any size you prefer */
-  white-space: nowrap; /* prevent the name from wrapping to the next line */
-  font-family: Lilita One;
+  font-size: 28px;
+  white-space: nowrap;
+  font-family: Lato;
 }
 .iframe-settings {
   font-size: 35px;
@@ -147,7 +152,7 @@ iframe:-ms-fullscreen {
 
 .modal-content h2 {
   font-size: 40px;
-  font-family: Lilita One;
+  font-family: Lato;
   margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 70px;
@@ -157,7 +162,7 @@ iframe:-ms-fullscreen {
 .modal-content select {
   font-size: 26px;
   font-family: Lato;
-  border: 6px solid #000;  /* Default border color (for light theme) */
+  border: 6px solid #000;
 }
 .modal-content label {
   font-size: 26px;

@@ -1,38 +1,32 @@
 /* Template:
 .cards . {
-    background-image: url(/assets/img/apps);
+    background-image: url(/assets/img/apps/);
 }
 */
-.cards .google {
-    background-image: url(/assets/img/apps/google.png);
+.cards .setup-vpn {
+    background-image: url(/assets/img/apps/setup-vpn.png);
 }
-.cards .spotify {
-    background-image: url(/assets/img/apps/spotify.png);
+.cards .hotspot-shield {
+    background-image: url(/assets/img/apps/hotspot-shield.png);
 }
-.cards .youtube {
-    background-image: url(/assets/img/apps/youtube.png);
+.cards .proton-vpn {
+    background-image: url(/assets/img/apps/proton-vpn.png);
 }
-.cards .twitch {
-    background-image: url(/assets/img/apps/twitch.png);
+.cards .x-vpn {
+    background-image: url(/assets/img/apps/x-vpn.png);
 }
-.cards .reddit {
-    background-image: url(/assets/img/apps/reddit.png);
+.cards .autoclicker {
+    background-image: url(/assets/img/apps/auto-clicker.png);
 }
-.cards .twitter {
-    background-image: url(/assets/img/apps/twitter.png);
+.cards .wallpaper-engine {
+    background-image: url(/assets/img/apps/wallpaper-engine.png);
 }
-.cards .discord {
-    background-image: url(/assets/img/apps/discord.png);
+.cards .hyper-write {
+    background-image: url(/assets/img/apps/hyperwrite.png);
 }
-.cards .tiktok {
-    background-image: url(/assets/img/apps/tiktok.png);
+.cards .flash-player {
+    background-image: url(/assets/img/apps/flash-player.png);
 }
-.cards .retroarch {
-    background-image: url(/assets/img/apps/retroarch.png);
-}
-.cards .coolmath-games {
-    background-image: url(/assets/img/apps/coolmath-games.png);
-}
-.cards .y8 {
-    background-image: url(/assets/img/apps/y8.png);
+.cards .hola {
+    background-image: url(/assets/img/apps/hola.png);
 }

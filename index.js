@@ -22,7 +22,6 @@ const errorCode = document.getElementById("uv-error-code");
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
-
   try {
     await registerSW();
   } catch (err) {
@@ -32,22 +31,13 @@ form.addEventListener("submit", async (event) => {
   }
 
   const url = search(address.value, searchEngine.value);
-  location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+  const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
+  localStorage.setItem('storedURL', encodedUrl);
+  localStorage.setItem('app-name', 'Google')
+  localStorage.setItem('app-image', '/assets/img/websites/google.png')
+  setIframeType('index')
+  location.href="/iframe.html"
 });
-
-async function launchURL(openURL) {
-  try {
-    await registerSW();
-  } catch (err) {
-    error.textContent = "Failed to register service worker.";
-    errorCode.textContent = err.toString();
-    throw err;
-  }
-
-  const url = search(openURL, searchEngine.value);
-  location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
-}
-
 
 async function launchURL(openURL) {
   try {
@@ -62,4 +52,8 @@ async function launchURL(openURL) {
   const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
   localStorage.setItem('storedURL', encodedUrl);
   window.location.href="/iframe.html"
+}
+
+function setIframeType(type) {
+  localStorage.setItem('iframe-type', type);
 }

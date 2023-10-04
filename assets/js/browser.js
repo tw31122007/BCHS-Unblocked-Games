@@ -56,14 +56,15 @@ function updateTabInfoFromIframe(tabId, iframe) {
         const iconLink = iframeDocument.querySelector("link[rel~='icon']");
         const defaultFavicon = '/path/to/default/favicon.ico';
         const faviconURL = iconLink ? iconLink.href : defaultFavicon;
-        setFavicon(tabId, faviconURL);
-
-        // Show or hide the home icon
+        const faviconSpan = associatedTab.querySelector('.favicon');
         const homeIcon = associatedTab.querySelector('.fa-solid.fa-house');
+
         if (iframeTitle) { // if there's a title, we hide the home icon
             homeIcon.style.display = 'none';
-        } else { // if there isn't, we show it
+            faviconSpan.style.backgroundImage = `url(${faviconURL})`;
+        } else { // if there isn't, we show the home icon and remove the favicon background
             homeIcon.style.display = 'inline-block';
+            faviconSpan.style.backgroundImage = ''; // Remove the previous background image
         }
     };
 
@@ -185,11 +186,6 @@ function goHome() {
     // Update the active tab's title to reflect "Home".
     const titleSpan = activeTabButton.querySelector('.tab-title');
     titleSpan.textContent = "Home";
-
-    // Update the favicon span to display the home icon.
-    const faviconSpan = activeTabButton.querySelector('.favicon');
-    faviconSpan.innerHTML = '<i class="fa-solid fa-house"></i>';
-    faviconSpan.style.backgroundImage = ''; // Remove the previous background image
 }
 
 document.addEventListener("DOMContentLoaded", function() {

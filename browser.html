@@ -31,9 +31,13 @@
                 <button class="nav-btn" onclick="goForward()"><i class="fa-solid fa-arrow-right"></i></button>
                 <button class="nav-btn" onclick="reloadPage()"><i class="fa-solid fa-rotate"></i></button>
             </div>
-            <div class="url-bar">
-                <input type="text" placeholder="Search or enter website name">
-            </div>
+            <form id="uv-form">
+                <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+                <div class="url-bar">
+                    <i class="fa-solid fa-magnifying-glass url-bar-search-icon"></i>
+                    <input type="text" id="uv-url-bar" placeholder="Search Google or type a URL">
+                </div> 
+             </form>           
         </div>
     </div>
     <div class="tab-content" id="tab1Content">

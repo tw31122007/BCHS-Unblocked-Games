@@ -313,7 +313,6 @@ a.box {
 }
 
 .tab:hover, .add-tab-btn:hover {
-    margin-bottom: -5px;
     background-color: #555;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -421,12 +420,26 @@ a.box {
 .url-bar {
     flex-grow: 1;
     margin-left: 10px;
+    width: 80vw;
 }
 .url-bar input {
     width: 100%;
-    padding: 5px;
+    padding: 7px;
+    margin-left: 10px;
     border: 1px solid #ccc;
     border-radius: 11px;
     background-color: #555;  /* Darker background color */
     color: #fff;  /* White text */
 }
+#uv-url-bar {
+    padding-left: 30px;  /* Adjust this value based on the width of the icon plus some extra space */
+}
+.url-bar-search-icon {
+    position: absolute;
+    left: 225px;       /* Adjust this value as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;      /* Set the icon color */
+    pointer-events: none;
+    font-size: 14px;
+  }

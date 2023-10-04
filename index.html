@@ -69,6 +69,17 @@
             <p id="uv-error"></p>
             <pre id="uv-error-code"></pre>
           </div>
+          <div class="box-container">
+            <a href="/assets/html/websites/youtube.html" class="box youtube" onclick="setIframeType('index');localStorage.setItem('app-name', 'YouTube');localStorage.setItem('app-image', '/assets/img/websites/youtube.png')"></a>
+            <a href="/assets/html/websites/discord.html" class="box discord" onclick="setIframeType('index');localStorage.setItem('app-name', 'Discord');localStorage.setItem('app-image', '/assets/img/websites/discord.png')"></a>
+            <a href="/assets/html/websites/twitch.html" class="box twitch" onclick="setIframeType('index');localStorage.setItem('app-name', 'Twitch');localStorage.setItem('app-image', '/assets/img/websites/twitch.png')"></a>
+            <a href="/assets/html/websites/retroarch.html" class="box retroarch" onclick="setIframeType('index');localStorage.setItem('app-name', 'Retroarch');localStorage.setItem('app-image', '/assets/img/websites/retroarch.png')"></a>
+            <div class="box add-box" id="addBox">
+                <i class="fa fa-plus"></i>
+            </div>
+        </div>
+        
+        
       </div>
    </div>
     <!-- Footer Start -->
@@ -90,6 +101,7 @@
       <script src="register-sw.js" defer></script>
       <script src="search.js" defer></script>
       <script src="index.js" defer></script>
+      <script src="/assets/js/boxes.js"></script>
       <script src="/assets/js/panic.js" defer></script>
       <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
       <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">

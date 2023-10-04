@@ -15,7 +15,12 @@ body {
   padding: 0;
   background: #000;
   overflow-x: hidden;
-  background-color: #121212;
+  background-image: url(/assets/img/backgrounds/loading.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 50%;
+  height: 100vh;
   color: #ffffff;
 }
 *, *:before, *:after {

@@ -54,6 +54,12 @@ async function launchURL(openURL) {
   window.location.href="/iframe.html"
 }
 
+// Makes the back button on the iframe page go back to the previous page correctly
 function setIframeType(type) {
   localStorage.setItem('iframe-type', type);
 }
+
+// Makes the blinking cursor appear when the searchbar is hovered over
+document.getElementById('uv-address').addEventListener('mouseover', function() {
+  this.focus();
+});

@@ -53,15 +53,22 @@ body {
     padding: 10px;
     border: none;
     border-radius: 5px;
+    height: 40px;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
-    background-color: #222;
+    background-color: rgba(147, 141, 141, 0.8);
     text-align: center;
     color: #fff;
-    padding-right: 40px; /* Adjusted padding to make room for the icon */
+    padding-right: 40px;
+    font-family: Lato;
+    box-sizing: border-box;
+    transition: width 0.3s ease;
   }
 .form__input::placeholder {
   color: #fff;
   text-align: center;
+}
+.form__input:hover::placeholder {
+    color: transparent;
 }
 .center {
   margin: 0;
@@ -136,10 +143,109 @@ body {
         font-size: 56px;
     }
     .form__input {
-        width: 300px;
-        font-size: 18px;
+        width: 350px;
+        font-size: 20px;
     }
     .search-icon {
-        right: 125px;
+        right: 110px;
     }
+    .form__input:hover {
+        width: 400px;
+    }
+    .form__input:hover ~ .search-icon {
+        right: 70px;
+    }
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;  /* Spacing between boxes */
+    padding: 20px;  /* Padding around the whole container */
+    margin: 0 auto;  /* Center the box container */
+}
+
+.box, .add-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: space-between;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+a.box {
+    text-decoration: none;
+    color: inherit;
+}
+.box img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.box:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+.add-box:hover {
+    background-color: rgba(65, 63, 63, 1);
+}
+
+.add-box {
+    background-color: rgba(65, 63, 63, 0.8);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.add-box i {
+    font-size: 28px;
+    color: #ffffff;
+}
+/* template
+.box. {
+    background-image: url("/assets/img/websites/");
+}
+*/
+.box.youtube {
+    background-image: url("/assets/img/websites/youtube.png");
+}
+.box.reddit {
+    background-image: url("/assets/img/websites/reddit.png");
+}
+.box.google {
+    background-image: url("/assets/img/websites/google.png");
+}
+.box.tiktok {
+    background-image: url("/assets/img/websites/tiktok.png");
+}
+.box.spotify {
+    background-image: url("/assets/img/websites/spotify.png");
+}
+.box.discord {
+    background-image: url("/assets/img/websites/discord.png");
+}
+.box.twitter {
+    background-image: url("/assets/img/websites/twitter.png");
+}
+.box.twitch {
+    background-image: url("/assets/img/websites/twitch.png");
+}
+.box.y8 {
+    background-image: url("/assets/img/websites/y8.png");
+}
+.box.coolmath-games {
+    background-image: url("/assets/img/websites/coolmath-games.png");
+}
+.box.retroarch {
+    background-image: url("/assets/img/websites/retroarch.png");
 }

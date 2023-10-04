@@ -160,9 +160,9 @@ body {
 .box-container {
     display: flex;
     justify-content: center;
-    gap: 16px;  /* Spacing between boxes */
-    padding: 20px;  /* Padding around the whole container */
-    margin: 0 auto;  /* Center the box container */
+    gap: 16px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .box, .add-box {

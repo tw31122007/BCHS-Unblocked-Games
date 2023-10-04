@@ -52,10 +52,10 @@ body.light-theme {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    margin: 0 10px 10px;  /* Added bottom margin */
+    margin: 0 10px 10px;
     min-width: 250px; 
-    flex: 1;  /* Allows the boxes to grow if there's space */
-    max-width: calc(33.33% - 20px); /* Max width for 3 boxes per row, considering margins */
+    flex: 1;
+    max-width: calc(33.33% - 20px);
 }
 
 .box h2 {
@@ -74,7 +74,7 @@ body.light-theme {
 .input {
     display: flex;
     flex-direction: column;
-    gap: 10px;  /* Gives space between input fields */
+    gap: 10px;
     width: 100%; 
 }
 

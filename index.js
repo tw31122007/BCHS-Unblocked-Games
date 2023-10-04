@@ -63,3 +63,7 @@ function setIframeType(type) {
 document.getElementById('uv-address').addEventListener('mouseover', function() {
   this.focus();
 });
+
+document.getElementById('addBox').addEventListener('click', function() {
+  alert('Coming soon...');
+});

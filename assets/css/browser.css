@@ -166,8 +166,8 @@ body {
 }
 
 .box, .add-box {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 12px;
     background-color: #f4f4f4;
     display: flex;
@@ -407,7 +407,7 @@ a.box {
 }
 .tab-content iframe {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 60px); /* adjust 50px to your navbar's actual height */
     border: none;
 }
 [draggable] {

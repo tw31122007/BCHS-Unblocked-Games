@@ -135,11 +135,28 @@ function addTab() {
 function closeTab(tabId) {
     const tabContent = document.getElementById(tabId);
     const tabButton = document.querySelector(`[data-tab-id="${tabId}"]`);
+    const isActiveTab = tabButton.classList.contains('active-tab');
+    const totalTabs = document.querySelectorAll('.tab').length;
+
+    let nextTabId;
+
+    if (isActiveTab) {
+        // Decide which tab to switch to
+        if (tabButton.previousElementSibling) { // Prioritize tab on the left
+            nextTabId = tabButton.previousElementSibling.getAttribute('data-tab-id');
+        } else if (tabButton.nextElementSibling) { // If no left tab, check right tab
+            nextTabId = tabButton.nextElementSibling.getAttribute('data-tab-id');
+        }
+    }
+
+    // Now, remove the tab
     tabContent.remove();
     tabButton.remove();
 
-    if (!document.querySelector('.tab')) {
-        document.getElementById('newTabPage').style.display = 'block';
+    if (totalTabs === 1) { // If it was the only tab, add a new one and make it active
+        addTab();
+    } else if (isActiveTab && nextTabId) {
+        openTab(nextTabId);
     }
 }
 function setFavicon(tabId, faviconURL) {

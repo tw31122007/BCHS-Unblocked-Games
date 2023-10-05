@@ -410,9 +410,17 @@ a.box {
     color: #fff;       /* White color for the icons */
     font-size: 17px;   /* Slightly bigger icons */
     transition: opacity 0.3s ease; /* Smooth transition on hover */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .nav-btn:hover {
-    opacity: 0.7;      /* Slight transparency on hover for a subtle effect */
+    background-color: rgba(85, 85, 85, 1); /* A lighter shade of gray than your #555 */
+    border-radius: 50%; /* Circular shape */
+    opacity: 1; /* Reset the opacity, if you don't want it to be translucent on hover */
 }
 .tab-content iframe {
     width: 100%;

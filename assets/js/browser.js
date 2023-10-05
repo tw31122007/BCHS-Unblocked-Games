@@ -90,7 +90,7 @@ function truncateTitle(title, maxLength) {
 
 function addTab() {
     tabCount++;
-    
+    console.log("Attempting to add a new tab. Current tab count:", tabCount);
     const newTab = document.createElement('button');
     newTab.className = 'tab';
     const faviconSpan = document.createElement('span');
@@ -133,6 +133,7 @@ function addTab() {
 }
 
 function closeTab(tabId) {
+    console.log("Attempting to close tab with ID:", tabId);
     const tabContent = document.getElementById(tabId);
     const tabButton = document.querySelector(`[data-tab-id="${tabId}"]`);
     const isActiveTab = tabButton.classList.contains('active-tab');
@@ -158,6 +159,30 @@ function closeTab(tabId) {
     } else if (isActiveTab && nextTabId) {
         openTab(nextTabId);
     }
+    reindexTabs();
+}
+function reindexTabs() {
+    const allTabs = document.querySelectorAll('.tab');
+    const allContents = document.querySelectorAll('.tab-content');
+
+    allTabs.forEach((tab, index) => {
+        const newTabId = "tab" + (index + 1) + "Content";
+        const currentContentId = tab.getAttribute('data-tab-id');
+        const currentContent = document.getElementById(currentContentId);
+        
+        // Update the tab's data-tab-id attribute
+        tab.setAttribute('data-tab-id', newTabId);
+        
+        // Update the onclick and onclose functions
+        tab.setAttribute('onclick', `openTab('${newTabId}')`);
+        tab.querySelector('.close-tab-btn').setAttribute('onclick', `event.stopPropagation(); closeTab('${newTabId}')`);
+
+        // Update the content's ID
+        currentContent.id = newTabId;
+    });
+
+    // Update tabCount
+    tabCount = allTabs.length;
 }
 function setFavicon(tabId, faviconURL) {
     const associatedTab = document.querySelector(`[data-tab-id="${tabId}"]`);
@@ -277,3 +302,6 @@ function updatebackground() {
     console.log(activeTabContent); // Check if this logs the correct element
     activeTabContent.classList.add('loading-bg');
 }
+window.onerror = function (message, source, lineno, colno, error) {
+    console.error("Error caught:", message, "Source:", source, "Line:", lineno, "Column:", colno, "Error object:", error);
+};

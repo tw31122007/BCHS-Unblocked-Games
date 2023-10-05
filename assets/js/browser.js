@@ -250,3 +250,30 @@ document.addEventListener('dragend', function(event) {
 // Example usage:
 const title = "word1 word2 word3 word4";
 const truncatedTitle = truncateTitle(title, 15); // "word1 word2 wor"
+
+// Adds a loading screen
+document.getElementById('uv-address').addEventListener('input', function() {
+    let activeTabContent = getActiveTabContent();
+    activeTabContent.classList.add('loading-bg');
+});
+document.getElementById('url-address').addEventListener('input', function() {
+    let activeTabContent = getActiveTabContent();
+    activeTabContent.classList.add('loading-bg');
+});
+function getActiveTabContent() {
+    let activeTabId = document.querySelector('.active-tab').getAttribute('data-tab-id');
+    return document.getElementById(activeTabId);
+}
+let iframes = document.querySelectorAll('iframe');
+
+iframes.forEach(iframe => {
+    iframe.addEventListener('load', function() {
+        let parentTabContent = this.closest('.tab-content');
+        parentTabContent.classList.remove('loading-bg');
+    });
+});
+function updatebackground() {
+    let activeTabContent = getActiveTabContent();
+    console.log(activeTabContent); // Check if this logs the correct element
+    activeTabContent.classList.add('loading-bg');
+}

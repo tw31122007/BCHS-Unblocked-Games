@@ -14,7 +14,13 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
+.loading-bg {
+    background-image: url('/assets/img/backgrounds/loading.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #121111;
+    background-size: 50%;
+}
 ::-webkit-scrollbar {
   display: none;
 }
@@ -88,6 +94,7 @@ body {
     margin: 0;
 }
 .large-logo {
+    margin-top: 150px;
     margin-bottom: 30px;
 }
 @media (max-width: 400px) {
@@ -199,6 +206,7 @@ a.box {
     z-index: 2;
     background-color: rgba(65, 63, 63, 1);
 }
+
 .add-box {
     background-color: rgba(65, 63, 63, 0.8);
     cursor: pointer;

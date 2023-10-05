@@ -3,14 +3,17 @@
  * @type {HTMLFormElement}
  */
 const form = document.getElementById("uv-form");
+const urlform = document.getElementById("url-form");
 /**
  * @type {HTMLInputElement}
  */
 const address = document.getElementById("uv-address");
+const urladdress = document.getElementById("url-address");
 /**
  * @type {HTMLInputElement}
  */
 const searchEngine = document.getElementById("uv-search-engine");
+const urlsearchEngine = document.getElementById("url-search-engine");
 /**
  * @type {HTMLParagraphElement}
  */
@@ -20,6 +23,23 @@ const error = document.getElementById("uv-error");
  */
 const errorCode = document.getElementById("uv-error-code");
 
+/* URL Bar */
+urlform.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  try {
+    await registerSW();
+  } catch (err) {
+    error.textContent = "Failed to register service worker.";
+    errorCode.textContent = err.toString();
+    throw err;
+  }
+
+  const url = search(urladdress.value, urlsearchEngine.value);
+  const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
+  loadURLInActiveTab(encodedUrl)
+});
+
+/* Search Bar */
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
   try {

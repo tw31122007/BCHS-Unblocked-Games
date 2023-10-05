@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/assets/css/browser.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>My Drive - Google Drive</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicons/google-drive-ico.ico">
 </head>
@@ -31,11 +30,11 @@
                 <button class="nav-btn" onclick="goForward()"><i class="fa-solid fa-arrow-right"></i></button>
                 <button class="nav-btn" onclick="reloadPage()"><i class="fa-solid fa-rotate"></i></button>
             </div>
-            <form id="uv-form">
-                <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+            <form id="url-form">
+                <input id="url-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
                 <div class="url-bar">
                     <i class="fa-solid fa-magnifying-glass url-bar-search-icon"></i>
-                    <input type="text" id="uv-url-bar" placeholder="Search Google or type a URL">
+                    <input type="text" id="url-address" placeholder="Search Google or type a URL">
                 </div> 
              </form>           
         </div>
@@ -73,23 +72,21 @@
                 <i class="fa fa-plus"></i>
             </div>
         </div>
-        
-        
-      </div>
-   </div>
-  </div>
-      <script src="uv/uv.bundle.js" defer></script>
-      <script src="uv/uv.config.js" defer></script>
-      <script src="register-sw.js" defer></script>
-      <script src="search.js" defer></script>
-      <script src="index.js" defer></script>
-      <script src="/assets/js/boxes.js"></script>
-      <script src="/assets/js/panic.js" defer></script>
-      <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
-      <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
-      <script src="/assets/js/cloak.js" defer></script>
-      <script src="/assets/js/touchscreen.js"></script>
-      <script src="/assets/js/browser.js"></script>
-
+    </div>
+</div>
+</div>
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="index.js" defer></script>
+    <script src="/assets/js/boxes.js"></script>
+    <script src="/assets/js/panic.js" defer></script>
+    <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
+    <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
+    <script src="/assets/js/cloak.js" defer></script>
+    <script src="/assets/js/touchscreen.js"></script>
+    <script src="/assets/js/browser.js"></script>
+    <script src="/assets/js/context-menu.js"></script>   
 </body>
 </html>

@@ -26,6 +26,17 @@ function openTab(tabId) {
     if (activeTab) {
         activeTab.classList.add('active-tab');
     }
+
+    // Update the URL bar
+    if (iframeElem.src === 'about:blank') {
+        const activeTabButton = document.querySelector('.tab.active-tab');
+        if (activeTabButton) {
+            document.getElementById('url-address').value = activeTabButton.getAttribute('data-url') || "";
+        }
+    } else {
+        let decodedUrl = decodeBase64Url(iframeElem.src);
+        document.getElementById('url-address').value = decodedUrl;
+    }  
 }
 function loadURLInActiveTab(url) {
     const activeTabButton = document.querySelector('.tab.active-tab');
@@ -41,6 +52,9 @@ function loadURLInActiveTab(url) {
     iframe.src = url; // This is the key change, moving src change here.
     iframe.focus();
     updateTabInfoFromIframe(tabId, iframe);
+
+    // Save the decoded URL to the iframe for later reference
+    iframe.dataset.decodedUrl = decodeBase64Url(url);
 }
 
 function updateTabInfoFromIframe(tabId, iframe) {
@@ -67,7 +81,6 @@ function updateTabInfoFromIframe(tabId, iframe) {
             faviconSpan.style.backgroundImage = ''; // Remove the previous background image
         }
     };
-
     iframe.onload = updateInfo;  
     updateInfo();
 }
@@ -305,3 +318,52 @@ function updatebackground() {
 window.onerror = function (message, source, lineno, colno, error) {
     console.error("Error caught:", message, "Source:", source, "Line:", lineno, "Column:", colno, "Error object:", error);
 };
+// Decode Base64 URL function
+function decodeBase64Url(encodedUrl) {
+    const prefix = "http://127.0.0.1:5500/uv/service/";
+    try {
+        if (encodedUrl.startsWith(prefix)) {
+            // Remove the prefix
+            let base64String = encodedUrl.substring(prefix.length);
+            
+            // URL decode the base64 part (because %2C is URL encoded ',')
+            base64String = decodeURIComponent(base64String);
+
+            // Base64 decode
+            const decodedUrl = atob(base64String);
+            return decodedUrl;
+        }
+    } catch (e) {
+        console.error("Error decoding the URL", e);
+    }
+    return encodedUrl; // Return the original URL if decoding fails
+}
+
+// Event listener for iframes' load event
+let iframeElements = document.querySelectorAll('iframe');
+iframeElements.forEach(iframe => {
+    iframe.addEventListener('load', function() {
+        // Determine if the iframe is inside the currently active tab
+        const parent = this.parentElement;
+        const correspondingTab = document.querySelector(`[data-tab-id="${parent.id}"]`);
+        
+        if(correspondingTab && correspondingTab.classList.contains('active-tab')) {
+            // Get the iframe's current URL
+            let currentUrl = this.src;
+            
+            // Decode the URL
+            let decodedUrl = decodeBase64Url(currentUrl);
+            
+            // Update the URL bar with the decoded URL
+            document.getElementById('url-address').value = decodedUrl;
+        }
+    });
+});
+
+document.getElementById('url-address').addEventListener('input', function() {
+    const activeTabButton = document.querySelector('.tab.active-tab');
+    if (activeTabButton) {
+        // Store the current content of the URL bar in the data-url attribute of the active tab
+        activeTabButton.setAttribute('data-url', this.value);
+    }
+});

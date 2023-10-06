@@ -29,7 +29,7 @@ body {
     text-decoration: none;
 }
 .home {
-    margin-top: 10px;
+    margin-top: 4px;
 }
 ::selection{
     background-color: var(--primary-color);

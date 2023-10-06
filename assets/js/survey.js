@@ -47,6 +47,10 @@ function backtopage() {
     window.location.href = '/settings.html';
   } else if (type === 'pc-games') {
     window.location.href = '/pc-games.html';
+  } else if (type === 'flash-player') {
+    window.location.href = '/flash-player.html';
+  } else if (type === 'flash-games') {
+    window.location.href = '/flash-games.html';
   } else if (type === 'websites') {
     window.location.href = '/websites.html';
   } else if (type === 'vpns') {

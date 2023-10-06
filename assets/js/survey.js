@@ -26,7 +26,36 @@ function toggleFullscreen() {
       }
     }
   }
-  function reload() {
-    localStorage.setItem('current-url', iframe.src);
-    iframe.src = localStorage.getItem('current-url');
+function reload() {
+  localStorage.setItem('current-url', iframe.src);
+  iframe.src = localStorage.getItem('current-url');
+}
+function backtopage() {
+  const type = localStorage.getItem('iframe-type');
+  console.log("iframe-type value:", type);
+  if (type === 'apps') {
+    window.location.href = '/apps.html';
+  } else if (type === 'games') {
+      window.location.href = '/games.html';
+  } else if (type === 'credits') {
+    window.location.href = '/credits.html';
+  } else if (type === 'links') {
+    window.location.href = '/links.html';
+  } else if (type === 'index') {
+    window.location.href = '/index.html';
+  } else if (type === 'settings') {
+    window.location.href = '/settings.html';
+  } else if (type === 'pc-games') {
+    window.location.href = '/pc-games.html';
+  } else if (type === 'websites') {
+    window.location.href = '/websites.html';
+  } else if (type === 'vpns') {
+    window.location.href = '/vpns.html';
+  } else if (type === 'games-no-nav') {
+    window.location.href = '/games-no-nav.html';
+  } else {
+        // Default or error handling, if needed.
+        console.error('Unexpected iframe type:', type);
+    }
   }
+  

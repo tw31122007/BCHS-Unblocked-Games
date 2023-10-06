@@ -358,22 +358,34 @@
     </nav>
 </footer>
 <!-- Footer End -->
+</div>
+<script src="/assets/js/panic.js" defer></script>
+    <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
+    <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
+    <script src="/assets/js/cloak.js" defer></script>
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="index.js" defer></script>
+    <script src="/assets/js/settings/index.js"></script>
+    <script src="assets/js/settings/settings.js"></script>
+    <script src="/assets/js/flash-games.js" defer></script>
+<!-- Flash Player Modal -->
+<div id="flashPlayerModal" class="modal-background">
+    <div class="modal-content">
+        <h2 class="modal-header">Flash Player Needed</h2>
+        <p>To play these games, you need the offline Flash Player. Follow these steps:</p>
+        <ol class="modal-instructions">
+            <li>Download the Flash Player app and the Flash game into the same folder.</li>
+            <li>Drag the Flash game into the Flash Player app.</li>
+            <li>Done, Now watch as your game loads.</li>
+        </ol>
+        <div class="modal-buttons">
+            <button id="okButton" class="modal-btn">Ok</button>
+            <button id="downloadButton" class="modal-btn modal-download-btn">Download Flash Player</button>
+        </div>
     </div>
-    <script>
-        function setIframeType(type) {
-            localStorage.setItem('iframe-type', type);
-        }
-        </script>
-    <script src="/assets/js/panic.js" defer></script>
-      <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
-      <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
-      <script src="/assets/js/cloak.js" defer></script>
-      <script src="uv/uv.bundle.js" defer></script>
-      <script src="uv/uv.config.js" defer></script>
-      <script src="register-sw.js" defer></script>
-      <script src="search.js" defer></script>
-      <script src="index.js" defer></script>
-      <script src="/assets/js/settings/index.js"></script>
-      <script src="assets/js/settings/settings.js"></script>
+</div>
 </body>
 </html>

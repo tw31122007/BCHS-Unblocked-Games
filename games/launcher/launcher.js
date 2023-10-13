@@ -13,7 +13,7 @@ function blank(){
             const style = iframe.style
             const link = doc.createElement("link")
     
-            doc.title = "BCHS Unblocked Games V4"
+            doc.title = "BCHS Unblocked Games"
             link.rel = "icon";
             link.href = "link";
             iframe.src = linkparameters;

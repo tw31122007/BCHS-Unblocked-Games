@@ -38,3 +38,6 @@ function searchFunction() {
         }
     }
 }
+function setIframeType(type) {
+    localStorage.setItem('iframe-type', type);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7487249208457563"
+     crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="/assets/css/iframe.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>My Drive - Google Drive</title>
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicons/google-drive-ico.ico">
+  <script src="/assets/ruffle/ruffle.js"></script>
+</head>
+<body>
+  <div class="buttons">
+    <a class="back-arrow" onclick="backtopage()">
+      <i class="fa-regular fa-square-caret-left"></i>
+    </a>
+    <a class="reload" onclick="reload()">
+      <i class="fa-solid fa-rotate"></i>
+    </a>
+    <div class="app-details">
+      <img id="app-image" src="" alt="App Image" width="30" height="30">
+      <span id="app-name"></span>
+  </div>
+  <a class="fullscreen-button" onclick="toggleFullscreen()">
+    <i class="fa-solid fa-expand fullscreen-button"></i>
+  </a>
+    <div class="history-controls">
+      <a class="browser-back" onclick="window.history.back()">
+        <i class="fa-solid fa-arrow-left"></i>
+      </a>
+      <a class="browser-forward" onclick="window.history.forward()">
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+    <a class="iframe-settings" onclick="">
+      <i class="fa-solid fa-gear"></i>
+    </a>
+  </div>
+  <div id="swf-container"></div>
+  <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
+  <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
+  <script src="/assets/js/panic.js" defer></script>
+  <script src="/assets/js/settings/index.js"></script>
+  <script src="/assets/js/settings.js"></script>
+  <script src="/assets/js/cloak.js" defer></script>
+  <script src="/assets/js/iframe.js"></script>
+  <script src="/uv/uv.bundle.js" defer></script>
+  <script src="/uv/uv.config.js" defer></script>
+  <script src="/register-sw.js" defer></script>
+  <script src="/search.js" defer></script>
+  <script src="/index.js" defer></script>
+  <form id="uv-form">
+    <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+  </form>
+  <div id="settingsModal" class="modal">
+    <div id="myModal" class="modal-content">
+        <!-- Use the Font Awesome icon for the close button -->
+        <span class="close-btn"><i class="fa-regular fa-rectangle-xmark"></i></span>
+        <h2>Settings</h2>
+        <div class="theme-selection">
+          <label for="themeSelector">Select Theme:</label>
+          <select id="themeSelector">
+              <option value="dark">Dark</option>
+              <option value="light">Light</option>
+          </select>
+      </div>
+    </div>
+</div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        // Get the SWF URL from localStorage
+        const swfUrl = localStorage.getItem('swfurl');
+        
+        // Ensure SWF URL is available
+        if (swfUrl) {
+            // Create the embed element
+            let embedElem = document.createElement('embed');
+            embedElem.src = swfUrl;
+            embedElem.type = 'application/x-shockwave-flash';
+            
+            // Here, you can adjust the width and height based on the original SWF's aspect ratio
+            // and the viewport's width and height.
+            const maxWidth = window.innerWidth;
+            const maxHeight = window.innerHeight;
+            const originalWidth = 800; // Use actual SWF width
+            const originalHeight = 600; // Use actual SWF height
+            const aspectRatio = originalWidth / originalHeight;
+
+            if (maxWidth / aspectRatio <= maxHeight) {
+                embedElem.width = maxWidth;
+                embedElem.height = maxWidth / aspectRatio;
+            } else {
+                embedElem.width = maxHeight * aspectRatio;
+                embedElem.height = maxHeight;
+            }
+            
+            // Add the embed element to the container
+            document.getElementById('swf-container').appendChild(embedElem);
+        } else {
+            alert("No SWF URL found in localStorage!");
+        }
+    });
+</script>
+<script src="/assets/js/modal.js" defer></script>
+</body>
+</html>

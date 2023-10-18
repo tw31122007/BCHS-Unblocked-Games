@@ -1,0 +1,3 @@
+/assets/waflash/waflash-player.min.js
+
+/assets/waflash/style.css

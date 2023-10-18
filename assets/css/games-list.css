@@ -1,3 +1,8 @@
+/* 
+.cards . {
+    background-image: url("/assets/img/thumbnails/.png");
+}
+*/
 .cards .a2048 {
     background-image: url("/assets/img/thumbnails/2048.png");
 }
@@ -337,11 +342,14 @@
 .cards .papas-freezeria {
     background-image: url("/assets/img/thumbnails/papas-freezeria.png");
 }
+.cards .papa-louie {
+    background-image: url("/assets/img/thumbnails/papa-louie.png");
+}
 .cards .papa-louie-2 {
     background-image: url("/assets/img/thumbnails/papa-louie-2.png");
 }
-.cards .papa-louie {
-    background-image: url("/assets/img/thumbnails/papa-louie.png");
+.cards .papa-louie-3 {
+    background-image: url("/assets/img/thumbnails/papa-louie-3.png");
 }
 .cards .a12-mini-battles {
     background-image: url("/assets/img/thumbnails/12-mini-battles.png");
@@ -682,6 +690,9 @@
 .cards .my-singing-monsters {
     background-image: url("/assets/img/thumbnails/my-singing-monsters.png");
 }
+.cards .super-fighters {
+    background-image: url("/assets/img/flash-games/super-fighters.png");
+}
 .cards .roblox {
     background-image: url("/assets/img/thumbnails/roblox.png");
 }
@@ -693,4 +704,64 @@
 }
 .cards .flappy-bird {
     background-image: url("/assets/img/thumbnails/flappy-bird.png");
+}
+.cards .hobo {
+    background-image: url("/assets/img/thumbnails/hobo.png");
+}
+.cards .hobo-2 {
+    background-image: url("/assets/img/thumbnails/hobo-2.png");
+}
+.cards .hobo-3 {
+    background-image: url("/assets/img/thumbnails/hobo-3.png");
+}
+.cards .hobo-4 {
+    background-image: url("/assets/img/thumbnails/hobo-4.png");
+}
+.cards .hobo-5 {
+    background-image: url("/assets/img/thumbnails/hobo-5.png");
+}
+.cards .hobo-6 {
+    background-image: url("/assets/img/thumbnails/hobo-6.png");
+}
+.cards .hobo-7 {
+    background-image: url("/assets/img/thumbnails/hobo-7.png");
+}
+.cards .qwop {
+    background-image: url("/assets/img/thumbnails/qwop.png");
+}
+.cards .strike-force-heroes-2 {
+    background-image: url("/assets/img/thumbnails/strike-force-heroes-2.png");
+}
+.cards .strike-force-heroes-3 {
+    background-image: url("/assets/img/thumbnails/strike-force-heroes-3.png");
+}
+.cards .jacksmith {
+    background-image: url("/assets/img/thumbnails/jack-smith.png");
+}
+.cards .portal-flash {
+    background-image: url("/assets/img/thumbnails/portal-flash.png");
+}
+.cards .candy-crush {
+    background-image: url("/assets/img/thumbnails/candy-crush.png");
+}
+.cards .riddle-school {
+    background-image: url("/assets/img/thumbnails/riddle-school.png");
+}
+.cards .riddle-school-2 {
+    background-image: url("/assets/img/thumbnails/riddle-school-2.png");
+}
+.cards .riddle-school-3 {
+    background-image: url("/assets/img/thumbnails/riddle-school-3.png");
+}
+.cards .riddle-school-4 {
+    background-image: url("/assets/img/thumbnails/riddle-school-4.png");
+}
+.cards .riddle-school-5 {
+    background-image: url("/assets/img/thumbnails/riddle-school-5.png");
+}
+.cards .riddle-transfer {
+    background-image: url("/assets/img/thumbnails/riddle-transfer.png");
+}
+.cards .riddle-transfer-2 {
+    background-image: url("/assets/img/thumbnails/riddle-transfer-2.png");
 }

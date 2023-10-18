@@ -41,3 +41,11 @@ function searchFunction() {
 function setIframeType(type) {
     localStorage.setItem('iframe-type', type);
 }
+function setSWFUrl(swfPath) {
+    // Set the provided SWF file path in the localStorage
+    localStorage.setItem('swfurl', swfPath);
+}
+function setWaflashURL(url) {
+    localStorage.setItem('waflashurl', url);
+    window.location.href = 'waflash.html'; // Redirect to the flash emulator page after setting the SWF URL
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="/assets/waflash/style.css"
+        rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <script>
+        var baseUrl = window.location.protocol + "//" + window.location.host;
+        var swfUrlFromStorage = localStorage.getItem('waflashurl')
+        var gameConfig = {
+            // Concatenate the base URL with the path to your SWF file
+            swfUrl: baseUrl + swfUrlFromStorage
+        };
+    </script>
+    <div id="waflashContainer">
+        <canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
+        <div id="waflashStatus" style="display: none;">Playing...</div>
+<script src="/assets/waflash/main.js"  crossorigin="anonymous" type="module"></script>
+    </div>
+</body>
+</html>

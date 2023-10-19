@@ -42,6 +42,15 @@
 .cards .soccer-random {
     background-image: url("/assets/img/thumbnails/soccer-random.png");
 }
+.cards .earn-to-die {
+    background-image: url("/assets/img/thumbnails/earn-to-die.png");
+}
+.cards .earn-to-die-2 {
+    background-image: url("/assets/img/thumbnails/earn-to-die-2.png");
+}
+.cards .earn-to-die-2012-part-1 {
+    background-image: url("/assets/img/thumbnails/earn-to-die-2012-part-1.png");
+}
 .cards .earn-to-die-2012-part-2 {
     background-image: url("/assets/img/thumbnails/earn-to-die-2012-part-2.png");
 }
@@ -791,6 +800,63 @@
 }
 .cards .bomb-it {
     background-image: url("/assets/img/flash-games/bomb-it.png");
+}
+.cards .penguin-diner {
+    background-image: url("/assets/img/thumbnails/penguin-diner.png");
+}
+.cards .penguin-diner-2 {
+    background-image: url("/assets/img/thumbnails/penguin-diner-2.png");
+}
+.cards .effing-worms {
+    background-image: url("/assets/img/thumbnails/effing-worms.png");
+}
+.cards .effing-worms-2 {
+    background-image: url("/assets/img/thumbnails/effing-worms-2.png");
+}
+.cards .effing-worms-xmas {
+    background-image: url("/assets/img/thumbnails/effing-worms-xmas.png");
+}
+.cards .effing-hail {
+    background-image: url("/assets/img/thumbnails/effing-hail.png");
+}
+.cards .wheely {
+    background-image: url("/assets/img/flash-games/wheely.png");
+}
+.cards .wheely-2 {
+    background-image: url("/assets/img/flash-games/wheely-2.png");
+}
+.cards .wheely-3 {
+    background-image: url("/assets/img/flash-games/wheely-3.png");
+}
+.cards .wheely-4 {
+    background-image: url("/assets/img/flash-games/wheely-4.png");
+}
+.cards .wheely-5 {
+    background-image: url("/assets/img/flash-games/wheely-5.png");
+}
+.cards .wheely-6 {
+    background-image: url("/assets/img/flash-games/wheely-6.png");
+}
+.cards .wheely-7 {
+    background-image: url("/assets/img/flash-games/wheely-7.png");
+}
+.cards .wheely-8 {
+    background-image: url("/assets/img/flash-games/wheely-8.png");
+}
+.cards .fortz {
+    background-image: url("/assets/img/thumbnails/fortz.png");
+}
+.cards .last-stand-union-city {
+    background-image: url("/assets/img/thumbnails/last-stand-union-city.png");
+}
+.cards .my-friend-pedro {
+    background-image: url("/assets/img/thumbnails/my-friend-pedro.png");
+}
+.cards .shopping-street {
+    background-image: url("/assets/img/thumbnails/shopping-street.png");
+}
+.cards .shopping-city {
+    background-image: url("/assets/img/thumbnails/shopping-city.png");
 }
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");

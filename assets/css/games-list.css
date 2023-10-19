@@ -150,8 +150,17 @@
 .cards .duck-life-3 {
     background-image: url("/assets/img/thumbnails/duck-life-3.png");
 }
-.cards .fireboy-and-watergirl-1 {
-    background-image: url("/assets/img/thumbnails/fireboy-and-watergirl-1.png");
+.cards .fbwg-1 {
+    background-image: url("/assets/img/thumbnails/fbwg-1.png");
+}
+.cards .fbwg-2 {
+    background-image: url("/assets/img/thumbnails/fbwg-2.png");
+}
+.cards .fbwg-3 {
+    background-image: url("/assets/img/thumbnails/fbwg-3.png");
+}
+.cards .fbwg-4 {
+    background-image: url("/assets/img/thumbnails/fbwg-4.png");
 }
 .cards .flappy-2048 {
     background-image: url("/assets/img/thumbnails/flappy-2048.png");
@@ -185,6 +194,12 @@
 }
 .cards .learn-to-fly-2 {
     background-image: url("/assets/img/thumbnails/learn-to-fly-2.png");
+}
+.cards .learn-to-fly-3 {
+    background-image: url("/assets/img/thumbnails/learn-to-fly-3.png");
+}
+.cards .learn-to-fly-idle {
+    background-image: url("/assets/img/thumbnails/learn-to-fly-idle.png");
 }
 .cards .minesweeper {
     background-image: url("/assets/img/thumbnails/minesweeper.png");
@@ -764,4 +779,19 @@
 }
 .cards .riddle-transfer-2 {
     background-image: url("/assets/img/thumbnails/riddle-transfer-2.png");
+}
+.cards .rebuild {
+    background-image: url("/assets/img/thumbnails/rebuild.png");
+}
+.cards .rebuild-2 {
+    background-image: url("/assets/img/thumbnails/rebuild-2.png");
+}
+.cards .diggy {
+    background-image: url("/assets/img/thumbnails/diggy.png");
+}
+.cards .bomb-it {
+    background-image: url("/assets/img/flash-games/bomb-it.png");
+}
+.cards . {
+    background-image: url("/assets/img/thumbnails/.png");
 }

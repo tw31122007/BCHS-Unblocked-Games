@@ -858,6 +858,12 @@
 .cards .shopping-city {
     background-image: url("/assets/img/thumbnails/shopping-city.png");
 }
+.cards .little-alchemy {
+    background-image: url("/assets/img/thumbnails/little-alchemy.png");
+}
+.cards .alxemy {
+    background-image: url("/assets/img/thumbnails/alxemy.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

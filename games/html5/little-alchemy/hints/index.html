@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en" class="astro-SCKKX6R4">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/cdn-cgi/apps/head/OgRTanTSyNlCptY7QtgVJL4dWJA.js"></script><link rel="icon" type="image/x-icon" href="/favicon.ico">
+<title>Little Alchemy Official Hints!</title>
+<meta name="description" content="Official resource for step by step solutions in Little Alchemy Classic.">
+<link rel="canonical" href="https://littlealchemy.com/hints/">
+<script async>
+(function() {
+  var host = window.location.hostname;
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://cmp.quantcast.com'
+    .concat('/choice/', '4CFUUK5UkUVUF', '/', host, '/choice.js?tag_version=V2');
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        if(args[0] === 'init' && typeof args[3] === 'object') {
+          args[3] = Object.assign(args[3], { tag_version: 'V2' });
+        }
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            if (event && event.source && event.source.postMessage) {
+              event.source.postMessage(returnMsg, '*');
+            }
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<link rel="preconnect" href="https://securepubads.g.doubleclick.net">
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>window.googletag = window.googletag || { cmd: [] };</script>
+<script type="text/javascript">
+    window.googletag = window.googletag || {};
+    window.googletag.cmd = window.googletag.cmd || [];
+    window.ybConfiguration = window.ybConfiguration || {};
+    window.ybConfiguration = Object.assign({}, window.ybConfiguration, { integrationMethod: 'open_tag', smartRefreshDisabled: false });
+    (function (y, i, e, L, D) {
+        y.Yieldbird = y.Yieldbird || {};
+        y.Yieldbird.cmd = y.Yieldbird.cmd || [];
+        i.cmd.push(function () { i.pubads().disableInitialLoad(); });
+        L = e.createElement('script');
+        L.async = true;
+        L.src = '//cdn.qwtag.com/84e6dc4b-0837-4633-ae33-3dec44fb89d8/qw.js';
+        D = e.getElementsByTagName('script')[0];
+        (D.parentNode || e.head).insertBefore(L, D);
+    })(window, window.googletag, document);
+  </script>
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/hints/_astro/index.4ec9c1b7.css" />
+<link rel="stylesheet" href="/hints/_astro/index.6943d6a1.css" /><script type="module" src="/hints/_astro/hoisted.b2001762.js"></script></head>
+<body class="astro-SCKKX6R4">
+<script>
+  window.googletag = window.googletag || { cmd: [] };
+  googletag.cmd.push(function () {
+    var slot = googletag.defineOutOfPageSlot(
+      '/52555387,3655310/littlealchemy.com_interstitial',
+      googletag.enums.OutOfPageFormat.INTERSTITIAL
+    );
+
+    if (slot) slot.addService(googletag.pubads());
+    googletag.enableServices();
+    googletag.display(slot);
+  });
+</script>
+<div class="container astro-SCKKX6R4">
+<div class="adSide astro-GA6GOKX5">
+<div class="adjust astro-GA6GOKX5">
+<script>
+			var googletag = googletag || {}, code_name; googletag.cmd = googletag.cmd || [];
+		</script>
+<script>
+			googletag.cmd.push(function () { var _YB = _YB || { ab: function () { return (_YB.dool ? 'b' : 'a' + Math.floor(Math.random() * 10)); }, dc: function () { return (_YB.dool ? 'd' : 'c' + Math.floor(Math.random() * 20)); }, mx: function () { return (!_YB.dool ? 'x' : 'm' + Math.floor(Math.random() * 180)); }, tt: function () { return ('tt' + Math.floor(Math.random() * 10)); }, dool: Math.random() >= 0.1 }; var _yt = new Date(), yb_th = _yt.getUTCHours() - 8, yb_tm = _yt.getUTCMinutes(), yb_wd = _yt.getUTCDay(); if (yb_th < 0) { yb_th = 24 + yb_th; yb_wd -= 1; }; if (yb_wd < 0) { yb_wd = 7 + yb_wd }; var YBmapping = googletag.sizeMapping().addSize([0, 0], []).addSize([1080, 0], [[120, 600]]).addSize([1130, 0], [[120, 600], [160, 600]]).addSize([1400, 0], [[120, 600], [160, 600], [300, 600]]).build(); code_name = 'littlealchemy.com_cheats_300x600_adaptive_1_v2_ybcm'; googletag.defineSlot('/52555387,3655310/' + code_name + '', [[120, 600], [160, 600], [300, 600]], 'div-gpt-ad-littlealchemy.com_cheats_300x600_adaptive_1_v2').defineSizeMapping(YBmapping).setTargeting('yb_ab', _YB.ab()).setTargeting('yb_dc', _YB.dc()).setTargeting('yb_mx', _YB.mx()).setTargeting('yb_tt', _YB.tt()).setTargeting('yb_ff', '' + Math.round(Math.random())).setTargeting('yb_th', yb_th.toString()).setTargeting('yb_tm', yb_tm.toString()).setTargeting('yb_wd', yb_wd.toString()).addService(googletag.pubads()); googletag.enableServices(); });
+		</script>
+<div id="div-gpt-ad-littlealchemy.com_cheats_300x600_adaptive_1_v2" class="astro-GA6GOKX5">
+<script>
+				googletag.cmd.push(function () { googletag.display('div-gpt-ad-littlealchemy.com_cheats_300x600_adaptive_1_v2'); });
+			</script>
+</div>
+</div>
+</div>
+<div class="header astro-3EF6KSR2">
+<a href="/hints/" class="astro-3EF6KSR2">
+<img alt="Little Alchemy Official Hints" src="/hints/_astro/header.9f6fd7a5.png" class="astro-3EF6KSR2">
+</a>
+</div>
+<div class="adHeader astro-C77XEO5Z">
+<script>
+		var googletag = googletag || {}, code_name; googletag.cmd = googletag.cmd || [];
+	</script>
+<script>
+		googletag.cmd.push(function () { var _YB = _YB || { ab: function () { return (_YB.dool ? 'b' : 'a' + Math.floor(Math.random() * 10)); }, dc: function () { return (_YB.dool ? 'd' : 'c' + Math.floor(Math.random() * 20)); }, mx: function () { return (!_YB.dool ? 'x' : 'm' + Math.floor(Math.random() * 180)); }, tt: function () { return ('tt' + Math.floor(Math.random() * 10)); }, dool: Math.random() >= 0.1 }; var _yt = new Date(), yb_th = _yt.getUTCHours() - 8, yb_tm = _yt.getUTCMinutes(), yb_wd = _yt.getUTCDay(); if (yb_th < 0) { yb_th = 24 + yb_th; yb_wd -= 1; }; if (yb_wd < 0) { yb_wd = 7 + yb_wd }; var YBmapping = googletag.sizeMapping().addSize([0, 0], [[300, 50], [300, 100], [300, 250], [320, 50], [320, 100]]).addSize([768, 0], [[728, 90]]).build(); code_name = 'littlealchemy.com_cheats_728x90_adaptive_1_v2_ybcm'; googletag.defineSlot('/52555387,3655310/' + code_name + '', [[300, 50], [300, 100], [320, 50], [320, 100], [728, 90]], 'div-gpt-ad-littlealchemy.com_cheats_728x90_adaptive_1_v2').defineSizeMapping(YBmapping).setTargeting('yb_ab', _YB.ab()).setTargeting('yb_dc', _YB.dc()).setTargeting('yb_mx', _YB.mx()).setTargeting('yb_tt', _YB.tt()).setTargeting('yb_ff', '' + Math.round(Math.random())).setTargeting('yb_th', yb_th.toString()).setTargeting('yb_tm', yb_tm.toString()).setTargeting('yb_wd', yb_wd.toString()).addService(googletag.pubads()); googletag.enableServices(); });
+	</script>
+<div id="div-gpt-ad-littlealchemy.com_cheats_728x90_adaptive_1_v2" class="astro-C77XEO5Z">
+<script>
+			googletag.cmd.push(function () { googletag.display('div-gpt-ad-littlealchemy.com_cheats_728x90_adaptive_1_v2'); });
+		</script>
+</div>
+</div>
+<div class="content astro-SCKKX6R4">
+<div class="entry astro-MJGVO5CU">
+<div class="main astro-MJGVO5CU">
+<div class="startPage astro-J7PV25F6">
+<h1 class="astro-J7PV25F6">
+Little Alchemy<br class="astro-J7PV25F6">Official Hints And Cheats
+</h1>
+<a href="#" class="randomButton astro-VNZLVQNM" data-random-item>
+show a hint &raquo;
+</a>
+<p class="astro-J7PV25F6">
+Did you get stuck in Little Alchemy? Or maybe you're just looking around to see what other things you can find in the game?
+</p>
+<p class="astro-J7PV25F6">
+Regardless of your motivation, you can get Little Alchemy hints right here!
+</p>
+<p class="astro-J7PV25F6">
+Go ahead and try some <a href="#" data-random-item class="astro-J7PV25F6">random hints</a>!
+</p>
+<p class="astro-J7PV25F6">
+Little Alchemy is a game of trial and error. Start with 4 basic elements and mix them to create hundreds of unique items.
+</p>
+</div>
+</div>
+</div>
+<div class="extras astro-ZZJUZXLU">
+<div class="unit astro-YXPDV3MY">
+<h3 class="astro-YXPDV3MY">Little Alchemy Classic</h3>
+<p class="astro-ZZJUZXLU">
+Download Little&nbsp;Alchemy for iOS and Android or play it directly in the browser of your choice!
+</p>
+<div class="platforms astro-73CC5BJE">
+<a class="app-store astro-73CC5BJE" href="https://apps.apple.com/app/little-alchemy/id542467126?ls=1&#38;mt=8" title="Little Alchemy - App Store" rel="noopener">
+<img alt="Download on the App Store" src="/hints/_astro/app-store-135x40.25178aee.svg" loading="lazy" class="astro-73CC5BJE">
+</a>
+<a class="play-store astro-73CC5BJE" href="https://play.google.com/store/apps/details?id=com.sometimeswefly.littlealchemy&#38;utm_source=la-hints" title="Little Alchemy - Play Store" rel="noopener">
+<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" loading="lazy" class="astro-73CC5BJE">
+</a>
+</div>
+<p class="astro-ZZJUZXLU">
+<a href="https://littlealchemy.com" title="Little Alchemy - Browsers" class="astro-ZZJUZXLU">
+Little&nbsp;Alchemy for Browsers
+</a>
+</p>
+</div>
+<div class="unit astro-YXPDV3MY">
+<h3 class="astro-YXPDV3MY">Little Alchemy 2</h3>
+<p class="astro-ZZJUZXLU">
+Play Little&nbsp;Alchemy&nbsp;2, the sequel to Little&nbsp;Alchemy! Includes new visuals, combinations,
+original soundtrack and more!
+</p>
+<p class="astro-ZZJUZXLU">
+Available for free here:
+</p>
+<div class="platforms astro-73CC5BJE">
+<a class="app-store astro-73CC5BJE" href="https://itunes.apple.com/app/little-alchemy-2/id1214190989" title="Little Alchemy 2 - App Store" rel="noopener">
+<img alt="Download on the App Store" src="/hints/_astro/app-store-135x40.25178aee.svg" loading="lazy" class="astro-73CC5BJE">
+</a>
+<a class="play-store astro-73CC5BJE" href="https://play.google.com/store/apps/details?id=com.recloak.littlealchemy2&#38;utm_source=la-hints" title="Little Alchemy 2 - Play Store" rel="noopener">
+<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" loading="lazy" class="astro-73CC5BJE">
+</a>
+</div>
+<p class="astro-ZZJUZXLU">
+<a href="https://littlealchemy2.com" title="Little Alchemy - Browsers" class="astro-ZZJUZXLU">
+Little&nbsp;Alchemy&nbsp;2 for Browsers
+</a>
+</p>
+</div>
+<div class="unit astro-YXPDV3MY">
+<h3 class="astro-YXPDV3MY">Little Alchemy 2 Hints</h3>
+<p class="astro-ZZJUZXLU">If you're looking for hints and cheats to Little&nbsp;Alchemy&nbsp;2 you can find them here:</p>
+<p class="astro-ZZJUZXLU"><a href="https://hints.littlealchemy2.com" class="la2hints astro-ZZJUZXLU">Little&nbsp;Alchemy&nbsp;2 Hints</a></p>
+</div>
+<div class="unit astro-YXPDV3MY">
+<h3 class="astro-YXPDV3MY"><a href="https://teespring.com/little-alchemy-wireframe">Little Alchemy Store</a></h3>
+<p class="astro-ZZJUZXLU">
+We just launched an official store!<br class="astro-ZZJUZXLU">
+Use promocode <i class="astro-ZZJUZXLU">ITSTARTS</i> for $5 off our first T-shirt.✨
+</p>
+<p class="astro-ZZJUZXLU">
+<a href="https://teespring.com/little-alchemy-wireframe" class="astro-ZZJUZXLU">Little&nbsp;Alchemy Official Store</a>
+</p>
+</div>
+</div>
+</div>
+<div class="footer astro-SZ7XMLTE">
+<div class="astro-SZ7XMLTE">
+<a href="https://www.iubenda.com/privacy-policy/7940122/full-legal" target="_blank" rel="noreferrer noopener" class="astro-SZ7XMLTE">
+Privacy Policy
+</a>
+</div>
+</div>
+</div>
+<script>
+    window.ga = function () { ga.q.push(arguments) };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-24907950-5', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview');
+  </script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body></html>

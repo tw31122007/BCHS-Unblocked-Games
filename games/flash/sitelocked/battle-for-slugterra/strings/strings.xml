@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<strings>
+	<loadingScreen>
+		<percentSign><![CDATA[ %N % ]]></percentSign>
+	</loadingScreen>
+	<mainMenu>
+		<clickToPlay><![CDATA[<font size="40" face="CA Gothique">CLICK TO PLAY!</font>]]></clickToPlay>
+		<newGame><![CDATA[ <font size="45" face="KabelDTCondensed"> New Game </font> ]]></newGame>
+		<continueGame><![CDATA[ <font size="45" face="KabelDTCondensed"> Continue </font> ]]></continueGame>
+		<sound><![CDATA[ <font size="27" face="KabelDTCondensed"> Sound </font> ]]></sound>
+		<store><![CDATA[ <font size="27" face="KabelDTCondensed"> Store </font>]]></store>
+		<howToPlay><![CDATA[ <font size="27" face="KabelDTCondensed"> How To Play </font> ]]></howToPlay>
+		<confirmationMessage><![CDATA[<font color="FFFFFF">Are you sure you want to start a new game?</font> <font color="#9099aa">All save data will be lost!</font>]]></confirmationMessage>
+		<newLevelsTitle><![CDATA[ <font size="25" color="#001b2b" face="KabelDTCondensed">New World!</font>]]></newLevelsTitle>
+		<newLevelsDescription><![CDATA[<font size="18" face="KabelDTCondensed" color="#146a5f">Dark Periperhy!</font>]]></newLevelsDescription>
+		<credits><![CDATA[Credits]]></credits>
+	</mainMenu>
+	<mapScreen>
+		<overWorld><![CDATA[SLUGTERRA]]></overWorld>
+		<world1><![CDATA[WILD SPORES]]></world1>
+		<world2><![CDATA[DARK SPORES]]></world2>
+		<world3><![CDATA[SCORCHED SPARKS]]></world3>
+		<world4><![CDATA[DARK PERIPHERY]]></world4>
+		<wildSporesWorldIcon><![CDATA[Wild Spores]]></wildSporesWorldIcon>
+		<darkSporesWorldIcon><![CDATA[Dark Spores]]></darkSporesWorldIcon>
+		<scorchedSparksWorldIcon><![CDATA[Scorched Sparks]]></scorchedSparksWorldIcon>
+		<darkPeripheryWorldIcon><![CDATA[Dark Periphery]]></darkPeripheryWorldIcon>
+		<completed><![CDATA[Completed]]></completed>
+		<percentSign><![CDATA[ %N% ]]></percentSign>
+		<legend><![CDATA[Arrow keys to move - Space bar to select]]></legend>
+		<coins><![CDATA[You have]]></coins>
+		<levelNumber><![CDATA[%N]]></levelNumber>
+
+	</mapScreen>
+	<genericPauseScreen>
+		<clickMessage><![CDATA[Click here to resume the game!]]></clickMessage>
+	</genericPauseScreen>
+	<pauseScreen>
+		<sound><![CDATA[Sound]]></sound>
+		<worldMap><![CDATA[World Map]]></worldMap>
+		<titleScreen><![CDATA[Quit Game]]></titleScreen>
+		<resume><![CDATA[Resume]]></resume>
+		<on><![CDATA[ON]]></on>
+		<off><![CDATA[OFF]]></off>
+		<store><![CDATA[Store]]></store>
+		<howToPlay><![CDATA[How to Play]]></howToPlay>
+		<confirmMessage><![CDATA[<font color="#FFFFFF">Are you sure?</font> <font color="#9099aa">Level progress will be lost.</font>]]></confirmMessage>
+		<quitMessage><![CDATA[<font color="#FFFFFF">Are you sure you want to quit?</font> <font color="#9099aa">Progress will be saved.</font>]]></quitMessage>
+	</pauseScreen>
+	<winScreen>
+		<youWin><![CDATA[YOU WIN]]></youWin>
+		<cont><![CDATA[TO CONTINUE]]></cont>
+		<pressEnter><![CDATA[PRESS ENTER]]></pressEnter>
+		<levelCompletedAt><![CDATA[LEVEL COMPLETED]]></levelCompletedAt>
+		<coins><![CDATA[Coins]]></coins>
+		<time><![CDATA[Time]]></time>
+		<enemies><![CDATA[Enemies]]></enemies>
+		<hitsTaken><![CDATA[Hits Taken]]></hitsTaken>
+		<level><![CDATA[LEVEL]]></level>
+		<collect><![CDATA[COLLECT]]></collect>
+		<newRecord><![CDATA[New Record!]]></newRecord>
+		
+		<slugCollected><![CDATA[SLUG COLLECTED]]></slugCollected>
+		<percentSign><![CDATA[ %N% ]]></percentSign>
+		<percentSignBrackets><![CDATA[ (%N%) ]]></percentSignBrackets>
+	</winScreen>
+	<slugs>
+		<slug id="infernus">
+			<name><![CDATA[Burpy]]></name>
+			<type><![CDATA[Infernus Slug]]></type>
+			
+		</slug>
+		<slug id="frostcrawler">
+			<name><![CDATA[Chiller]]></name>
+			<type><![CDATA[FrostCrawler Slug]]></type>
+			<text1><![CDATA[FREEZE AND USE AS PLATFORM]]></text1>
+		</slug>
+		<slug id="tazerling">
+			<name><![CDATA[Joules]]></name>
+			<type><![CDATA[Tazerling Slug]]></type>
+			<text1><![CDATA[POWER UP]]></text1>
+		</slug>
+		<slug id="bubble">
+			<name><![CDATA[Suds]]></name>
+			<type><![CDATA[Bubbaleon Slug]]></type>
+			
+			<text1><![CDATA[FLOAT AND JUMP]]></text1>
+			<text2><![CDATA[TRAP]]></text2>
+		</slug>
+		<slug id="bludgeon">
+			<name><![CDATA[Bludgeon]]></name>
+			<type><![CDATA[Rammstone Slug]]></type>
+			<text1><![CDATA[PUSH]]></text1>
+		</slug>
+		
+		<slug id="vinedrill">
+			<name><![CDATA[Tangles]]></name>
+			<type><![CDATA[Vinedrill Slug]]></type>
+			<text1><![CDATA[POISON]]></text1>
+			<text2><![CDATA[BUILD BRIDGES]]></text2>
+		</slug>
+		<slug id="grenuke">
+			<name><![CDATA[Banger]]></name>
+			<type><![CDATA[Grenuke Slug]]></type>
+			
+			<text1><![CDATA[HOLD]]></text1>
+			<text2><![CDATA[AIM]]></text2>
+		</slug>
+		<slug id="porkyspline">
+			<name><![CDATA[Mucky]]></name>
+			<type><![CDATA[Dirt Urchine Slug]]></type>
+			
+			<text1><![CDATA[HOLD]]></text1>
+		</slug>
+		
+		<slug id="yang">
+			<name><![CDATA[Yang]]></name>
+			<type><![CDATA[Negashade Slug]]></type>
+			
+			<text1><![CDATA[AIM]]></text1>
+		</slug>
+		
+		<slug id="enigmo">
+			<name><![CDATA[Mo]]></name>
+			<type><![CDATA[Enigmo Slug]]></type>
+			
+			<text1><![CDATA[REVEAL HIDDEN OBJECTS]]></text1>
+		</slug>
+		
+		<slug id="hypnogrif">
+			<name><![CDATA[Charmer]]></name>
+			<type><![CDATA[Hypnogriff Slug]]></type>
+			
+			<text1><![CDATA[CONTROL]]></text1>
+		</slug>
+		
+		<slug id="heatseeker">
+			<name><![CDATA[Glimmer]]></name>
+			<type><![CDATA[Phosphoro Slug]]></type>
+			
+			<text1><![CDATA[TRACK]]></text1>
+		</slug>
+	</slugs>
+	<credits>
+		<back><![CDATA[Back]]></back>
+	</credits>
+	<teaserScreen>
+		<title><![CDATA[COMING SOON]]></title>
+		<buttonText><![CDATA[BACK]]></buttonText>
+	</teaserScreen>
+	<howToPlayScreen>
+		<title><![CDATA[How To Play]]></title>
+		<move><![CDATA[Move Around!]]></move>
+		<jump><![CDATA[Jump!]]></jump>
+		<shoot><![CDATA[Shoot Slugs!]]></shoot>
+		<nextSlug><![CDATA[Switch Between Slugs!]]></nextSlug>
+		<openBag><![CDATA[Open Backpack]]></openBag>
+		<returnToMenu><![CDATA[Return to Menu]]></returnToMenu>
+	</howToPlayScreen>
+	<confirmScreen>
+		<message><![CDATA[Are you sure?]]></message>
+		<yes><![CDATA[Yes]]></yes>
+		<no><![CDATA[No]]></no>	
+		<ok><![CDATA[Ok]]></ok>
+		<cancel><![CDATA[Cancel]]></cancel>
+		
+	</confirmScreen>
+	<controlSign><![CDATA[ %C ]]></controlSign>
+	<slugSelectionScreen>
+		<select><![CDATA[select your slug]]></select>
+	</slugSelectionScreen>
+	<store>
+		<title><![CDATA[INVENTORY]]></title>
+		<subTitle><![CDATA[Spend coins to purchase and equip items]]></subTitle>
+		<notEnoughMoney><![CDATA[You don't have enough coins! Earn more coins by playing Battle For Slugterra!]]></notEnoughMoney>
+		<purchase><![CDATA[Would you like to purchase %S for %N coins? ]]></purchase>
+		<useQuestion><![CDATA[Would you like to use a %S boost? It will last for one level.]]></useQuestion>
+		<equipQuestion><![CDATA[%S purchased. Do you want to equip this now?]]></equipQuestion>
+		<consumQuestion><![CDATA[%S purchased. Would you like to use it now? It will last for one level.]]></consumQuestion>
+		<levelQuestion><![CDATA[%S purchased. Would you like to play it now?]]></levelQuestion>
+		<equiped><![CDATA[- EQUIPPED]]></equiped>
+		<purchased><![CDATA[%S purchased!]]></purchased>
+		<youHave><![CDATA[You have]]></youHave>
+		<back><![CDATA[BACK]]></back>
+		<cancel><![CDATA[CANCEL]]></cancel>		
+		<equip><![CDATA[EQUIP]]></equip>
+		<unequip><![CDATA[UNEQUIP]]></unequip>
+		<owned><![CDATA[OWNED]]></owned>
+		<buy><![CDATA[BUY]]></buy>
+		<useItem><![CDATA[USE]]></useItem>
+		<itemAmount><![CDATA[ x %N]]></itemAmount>
+		<invalidItem><![CDATA[Currently Unavailable]]></invalidItem>
+		<categories>
+			<category id="0"><![CDATA[BOOSTS]]></category>
+			<category id="1"><![CDATA[POWERS]]></category>
+			<category id="2"><![CDATA[PETS]]></category>
+			<category id="3"><![CDATA[FUN MODS]]></category>
+			<category id="4"><![CDATA[SKINS]]></category>
+			<category id="5"><![CDATA[LEVELS]]></category>
+		</categories>
+		<items>
+			
+			<!-- BOOSTERS -->
+			<item id="shield">
+				<title><![CDATA[SHIELD]]></title>
+				<description><![CDATA[Gives you a shield for one level]]></description>
+			</item>
+			<item id="coin_burst">
+				<title><![CDATA[COIN BURST]]></title>
+				<description><![CDATA[Causes defeated enemies to shower you in coins for one level]]></description>
+			</item>
+			<item id="burpy_transform">
+				<title><![CDATA[BURPY TRANSFORM]]></title>
+				<description><![CDATA[You fire a transformed Burpy for an increased damage radius for one level]]></description>
+			</item>
+			<item id="tazerling_transform">
+				<title><![CDATA[JOULES TRANSFORM]]></title>
+				<description><![CDATA[You fire a transformed Joules for an increased damage radius for one level]]></description>
+			</item>
+			<item id="frostcrawler_transform">
+				<title><![CDATA[CHILLER TRANSFORM]]></title>
+				<description><![CDATA[You fire a transformed Chiller for an increased damage radius for one level]]></description>
+			</item>
+			<item id="double_jump">
+				<title><![CDATA[DOUBLE JUMP]]></title>
+				<description><![CDATA[You can jump twice as high for one level]]></description>
+			</item>
+			
+			<!-- ELI MODS -->
+			<item id="rubber_legs">
+				<title><![CDATA[RUBBER LEGS]]></title>
+				<description><![CDATA[Increases your bounciness]]></description>
+			</item>
+			<item id="slip_n_slide">
+				<title><![CDATA[SLIP N' SLIDE]]></title>
+				<description><![CDATA[Decreases your friction making you slide across surfaces]]></description>
+			</item>
+			<item id="light_as_a_feather">
+				<title><![CDATA[LIGHT AS A FEATHER]]></title>
+				<description><![CDATA[Increases your hang time when jumping]]></description>
+			</item>
+			<item id="mad_rush">
+				<title><![CDATA[MAD RUSH]]></title>
+				<description><![CDATA[Increases your running speed]]></description>
+			</item>
+			<item id="flea_eli">
+				<title><![CDATA[FLEA]]></title>
+				<description><![CDATA[Makes you smaller but gives you a high jump ability]]></description>
+			</item>
+		
+			<!-- PETS -->
+			<item id="pet_wasp">
+				<title><![CDATA[PET BEE]]></title>
+				<description><![CDATA[A bothersome bee will follow along behind you]]></description>
+			</item>
+			<item id="pet_bugbush">
+				<title><![CDATA[PET BUGBUSH]]></title>
+				<description><![CDATA[A friendly bugbush will follow along behind you]]></description>
+			</item>
+			<item id="pet_lobster">
+				<title><![CDATA[PET LOBSTER]]></title>
+				<description><![CDATA[A luscious lobster will follow along behind you]]></description>
+			</item>
+			<item id="pet_stinkshroom">
+				<title><![CDATA[PET STINKSHROOM]]></title>
+				<description><![CDATA[A valiant stinkshroom will follow along behind you]]></description>
+			</item>
+			<item id="pet_mimic">
+				<title><![CDATA[PET MIMIC]]></title>
+				<description><![CDATA[A curious mimic will follow along behind you]]></description>
+			</item>
+			
+			<!-- SKINS -->
+			<item id="mario_bravado">
+				<title><![CDATA[MARIO BRAVADO]]></title>
+				<description><![CDATA[Play as Mario Bravado]]></description>
+			</item>
+			<item id="trixie">
+				<title><![CDATA[TRIXIE]]></title>
+				<description><![CDATA[Play as Trixie]]></description>
+			</item>
+			<item id="kord">
+				<title><![CDATA[KORD]]></title>
+				<description><![CDATA[Play as Kord]]></description>
+			</item>
+			<item id="malvolio_drake">
+				<title><![CDATA[MALVOLIO DRAKE]]></title>
+				<description><![CDATA[Play as Malvolio Drake]]></description>
+			</item>
+			<item id="pronto">
+				<title><![CDATA[PRONTO]]></title>
+				<description><![CDATA[Play as Pronto]]></description>
+			</item>
+			<item id="nacho">
+				<title><![CDATA[NACHO]]></title>
+				<description><![CDATA[Play as Nacho]]></description>
+			</item>
+			
+			<!-- MISC MODS -->
+			<item id="confetti_burst">
+				<title><![CDATA[CONFETTI BURST]]></title>
+				<description><![CDATA[Causes defeated enemies to shower you in confetti]]></description>
+			</item>
+			<item id="fireworks_burst">
+				<title><![CDATA[FIREWORKS BURST]]></title>
+				<description><![CDATA[Causes defeated enemies to burst into fireworks]]></description>
+			</item>
+			<item id="super_slugs">
+				<title><![CDATA[SUPER SLUGS]]></title>
+				<description><![CDATA[Your slug followers are twice as big]]></description>
+			</item>
+			<item id="slug_circus">
+				<title><![CDATA[SLUG CIRCUS]]></title>
+				<description><![CDATA[Instead of following behind you the slugs make an acrobatic tower on top of your head]]></description>
+			</item>
+			
+			<!-- CHALLENGE LEVELS -->
+			<item id="burpy_challenge_level">
+				<title><![CDATA[BURPY CHALLENGE LEVEL]]></title>
+				<description><![CDATA[Challenge yourself to beat this difficult level using just Burpy for a big reward]]></description>
+			</item>
+			<item id="bludgeon_challenge_level">
+				<title><![CDATA[BLUDGEON CHALLENGE LEVEL]]></title>
+				<description><![CDATA[Challenge yourself to beat this difficult level using just Bludgeon for a big reward]]></description>
+			</item>
+			<item id="bubble_challenge_level">
+				<title><![CDATA[SUDS CHALLENGE LEVEL]]></title>
+				<description><![CDATA[Challenge yourself to beat this difficult level using just Suds for a big reward]]></description>
+			</item>
+			<item id="tazerling_challenge_level">
+				<title><![CDATA[JOULES CHALLENGE LEVEL]]></title>
+				<description><![CDATA[Challenge yourself to beat this difficult level using just Joules for a big reward]]></description>
+			</item>
+			<item id="vinedrill_challenge_level">
+				<title><![CDATA[TANGLES CHALLENGE LEVEL]]></title>
+				<description><![CDATA[Challenge yourself to beat this difficult level using just Tangles for a big reward]]></description>
+			</item>
+			
+		</items>
+	</store>
+	
+</strings>

@@ -42,6 +42,15 @@
 .cards .soccer-random {
     background-image: url("/assets/img/thumbnails/soccer-random.png");
 }
+.cards .earn-to-die {
+    background-image: url("/assets/img/thumbnails/earn-to-die.png");
+}
+.cards .earn-to-die-2 {
+    background-image: url("/assets/img/thumbnails/earn-to-die-2.png");
+}
+.cards .earn-to-die-2012-part-1 {
+    background-image: url("/assets/img/thumbnails/earn-to-die-2012-part-1.png");
+}
 .cards .earn-to-die-2012-part-2 {
     background-image: url("/assets/img/thumbnails/earn-to-die-2012-part-2.png");
 }
@@ -150,8 +159,17 @@
 .cards .duck-life-3 {
     background-image: url("/assets/img/thumbnails/duck-life-3.png");
 }
-.cards .fireboy-and-watergirl-1 {
-    background-image: url("/assets/img/thumbnails/fireboy-and-watergirl-1.png");
+.cards .fbwg-1 {
+    background-image: url("/assets/img/thumbnails/fbwg-1.png");
+}
+.cards .fbwg-2 {
+    background-image: url("/assets/img/thumbnails/fbwg-2.png");
+}
+.cards .fbwg-3 {
+    background-image: url("/assets/img/thumbnails/fbwg-3.png");
+}
+.cards .fbwg-4 {
+    background-image: url("/assets/img/thumbnails/fbwg-4.png");
 }
 .cards .flappy-2048 {
     background-image: url("/assets/img/thumbnails/flappy-2048.png");
@@ -185,6 +203,12 @@
 }
 .cards .learn-to-fly-2 {
     background-image: url("/assets/img/thumbnails/learn-to-fly-2.png");
+}
+.cards .learn-to-fly-3 {
+    background-image: url("/assets/img/thumbnails/learn-to-fly-3.png");
+}
+.cards .learn-to-fly-idle {
+    background-image: url("/assets/img/thumbnails/learn-to-fly-idle.png");
 }
 .cards .minesweeper {
     background-image: url("/assets/img/thumbnails/minesweeper.png");
@@ -764,4 +788,76 @@
 }
 .cards .riddle-transfer-2 {
     background-image: url("/assets/img/thumbnails/riddle-transfer-2.png");
+}
+.cards .rebuild {
+    background-image: url("/assets/img/thumbnails/rebuild.png");
+}
+.cards .rebuild-2 {
+    background-image: url("/assets/img/thumbnails/rebuild-2.png");
+}
+.cards .diggy {
+    background-image: url("/assets/img/thumbnails/diggy.png");
+}
+.cards .bomb-it {
+    background-image: url("/assets/img/flash-games/bomb-it.png");
+}
+.cards .penguin-diner {
+    background-image: url("/assets/img/thumbnails/penguin-diner.png");
+}
+.cards .penguin-diner-2 {
+    background-image: url("/assets/img/thumbnails/penguin-diner-2.png");
+}
+.cards .effing-worms {
+    background-image: url("/assets/img/thumbnails/effing-worms.png");
+}
+.cards .effing-worms-2 {
+    background-image: url("/assets/img/thumbnails/effing-worms-2.png");
+}
+.cards .effing-worms-xmas {
+    background-image: url("/assets/img/thumbnails/effing-worms-xmas.png");
+}
+.cards .effing-hail {
+    background-image: url("/assets/img/thumbnails/effing-hail.png");
+}
+.cards .wheely {
+    background-image: url("/assets/img/flash-games/wheely.png");
+}
+.cards .wheely-2 {
+    background-image: url("/assets/img/flash-games/wheely-2.png");
+}
+.cards .wheely-3 {
+    background-image: url("/assets/img/flash-games/wheely-3.png");
+}
+.cards .wheely-4 {
+    background-image: url("/assets/img/flash-games/wheely-4.png");
+}
+.cards .wheely-5 {
+    background-image: url("/assets/img/flash-games/wheely-5.png");
+}
+.cards .wheely-6 {
+    background-image: url("/assets/img/flash-games/wheely-6.png");
+}
+.cards .wheely-7 {
+    background-image: url("/assets/img/flash-games/wheely-7.png");
+}
+.cards .wheely-8 {
+    background-image: url("/assets/img/flash-games/wheely-8.png");
+}
+.cards .fortz {
+    background-image: url("/assets/img/thumbnails/fortz.png");
+}
+.cards .last-stand-union-city {
+    background-image: url("/assets/img/thumbnails/last-stand-union-city.png");
+}
+.cards .my-friend-pedro {
+    background-image: url("/assets/img/thumbnails/my-friend-pedro.png");
+}
+.cards .shopping-street {
+    background-image: url("/assets/img/thumbnails/shopping-street.png");
+}
+.cards .shopping-city {
+    background-image: url("/assets/img/thumbnails/shopping-city.png");
+}
+.cards . {
+    background-image: url("/assets/img/thumbnails/.png");
 }

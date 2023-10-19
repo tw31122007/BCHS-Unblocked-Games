@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:7b8ce837491ffbbe8405f930c8f2c23f$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="common.png" width="2035" height="720">
+    <sprite n="UI_base" x="752" y="1" w="750" h="500"/>
+    <sprite n="UI_healthbar" x="1" y="701" w="108" h="18"/>
+    <sprite n="UI_menu" x="1994" y="584" w="40" h="35"/>
+    <sprite n="UI_menu_rollover" x="1953" y="584" w="40" h="35"/>
+    <sprite n="UI_mute" x="1968" y="655" w="40" h="34"/>
+    <sprite n="UI_mute_rollover" x="1927" y="655" w="40" h="34"/>
+    <sprite n="UI_pausescreen" x="1" y="1" w="750" h="500"/>
+    <sprite n="UI_pausescreen_soundIcon" x="1690" y="686" w="32" h="31"/>
+    <sprite n="UI_shieldbar" x="110" y="701" w="84" h="18"/>
+    <sprite n="UI_store" x="1771" y="684" w="40" h="35"/>
+    <sprite n="UI_unmute" x="1971" y="620" w="40" h="34"/>
+    <sprite n="UI_unmute_rollover" x="1930" y="620" w="40" h="34"/>
+    <sprite n="arrow_east" x="1932" y="249" w="52" h="37" oX="0" oY="15" oW="76" oH="77"/>
+    <sprite n="arrow_ne" x="1212" y="657" w="52" h="43" oX="22" oY="18" oW="76" oH="77"/>
+    <sprite n="arrow_north" x="1685" y="634" w="38" h="51" oX="20" oY="3" oW="76" oH="77"/>
+    <sprite n="arrow_nw" x="1932" y="196" w="43" h="52" oX="18" oY="1" oW="77" oH="76"/>
+    <sprite n="arrow_right" x="1926" y="287" w="52" h="38" oX="1" oY="4" oW="54" oH="54"/>
+    <sprite n="arrow_s" x="1644" y="634" w="40" h="53" oX="19" oY="22" oW="76" oH="77"/>
+    <sprite n="arrow_se" x="1265" y="657" w="50" h="43" oX="21" oY="27" oW="76" oH="77"/>
+    <sprite n="arrow_sw" x="1882" y="274" w="43" h="50" oX="7" oY="21" oW="77" oH="76"/>
+    <sprite n="booster" x="719" y="657" w="70" h="62"/>
+    <sprite n="booster_rollover" x="648" y="657" w="70" h="62"/>
+    <sprite n="bossdoor_2" x="1404" y="502" w="85" h="139"/>
+    <sprite n="boulder01" x="1643" y="311" w="114" h="116" oX="2" oY="0" oW="122" oH="122"/>
+    <sprite n="check" x="1857" y="421" w="24" h="23"/>
+    <sprite n="coin0001" x="1919" y="554" w="33" h="35" oX="2" oY="0" oW="35" oH="35"/>
+    <sprite n="coin0002" x="1999" y="529" w="35" h="35"/>
+    <sprite n="coin0003" x="1999" y="493" w="35" h="35"/>
+    <sprite n="coin0004" x="1999" y="457" w="35" h="35"/>
+    <sprite n="coin0005" x="2009" y="655" w="25" h="35" oX="5" oY="0" oW="35" oH="35"/>
+    <sprite n="coinDisplay" x="790" y="657" w="136" h="49"/>
+    <sprite n="coinicon" x="1865" y="207" w="66" h="66"/>
+    <sprite n="dialog_body" x="1641" y="1" w="1" h="413"/>
+    <sprite n="dialog_side" x="1503" y="1" w="137" h="413"/>
+    <sprite n="emitter_boulder0001" x="927" y="657" w="86" h="50" oX="5" oY="27" oW="100" oH="100"/>
+    <sprite n="emitter_boulder0002" x="1660" y="609" w="64" h="24" oX="12" oY="65" oW="100" oH="100"/>
+    <sprite n="emitter_bubble" x="1144" y="657" w="67" h="39" oX="4" oY="29" oW="75" oH="75"/>
+    <sprite n="emitter_button0001" x="1724" y="680" w="46" h="30" oX="1" oY="17" oW="56" oH="50"/>
+    <sprite n="emitter_button0002" x="1792" y="607" w="46" h="30" oX="1" oY="19" oW="56" oH="50"/>
+    <sprite n="exitdoor0001" x="1754" y="128" w="110" h="146" oX="5" oY="8" oW="120" oH="160"/>
+    <sprite n="exitdoor0002" x="1643" y="158" w="110" h="152" oX="5" oY="8" oW="120" oH="160"/>
+    <sprite n="exitdoor0003" x="1293" y="502" w="110" h="154" oX="5" oY="6" oW="120" oH="160"/>
+    <sprite n="exitdoor0004" x="1643" y="1" w="110" h="156" oX="5" oY="4" oW="120" oH="160"/>
+    <sprite n="icon_boosters" x="1366" y="657" w="31" h="49"/>
+    <sprite n="icon_consumable_burpy" x="1953" y="546" w="45" h="37"/>
+    <sprite n="icon_consumable_coins" x="1885" y="605" w="44" h="37"/>
+    <sprite n="icon_consumable_doublejump" x="1957" y="420" w="38" h="42" oX="21" oY="13" oW="80" oH="80"/>
+    <sprite n="icon_consumable_frostcrawler" x="1077" y="657" w="66" h="44" oX="0" oY="16" oW="80" oH="80"/>
+    <sprite n="icon_consumable_shield" x="1996" y="418" w="38" h="38"/>
+    <sprite n="icon_consumable_tazerling" x="1014" y="657" w="62" h="52" oX="4" oY="5" oW="80" oH="80"/>
+    <sprite n="icon_misc_bigslug" x="1919" y="512" w="33" h="41"/>
+    <sprite n="icon_misc_confetti" x="1770" y="638" w="40" h="41"/>
+    <sprite n="icon_misc_fireworks" x="1957" y="463" w="41" h="42"/>
+    <sprite n="icon_misc_slugcircus" x="2022" y="1" w="12" h="45"/>
+    <sprite n="icon_mod_fast" x="1916" y="690" w="40" h="29"/>
+    <sprite n="icon_mod_flee" x="1851" y="275" w="30" h="51"/>
+    <sprite n="icon_mod_float" x="1896" y="325" w="26" h="48"/>
+    <sprite n="icon_mod_rubber" x="1872" y="686" w="43" h="29"/>
+    <sprite n="icon_mod_slip" x="1957" y="506" w="41" h="39"/>
+    <sprite n="icon_pet_bush" x="1912" y="468" w="44" h="43"/>
+    <sprite n="icon_pet_lobster" x="1738" y="607" w="53" h="30"/>
+    <sprite n="icon_pet_mimic" x="1811" y="638" w="25" h="45"/>
+    <sprite n="icon_pet_shroom" x="1839" y="605" w="45" h="36"/>
+    <sprite n="icon_pet_wasp" x="1644" y="688" w="45" h="31"/>
+    <sprite n="icon_skin_drake" x="1316" y="657" w="49" h="44"/>
+    <sprite n="icon_skin_kord" x="1837" y="642" w="45" h="40"/>
+    <sprite n="icon_skin_mario" x="1883" y="643" w="43" h="42"/>
+    <sprite n="icon_skin_nacho" x="1724" y="638" w="45" h="41"/>
+    <sprite n="icon_skin_pronto" x="1992" y="372" w="42" h="45"/>
+    <sprite n="icon_skin_trixie" x="1968" y="328" w="45" h="43"/>
+    <sprite n="particle_heal" x="1837" y="683" w="34" h="36" oX="3" oY="2" oW="40" oH="40"/>
+    <sprite n="post" x="1900" y="525" w="18" h="51" oX="30" oY="25" oW="76" oH="77"/>
+    <sprite n="power1" x="1979" y="287" w="46" h="40" oX="16" oY="20" oW="80" oH="80"/>
+    <sprite n="save_point0000" x="1865" y="128" w="46" h="78" oX="26" oY="20" oW="100" oH="100"/>
+    <sprite n="save_point0001" x="1990" y="118" w="44" h="74" oX="26" oY="24" oW="100" oH="100"/>
+    <sprite n="save_point0002" x="1695" y="428" w="54" h="82" oX="25" oY="16" oW="100" oH="100"/>
+    <sprite n="save_point0003" x="1614" y="428" w="80" h="98" oX="19" oY="0" oW="100" oH="100"/>
+    <sprite n="save_point0004" x="1758" y="275" w="92" h="98" oX="8" oY="0" oW="100" oH="100"/>
+    <sprite n="save_point0005" x="1490" y="514" w="92" h="98" oX="8" oY="0" oW="100" oH="100"/>
+    <sprite n="save_point0006" x="1583" y="527" w="76" h="98" oX="15" oY="0" oW="100" oH="100"/>
+    <sprite n="selectInfo" x="648" y="502" w="644" h="154" oX="51" oY="243" oW="750" oH="500"/>
+    <sprite n="selectedArrow" x="1490" y="613" w="54" h="28"/>
+    <sprite n="selectedTrim" x="1889" y="1" w="132" h="116"/>
+    <sprite n="sign_blank" x="1912" y="421" w="44" h="46" oX="1" oY="0" oW="46" oH="46"/>
+    <sprite n="sign_down" x="1947" y="373" w="44" h="46" oX="1" oY="0" oW="46" oH="46"/>
+    <sprite n="sign_l" x="1902" y="374" w="44" h="46" oX="1" oY="0" oW="46" oH="46"/>
+    <sprite n="sign_r" x="1923" y="326" w="44" h="46" oX="1" oY="0" oW="46" oH="46"/>
+    <sprite n="sign_rammer" x="1857" y="374" w="44" h="46" oX="1" oY="0" oW="46" oH="46"/>
+    <sprite n="sign_tazer" x="1851" y="327" w="44" h="46" oX="1" oY="0" oW="46" oH="46"/>
+    <sprite n="sign_up" x="1985" y="240" w="44" h="46" oX="1" oY="0" oW="46" oH="46"/>
+    <sprite n="sign_vine" x="1990" y="193" w="44" h="46" oX="1" oY="0" oW="46" oH="46"/>
+    <sprite n="slug_diagrams" x="1" y="502" w="646" h="198" oX="49" oY="243" oW="750" oH="500"/>
+    <sprite n="slug_frost_cube0001" x="1503" y="415" w="110" h="98" oX="18" oY="0" oW="140" oH="110"/>
+    <sprite n="slugmap_info_2" x="1758" y="374" w="98" h="70"/>
+    <sprite n="star_collected" x="1818" y="525" w="81" h="79"/>
+    <sprite n="star_logo0001" x="1484" y="642" w="79" h="77" oX="42" oY="12" oW="161" oH="105"/>
+    <sprite n="star_logo0002" x="1738" y="525" w="79" h="81" oX="43" oY="10" oW="161" oH="105"/>
+    <sprite n="star_logo0003" x="1660" y="527" w="77" h="81" oX="44" oY="10" oW="161" oH="105"/>
+    <sprite n="star_logo0004" x="1404" y="642" w="79" h="77" oX="43" oY="12" oW="161" oH="105"/>
+    <sprite n="star_logo0005" x="1484" y="642" w="79" h="77" oX="42" oY="12" oW="161" oH="105"/>
+    <sprite n="star_logo0006" x="1832" y="445" w="79" h="79" oX="40" oY="11" oW="161" oH="105"/>
+    <sprite n="star_logo0007" x="1564" y="626" w="79" h="81" oX="40" oY="10" oW="161" oH="105"/>
+    <sprite n="star_logo0008" x="1912" y="118" w="77" h="77" oX="43" oY="13" oW="161" oH="105"/>
+    <sprite n="star_not_collected" x="1750" y="445" w="81" h="79"/>
+    <sprite n="wheelCenter" x="1754" y="1" w="134" h="126"/>
+</TextureAtlas>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mc-1.8.8/
+Disallow: /mc-1.5.2/
+Disallow: /mc-1.3/

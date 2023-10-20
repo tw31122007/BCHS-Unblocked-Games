@@ -1,0 +1,330 @@
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+@font-face {
+  font-family: "Torus";
+  src: url("TorusNotched-Regular.woff") format("woff");
+}
+
+a.nolink, a.nolink:link, a.nolink:hover, a.nolink:visited {
+    color: white;
+}
+a.nolink:active {
+    color: yellow;
+}
+#available {
+    position: fixed;
+    background-color: #ffffff;
+    top: 0px;
+    right: 0px;
+    padding: 0px 0px;
+    width:min(100vw); 
+    height:min(201vh);
+    color:white;
+    font-family: Arial;
+}
+#available_hide {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    padding: 2px;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 12px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+
+
+#koneclientmenu {
+    position: fixed;
+    /*background-color: rgba(12, 12, 12, 0.582);*/
+    top: 0px;
+    right: 0px;
+    padding: 0px 0px;
+    width:min(100vw); 
+    height:min(201vh);
+    color: rgb(255, 255, 255);
+    transition: background-color 1s;
+    font-family: Arial;
+    transition: display 1s;
+}
+#koneclientmenu_hide {
+    position: fixed;
+    top: -100px;
+    right: 0px;
+    margin: 10px;
+    padding: 2px;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 12px;
+    cursor: pointer;
+    background-color: #ffffff;
+    
+}
+#game_frame {
+    transition: filter 1s;
+    transition: -webkit-filter 1s;
+}
+#koneclienttextboxtitle1{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 1s;
+}
+#koneclienttextboxtitle1_text{
+    
+    color: white;
+      font-weight: bold;
+      z-index: 2;
+      padding: 20px;
+      text-align: center;
+    -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+}
+#koneclientmenubuttons {
+  position: relative;
+  margin-left: 47%;/*Or whatever you want*/
+padding: 10%;
+}
+#modsbutton {
+position: absolute;
+top: 55%;
+ left: 0%;
+ content:url(modsbutton.png);
+}
+#modsbutton:hover{
+    content:url(modsbutton2.png);
+}
+#modsbutton_button{
+    position: absolute;
+    top: 55%;
+     left: 0%;
+    background-color: #ffffff00; /* Green */
+      border: none;
+      color: rgba(255, 255, 255, 0);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+}
+#preload_assets{
+    display: none;
+}
+#fakedocmod{
+    border-radius: 25px;
+    background-color: rgb(46, 46, 46);
+    border: 1px solid rgb(167, 167, 167);
+    width: 300px;
+    height: 400px;
+}
+#modpreview{
+    justify-content: center;
+    height:150px;
+    
+    
+}
+#modpreviewdocs{
+    margin-left: 75px;
+    max-width: 100%;
+    max-height: 100%;
+}
+#mod_description{
+    margin:10px;
+}
+
+#modbuttons_on_off_set{
+    position: absolute;
+    top: 298px;
+    margin:0px;
+}
+
+/*-----------slider-----------*/
+.switch {
+position: relative;
+display: inline-block;
+width: 300px;
+height: 34px;
+
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+/* The slider */
+.mod_slider_round {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgb(233, 39, 39);
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.mod_slider_round:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .mod_slider_round {
+background-color: #20ce4b;
+}
+
+input:focus + .mod_slider_round {
+box-shadow: 0 0 1px #20ce4b;
+}
+
+input:checked + .mod_slider_round:before {
+-webkit-transform: translateX(265px);
+-ms-transform: translateX(265px);
+transform: translateX(265px);
+}
+
+/* Rounded sliders */
+.mod_slider_round:before {
+border-radius: 10%;
+}
+
+#slidertext{
+    position: absolute;
+    left: 132px;
+    bottom: -11.5px;
+}
+/*-------------*/
+#mod_settings_button {
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #9b9b9b;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+    transition: all 0.5s;
+    
+  }
+  
+  #mod_settings_button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #mod_settings_button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #mod_settings_button:hover span {
+    padding-right: 25px;
+  }
+  
+  #mod_settings_button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /*fakedockeybindbox*/
+  #newkeybindfakedoc{
+    position: absolute;
+    border-radius: 8px;
+    background-color: rgb(48, 48, 48);
+    border: 1px solid rgb(167, 167, 167);
+    width: 100px;
+    height: 25px;
+    transition: all 0.2s;
+  }
+  #newkeybindfakedoc:hover{
+    background-color: rgb(63, 63, 63);
+    border: 1px solid rgb(148, 148, 148);
+
+  } 
+  #fakedockeybindvalue{
+    position: absolute;
+    bottom: -14.5px;
+    left: 5px;
+  }
+  #keyboardlockmessage{
+    transition: all 0.4s;
+  }
+  #fakedocPreview{
+    border: 3px solid rgb(129, 129, 129);
+    border-radius: 4px;
+  }
+
+ 
+
+  #notifications{
+    transition: all 1s;
+    
+    display: block;
+    position: relative;
+    top:-100vh;
+    left: 130vw;
+    width: 270px;
+    height: 55px;
+    margin-bottom: 12px;
+  }
+  #notif-content-background{
+    border-radius: 7px;
+    background-color: #26282c;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(167, 167, 167);
+  }
+  #notif-content{
+    position: absolute;
+    left: -0.3vw;
+    top: -10px;
+    margin-left: 15px;
+    
+    color:#ffffff;
+    font-weight: bold;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    width: 100%;
+  }
+  #notif-content-p{
+    position: absolute;
+    left: 0vw;
+    top: 20px;
+    padding-right: 15px;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    /*font-weight: bold;*/
+    font-size: 15px;
+    padding-top: 0px;
+  }
+  #notif-seconds{
+    transition: width 15s linear;
+    top: 51px;
+    left: 1px;
+    border-radius: 0px 0px 7px 7px;
+    position: absolute;
+    background-color: #afafaf;
+    width: 100%;
+    height: 5.5px;
+  }

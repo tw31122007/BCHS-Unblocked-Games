@@ -1,0 +1,127 @@
+body.dark-mode::-webkit-scrollbar {
+    -webkit-appearance: none;
+    transition: .5s;
+    width: 15px
+}
+
+body.dark-mode::-webkit-scrollbar-track {
+    background: rgb(36 31 112);
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 0 8px rgb(36 31 112)!important;
+    transition: .5s
+}
+
+body.dark-mode::-webkit-scrollbar-thumb {
+    background: #1c56b6;
+    border-radius: 10px;
+    transition: .5s
+}
+
+body.dark-mode::-webkit-scrollbar-thumb:hover, body.dark-mode::-webkit-scrollbar-thumb:active {
+    background: #156cfb;
+    transition: .5s
+}
+
+body.dark-mode ::selection {
+    color: #fff!important;
+    background: #1c56b6!important
+}
+
+
+body.dark-mode .rainbow-text{
+   background: url("midnight-title.jpg") 0 0 / cover no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-stroke: 5px rgb(0 135 255 / 37%); 
+/*   -webkit-text-fill-color: transparent;*/
+}
+body.dark-mode {
+	background: rgb(36 31 112);
+    background: url('darkmode-bg-blur.png') no-repeat center center fixed;
+    background-size: cover;
+}
+body.dark-mode.main-page {
+	background: rgb(36 31 112);
+    background: url('dark-mode-bg.png') no-repeat center center fixed;
+    background-size: cover;
+	backdrop-filter: blur(6px);
+}
+
+body.dark-mode #loading{
+	background-color: rgb(36 31 112);
+	background-image: url("deepslate-loading.gif");
+}
+
+body.dark-mode .night-mode-button svg.day{
+	width: 30px;
+	visibility: visible;
+	opacity: 1;
+}
+body.dark-mode .night-mode-button svg.night{
+	visibility: hidden;
+	opacity: 0;
+	width: 0;
+}
+body.dark-mode .play-button{
+    background-color: #4e4e4e;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .5s ease-in-out;
+}
+body.dark-mode .play-button:hover{
+	background-color: #323232;
+}
+body.dark-mode .btn-secondary {
+    background-color: #4e4e4e;
+	border-color: #4e4e4e;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .5s ease-in-out;
+}
+body.dark-mode .btn-secondary:hover {
+	background-color: #323232;
+}
+body.dark-mode .dropdown-menu {
+	background-color: #4e4e4e;
+}
+body.dark-mode .dropdown-item {
+	background-color: #4e4e4e;
+	color: white;
+}
+body.dark-mode .dropdown-item:hover {
+	background-color: #323232;
+}
+body.dark-mode .text-dark-white {
+	color: white;
+}
+
+body.dark-mode.diff-bg{
+	background: url('About-dark-bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+body.dark-mode.diff-docs-bg{
+    background: url('docs-dark-bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.dark-mode h2.dark-text{
+	color: white
+}
+body.dark-mode h1.dark-text{
+	color: white
+}
+body.dark-mode p.dark-text{
+	color: white
+}
+
+body.dark-mode .docs-button{
+	background-color: #4e4e4e;
+}
+
+body.dark-mode .docs-button:hover{
+	background-color: #323232;
+}
+
+body.dark-mode ul.dark-text li{
+	color: white
+}
+body.dark-mode .c6 {
+	background-color: #ffffff;
+	color:#000000
+}

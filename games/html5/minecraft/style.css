@@ -1,0 +1,310 @@
+@font-face {
+    font-family: Minecraft;
+    font-display: swap;
+    src: url('MinecraftRegular-Bmg3.otf') format('truetype');
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    transition: .5s;
+    width: 15px
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(23,132,71);
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 0 8px rgb(23,132,71)!important;
+    transition: .5s
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a35318;
+    border-radius: 10px;
+    transition: .5s
+}
+
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active  {
+    background: #d85d00;
+    transition: .5s
+}
+
+::selection {
+    color: #fff!important;
+    background: #bc6809!important
+}
+
+
+html,body{height:100%}
+
+body {
+	transition: .5s backdrop-filter;
+    background: url('online mc.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Minecraft, sans-serif;
+}
+
+
+html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.rainbow-text {
+    display: inline;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10em;
+    text-align: center;
+    margin-bottom: 50px;
+    -webkit-text-stroke: 5px rgba(0, 0, 0, 0.5);
+}
+
+.rainbow-text.title-selectv{
+    font-size: 9em;
+    margin-top: 70px;
+}
+
+.play-button {
+    font-size: 2em;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    max-width: 100%;
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin:auto;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .5s ease-in-out;
+}
+
+body.select-version .play-button {
+    width: 525px
+}
+
+.play-button:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+
+#loading {
+    background-image: url(loading.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #526c30;
+    background-size: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.footer-copyright{
+   font-size: 22px;    
+}
+
+.back-button, body.select-version .back-button{
+    width:260px;
+    top:10px;
+    left:10px;
+}
+
+
+
+.mc-footer .mc-dd{
+     position: fixed;
+     top: 0;
+    right: 0;
+}
+
+.mc-footer .mc-dd .btn{
+        font-size: 24px;
+   
+}
+
+
+
+.title-custom{
+	font-size: 45px;
+}
+
+
+.play-button2{
+	margin-top: 30px;
+}
+
+.diff-bg{
+	background: url('About-bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.diff-docs-bg{
+    background: url('docs-bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.website-button {
+    font-size: 25px;
+    padding: 10px;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    max-width: 100%;
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+.docs-button {
+    font-size: 2em;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    max-width: 100%;
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin:auto;
+    margin-left: 0;
+    margin-right: auto
+    width: max-content;
+    max-width: 100%
+}
+.mcbutton:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+
+.docs-button:not(.d-flex) img{
+    width: 100%;
+    display: block;
+}
+
+.website-button {
+    font-size: 25px;
+    background-color: darkolivegreen;
+}
+
+
+.website-button:hover
+{
+	color: white
+}
+.discord-button {
+    font-size: 25px;
+    background-color: darkslateblue;
+}
+
+
+.discord-button:hover
+{
+	color: white
+}
+
+
+.owl-nav button {
+    pointer-events: auto;
+    transition: .4s;
+    background: rgb(255, 255, 255, .77) !important;
+    color: #333 !important;
+    width: 60px;
+    height: 60px;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size:25px;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    left: 0;
+    padding: 0 2px;
+}
+.owl-dots {
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.rainbow-text{position: relative;}
+
+.splash{
+	background-image: unset;
+    -webkit-background-clip: unset;
+    color: unset;
+    text-align: center;
+    -webkit-text-stroke: 0;
+	/*	*/
+	position:absolute;
+	right:0;
+	top:calc(100% - 40px);
+	transform: rotate(-20deg);
+	color: yellow;
+	display:block;
+	font-size:34px;
+}
+
+.splash.bigtext{
+	    font-size: 28px;
+    top: calc(100% - 60px);
+    right: -30px;
+}
+.splash.smalltext{
+	top: calc(100% - 48px);
+
+}
+
+
+
+.night-mode-button svg{
+	width: 30px;
+	height: auto;
+	transition: 0.5s all;
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+.night-mode-button svg.day{
+	visibility: hidden;
+	opacity: 0;
+	width: 0;
+}
+.btn-secondary {
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .5s ease-in-out;
+}
+
+.splash-404{
+	background-image: unset;
+	color: yellow;
+	font-size:26px;
+}
+.creeper{
+	font-size: 100px
+}
+.creeper:hover{
+	drop-shadow: 0 0 black
+}

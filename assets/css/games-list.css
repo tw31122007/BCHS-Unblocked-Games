@@ -897,6 +897,9 @@
 .cards .time-shooter-3 {
     background-image: url("/assets/img/thumbnails/time-shooter-3.png");
 }
+.cards .sm64 {
+    background-image: url("/assets/img/thumbnails/sm64.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

@@ -345,6 +345,9 @@
 .cards .papas-cupcakeria {
     background-image: url("/assets/img/thumbnails/papas-cupcakeria.png");
 }
+.cards .papas-bakeria {
+    background-image: url("/assets/img/thumbnails/papas-bakeria.png");
+}
 .cards .papas-pasteria {
     background-image: url("/assets/img/thumbnails/papas-pasteria.png");
 }
@@ -357,7 +360,7 @@
 .cards .papas-wingeria {
     background-image: url("/assets/img/thumbnails/papas-wingeria.png");
 }
-.cards .papas-hotdogeria {
+.cards .papas-hot-dogeria {
     background-image: url("/assets/img/thumbnails/papas-hotdoggeria.png");
 }
 .cards .papas-taco-mia {
@@ -365,6 +368,9 @@
 }
 .cards .papas-freezeria {
     background-image: url("/assets/img/thumbnails/papas-freezeria.png");
+}
+.cards .papas-cheeseria{
+    background-image: url("/assets/img/thumbnails/papas-cheeseria.png");
 }
 .cards .papa-louie {
     background-image: url("/assets/img/thumbnails/papa-louie.png");

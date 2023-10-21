@@ -1,0 +1,128 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh; /* 70% of the viewport height */
+    padding: 20px; /* Add padding for better spacing */
+}
+.title-line1 {
+    font-size: 32px; /* Adjust size as needed */
+    margin-bottom: 10px; /* Spacing between the two lines */
+    font-weight: bold; /* Make the first line bold */
+}
+
+.title-line2 {
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: normal;
+}
+
+.left-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 220px; /* Increased padding for more spacing on the left */
+    padding-right: 40px; /* Keep this padding for spacing between left content and browser */
+}
+
+.browser {
+    width: 50%;
+    border: 2px solid grey;
+    background-color: #f4f4f4;
+    position: relative;
+    padding: 10px;
+    border-radius: 12px; /* Rounded corners */
+}
+
+.tabs {
+    display: flex;
+    background: darkgrey; /* Set the background color the same as inactive tabs */
+    border-bottom: 1px solid grey;
+    /* Removed margin-bottom */
+}
+
+.tab {
+    flex: 1;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: darkgrey; /* Inactive tabs are darker */
+    border-top-left-radius: 8px; /* Rounded top-left corner */
+    border-top-right-radius: 8px; /* Rounded top-right corner */
+    margin-right: 3px; /* Slight spacing on the right */
+    border: 1px solid darkgrey; /* Border with the same color as the background */
+    border-bottom: none; /* Remove the bottom border to attach tabs to the menu bar */
+}
+
+.tab:last-child {
+    margin-right: 0; /* Remove right margin for the last tab */
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+    background-color: lightgrey; /* Light grey background */
+    padding: 5px 10px;
+    border-top: none; /* Ensure there's no border at the top of the menu bar */
+}
+
+.tab.active {
+    background-color: lightgrey; /* Active tab is lighter, same as menu bar */
+}
+.tab-content {
+    padding: 20px; /* Adds some space inside the content area */
+    background-color: #f0f0f0; /* Slight background to differentiate from the menu bar */
+    height: calc(100% - 80px); /* Adjust the height accounting for tabs and menu bar */
+    display: flex;
+    align-items: center; /* Center the placeholder text vertically */
+    justify-content: center; /* Center the placeholder text horizontally */
+}
+.tab:hover {
+    background: grey;
+    color: white;
+}
+
+.nav-button {
+    background: none; /* Removes default button background */
+    border: none; /* Removes default border */
+    cursor: pointer;
+    color: white; /* Icon color */
+    font-size: 16px; /* Adjust icon size */
+    margin-right: 10px; /* Spacing between buttons */
+    padding: 8px; /* Padding to provide space for the grey circle on hover */
+    border-radius: 50%; /* Makes the button circular */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-button:hover {
+    background-color: grey; /* Grey circle on hover */
+}
+#menu-btn {
+    margin-left: 10px;
+}
+
+.url-bar {
+    flex: 1;
+    padding: 5px;
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ccc; /* Optional: Add a light border for visual clarity */
+}
+.url-bar:focus {
+    outline: none;
+}
+
+.video {
+    height: 250px; /* Adjust height for a smaller design */
+    background: #ddd; /* Placeholder for the video */
+    position: relative;
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

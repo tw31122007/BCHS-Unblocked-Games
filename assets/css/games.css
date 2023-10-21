@@ -33,9 +33,25 @@ body {
     background-color: var(--primary-color);
     color: #fff;
 }
+
 ::-webkit-scrollbar {
-    display: none;
+    width: 10px;
 }
+::-webkit-scrollbar-track {
+    background: #1e2124;; 
+}
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+}
+/* For Firefox */
+scrollbar-color: white darkgrey;
+scrollbar-width: thin;
+
+
 #searchInput::placeholder {
     text-align: center;
 }
@@ -212,7 +228,7 @@ body {
         font-size: 20px;
     }
     #searchInput:focus::placeholder, #searchInput:hover::placeholder {
-        opacity: 0;  /* Hide the placeholder when hovering or focused */
+        opacity: 0;
     }    
 }
 .small-text h2 {

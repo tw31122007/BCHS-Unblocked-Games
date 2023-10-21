@@ -372,21 +372,31 @@
     <script src="/assets/js/settings/index.js"></script>
     <script src="assets/js/settings/settings.js"></script>
     <script src="/assets/js/flash-games.js" defer></script>
-<!-- Flash Player Modal -->
-<div id="flashPlayerModal" class="modal-background">
-    <div class="modal-content">
-        <h2 class="modal-header">Flash Player Needed</h2>
-        <p>To play these games, you need the offline Flash Player. Follow these steps:</p>
-        <ol class="modal-instructions">
-            <li>Download the Flash Player app and the Flash game into the same folder.</li>
-            <li>Drag the Flash game into the Flash Player app.</li>
-            <li>Done, Now watch as your game loads.</li>
-        </ol>
-        <div class="modal-buttons">
-            <button id="okButton" class="modal-btn">Ok</button>
-            <button id="downloadButton" class="modal-btn modal-download-btn">Download Flash Player</button>
+    <div id="flashPlayerModal" class="modal-background">
+        <div class="modal-content">
+            <h2 class="modal-header">Flash Player Needed</h2>
+            
+            <!-- Flex container for text and GIF -->
+            <div class="modal-flex-container">
+                <!-- Text container -->
+                <div class="modal-text">
+                    <p>To play these games, you need the offline Flash Player. Follow these steps:</p>
+                    <ol class="modal-instructions">
+                        <li>Download the Flash Player app and the Flash game into the same folder.</li>
+                        <li>Drag the Flash game into the Flash Player app.</li>
+                        <li>Done, Now watch as your game loads.</li>
+                    </ol>
+                </div>
+                <div class="modal-gif">
+                    <img src="/assets/img/tutorial/flash-player.gif" alt="Flash Player Instructions GIF">
+                </div>
+            </div>
+    
+            <div class="modal-buttons">
+                <button id="okButton" class="modal-btn">Ok</button>
+                <button id="downloadButton" class="modal-btn modal-download-btn">Download Flash Player</button>
+            </div>
         </div>
-    </div>
-</div>
+    </div>    
 </body>
 </html>

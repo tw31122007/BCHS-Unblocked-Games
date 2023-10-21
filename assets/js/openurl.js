@@ -1,13 +1,22 @@
 const form = document.querySelector('form');
 const input = document.querySelector('input');
-
-
-
+dd
 function isUrl(val = '') {
     if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
     return false;
 };
 
+document.getElementById('searchInput').addEventListener('mouseover', function() {
+    this.focus();
+  });
+const searchInput = document.getElementById('searchInput');
+let hasMousedown = false;
+
+searchInput.addEventListener('mouseenter', function() {
+    if (!hasMousedown) {
+        this.focus();
+    }
+});
 
 function openURL(url) {
     window.navigator.serviceWorker

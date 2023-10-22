@@ -235,8 +235,8 @@ scrollbar-width: thin;
         padding-left: 0px;
     }
     .browser {
-        height: 467px;
-        width: 660px;
+        height: 340px;
+        width: 545px;
         margin-right: 80px;
     }
     .description-text {
@@ -247,7 +247,7 @@ scrollbar-width: thin;
         width: 100%;
         height: 100%;
         top: 59%;
-        transform: translate(-50%, -50%) scale(1.23);
+        transform: translate(-50%, -50%) scale(1.2);
     }
 }
 ::-webkit-scrollbar {

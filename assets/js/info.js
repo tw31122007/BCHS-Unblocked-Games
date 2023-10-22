@@ -17,7 +17,6 @@ setDefaultURL();
 
 tabs.forEach(tab => {
     tab.addEventListener('click', function() {
-        // ... existing tab click logic ...
 
         // Update URL bar with the domain and clicked tab info
         const tabId = this.id;
@@ -25,21 +24,12 @@ tabs.forEach(tab => {
     });
 });
 
-// Add click event listeners to tabs
-tabs.forEach(tab => {
+document.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', function() {
-        // Remove 'active' class from all tabs
-        tabs.forEach(innerTab => innerTab.classList.remove('active'));
-
-        // Add 'active' class to clicked tab
-        this.classList.add('active');
-
-        // Change content based on clicked tab
-        contentDiv.innerHTML = `<p>${this.getAttribute('data-content')}</p>`;
-
-        // Update the URL bar with the current domain and clicked tab info
-        const tabId = this.id;
-        updateURLBar(tabId);
+        let contentId = 'content-' + this.id;
+        document.querySelectorAll('.tab-content').forEach(content => {
+            content.style.display = 'none';  // Hide all tab contents
+        });
+        document.getElementById(contentId).style.display = 'block';  // Show the clicked tab's content
     });
 });
-

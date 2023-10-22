@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .main-container {
     display: flex;
     justify-content: space-between;
@@ -49,6 +52,7 @@
     margin-right: 5px; /* Slight spacing on the right */
     border-bottom: none; /* Remove the bottom border to attach tabs to the menu bar */
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .tab:first-child {
@@ -99,6 +103,11 @@
 }
 #menu-btn {
     margin-left: 10px;
+    width: 32px;    /* Set a specific width */
+    height: 32px;   /* Set a specific height to match the width */
+    display: flex;  /* Use flex to center the icon */
+    align-items: center;
+    justify-content: center;
 }
 
 .url-bar {
@@ -106,6 +115,8 @@
     padding: 5px;
     border-radius: 8px; /* Rounded corners */
     border: 1px solid #ccc; /* Optional: Add a light border for visual clarity */
+    background-color: #1c1c1c;
+    color: #ccc;
 }
 .url-bar:focus {
     outline: none;

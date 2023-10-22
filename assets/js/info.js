@@ -1,9 +1,21 @@
-// Get all tabs
 const tabs = document.querySelectorAll('.tab');
 
-// Get the content div and URL bar input
 const contentDiv = document.querySelector('.tab-content');
 const urlBar = document.querySelector('.url-bar');
+function updateURLBar(tabId) {
+    urlBar.value = `https://${window.location.hostname}/${tabId}`;
+}
+updateURLBar('tab1');
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', function() {
+        // ... existing tab click logic ...
+
+        // Update URL bar with the domain and clicked tab info
+        const tabId = this.id;
+        updateURLBar(tabId);
+    });
+});
 
 // Add click event listeners to tabs
 tabs.forEach(tab => {
@@ -22,3 +34,4 @@ tabs.forEach(tab => {
         urlBar.value = `https://example.com/${tabId}`;
     });
 });
+

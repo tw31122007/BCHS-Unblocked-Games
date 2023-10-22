@@ -27,7 +27,7 @@
 .browser {
     width: 50%;
     border: 2px solid grey;
-    background-color: #f4f4f4;
+    background-color: #1c1c1c;
     position: relative;
     padding: 10px;
     border-radius: 12px; /* Rounded corners */
@@ -35,9 +35,7 @@
 
 .tabs {
     display: flex;
-    background: darkgrey; /* Set the background color the same as inactive tabs */
-    border-bottom: 1px solid grey;
-    /* Removed margin-bottom */
+    background: #1c1c1c; /* Set the background color the same as inactive tabs */
 }
 
 .tab {
@@ -45,28 +43,31 @@
     padding: 5px 10px;
     text-align: center;
     cursor: pointer;
-    background-color: darkgrey; /* Inactive tabs are darker */
-    border-top-left-radius: 8px; /* Rounded top-left corner */
-    border-top-right-radius: 8px; /* Rounded top-right corner */
-    margin-right: 3px; /* Slight spacing on the right */
-    border: 1px solid darkgrey; /* Border with the same color as the background */
+    background-color: #1c1c1c; /* Inactive tabs are darker */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 5px; /* Slight spacing on the right */
     border-bottom: none; /* Remove the bottom border to attach tabs to the menu bar */
+    color: white;
 }
 
+.tab:first-child {
+    margin-left: 10px;  /* Adjust the value as needed */
+}
 .tab:last-child {
-    margin-right: 0; /* Remove right margin for the last tab */
+    margin-right: 10px; /* Remove right margin for the last tab */
 }
 
 .menu-bar {
     display: flex;
     align-items: center;
-    background-color: lightgrey; /* Light grey background */
+    background-color: #333; /* Light grey background */
     padding: 5px 10px;
     border-top: none; /* Ensure there's no border at the top of the menu bar */
 }
 
 .tab.active {
-    background-color: lightgrey; /* Active tab is lighter, same as menu bar */
+    background-color: #333;
 }
 .tab-content {
     padding: 20px; /* Adds some space inside the content area */

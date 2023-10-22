@@ -1,21 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-image: 
+          linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+          url(/assets/img/backgrounds/1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
 .main-container {
     display: flex;
     justify-content: space-between;
-    height: 70vh; /* 70% of the viewport height */
-    padding: 20px; /* Add padding for better spacing */
+    align-items: center;  /* Centers children vertically */
+    height: 100vh;        /* Takes the full viewport height */
+    padding: 20px;
 }
 .title-line1 {
-    font-size: 32px; /* Adjust size as needed */
-    margin-bottom: 10px; /* Spacing between the two lines */
-    font-weight: bold; /* Make the first line bold */
+    margin-bottom: 10px;
+    white-space: nowrap;
 }
-
 .title-line2 {
-    font-size: 24px; /* Adjust size as needed */
-    font-weight: normal;
+    color: #3d4284;
+}
+.title-line1, .title-line2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.description-text {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #c7c7c7;
+    max-width: 80%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .left-content {
@@ -23,8 +47,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 220px; /* Increased padding for more spacing on the left */
-    padding-right: 40px; /* Keep this padding for spacing between left content and browser */
+    padding-right: 0px;
 }
 
 .browser {
@@ -34,6 +57,8 @@
     position: relative;
     padding: 10px;
     border-radius: 12px; /* Rounded corners */
+    margin-top: 80px;
+    transform: translateY(-30%);
 }
 
 .tabs {
@@ -137,4 +162,90 @@ video {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #1e2124;; 
+}
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+}
+/* For Firefox */
+scrollbar-color: white darkgrey;
+scrollbar-width: thin;
+
+@media (max-width: 350px) {
+    .title-line1, .title-line2 {
+        font-size: 24px;
+    }
+}
+@media (min-width: 351px) and (max-width: 500px) {
+    .title-line1, .title-line2 {
+        font-size: 28px;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    .title-line1, .title-line2 {
+        font-size: 32px;
+    }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+    .title-line1, .title-line2 {
+        font-size: 36px;
+    }
+}
+@media (min-width: 701px) and (max-width: 800px) {
+    .title-line1, .title-line2 {
+        font-size: 40px;
+    }
+}
+@media (min-width: 801px) and (max-width: 900px) {
+    .title-line1, .title-line2 {
+        font-size: 44px;
+    }
+}
+@media (min-width: 901px) and (max-width: 1000px) {
+    .title-line1, .title-line2 {
+        font-size: 30px;
+    }
+    .left-content {
+        padding-left: 150px;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1100px) {
+    .title-line1, .title-line2 {
+        font-size: 40px;
+    }
+    .left-content {
+        padding-left: 30px;
+    }
+    .browser {
+        height: 40vh;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1200px) {
+    .title-line1, .title-line2 {
+        font-size: 45px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1300px) {
+    .title-line1, .title-line2 {
+        font-size: 54px;
+    }
+}
+@media (min-width: 1301px) and (max-width: 1400px) {
+    .title-line1, .title-line2 {
+        font-size: 54px;
+    }
+}
+@media (min-width: 1401px) {
+    .title-line1, .title-line2 {
+        font-size: 54px;
+    }
 }

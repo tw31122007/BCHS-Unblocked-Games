@@ -229,7 +229,7 @@ scrollbar-width: thin;
 }
 @media (min-width: 1401px) {
     .title-line1, .title-line2 {
-        font-size: 50px;
+        font-size: 60px;
     }
     .left-content {
         padding-left: 0px;

@@ -558,6 +558,9 @@
 .cards .klocki {
     background-image: url("/assets/img/thumbnails/klocki.png");
 }
+.cards .jellydad-hero {
+    background-image: url("/assets/img/thumbnails/jellydad-hero.png");
+}
 .cards .linquest {
     background-image: url("/assets/img/thumbnails/linquest.png");
 }
@@ -911,6 +914,12 @@
 }
 .cards .sm64 {
     background-image: url("/assets/img/thumbnails/sm64.png");
+}
+.cards .haunt-the-house {
+    background-image: url("/assets/img/thumbnails/haunt-the-house.png");
+}
+.cards .dig-to-china {
+    background-image: url("/assets/img/thumbnails/dig-to-china.png");
 }
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");

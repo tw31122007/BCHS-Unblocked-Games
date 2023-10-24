@@ -51,7 +51,7 @@ body {
 
 .browser {
     width: 40%;
-    border none;
+    border: none;
     background-color: transparent;
     position: relative;
     border-radius: 12px;
@@ -154,9 +154,6 @@ video {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/* For Firefox */
-scrollbar-color: white darkgrey;
-scrollbar-width: thin;
 
 @media (max-width: 350px) {
     .title-line1, .title-line2 {

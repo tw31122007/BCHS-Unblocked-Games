@@ -66,6 +66,9 @@
 .cards .moto-x3m {
     background-image: url("/assets/img/thumbnails/moto-x3m.png");
 }
+.cards .moto-x3m-3 {
+    background-image: url("/assets/img/thumbnails/moto-x3m-3.png");
+}
 .cards .rooftop-snipers-2 {
     background-image: url("/assets/img/thumbnails/rooftop-snipers-2.png");
 }
@@ -345,19 +348,22 @@
 .cards .papas-cupcakeria {
     background-image: url("/assets/img/thumbnails/papas-cupcakeria.png");
 }
-.cards .papas-pasteria {
-    background-image: url("/assets/img/thumbnails/papas-pasteria.png");
+.cards .papas-bakeria {
+    background-image: url("/assets/img/thumbnails/papas-bakeria.png");
+}
+.cards .papas-pastaria {
+    background-image: url("/assets/img/thumbnails/papas-pastaria.png");
 }
 .cards .papas-sushiria {
     background-image: url("/assets/img/thumbnails/papas-sushiria.png");
 }
-.cards .papas-dounteria {
+.cards .papas-donuteria {
     background-image: url("/assets/img/thumbnails/papas-donuteria.png");
 }
 .cards .papas-wingeria {
     background-image: url("/assets/img/thumbnails/papas-wingeria.png");
 }
-.cards .papas-hotdogeria {
+.cards .papas-hot-doggeria {
     background-image: url("/assets/img/thumbnails/papas-hotdoggeria.png");
 }
 .cards .papas-taco-mia {
@@ -365,6 +371,12 @@
 }
 .cards .papas-freezeria {
     background-image: url("/assets/img/thumbnails/papas-freezeria.png");
+}
+.cards .papas-cheeseria {
+    background-image: url("/assets/img/thumbnails/papas-cheeseria.png");
+}
+.cards .papas-mocharia{
+    background-image: url("/assets/img/thumbnails/papas-mocharia.png");
 }
 .cards .papa-louie {
     background-image: url("/assets/img/thumbnails/papa-louie.png");
@@ -545,6 +557,9 @@
 }
 .cards .klocki {
     background-image: url("/assets/img/thumbnails/klocki.png");
+}
+.cards .jellydad-hero {
+    background-image: url("/assets/img/thumbnails/jellydad-hero.png");
 }
 .cards .linquest {
     background-image: url("/assets/img/thumbnails/linquest.png");
@@ -863,6 +878,48 @@
 }
 .cards .alxemy {
     background-image: url("/assets/img/thumbnails/alxemy.png");
+}
+.cards .big-shot-boxing {
+    background-image: url("/assets/img/thumbnails/big-shot-boxing.png");
+}
+.cards .monkey-mart {
+    background-image: url("/assets/img/thumbnails/monkey-mart.png");
+}
+.cards .tiny-fishing {
+    background-image: url("/assets/img/thumbnails/tiny-fishing.png");
+}
+.cards .slope-2 {
+    background-image: url("/assets/img/thumbnails/slope-2.png");
+}
+.cards .slope-3 {
+    background-image: url("/assets/img/thumbnails/slope-3.png");
+}
+.cards .tanuki-sunset {
+    background-image: url("/assets/img/thumbnails/tanuki-sunset.png");
+}
+.cards .stickman-hook {
+    background-image: url("/assets/img/thumbnails/stickman-hook.png");
+}
+.cards .adofai {
+    background-image: url("/assets/img/thumbnails/adofai.png");
+}
+.cards .binding-of-isaac {
+    background-image: url("/assets/img/thumbnails/binding-of-isaac.png");
+}
+.cards .time-shooter-2 {
+    background-image: url("/assets/img/thumbnails/time-shooter-2.png");
+}
+.cards .time-shooter-3 {
+    background-image: url("/assets/img/thumbnails/time-shooter-3.png");
+}
+.cards .sm64 {
+    background-image: url("/assets/img/thumbnails/sm64.png");
+}
+.cards .haunt-the-house {
+    background-image: url("/assets/img/thumbnails/haunt-the-house.png");
+}
+.cards .dig-to-china {
+    background-image: url("/assets/img/thumbnails/dig-to-china.png");
 }
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");

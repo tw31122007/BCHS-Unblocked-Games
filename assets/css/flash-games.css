@@ -113,6 +113,9 @@ body {
     #searchInput {
         font-size: 14px;
     }
+    .modal-content {
+        width: 90vw;
+    }
 }
 @media (min-width: 401px) and (max-width: 500px) {
     .cards {
@@ -133,6 +136,9 @@ body {
     }
     #searchInput {
         font-size: 14px;
+    }
+    .modal-content {
+        width: 90vw;
     }
 }
 @media (min-width: 501px) and (max-width: 600px){
@@ -155,6 +161,9 @@ body {
     #searchInput {
         font-size: 14px;
     }
+    .modal-content {
+        width: 90vw;
+    }
 }
 @media (min-width: 601px) and (max-width: 700px){
     .cards {
@@ -175,6 +184,9 @@ body {
     }
     #searchInput {
         font-size: 14px;
+    }
+    .modal-content {
+        width: 90vw;
     }
 }
 @media (min-width: 701px) and (max-width: 899px){
@@ -197,6 +209,9 @@ body {
     #searchInput {
         font-size: 18px;
     }
+    .modal-content {
+        width: 600px;
+    }
 }
 
 @media (min-width: 900px) {
@@ -214,8 +229,17 @@ body {
     #searchInput {
         font-size: 20px;
     }
+    .modal-content {
+        width: 600px;
+    }
 }
 /* Flash Player Modal CSS */
+.modal-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
 .modal-background {
     display: none; 
     position: fixed; 
@@ -226,12 +250,15 @@ body {
     background-color: rgba(0,0,0,0.7); 
     z-index: 1000;
 }
+.modal-text {
+    flex: 1;
+    max-width: 60%;
+}
 .modal-content {
     position: fixed; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-50%, -50%); 
-    width: 500px; 
+    transform: translate(-50%, -50%);  
     max-width: 90%; 
     padding: 20px; 
     background-color: #fff; 
@@ -249,6 +276,15 @@ body {
     display: flex; 
     justify-content: center; 
     margin-top: 20px;
+}
+.modal-gif {
+    flex-shrink: 0;
+    max-width: 50%;
+}
+
+.modal-gif img {
+    max-width: 100%;
+    height: auto;
 }
 .modal-btn {
     padding: 10px 20px; 

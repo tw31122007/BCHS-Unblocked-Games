@@ -1,0 +1,187 @@
+{"frames": [
+
+    {
+        "filename": "_default0000",
+        "frame": {"x":0,"y":1820,"w":34,"h":34},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":34,"h":34},
+        "sourceSize": {"w":34,"h":34}
+    }
+    ,{
+        "filename": "crystalIcon0000",
+        "frame": {"x":260,"y":1040,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "crystalIcon0001",
+        "frame": {"x":520,"y":1040,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "crystalIcon0002",
+        "frame": {"x":260,"y":1300,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "fireIcon0000",
+        "frame": {"x":0,"y":1040,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "fireIcon0001",
+        "frame": {"x":0,"y":1300,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "fireIcon0002",
+        "frame": {"x":0,"y":1560,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "forestIcon0000",
+        "frame": {"x":0,"y":260,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "forestIcon0001",
+        "frame": {"x":260,"y":260,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "forestIcon0002",
+        "frame": {"x":520,"y":260,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "iceIcon0000",
+        "frame": {"x":0,"y":520,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "iceIcon0001",
+        "frame": {"x":260,"y":520,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "iceIcon0002",
+        "frame": {"x":520,"y":520,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "lightIcon0000",
+        "frame": {"x":0,"y":780,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "lightIcon0001",
+        "frame": {"x":260,"y":780,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "lightIcon0002",
+        "frame": {"x":520,"y":780,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "waterIcon0000",
+        "frame": {"x":260,"y":1560,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "waterIcon0001",
+        "frame": {"x":520,"y":1300,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "waterIcon0002",
+        "frame": {"x":520,"y":1560,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "windIcon0000",
+        "frame": {"x":0,"y":0,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "windIcon0001",
+        "frame": {"x":260,"y":0,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }
+    ,{
+        "filename": "windIcon0002",
+        "frame": {"x":520,"y":0,"w":256,"h":256},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+        "sourceSize": {"w":256,"h":256}
+    }],
+    "meta": {
+        "app": "Adobe Flash CS6",
+        "version": "12.0.0.481",
+        "image": "TempleIcons.png",
+        "format": "RGBA8888",
+        "size": {"w":1024,"h":2048},
+        "scale": "1"
+    }
+    }

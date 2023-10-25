@@ -1,0 +1,312 @@
+<!DOCTYPE html><html lang="it"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>Clicker Monsters</title>
+<meta name="description" content="Gioca a Clicker Monsters online su Lagged.com. Clicker Monsters è uno dei nostri giochi di strategia scelti con cura che può essere giocato su qualsiasi dispositivo." />
+<link rel="search" href="https://lagged.com/it/opensearch_desc.xml" type="application/opensearchdescription+xml" title="Lagged" />
+<link rel="alternate" type="application/rss+xml" title="Giochi" href="https://lagged.com/it/rss/" />
+<link rel="manifest" href="https://lagged.com/it/manifest.json">
+<meta name="theme-color" content="#2a6490" />
+<link rel="image_src" href="https://imgs2.dab3games.com/clicker-monsters284.png" />
+<meta property="og:image" content="https://imgs2.dab3games.com/clicker-monsters284.png" />
+<meta property="og:title" content="Clicker Monsters" />
+<meta property="og:description" content="Gioca a Clicker Monsters online gratuitamente su Lagged">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@LaggedGames" />
+<meta name="twitter:title" content="Clicker Monsters" />
+<meta name="twitter:description" content="Gioca a Clicker Monsters online gratuitamente su Lagged" />
+<meta name="twitter:image" content="https://imgs2.dab3games.com/clicker-monsters284.png" />
+<link rel="canonical" href="https://lagged.com/it/it/g/clicker-monsters" />
+<link rel="amphtml" href="https://lagged.com/it/amp/g/clicker-monsters">
+<link rel="alternate" hreflang="ar" href="https://lagged.me/ar/g/clicker-monsters" />
+<link rel="alternate" hreflang="bg" href="https://lagged.bg/bg/g/clicker-monsters" />
+<link rel="alternate" hreflang="el" href="https://lagged.gr/el/g/clicker-monsters" />
+<link rel="alternate" hreflang="fi" href="https://lagged.fi/fi/g/clicker-monsters" />
+<link rel="alternate" hreflang="fr" href="https://lagged.fr/fr/g/clicker-monsters" />
+<link rel="alternate" hreflang="hi" href="https://lagged.in/hi/g/clicker-monsters" />
+<link rel="alternate" hreflang="id" href="https://lagged.id/id/g/clicker-monsters" />
+<link rel="alternate" hreflang="it" href="https://lagged.com/it/it/g/clicker-monsters" />
+<link rel="alternate" hreflang="ja" href="https://lagged.jp/ja/g/clicker-monsters" />
+<link rel="alternate" hreflang="ko" href="https://lagged.kr/ko/g/clicker-monsters" />
+<link rel="alternate" hreflang="nl" href="https://spellen2.com/nl/g/clicker-monsters" />
+<link rel="alternate" hreflang="pl" href="https://lagged.pl/pl/g/clicker-monsters" />
+<link rel="alternate" hreflang="ro" href="https://lagged.ro/ro/g/clicker-monsters" />
+<link rel="alternate" hreflang="ru" href="https://lagged.ru/ru/g/clicker-monsters" />
+<link rel="alternate" hreflang="sv" href="https://lagged.se/sv/g/clicker-monsters" />
+<link rel="alternate" hreflang="th" href="https://lagged.com/th/th/g/clicker-monsters" />
+<link rel="alternate" hreflang="vi" href="https://lagged.vn/vi/g/clicker-monsters" />
+<link rel="alternate" hreflang="zh" href="https://lagged.cn/zh/g/clicker-monsters" />
+<link rel="alternate" hreflang="tr" href="https://oyun.io/tr/g/clicker-monsters" />
+<link rel="alternate" hreflang="es" href="https://lagged.es/es/g/clicker-monsters" />
+<link rel="alternate" hreflang="pt-BR" href="https://lagged.com.br/pt/g/clicker-monsters" />
+<link rel="alternate" hreflang="de" href="https://spiel2.com/de/g/clicker-monsters" />
+<link rel="alternate" hreflang="en" href="https://lagged.com/en/g/clicker-monsters" />
+<link rel="alternate" hreflang="x-default" href="https://lagged.com/en/g/clicker-monsters" />
+<meta property="og:url" content="https://lagged.com/it/it/g/clicker-monsters" />
+<meta property="article:tag" content="Giochi Di Strategia" />
+<meta property="article:tag" content="Giochi Di Incremento" />
+<meta property="article:tag" content="Giochi Di Click" />
+<meta property="article:tag" content="Giochi Di Mostri" />
+<meta property="article:tag" content="Giochi Di Inattività" />
+<meta property="og:site_name" content="Lagged">
+<meta property="og:type" content="game" />
+<meta property="fb:app_id" content="614526822036983" />
+<link href="https://plus.google.com/+LaggedGames" rel="publisher" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://lagged.com/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://lagged.com/images/icon/touch-icon-iphone.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9FX471252"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-E9FX471252');
+gtag('config', 'AW-1055364430');
+</script>
+</head><body>
+<div id="wrapper" class="gametplenew"><div id="header"><div id="logo">
+<div class="wrapit"><div class="topperleft">
+<a class="sitename" href="https://lagged.com/it/" title="Lagged">Lagged</a>
+</div>
+<div class="toppercenter">
+<h1>Clicker Monsters</h1>
+</div>
+<div id="ajaxsrwr" class="ajax_search" style="display:none">
+<form id="ajaxform" action="https://lagged.com/it/search.php" method="post" onsubmit="return false;">
+<input id="ajaxbar" onkeydown="ajaxSearch(event);" oninput="ajaxSearchUp(this.value);" type="text" name="query" placeholder="Ricerca" class="form-control" value required autocomplete="off">
+<button id="searchbtn" type="submit" onclick="ajaxSubmit(event);">Ricerca</button>
+</form>
+</div>
+<div class="topperight">
+<button id="togglesearchr" class="headerbtn search" title="Ricerca" onclick="toggleAjaxSearch();">Ricerca</button>
+<a href="https://lagged.com/it/top" class="headerbtn top" title="Classifica">Classifica</a>
+<a href="https://lagged.com/it/menu" class="headerbtn menu" title="Menù">Menù</a>
+</div></div></div></div>
+<script type="application/ld+json">{"@context": "http://schema.org",
+"@type": "WebApplication","applicationCategory": "Game","operatingSystem":"Windows, Linux, OSX, Android, iOS","name": "Clicker Monsters","applicationSubCategory": "Giochi Di Strategia Game","creator":{"@type":"Organization","name":"Lagged"},"description":"Fare clic e allegare ogni mostro. Migliora le tue abilit&agrave; e continua ad attaccare i brutti mostri in questo divertente gioco clicker online.",
+"aggregateRating":{"@type":"AggregateRating","ratingValue":85,"bestRating":100,"worstRating":1,"ratingCount":10},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"http://schema.org/InStock"},"image": ["https://imgs2.dab3games.com/clicker-monsters284.png"]}</script>
+<div class="wrapit extrapad homepagepad gamepage">
+<div class="ad970 gamenewtpl" style="height:auto;max-width:970px;max-height:100px;min-height:90px;overflow:hidden;margin:0 auto 3px auto">
+<ins class="adsbygoogle maxyheightads" style="display:inline-block;max-width:970px;width:100%;min-height:90px;max-height:100px" data-full-width-responsive="true" data-ad-client="ca-pub-6893876361346206" data-ad-slot="5153389645"></ins>
+</div>
+<div id="gameinmiddle" class="gamesmiddle isloading">
+<div id="game" class="gamearea isloading"></div>
+<div id="gamecontrols" class="controls">
+<div class="controlsleft">
+<a href="https://lagged.com/it/more-games/5655" target="_blank" rel="nofollow"><img src="https://imgs2.dab3games.com/clicker-monsters284.png" loading="lazy" alt="Clicker Monsters"><span>Clicker Monsters</span></a>
+</div><div class="controlsright">
+<button onclick="submitRating(2);" class="likebtn"><span>Come gioco</span></button>
+<button onclick="submitRating(1);" class="dislikebtn"><span>Gioco antipatico</span></button>
+<button onclick="toggleFullscreen();" class="fullscreenbtn"><span>A schermo intero</span></button>
+</div>
+</div>
+<div id="showafterplay" class="newgamesright">
+<div id="pcad" class="ad970"></div>
+</div>
+<button id="mobilerightnew" onclick="setTimeout(function(){mobileMenuToggle();},100);"></button>
+<a href="https://lagged.com/it/more-games/5655" id="minividbtnnewl" class="showittomob" target="_blank">
+<img src="https://imgs2.dab3games.com/huggy-wuggy-merge14.png" alt="more games" loading="lazy">
+<span>Di più</span>
+</a>
+</div>
+<div id="pregame" class="game_info_wrapper"><div class="game_info_boxs">
+<div class="game_info_left whitebitbar" style="margin-bottom:20px">
+<div class="gameinleftnew"><div id="game-img-click" class="imgwrapgame" onclick="startLoading();"><img src="https://imgs2.dab3games.com/clicker-monsters284.png" alt="Clicker Monsters" width="200" height="200"></div>
+<button style="background-color:#1b73e8;margin-top:10px;min-height:46px;" class="play_btn" onclick="startLoading();" id="clickytext">Giocare</button></div>
+<div>
+<h2>Gioco Clicker Monsters</h2>
+<p>Fare clic e allegare ogni mostro. Migliora le tue abilità e continua ad attaccare i brutti mostri in questo divertente gioco clicker online.</p>
+<p><b>Come giocare</b>: Clicca o tocca per interagire</p>
+<div class="rativebtnbit">
+<span class="awardflare flarethumb">Al 85% così</span>
+</div></div>
+</div></div></div>
+<div class="bottomblock bottomad">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6893876361346206" data-ad-slot="5584073673" data-ad-format="auto" data-full-width-responsive="true"></ins>
+</div>
+<div id="bottomgames" class="bottomblock">
+<div class="thumbWrapper newboxshadow t1"><div>
+<a href="https://lagged.com/it/it/g/huggy-wuggy-merge" onclick="sendGtagEvent();">Huggy Wuggy Merge</a>
+<img src="https://imgs2.dab3games.com/huggy-wuggy-merge14.png" width="200" height="200" alt="Huggy Wuggy Merge" loading="lazy">
+<span class="thumbname"><span>Huggy Wuggy Merge</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t2"><div>
+<a href="https://lagged.com/it/it/g/idle-pet-business" onclick="sendGtagEvent();">Idle Pet Business</a>
+<img src="https://imgs2.dab3games.com/idle-pet-game731.png" width="200" height="200" alt="Idle Pet Business" loading="lazy">
+<span class="thumbname"><span>Idle Pet Business</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t3"><div>
+<a href="https://lagged.com/it/it/g/miner-gold-idle" onclick="sendGtagEvent();">Miner Gold Idle</a>
+<img src="https://imgs2.dab3games.com/miner-gold-idle295.png" width="200" height="200" alt="Miner Gold Idle" loading="lazy">
+<span class="thumbname"><span>Miner Gold Idle</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t4"><div>
+<a href="https://lagged.com/it/it/g/pepe-coin-clicker" onclick="sendGtagEvent();">Pepe Coin Clicker</a>
+<img src="https://imgs2.dab3games.com/pepe-coin-clicker-game180.png" width="200" height="200" alt="Pepe Coin Clicker" loading="lazy">
+<span class="thumbname"><span>Pepe Coin Clicker</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t5"><div>
+<a href="https://lagged.com/it/it/g/idle-oasis" onclick="sendGtagEvent();">Idle Oasis</a>
+<img src="https://imgs2.dab3games.com/idle-oasis-game.png" width="200" height="200" alt="Idle Oasis" loading="lazy">
+<span class="thumbname"><span>Idle Oasis</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t6"><div>
+<a href="https://lagged.com/it/it/g/idle-farm-world" onclick="sendGtagEvent();">Idle Farm World</a>
+<img src="https://imgs2.dab3games.com/idle-farm-world-game47.png" width="200" height="200" alt="Idle Farm World" loading="lazy">
+<span class="thumbname"><span>Idle Farm World</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t7"><div>
+<a href="https://lagged.com/it/it/g/lit-ape-nft-generator" onclick="sendGtagEvent();">LIT Ape NFT Generator</a>
+<img src="https://imgs2.dab3games.com/bored-ape-clicker655.png" width="200" height="200" alt="LIT Ape NFT Generator" loading="lazy">
+<span class="thumbname"><span>LIT Ape NFT Generator</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t8"><div>
+<a href="https://lagged.com/it/it/g/pizza-clicker-tycoon" onclick="sendGtagEvent();">Pizza Clicker Tycoon</a>
+<img src="https://imgs2.dab3games.com/pizza-clicker-tycoon-game.png" width="200" height="200" alt="Pizza Clicker Tycoon" loading="lazy">
+<span class="thumbname"><span>Pizza Clicker Tycoon</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t9"><div>
+<a href="https://lagged.com/it/it/g/idle-factory" onclick="sendGtagEvent();">Factory Clicker</a>
+<img src="https://imgs2.dab3games.com/idle-factory-game.png" width="200" height="200" alt="Factory Clicker" loading="lazy">
+<span class="thumbname"><span>Factory Clicker</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t10"><div>
+<a href="https://lagged.com/it/it/g/idle-doodle-city" onclick="sendGtagEvent();">Idle Doodle City</a>
+<img src="https://imgs2.dab3games.com/idle-doodle-city-game8.png" width="200" height="200" alt="Idle Doodle City" loading="lazy">
+<span class="thumbname"><span>Idle Doodle City</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t11"><div>
+<a href="https://lagged.com/it/it/g/fantasy-merger" onclick="sendGtagEvent();">Fantasy Merger</a>
+<img src="https://imgs2.dab3games.com/fantasy-merger-1732.png" width="200" height="200" alt="Fantasy Merger" loading="lazy">
+<span class="thumbname"><span>Fantasy Merger</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t12"><div>
+<a href="https://lagged.com/it/it/g/idle-miners" onclick="sendGtagEvent();">Idle Miners</a>
+<img src="https://imgs2.dab3games.com/idle-miners-game.jpg" width="200" height="200" alt="Idle Miners" loading="lazy">
+<span class="thumbname"><span>Idle Miners</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t13"><div>
+<a href="https://lagged.com/it/it/g/halloween-idle-world" onclick="sendGtagEvent();">Halloween Idle World</a>
+<img src="https://imgs2.dab3games.com/halloween-idle-world-game.png" width="200" height="200" alt="Halloween Idle World" loading="lazy">
+<span class="thumbname"><span>Halloween Idle World</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t14"><div>
+<a href="https://lagged.com/it/it/g/idle-gym-tycoon" onclick="sendGtagEvent();">Idle Gym Tycoon</a>
+<img src="https://imgs2.dab3games.com/idle-gym-tycoon-game9.png" width="200" height="200" alt="Idle Gym Tycoon" loading="lazy">
+<span class="thumbname"><span>Idle Gym Tycoon</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t15"><div>
+<a href="https://lagged.com/it/it/g/farm-factory" onclick="sendGtagEvent();">Farm Factory</a>
+<img src="https://imgs2.dab3games.com/farm-factory-game178.png" width="200" height="200" alt="Farm Factory" loading="lazy">
+<span class="thumbname"><span>Farm Factory</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t16"><div>
+<a href="https://lagged.com/it/it/g/dogecoin-miner" onclick="sendGtagEvent();">Dogecoin Miner</a>
+<img src="https://imgs2.dab3games.com/dogecoin-miner-game.png" width="200" height="200" alt="Dogecoin Miner" loading="lazy">
+<span class="thumbname"><span>Dogecoin Miner</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t17"><div>
+<a href="https://lagged.com/it/it/g/merge-miners" onclick="sendGtagEvent();">Merge Miners</a>
+<img src="https://imgs2.dab3games.com/merge-miner-game444.png" width="200" height="200" alt="Merge Miners" loading="lazy">
+<span class="thumbname"><span>Merge Miners</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t18"><div>
+<a href="https://lagged.com/it/it/g/space-defense-idle" onclick="sendGtagEvent();">Space Defense Idle</a>
+<img src="https://imgs2.dab3games.com/space-defense-idle283.png" width="200" height="200" alt="Space Defense Idle" loading="lazy">
+<span class="thumbname"><span>Space Defense Idle</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t19"><div>
+<a href="https://lagged.com/it/it/g/idle-farm" onclick="sendGtagEvent();">Idle Farm</a>
+<img src="https://imgs2.dab3games.com/idle-farm-game.png" width="200" height="200" alt="Idle Farm" loading="lazy">
+<span class="thumbname"><span>Idle Farm</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t20"><div>
+<a href="https://lagged.com/it/it/g/businessman-clicker" onclick="sendGtagEvent();">Business Clicker</a>
+<img src="https://imgs2.dab3games.com/businessman-clicker-game.png" width="200" height="200" alt="Business Clicker" loading="lazy">
+<span class="thumbname"><span>Business Clicker</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t21"><div>
+<a href="https://lagged.com/it/it/g/endless-siege" onclick="sendGtagEvent();">Endless Siege</a>
+<img src="https://imgs2.dab3games.com/endless-siege-game.png" width="200" height="200" alt="Endless Siege" loading="lazy">
+<span class="thumbname"><span>Endless Siege</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t22"><div>
+<a href="https://lagged.com/it/it/g/idle-mining-empire" onclick="sendGtagEvent();">Idle Mining Empire</a>
+<img src="https://imgs2.dab3games.com/idle-mining-empire4106.png" width="200" height="200" alt="Idle Mining Empire" loading="lazy">
+<span class="thumbname"><span>Idle Mining Empire</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t23"><div>
+<a href="https://lagged.com/it/it/g/idle-startup-tycoon" onclick="sendGtagEvent();">Idle Startup Tycoon</a>
+<img src="https://imgs2.dab3games.com/idle-startup-hero.png" width="200" height="200" alt="Idle Startup Tycoon" loading="lazy">
+<span class="thumbname"><span>Idle Startup Tycoon</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t24"><div>
+<a href="https://lagged.com/it/it/g/idle-mining-empire-2" onclick="sendGtagEvent();">Idle Miner Adventure</a>
+<img src="https://imgs2.dab3games.com/idle-mine-new-game.png" width="200" height="200" alt="Idle Miner Adventure" loading="lazy">
+<span class="thumbname"><span>Idle Miner Adventure</span></span>
+</div></div>
+</div>
+</div>
+<div class="whitebitbar awardsbitvvm">
+<div id="breadcrumbs" style="margin-top:5px;background-color:transparent;width:100%;padding:0;"><div class="wrapit2" itemscope itemtype="http://schema.org/BreadcrumbList">
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it"><span itemprop="name">Lagged.com</span></a><meta itemprop="position" content="1"></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/strategy" class="bitem"><span itemprop="name">Giochi Di Strategia</span></a><meta itemprop="position" content="2"></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/upgrade" class="bitem"><span itemprop="name">Giochi Di Incremento</span></a><meta itemprop="position" content="3"></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/g/clicker-monsters" class="bitem active"><span itemprop="name">Clicker Monsters</span></a><meta itemprop="position" content="4"></span></div></div>
+<p>Clicker Monsters è un gioco giochi di strategia online che abbiamo scelto appositamente per Lagged.com. Questo è uno dei nostri giochi giochi di strategia per cellulari preferiti. Basta cliccare il grande tasto Gioca per iniziare a divertirti. Se cerchi più titoli come questo, dai un'occhiata a Dama o DrawThis. Più più giochi gratuiti, da' un'occhiata alla nostra pagina dei migliori giochi in assoluto.</p>
+<p class="gametags-more">
+<strong>Più giochi</strong><br>
+<a title="Giochi Di Strategia" href="https://lagged.com/it/it/strategy">Giochi Di Strategia</a>
+<a title="Giochi Di Incremento" href="https://lagged.com/it/it/upgrade">Giochi Di Incremento</a>
+<a title="Giochi Di Click" href="https://lagged.com/it/it/clicker">Giochi Di Click</a>
+<a title="Giochi Di Mostri" href="https://lagged.com/it/it/monster">Giochi Di Mostri</a>
+<a title="Giochi Di Inattività" href="https://lagged.com/it/it/idle">Giochi Di Inattività</a>
+</p>
+</div>
+<script>
+var iframesrc="https://lagged.com/games/ruffle/click-monster/";var thisgamegid=5655;
+var adThumb="clicker-monsters284.png";
+var jsMoreGames=[{"id":4809,"thumb":"huggy-wuggy-merge14.png","name":"Huggy Wuggy Merge","url_key":"huggy-wuggy-merge","ordering":1},{"id":4899,"thumb":"idle-pet-game731.png","name":"Idle Pet Business","url_key":"idle-pet-business","ordering":2},{"id":4921,"thumb":"miner-gold-idle295.png","name":"Miner Gold Idle","url_key":"miner-gold-idle","ordering":3},{"id":5507,"thumb":"pepe-coin-clicker-game180.png","name":"Pepe Coin Clicker","url_key":"pepe-coin-clicker","ordering":4},{"id":912,"thumb":"idle-oasis-game.png","name":"Idle Oasis","url_key":"idle-oasis","ordering":5},{"id":3304,"thumb":"idle-farm-world-game47.png","name":"Idle Farm World","url_key":"idle-farm-world","ordering":6},{"id":5069,"thumb":"bored-ape-clicker655.png","name":"LIT Ape NFT Generator","url_key":"lit-ape-nft-generator","ordering":7},{"id":2445,"thumb":"pizza-clicker-tycoon-game.png","name":"Pizza Clicker Tycoon","url_key":"pizza-clicker-tycoon","ordering":8},{"id":2040,"thumb":"idle-factory-game.png","name":"Factory Clicker","url_key":"idle-factory","ordering":9},{"id":3327,"thumb":"idle-doodle-city-game8.png","name":"Idle Doodle City","url_key":"idle-doodle-city","ordering":10},{"id":4483,"thumb":"fantasy-merger-1732.png","name":"Fantasy Merger","url_key":"fantasy-merger","ordering":11},{"id":1627,"thumb":"idle-miners-game.jpg","name":"Idle Miners","url_key":"idle-miners","ordering":12}];
+var gameOrientation=1;
+var useLaggedapiembed=true;
+</script>
+<footer id="footer">
+<div class="footwrap"><div class="footlead">
+<a href="https://lagged.com/it" title="Lagged" class="footerlogo">Lagged</a>
+<button id="togglelnbtn" onclick="toggleLang();" class="footsocial flag">Italiano</button>
+<div id="togglelang">
+<a href="https://lagged.com/en/g/clicker-monsters" hreflang="en" title="Lagged.com">English <span>(Engelsk)</span></a>
+<a href="https://spiel2.com/de/g/clicker-monsters" hreflang="de" class="de" title="Spiel2.com">Deutsche <span>(Tysk)</span></a>
+<a href="https://lagged.com.br/pt/g/clicker-monsters" hreflang="pt-BR" class="pt" title="Lagged.com.br">Português <span>(Portugisiska)</span></a>
+<a href="https://lagged.es/es/g/clicker-monsters" hreflang="es" class="es" title="Lagged.es">Español <span>(Spanska)</span></a>
+<a href="https://oyun.io/tr/g/clicker-monsters" hreflang="tr" class="tr" title="Oyun.io">Türkçe <span>(Turkiska)</span></a>
+<a href="https://lagged.me/ar/g/clicker-monsters" hreflang="ar" class="ar" title="Lagged.me">عربى <span>(Arabiska)</span></a>
+<a href="https://lagged.bg/bg/g/clicker-monsters" hreflang="bg" class="bg" title="Lagged.bg">български <span>(Bulgaro)</span></a>
+<a href="https://lagged.gr/el/g/clicker-monsters" hreflang="el" class="el" title="Lagged.gr">Ελληνικά <span>(Greco)</span></a>
+<a href="https://lagged.fi/fi/g/clicker-monsters" hreflang="fi" class="fi" title="Lagged.fi">Suomalainen <span>(Finnish)</span></a>
+<a href="https://lagged.fr/fr/g/clicker-monsters" hreflang="fr" class="fr" title="Lagged.fr">Français <span>(Franska)</span></a>
+<a href="https://lagged.in/hi/g/clicker-monsters" hreflang="hi" class="hi" title="Lagged.in">हिन्दी <span>(Hindi)</span></a>
+<a href="https://lagged.id/id/g/clicker-monsters" hreflang="id" class="id" title="Lagged.id">Indonesia <span>(Indonesiska)</span></a>
+<a href="https://lagged.com/it/it/g/clicker-monsters" hreflang="it" class="it active" title="Lagged.com/it">Italiano</a>
+<a href="https://lagged.jp/ja/g/clicker-monsters" hreflang="ja" class="ja" title="Lagged.jp">日本 <span>(Japanska)</span></a>
+<a href="https://lagged.kr/ko/g/clicker-monsters" hreflang="ko" class="ko" title="Lagged.kr">한국어 <span>(Koreanska)</span></a>
+<a href="https://spellen2.com/nl/g/clicker-monsters" hreflang="nl" class="nl" title="Spellen2.com">Nederlands <span>(Holländska)</span></a>
+<a href="https://lagged.pl/pl/g/clicker-monsters" hreflang="pl" class="pl" title="Lagged.pl">Polski <span>(Putsa)</span></a>
+<a href="https://lagged.ro/ro/g/clicker-monsters" hreflang="ro" class="ro" title="Lagged.ro">Română <span>(Rumeno)</span></a>
+<a href="https://lagged.ru/ru/g/clicker-monsters" hreflang="ru" class="ru" title="Lagged.ru">Pусский <span>(Ryska)</span></a>
+<a href="https://lagged.se/sv/g/clicker-monsters" hreflang="sv" class="sv" title="Lagged.se">Svenska <span>(Svedese)</span></a>
+<a href="https://lagged.com/th/th/g/clicker-monsters" hreflang="th" class="th" title="Lagged.com/th">ไทย <span>(Thai)</span></a>
+<a href="https://lagged.vn/vi/g/clicker-monsters" hreflang="vi" class="vi" title="Lagged.vn">Tiếng Việt <span>(Vietnamesiska)</span></a>
+<a href="https://lagged.cn/zh/g/clicker-monsters" hreflang="zh" class="zh" title="Lagged.cn">中国人 <span>(Kinesiska)</span></a>
+</div>
+<a href="https://www.youtube.com/lagged" target="_blank" rel="noopener noreferrer" class="footsocial yt">YouTube</a>
+</div><div class="footsub"><a href="https://lagged.com/it/contact">Contattaci</a><a href="https://lagged.com/it/privacy">Informativa sulla privacy</a></div>
+<div class="footend"><p>Lagged è la migliore piattaforma per giochi online. Sfida i tuoi amici a migliaia di giochi diversi su PC, tablet o dispositivi mobili. Competi per punteggi alti e per ottenere risultati così da scalare la nostra classifica globale.</p><p>&copy; Lagged 2023</p>
+</div>
+</div>
+</footer>
+</div>
+<link rel="stylesheet" href="https://lagged.com/it/js/v2/styles.css" media="all">
+<script src="https://lagged.com/it/js/v2/customchannels.js"></script>
+<script src="https://lagged.com/it/js/v2/site.js"></script>
+</body></html>

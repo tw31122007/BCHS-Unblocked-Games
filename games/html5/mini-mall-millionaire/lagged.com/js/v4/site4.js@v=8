@@ -1,0 +1,1858 @@
+var pageIsReady=false;
+var adBreak;
+var returnFunct=false;
+
+var username="guest"+Math.floor(1e4*Math.random());
+var useravatar="https://lagged.com/images/avatars/default-avatar.jpg";
+var currentRating=0;
+var userid_ds=0;
+var isMobile =false;
+
+try{
+ isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+}catch(e){
+  console.log(e);
+}
+
+var loadedAdsenseCall=false;
+
+function pageIsReadyFunc(){
+  pageIsReady=true;
+  console.log("page is ready");
+
+  try{
+    (adsbygoogle = window.adsbygoogle || []);
+    [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
+    adsbygoogle.push({})
+    });
+  }catch(e){
+    console.log(e);
+  }
+
+    try{
+      //console.log("send ad conversion");
+      if(aFoundValue){
+        var conValue=aValueRules[2]/1000;
+        gtag('event', 'conversion', {
+          'send_to': 'AW-1055364430/KanfCKKP5-4YEM6qnvcD',
+          'value': conValue,
+          'currency': 'USD'
+        });
+      }else{
+        gtag('event', 'conversion', {'send_to': 'AW-1055364430/KanfCKKP5-4YEM6qnvcD'});
+      }
+    }catch(e){
+    console.log(e);
+    }
+
+  if(window.innerWidth>800){
+    loadedAdsenseCall=true;
+  }
+
+}
+
+function findCampaign(channel){
+  for(var i=0;i<adChannels.length;i++){
+    if(adChannels[i].campaign==channel){
+      return adChannels[i];
+    }
+  }
+}
+
+//
+// to do new:
+//
+function findCreative(channel){
+  for(var i=0;i<creativeChannels.length;i++){
+    if(creativeChannels[i].creative==channel){
+      return creativeChannels[i];
+    }
+  }
+}
+
+//
+//
+//
+function findValue(channel){
+  for(var i=0;i<vMaps.length;i++){
+    if(vMaps[i].campaign==channel){
+      return vMaps[i];
+    }
+  }
+}
+
+//
+// get custom channel url
+//
+var useCustomChannel=false;
+var customChannelUse="";
+var customHostChannel="";
+
+//
+// to do new: 
+//
+var useCustomAdChannel=false;
+var customCreativeChannelUse="";
+//
+// ^^^^
+//
+
+//
+// liteAds 2023 new
+//
+var useLiteAds=false;
+
+var aFoundValue=false;
+var aValueRules=[];
+
+try{
+var urlChannelCheck=new URL(location.href).searchParams.get('fromchanel');
+if(urlChannelCheck&&urlChannelCheck.length>3){
+
+  urlChannelCheck=parseInt(urlChannelCheck);
+
+  try{
+    var channelFind=findCampaign(urlChannelCheck);
+  }catch(e){
+    console.log(e);
+  }
+
+  if(channelFind&&channelFind.channel&&channelFind.host){
+    useCustomChannel=true;
+    customChannelUse=channelFind.channel;
+    customHostChannel=channelFind.host;
+
+    //
+    // check values
+    //
+    var valueFine=findValue(urlChannelCheck);
+    if(valueFine&&valueFine.values.length>0){
+      aFoundValue=true;
+      aValueRules=valueFine.values;
+    }
+
+    //set cookie
+    setCookie('cpcustom',urlChannelCheck,7);
+  }
+
+  //
+  // to do new:
+  // check creativeChannels
+  //
+  var creativeId=new URL(location.href).searchParams.get('adid');
+  if(creativeId&&creativeId.length>3){
+    creativeId=parseInt(creativeId);
+
+    try{
+      var channelFindAdCreatuve=findCreative(creativeId);
+    }catch(e){
+      console.log(e);
+    }
+
+    if(channelFindAdCreatuve&&channelFindAdCreatuve.channel){
+      useCustomAdChannel=true;
+      customCreativeChannelUse=channelFindAdCreatuve.channel;
+  
+      //set cookie
+      setCookie('createcustom',creativeId,7);
+    }
+
+  }else{
+    setCookie('createcustom',0,7);
+  }
+  //
+  // ^^^^^^^^^^
+  //
+
+}else{
+  //
+  //check if custom url cookie
+  //
+  var checkChannelCookie=getCookie('cpcustom');
+  checkChannelCookie=parseInt(checkChannelCookie);
+
+  if(checkChannelCookie>0){
+
+    try{
+      var channelFind=findCampaign(checkChannelCookie);
+    }catch(e){
+      console.log(e);
+    }
+
+    if(channelFind&&channelFind.channel&&channelFind.host){
+      useCustomChannel=true;
+      customChannelUse=channelFind.channel;
+      customHostChannel=channelFind.host;
+
+          //
+        // check values
+        //
+        var valueFine=findValue(checkChannelCookie);
+        if(valueFine&&valueFine.values.length>0){
+          aFoundValue=true;
+          aValueRules=valueFine.values;
+        }
+    }
+
+    //
+    // to do new: check cookie
+    //
+    var checkCreativeCookie=getCookie('createcustom');
+    checkCreativeCookie=parseInt(checkCreativeCookie);
+
+    if(checkCreativeCookie>0){
+
+      try{
+        var channelFindAdCreatuve=findCreative(checkCreativeCookie);
+      }catch(e){
+        console.log(e);
+      }
+  
+      if(channelFindAdCreatuve&&channelFindAdCreatuve.channel){
+        useCustomAdChannel=true;
+        customCreativeChannelUse=channelFindAdCreatuve.channel;
+      }
+    }
+    //
+    // ^^^^
+    //
+
+  }
+}
+}catch(e){
+  console.log(e);
+}
+
+var element = document.createElement('script');
+var firstScript = document.getElementsByTagName('script')[0];
+var url = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+element.src = url;
+element.setAttribute('data-ad-client', 'ca-pub-6893876361346206');
+
+// if(useCustomChannel){
+//     console.log('customChannelUse: ', customChannelUse);
+//     console.log('customHostChannel: ', customHostChannel);
+//     element.setAttribute('data-ad-channel', customChannelUse);
+// }
+
+//
+// to do new: replace
+//
+if(useCustomChannel&&useCustomAdChannel){
+  console.log('customChannelUse: ', customChannelUse);
+  console.log('custom ad yse: ', customCreativeChannelUse);
+  var channels=customChannelUse+" "+customCreativeChannelUse;
+
+
+  //var channels=[customChannelUse+","+customCreativeChannelUse];
+  //var channels="["+customChannelUse+"+"+customCreativeChannelUse+"]";
+
+  element.setAttribute('data-ad-channel', channels);
+}else if(useCustomChannel){
+console.log('customChannelUse: ', customChannelUse);
+console.log('customHostChannel: ', customHostChannel);
+element.setAttribute('data-ad-channel', customChannelUse);  
+}
+//
+// ^^^^
+//
+element.setAttribute('data-ad-frequency-hint', '30s');
+
+
+if(typeof iframesrc !== 'undefined'){
+  firstScript.parentNode.insertBefore(element, firstScript);
+  try{
+    window.adsbygoogle = window.adsbygoogle || [];
+    adBreak = adConfig = function(o) {adsbygoogle.push(o);}
+    adConfig({preloadAdBreaks: 'on', onReady: pageIsReadyFunc});
+  }catch(e){
+  console.log(e);
+  }
+
+  try{
+    var remarkID='DR_'+thisgamegid;
+    gtag('event', 'page_view', {
+    'send_to': 'AW-1055364430',
+    'items': [{
+      'id': remarkID,
+      'google_business_vertical': 'custom',
+    }]
+  });
+  }catch(e){
+    console.log(e);
+  }
+}else{
+    firstScript.parentNode.insertBefore(element, firstScript);
+  try{
+    (adsbygoogle = window.adsbygoogle || []);
+    [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
+    adsbygoogle.push({})
+    });
+  }catch(e){
+    console.log(e);
+  }
+}
+
+
+function toggleSearch(){var sb=document.getElementById("search-headerbar");sb.style.display="none"===sb.style.display?"":"none",document.getElementById("search-bar").focus();}
+function getUrlParam(e){}
+var toggleAjaxSearch=function(){var sb=document.getElementById("ajaxsrwr");sb.classList.toggle("show");document.getElementById("ajaxbar").focus();}
+
+var lastAjaxTerm;
+var isLoading=false;
+function capitalizeFirstLetter(str) {
+    return str.replace(/\w\S*/g, function(txt){
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+}
+
+var ajaxSearchUp=function(val){
+	if(window.innerHeight < 300){
+		return;
+	}
+
+	var ajaxsrh=val.replace(/[^\x00-\x7F]/g, "");
+	ajaxsrh=ajaxsrh.replace("games", '');
+	ajaxsrh=ajaxsrh.replace("game", '');
+	var ajaxSrhSpace=ajaxsrh.replace(/[^\x00-\x7F]/g, "");
+
+
+	if(ajaxsrh.length===0){
+		var ajaxList=document.getElementById('ajaxlistdiv');
+		document.getElementById('ajaxform').className="";
+		if(ajaxList){
+			ajaxList.style.display="none";
+			while (ajaxList.firstChild) {
+			    ajaxList.removeChild(ajaxList.firstChild);
+			}
+		}
+	}
+
+	if(ajaxsrh.length>2&&ajaxSrhSpace!=lastAjaxTerm&&!isLoading){
+		lastAjaxTerm=ajaxSrhSpace;
+
+    sendAjax(ajaxsrh, 'search2.php',  function(response){
+      if(!response.errors){
+				//make sure ajax list is visible
+				var ajaxList=document.getElementById('ajaxlistdiv');
+				document.getElementById('ajaxform').className="searchdrop";
+				if(!ajaxList){
+					var ajaxList=document.createElement('div');
+					ajaxList.id="ajaxlistdiv";
+					document.getElementById('ajaxsrwr').appendChild(ajaxList);
+				}else{
+					ajaxList.style.display="block";
+					//if(response.cnt>0){
+					while (ajaxList.firstChild) {
+					    ajaxList.removeChild(ajaxList.firstChild);
+					}
+					//}
+				}
+
+				if(response.cnt>0){
+
+
+					for(var i=0;i<response.tags.length;i++){
+						var gameWrap=document.createElement('div');
+						gameWrap.className="category_main";
+
+            var gameWrap2=document.createElement('div');
+						gameWrap2.className="cat_main_wrap";
+
+            var gameWrapUl=document.createElement('ul');
+            var gameWrapLi=document.createElement('li');
+
+						var gameAWr=document.createElement('a');
+            if(response.tags[i].turl){
+              gameAWr.href=response.tags[i].turl;
+            }else{
+              gameAWr.href="https://lagged.com/en/"+response.tags[i].name;
+            }
+            gameAWr.title=response.tags[i].name+" games";
+
+						var gameIms=document.createElement('img');
+						gameIms.src="https://imgs2.dab3games.com/"+response.tags[i].icon;
+						gameIms.className="ajimgsr";
+						gameIms.alt=response.tags[i].name+" games";
+						gameAWr.appendChild(gameIms);
+
+						var gameName=document.createTextNode(capitalizeFirstLetter(response.tags[i].name.replace(/-/g, ' '))+" Games");
+						gameAWr.appendChild(gameName);
+
+
+						gameWrapLi.appendChild(gameAWr);
+            gameWrapUl.appendChild(gameWrapLi);
+            gameWrap2.appendChild(gameWrapUl);
+            gameWrap.appendChild(gameWrap2);
+						ajaxList.appendChild(gameWrap);
+					}
+
+					for(var i=0;i<response.games.length;i++){
+
+						var gameWrap=document.createElement('div');
+            if(i<1){
+              gameWrap.style.clear="both";
+            }
+						gameWrap.className="thumbWrapper newboxshadow";
+            var gameWrap2=document.createElement('div');
+
+						var gameAWr=document.createElement('a');
+						gameAWr.className="ajref";
+						gameAWr.href="https://lagged.com/en/g/"+response.games[i].url_key;
+						gameAWr.title=response.games[i].name;
+            gameAWr.innerHTML=response.games[i].name;
+            gameWrap2.appendChild(gameAWr);
+						var gameIms=document.createElement('img');
+						gameIms.src="https://imgs2.dab3games.com/"+response.games[i].thumb;
+						gameIms.alt=response.games[i].name+" games";
+						gameIms.className="ajimgsr";
+						gameWrap2.appendChild(gameIms);
+            gameWrap.appendChild(gameWrap2);
+						ajaxList.appendChild(gameWrap);
+
+            ajaxList.style.height="100%";
+					}
+
+				}else{
+					//if no results "browse games" / "search users" buttons
+					var gameWrap=document.createElement('span');
+					gameWrap.className="span-noresults";
+					gameWrap.innerHTML="No results. <a href='https://lagged.com/search_advanced.php?q="+ajaxsrh.replace(/\s+/g, '+')+"'>Advanced Search &#8594;</a>"
+					ajaxList.appendChild(gameWrap);
+
+          ajaxList.style.height="40px";
+
+				}
+			}else{
+				console.log(response.error);
+			}
+    });
+
+	}
+}
+
+var ajaxSearch=function(event){
+  if(event.keyCode===13){
+			document.getElementById('ajaxform').submit();
+	}
+}
+
+var ajaxSubmit=function(event){
+	event.preventDefault();
+	document.getElementById('ajaxform').submit();
+}
+
+function toggleLang(){var l=document.getElementById("togglelang");"block"===l.style.display?l.style.display="none":l.style.display="block"}
+
+// function closeOutAJax(event){
+// 	try{
+// 	if(event.target.className!="ajimgsr"&&event.target.className!="ajref"&&event.target.className!="ajax-gamewr"&&event.target.id!="ajaxlistdiv"&&event.target.id!="ajaxform"&&event.target.id!="searchbtn"&&event.target.id!="ajaxbar"&&event.target.id!="togglesearchr"&&event.target.id!="ajaxsrwr"){
+// 		var ajaxList=document.getElementById('ajaxlistdiv');
+// 		if(document.getElementById('ajaxform')){
+// 			document.getElementById('ajaxform').className="";
+// 			document.getElementById("ajaxbar").blur();
+// 		}
+// 		if(ajaxList){
+//       if(document.getElementById('ajaxsrwr')){
+//         document.getElementById("ajaxsrwr").className="ajax_search";
+//       }
+// 		}
+// 		if(document.getElementById('ajaxsrwr')){
+//       if(document.getElementById('ajaxsrwr').classList.contains("show")){
+//         document.getElementById('ajaxsrwr').className="ajax_search";
+//       }
+			
+// 		}
+// 	}
+// 	}catch(e){
+// 		console.log(e);
+// 	}
+// }
+
+// document.addEventListener('touchend', closeOutAJax, false);
+// document.addEventListener('click', closeOutAJax, false);
+
+// function getParameterByName(name) {
+//     var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+//     return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+// }
+
+// try{
+// window.addEventListener('load', function (){
+//   var customChannel = getParameterByName('usecustom');
+//
+//   if(customChannel&&!isNaN(customChannel)){
+//
+//     setCookie('cpcustom',customChannel,30);
+//
+//   }
+// });
+// }catch(e){
+// console.log(e);
+// }
+
+function setCookie(name,value,days) {
+console.log('set cookie: ', value);
+  var expires = "";
+  if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days*24*60*60*1000));
+      expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
+function getCookie(name) {
+    var match = document.cookie.match(RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
+    return match ? match[1] : null;
+}
+
+function startLoading(){
+  try{
+    document.getElementById('clickytext').className="play_btn loading";
+    document.getElementById('clickytext').innerHTML="";
+  }catch(e){
+    console.log(e);
+  }
+
+  try{
+    if(displayFewer){
+      showTheGame();
+      enableButtons(false);
+      return;
+    }
+  }catch(e){
+    console.log(e);
+  }
+
+  if(pageIsReady){
+    setTimeout(function(){
+      startGame();
+    },300);
+  }else {
+    var checkCount=0;
+    var checkInt=setInterval(function(){
+      if(pageIsReady){
+        clearInterval(checkInt);
+        startGame();
+      }else{
+        checkCount++;
+        if(checkCount>20){
+          clearInterval(checkInt);
+          startGame();
+        }
+      }
+    },200);
+  }
+}
+
+var startGame=function(){
+
+try{
+// document.getElementById('playwrap').onclick=function(){console.log('no dc');}
+var clicktoplay=document.getElementById('clickytext');
+clicktoplay.innerHTML="";
+clicktoplay.className="play_btn loading";
+}catch(e){
+  console.log(e);
+}
+
+if(pageIsReady){
+loadAdsandGame();
+}else{
+var cntr=0;
+var checkLoadStatus=setInterval(function(){
+  cntr++;
+  console.log("page ready ?? ", pageIsReady);
+  if(pageIsReady){
+    loadAdsandGame();
+    clearInterval(checkLoadStatus);
+  }else if(cntr>15){
+    clearInterval(checkLoadStatus);
+    showTheGame();
+    enableButtons(false);
+  }
+},100);
+}
+}
+
+var loadAdsandGame=function(){
+
+  console.log('Load the game here');
+
+  try{
+    adBreak({
+      type: 'start',
+      name: 'start-game',
+      beforeAd: function beforeAd() {
+        disableButtons();sendGtagEvent();
+      },
+      afterAd: function afterAd() {
+        //sendGtagEvent();
+        //enableButtons(false);
+      },
+      adBreakDone: function adBreakDone(){
+        showTheGame();
+        enableButtons(false);
+      }
+    });
+  }catch(e){
+    console.log(e);
+  }
+
+}
+
+
+function disableButtons(){
+  if(document.getElementById('mobilerightnew')){
+    document.getElementById('mobilerightnew').className="";
+  }
+  if(document.getElementById('minividbtnnewl')){
+    document.getElementById('minividbtnnewl').className="showittomob";
+  }
+}
+
+
+function enableButtons(returnF){
+try{
+  if(!mobileMenuOpen){
+    if(document.getElementById('mobilerightnew')){
+      document.getElementById('mobilerightnew').className="showmbtn";
+    }
+    if(document.getElementById('minividbtnnewl')){
+      document.getElementById('minividbtnnewl').className="showittomob showit";
+    }
+  }
+    if(document.getElementById('bottomgames')){
+      document.getElementById('bottomgames').className="bottomblock hideitmobbt";
+    }
+}catch(e){
+  console.log(e);
+}
+
+try{
+  dragElement(document.getElementById("mobilerightnew"));
+}catch(e){
+  console.log(e);
+}
+
+try{
+if(returnFunct){
+  //if intersit. ad
+}
+}catch(e){
+  console.log(e);
+}
+
+}
+
+var loadedGameYet=false;
+var showTheGame=function(){
+  if(loadedGameYet){return;}
+  loadedGameYet=true;
+
+  try{
+    if (typeof gameOrientation === 'undefined' || gameOrientation === null) {
+      gameOrientation=1;
+    }
+  }catch(e){
+    console.log(e);
+  }
+
+  var gameElement = document.createElement("iframe");
+  gameElement.id="gamePlayer";
+  gameElement.src=iframesrc;
+  gameElement.setAttribute("allow", "autoplay");
+
+  document.getElementById('game').appendChild(gameElement);
+  document.getElementById('pregame').remove();
+
+  try{
+    var gameMiddle=document.getElementById('gameinmiddle');
+    if(gameOrientation>1){
+      gameMiddle.className="gamesmiddle gameisportrait";
+    }else{
+      gameMiddle.className="gamesmiddle";
+    }
+
+  }catch(e){
+    console.log(e);
+  }
+  try{
+    document.getElementById('game').className="gamearea";
+  }catch(e){
+    console.log(e);
+  }
+
+  if(document.getElementById('showafterplay')){
+    document.getElementById('showafterplay').className="newgamesright showitafter";
+  }
+
+  if(!isMobile&&window.innerWidth>1024&&document.getElementById('pcad')){
+    window.scroll(0,60);
+    try{
+      document.getElementById('pcad').innerHTML='<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6893876361346206" data-ad-slot="3306066442" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+
+      if(gameOrientation>1){
+        var adLeftSide = document.createElement("div");
+        adLeftSide.className="newgamesleft";
+        adLeftSide.innerHTML='<div class="ad970 verticalad"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6893876361346206" data-ad-slot="3306066442" data-ad-format="auto" data-full-width-responsive="true"></ins></div>';
+        gameMiddle.appendChild(adLeftSide);
+      }
+
+
+      try{
+        (adsbygoogle = window.adsbygoogle || []);
+        [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
+        adsbygoogle.push({})
+        });
+      }catch(e){
+        console.log(e);
+      }
+    }catch(e){
+      console.log(e);
+    }
+  }else{
+    document.body.className="fullscreenpage";
+  }
+
+
+  //to do 2023 1
+  if(suggest_rotate&&isMobile){
+    var suggestRotateDiv = document.createElement("div");
+    suggestRotateDiv.id="suggestrotate";
+    suggestRotateDiv.innerHTML="Rotate for more fun!";
+    document.getElementById('game').appendChild(suggestRotateDiv);
+  }
+
+//
+// send ajax request, ping game +1, get user info
+//
+sendAjax(thisgamegid, 'gamejson.php',  function(userInfo){
+  if(userInfo&&userInfo.user){
+      showUserInfo(userInfo);
+  }
+});
+}
+
+var doitresize;
+window.onresize = function(){
+  if(!loadedGameYet){return;}
+  clearTimeout(doitresize);
+  doitresize = setTimeout(resizedw, 50);
+};
+
+function resizedw(){
+  if(!isMobile&&window.innerWidth>1024){
+    document.body.className="";
+    if(!loadedAdsenseCall){
+      loadedAdsenseCall=true;
+      try{
+        (adsbygoogle = window.adsbygoogle || []);
+        [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
+        adsbygoogle.push({})
+        });
+      }catch(e){
+        console.log(e);
+      }
+    }
+    try{
+      if(document.getElementById("exitfullscreen")){
+        document.getElementById("exitfullscreen").remove();
+      }
+    }catch(e){
+      console.log(e);
+    }
+  }else{
+    document.body.className="fullscreenpage";
+    try{
+      if(isFullscreenNew){
+        if(mobileMenuOpen){
+          mobileMenuToggle();
+        }
+        if(!document.getElementById("exitfullscreen")){
+          var exitFullBtn=document.createElement('div');
+          exitFullBtn.id="exitfullscreen";
+          exitFullBtn.innerText="Exit";
+          exitFullBtn.onclick=function(){
+            toggleFullscreen();
+          }
+          document.body.appendChild(exitFullBtn);
+        }
+      }
+    }catch(e){
+      console.log(e);
+    }
+  }
+}
+
+var viewPlaythrough=function(vid){
+  var videourl="https://lagged.com/video-redirect.php?id="+vid;
+  window.open(videourl,"_blank");
+}
+
+//
+//show user info
+//
+var showUserInfo=function(userInfo){
+
+  try{
+    username=userInfo.user.username;
+    userid_ds=userInfo.user.id;
+    if(userInfo.user.avatar){
+      useravatar="https://lagged.com/images/avatars/"+userInfo.user.avatar;
+    }
+  }catch(e){
+    console.log(e);
+  }
+  try{
+    if(userInfo.urate>0){
+      currentRating=userInfo.urate;
+     if(currentRating===1){
+        var thumbdown = document.getElementsByClassName("dislikebtn");
+        for (var i = 0; i < thumbdown.length; i++) {
+          thumbdown[i].className='dislikebtn active';
+        }
+     }else if(currentRating===2){
+        var thumbdown = document.getElementsByClassName("likebtn");
+        for (var i = 0; i < thumbdown.length; i++) {
+          thumbdown[i].className='likebtn active';
+        }
+     }
+    }
+  }catch(e){
+    console.log(e);
+  }
+}
+
+
+//
+// all ajax use 1 format
+//
+var sendAjax=function(callData, page, callback){
+  var xhttp = new XMLHttpRequest();
+  try{
+    xhttp.timeout = 2000;
+  }catch(e){
+    console.log(e);
+  }
+  xhttp.ontimeout = function (e) {
+    console.log('error: ajax time out');
+    callback(false);
+  };
+  xhttp.onreadystatechange = function() {
+
+  if (this.readyState == 4 && this.status > 399) {
+    console.log('error: ajax error');
+    callback(false);
+  }
+    if (this.readyState == 4 && this.status == 200) {
+     try{
+      var response=this.responseText;
+     response=response.replace(")]}',","");
+     response=JSON.parse(response);
+
+      callback(response);
+
+    }catch(e){
+      console.log(e);
+      }
+    }
+  };
+  xhttp.open("POST", "//lagged.com/api/v4/"+page, true);
+  xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhttp.send("calldata="+callData);
+}
+
+var interShow=function(returnFunction){
+  console.log("play inter ad");
+try{
+  adBreak({
+    type: 'next',
+    name: 'next-level',
+    beforeAd: function beforeAd() {
+      disableButtons();sendGtagEvent();
+    },
+    afterAd: function afterAd() {
+      enableButtons(false);
+    },
+    adBreakDone: function adBreakDone(){
+      returnFunction();
+    }
+  });
+}catch(e){
+  console.log(e);
+}
+}
+
+//
+// Like / dislike the game
+//
+var submitRating=function(rating,fromlog){
+if(fromlog&&currentRating===rating){
+return;
+}
+
+var thumbup = document.getElementsByClassName("likebtn");
+var thumbdown = document.getElementsByClassName("dislikebtn");
+for (var i = 0; i < thumbup.length; i++) {
+  thumbup[i].disabled=true;
+}
+for (var i = 0; i < thumbdown.length; i++) {
+  thumbdown[i].disabled=true;
+}
+
+// thumbup.disabled=true;
+// thumbdown.disabled=true;
+
+var ajaxrating=rating;
+
+if(thisgamegid<1||rating>2||rating<1){
+return true;
+}
+if(rating===2){
+if(currentRating===1){
+//thumbdown.className="dislikebtn";
+currentRating=2;
+//thumbup.className="likebtn active";
+
+for (var i = 0; i < thumbup.length; i++) {
+  thumbup[i].className="likebtn active";
+}
+for (var i = 0; i < thumbdown.length; i++) {
+  thumbdown[i].className="dislikebtn";
+}
+
+}else if(currentRating===2){
+ajaxrating=4;
+currentRating=0;
+//thumbup.className="likebtn";
+for (var i = 0; i < thumbup.length; i++) {
+  thumbup[i].className="likebtn";
+}
+}else{
+currentRating=2;
+//thumbup.className="likebtn active";
+for (var i = 0; i < thumbup.length; i++) {
+  thumbup[i].className="likebtn active";
+}
+}
+}else{
+if(currentRating===2){
+//thumbup.className="likebtn";
+currentRating=1;
+//thumbdown.className="dislikebtn active";
+
+for (var i = 0; i < thumbup.length; i++) {
+  thumbup[i].className="likebtn";
+}
+for (var i = 0; i < thumbdown.length; i++) {
+  thumbdown[i].className="dislikebtn active";
+}
+}else if(currentRating===1){
+ajaxrating=3;
+currentRating=0;
+//thumbdown.className="dislikebtn";
+for (var i = 0; i < thumbdown.length; i++) {
+  thumbdown[i].className="dislikebtn";
+}
+}else{
+currentRating=1;
+//thumbdown.className="dislikebtn active";
+for (var i = 0; i < thumbdown.length; i++) {
+  thumbdown[i].className="dislikebtn active";
+}
+}
+}
+
+var sendata={};
+sendata.rating=ajaxrating;
+sendata.gid=thisgamegid;
+
+if(userid_ds<1){
+  currentRating=0;
+  sendata.type='rating';
+  askLogin(sendata);
+
+  for (var i = 0; i < thumbup.length; i++) {
+    thumbup[i].disabled=false;
+    thumbup[i].className="likebtn";
+  }
+  for (var i = 0; i < thumbdown.length; i++) {
+    thumbdown[i].disabled=false;
+    thumbdown[i].className="dislikebtn";
+  }
+  return;
+}
+
+sendAjax(JSON.stringify(sendata), 'ajax_rating.php',  function(response){
+
+  if(ajaxrating===2){
+  var addtolsc = document.createElement("div");
+  addtolsc.id="addedtolikes";
+  addtolsc.onclick=function(){openLikedRemove();};
+  var addpara=document.createElement("p");
+  addparab=document.createElement("b");
+  addparabtxt=document.createTextNode("liked games");
+  addparabtxt2=document.createTextNode("Added to your ");
+  addparab.appendChild(addparabtxt);
+  addpara.appendChild(addparabtxt2);
+  addpara.appendChild(addparab);
+  addtolsc.appendChild(addpara);
+  document.getElementById('gamecontrols').appendChild(addtolsc);
+
+  setTimeout(function(){
+  if(addtolsc){
+  	fade(addtolsc);
+    setTimeout(function(){
+      if(addtolsc){
+        addtolsc.remove();
+      }
+    },500);
+  }
+  }, 3000);
+  }
+
+  // thumbup.disabled=false;
+  // thumbdown.disabled=false;
+  for (var i = 0; i < thumbup.length; i++) {
+    thumbup[i].disabled=false;
+  }
+  for (var i = 0; i < thumbdown.length; i++) {
+    thumbdown[i].disabled=false;
+  }
+
+});
+}
+
+var openLikedRemove=function(){
+window.open('https://lagged.com/liked','_blank');
+fade(document.getElementById("addedtolikes"));
+}
+
+//
+// open awards the game
+//
+var openAwards=function(){
+startLoader();
+
+sendAjax(thisgamegid, 'ajax_get_achs.php',  function(e){
+  console.log(e);
+  if(e&&e.success){
+    var t="https://imgs2.dab3games.com/"+adThumb;
+
+     buildWrapper();
+
+     var awardWrap=document.createElement("div");
+     awardWrap.id="achlistwrap";
+
+     var s=document.createElement("h3");
+     s.className="awardstitle";
+     var m=document.createTextNode("Achievements");
+     s.appendChild(m);
+     awardWrap.appendChild(s);
+
+     var p=0,u="earned";e.uid&&0<e.uid&&(u="saved");for(var g=document.createElement("div"),h=0;e.content.length>h;h++){var v=document.createElement("div");e.content[h].saved&&0<e.content[h].saved?(v.className="awards_bit",p++):v.className="awards_bit notearned";var b=document.createElement("img");b.width="40",b.height="40",b.alt="Award",b.src=t;v.appendChild(b);var E=document.createElement("div"),C=document.createElement("span");C.className="title";var f=document.createTextNode(e.content[h].name);C.appendChild(f),E.appendChild(C);var w=document.createElement("span");w.className="desc";var y=document.createTextNode(e.content[h].textdesc);if(w.appendChild(y),E.appendChild(w),e.content[h].saved&&0<e.content[h].saved){var N=document.createElement("span");if(e.uid&&0<e.uid){N.className="checkedearn";var A=document.createTextNode("saved")}else N.className="checkedearn guestearnedach",A=document.createTextNode("earned");N.appendChild(A),E.appendChild(N)}v.appendChild(E);var T=document.createElement("div");T.className="pointstoearn";var x=document.createTextNode("+"+e.content[h].points);T.appendChild(x);var B=document.createElement("span"),k=document.createTextNode("xp");B.appendChild(k),T.appendChild(B),v.appendChild(T),g.appendChild(v)}var I=document.createElement("p"),_=document.createTextNode(p+" of "+e.content.length+" achievements "+u);if(I.appendChild(_),awardWrap.appendChild(I),awardWrap.appendChild(g),e.uid&&0<e.uid){(M=document.createElement("a")).setAttribute("href","https://lagged.com/awards"),M.setAttribute("target","_blank"),M.className="viewleaderguest",(D=document.createElement("img")).setAttribute("src","https://imgs2.dab3games.com/achievement-games.png"),D.setAttribute("alt","icon"),D.setAttribute("width","40"),D.setAttribute("height","40"),M.appendChild(D);var S=document.createTextNode("More Achievement Games");M.appendChild(S)}else{var M,D;(M=document.createElement("a")).onclick=function(){signup();},M.className="viewleaderguest",(D=document.createElement("img")).setAttribute("src","https://imgs2.dab3games.com/cautionsignin.png"),D.setAttribute("alt","icon"),D.setAttribute("width","40"),D.setAttribute("height","40"),M.appendChild(D),S=document.createTextNode("Sign up to save achievements"),M.appendChild(S)}
+     awardWrap.appendChild(M);
+
+     document.getElementById("leaderboard-wrapper").appendChild(awardWrap);
+
+  }else{
+    if(document.getElementById("leaderboard-wrapper")){
+      document.getElementById("leaderboard-wrapper").remove()
+    }
+    if(document.getElementById("leaderboard-modal")){
+      document.getElementById("leaderboard-modal").remove()
+    }
+    if(document.getElementById("leaderboard-loading")){
+      document.getElementById("leaderboard-loading").remove();
+    }
+  }
+});
+}
+
+//
+// open high scores the game
+//
+var openLeaderboards=function(scoreData){
+  startLoader();
+
+  var boardId=0;
+  var userTopScore=0;
+
+  try{
+    if(scoreData&&scoreData.data){
+      console.log("board id: ", scoreData.data.gamedata.id);
+      console.log("user best score, add to bottom of pop: ", scoreData.data.utop.score);
+
+      boardId=scoreData.data.gamedata.id
+      userTopScore=scoreData.data.utop.score;
+    }
+  }catch(e){
+    console.log(e);
+  }
+
+  var hsIframeLink="https://lagged.com/hs-pop/"+thisgamegid+"/";
+  if(boardId>0){
+    hsIframeLink+=boardId;
+  }
+
+  buildWrapper();
+
+  var hsIframe=document.createElement('iframe');
+  hsIframe.className="hsiframesrc";
+  hsIframe.scrolling="yes";
+  hsIframe.src=hsIframeLink;
+  document.getElementById("leaderboard-wrapper").appendChild(hsIframe);
+
+if(userTopScore>0){
+var topScoreDiv=document.createElement("div");
+topScoreDiv.className="leaderboardUserRowWrap leaderboardBestScoreBottom";
+topScoreDiv.innerHTML="<a href='https://lagged.com/profile/"+userid_ds+"' target='_blank'><img src='"+useravatar+"' width='100' height='100'><div>"+username+"</div></a><div class='leaderboardRowScore'>"+numberWithCommas(userTopScore)+"</div></div>";
+document.getElementById("leaderboard-wrapper").appendChild(topScoreDiv);
+}else if(userid_ds<1){
+var topScoreDiv=document.createElement("div");
+topScoreDiv.className="leaderboardUserRowWrap leaderboardBestScoreBottom";
+topScoreDiv.innerHTML="<a onclick='signup();' class='leadersignupwrap'><div>Create a free account to save your highscore</div></a></div>";
+document.getElementById("leaderboard-wrapper").appendChild(topScoreDiv);
+}
+
+}
+
+//
+// build wrapper
+//
+var buildWrapper=function(){
+
+  console.log("buid wrapper function");
+
+if(document.getElementById("leaderboard-wrapper")){
+  document.getElementById("leaderboard-wrapper").remove()
+}
+if(document.getElementById("leaderboard-modal")){
+  document.getElementById("leaderboard-modal").remove()
+}
+
+  var mainWrapDiv = document.createElement("div");
+  mainWrapDiv.id="leaderboard-wrapper";
+
+  var backdropDiv = document.createElement("div");
+  backdropDiv.id="leaderboard-modal";
+  backdropDiv.onclick=function (event){event.preventDefault();event.stopPropagation();return false;};
+  document.body.appendChild(backdropDiv);
+
+  var mainWrapHeader = document.createElement("div");
+  mainWrapHeader.id="leaderboard-wrapper-header";
+  var mainWrapHeaderButton = document.createElement("button");
+  mainWrapHeaderButton.onclick = function () {
+    try{
+      document.getElementById("leaderboard-wrapper").remove();
+    }catch(e){
+      console.log(e);
+    }
+    try{
+      document.getElementById("leaderboard-modal").remove();
+    }catch(e){
+      console.log(e);
+    }
+    try{
+      document.getElementById("leaderboard-wrapper").remove();
+    }catch(e){
+      console.log(e);
+    }
+    try{
+      document.getElementById("leaderboard-modal").remove();
+    }catch(e){
+      console.log(e);
+    }
+  }
+  mainWrapHeaderButton.id="leaderboard-header-button";
+  var laggLink = document.createElement('a');
+  laggLink.setAttribute('href', "https://lagged.com/");
+  laggLink.setAttribute('target', "_blank");
+  laggLink.id="headerlogolink";
+
+  mainWrapHeader.appendChild(mainWrapHeaderButton);
+  mainWrapHeader.appendChild(laggLink);
+  mainWrapDiv.appendChild(mainWrapHeader);
+
+  document.body.appendChild(mainWrapDiv);
+
+  if(document.getElementById("leaderboard-loading")){
+    document.getElementById("leaderboard-loading").remove();
+  }
+}
+
+
+//
+// start loader
+//
+var startLoader=function(){
+
+  console.log("start loader for pop ups");
+
+  if(document.getElementById('leaderboard-modal')){
+    document.getElementById('leaderboard-modal').remove();
+  }
+  if(document.getElementById('leaderboard-loading')){
+    document.getElementById('leaderboard-loading').remove();
+  }
+  if(document.getElementById('leaderboard-wrapper')){
+    document.getElementById('leaderboard-wrapper').remove();
+  }
+
+  var backdropDiv = document.createElement("div");
+  backdropDiv.id="leaderboard-modal";
+  backdropDiv.onclick=function (event){event.preventDefault();event.stopPropagation();return false;};
+  document.body.appendChild(backdropDiv);
+
+  var a=document.createElement("div");
+  a.id="leaderboard-loading";
+  a.className="leaderboard-circle";
+  document.body.appendChild(a);
+
+
+}
+
+//
+// sign up function
+//
+var askLogin=function(callback){
+buildWrapper();
+guestAskLogin(1,callback);
+}
+
+var signup=function(callback){
+buildWrapper();
+guestSignUpForm(1,callback);
+}
+
+
+var guestSignUpForm=function(step,callback){
+if(step!=1){
+document.getElementById("signupFormWrap").remove();
+}
+
+var guestSignUpWrap = document.createElement("div");
+guestSignUpWrap.id="signupFormWrap";
+
+var signTabs=document.createElement("div");
+signTabs.id="tabsButtonWraps";
+signTabs.className="logintabs";
+
+var tabBtnLogin = document.createElement("button");
+tabBtnLogin.className="tabs_links";
+tabBtnLogin.style.width="50%";
+tabBtnLogin.onclick=function(){guestAskLogin(2,callback);};
+var tabBtnText=document.createTextNode("Log in");
+tabBtnLogin.appendChild(tabBtnText);
+signTabs.appendChild(tabBtnLogin);
+
+var tabBtnLogin = document.createElement("button");
+tabBtnLogin.className="tabs_links active";
+tabBtnLogin.style.width="50%";
+var tabBtnText=document.createTextNode("Sign Up for Free");
+tabBtnLogin.appendChild(tabBtnText);
+signTabs.appendChild(tabBtnLogin);
+guestSignUpWrap.appendChild(signTabs);
+
+var signupForm = document.createElement("form");
+signupForm.id="loginit";
+signupForm.onsubmit=function(){return submitSignUpForm('signup',callback);};
+
+var formGroup1 = document.createElement("div");
+formGroup1.className="form-group";
+var formGroupLabel1 = document.createElement("label");
+formGroupLabel1.setAttribute('form',"inputEmail1");
+var formGroupLabelText1=document.createTextNode("Choose a nickname");
+formGroupLabel1.appendChild(formGroupLabelText1);
+formGroup1.appendChild(formGroupLabel1);
+var formGroupInput1 = document.createElement("input");
+formGroupInput1.setAttribute('type',"text");
+formGroupInput1.setAttribute('name',"name");
+formGroupInput1.id="inputEmail1";
+formGroupInput1.className="form-control";
+formGroupInput1.required=true;
+formGroup1.appendChild(formGroupInput1);
+signupForm.appendChild(formGroup1);
+
+var formGroup2 = document.createElement("div");
+formGroup2.className="form-group";
+var formGroupLabel2 = document.createElement("label");
+formGroupLabel2.setAttribute('form',"inputEmail2");
+var formGroupLabelText2=document.createTextNode("Your email address");
+formGroupLabel2.appendChild(formGroupLabelText2);
+formGroup2.appendChild(formGroupLabel2);
+var formGroupInput2 = document.createElement("input");
+formGroupInput2.setAttribute('type',"email");
+formGroupInput2.setAttribute('name',"name");
+formGroupInput2.id="inputEmail2";
+formGroupInput2.className="form-control";
+formGroupInput2.required=true;
+formGroup2.appendChild(formGroupInput2);
+signupForm.appendChild(formGroup2);
+
+var formGroup3 = document.createElement("div");
+formGroup3.className="form-group";
+var formGroupLabel3 = document.createElement("label");
+formGroupLabel3.setAttribute('form',"inputEmail3");
+var formGroupLabelText3=document.createTextNode("Create a password");
+formGroupLabel3.appendChild(formGroupLabelText3);
+formGroup3.appendChild(formGroupLabel3);
+var formGroupInput3 = document.createElement("input");
+formGroupInput3.setAttribute('type',"password");
+formGroupInput3.setAttribute('name',"name");
+formGroupInput3.setAttribute('placeholder',"At least 6 characters");
+formGroupInput3.id="inputEmail3";
+formGroupInput3.className="form-control";
+formGroupInput3.required=true;
+formGroup3.appendChild(formGroupInput3);
+signupForm.appendChild(formGroup3);
+
+var guestSignUpBtn = document.createElement("button");
+guestSignUpBtn.onclick = function () {return submitSignUpForm('signup',callback);}
+guestSignUpBtn.className="main_hs_btn viewranks";
+guestSignUpBtn.id="createloginBtnMain";
+var guestbtntxt=document.createTextNode("Create Account");
+guestSignUpBtn.appendChild(guestbtntxt);
+
+signupForm.appendChild(guestSignUpBtn);
+guestSignUpWrap.appendChild(signupForm);
+
+
+//add form in
+document.getElementById("leaderboard-wrapper").appendChild(guestSignUpWrap);
+}
+
+function guestAskLogin(step,callback){
+if(step!=1){
+document.getElementById("signupFormWrap").remove();
+}
+
+var guestSignUpWrap = document.createElement("div");
+guestSignUpWrap.id="signupFormWrap";
+
+var signTabs=document.createElement("div");
+signTabs.id="tabsButtonWraps";
+signTabs.className="logintabs";
+
+var tabBtnLogin = document.createElement("button");
+tabBtnLogin.className="tabs_links active";
+tabBtnLogin.style.width="50%";
+var tabBtnText=document.createTextNode("Log in");
+tabBtnLogin.appendChild(tabBtnText);
+signTabs.appendChild(tabBtnLogin);
+
+var tabBtnLogin = document.createElement("button");
+tabBtnLogin.className="tabs_links";
+tabBtnLogin.style.width="50%";
+tabBtnLogin.onclick=function(){guestSignUpForm(2,callback);};
+var tabBtnText=document.createTextNode("Sign Up for Free");
+tabBtnLogin.appendChild(tabBtnText);
+signTabs.appendChild(tabBtnLogin);
+guestSignUpWrap.appendChild(signTabs);
+
+var signupForm = document.createElement("form");
+signupForm.id="loginit";
+signupForm.onsubmit=function(){return submitSignUpForm('login',callback);};
+
+var formGroup2 = document.createElement("div");
+formGroup2.className="form-group";
+var formGroupLabel2 = document.createElement("label");
+formGroupLabel2.setAttribute('form',"inputEmail2");
+var formGroupLabelText2=document.createTextNode("Your email address");
+formGroupLabel2.appendChild(formGroupLabelText2);
+formGroup2.appendChild(formGroupLabel2);
+var formGroupInput2 = document.createElement("input");
+formGroupInput2.setAttribute('type',"email");
+formGroupInput2.setAttribute('name',"name");
+formGroupInput2.id="inputEmail2";
+formGroupInput2.className="form-control";
+formGroupInput2.required=true;
+formGroup2.appendChild(formGroupInput2);
+signupForm.appendChild(formGroup2);
+
+var formGroup3 = document.createElement("div");
+formGroup3.className="form-group";
+var formGroupLabel3 = document.createElement("label");
+formGroupLabel3.setAttribute('form',"inputEmail3");
+var formGroupLabelText3=document.createTextNode("Your password");
+formGroupLabel3.appendChild(formGroupLabelText3);
+formGroup3.appendChild(formGroupLabel3);
+var formGroupInput3 = document.createElement("input");
+formGroupInput3.setAttribute('type',"password");
+formGroupInput3.setAttribute('name',"name");
+formGroupInput3.id="inputEmail3";
+formGroupInput3.className="form-control";
+formGroupInput3.required=true;
+formGroup3.appendChild(formGroupInput3);
+signupForm.appendChild(formGroup3);
+
+var guestSignUpBtn = document.createElement("button");
+guestSignUpBtn.onclick = function () {return submitSignUpForm('login',callback);}
+guestSignUpBtn.className="main_hs_btn viewranks";
+guestSignUpBtn.id="createloginBtnMain";
+var guestbtntxt=document.createTextNode("Log in");
+guestSignUpBtn.appendChild(guestbtntxt);
+
+signupForm.appendChild(guestSignUpBtn);
+guestSignUpWrap.appendChild(signupForm);
+
+var loginLink2 = document.createElement('a');
+var loginLinkTxt2=document.createTextNode("Forgot password?");
+loginLink2.style.marginTop="15px";
+loginLink2.setAttribute('href', "https://lagged.com/help/password/");
+loginLink2.setAttribute('target', "_blank");
+loginLink2.appendChild(loginLinkTxt2);
+
+guestSignUpWrap.appendChild(loginLink2);
+
+//add form in
+document.getElementById("leaderboard-wrapper").appendChild(guestSignUpWrap)
+}
+
+
+function submitSignUpForm(type,responders){
+//add "loading" to button
+document.getElementById("createloginBtnMain").disabled = true;
+var originalTxt=document.getElementById("createloginBtnMain").innerText;
+document.getElementById("createloginBtnMain").innerText="Loading...";
+document.getElementById("createloginBtnMain").className+=" btnloading";
+if(document.getElementById("errorsubmit")){
+document.getElementById("errorsubmit").remove();
+}
+
+var nickname="";
+var email="";
+var password="";
+var errors=false;
+var errorMsg=[];
+
+//if login, no need for nickname form
+if(type!='login'){
+//get nickname here
+//check input inputEmail1
+if(document.getElementById("inputEmail1")){
+nickname=document.getElementById("inputEmail1").value;
+}
+if(nickname.length<2||nickname.length>30){
+errors=true;
+errorMsg.push("Nickname must be between 2-30 characters");
+}
+}
+
+//get email+password, make sure meets requirements
+email=document.getElementById("inputEmail2").value;
+if(email.length<5){
+errors=true;
+errorMsg.push("Please enter a valid email address");
+}
+password=document.getElementById("inputEmail3").value;
+if(password.length<6||password.length>30){
+errors=true;
+errorMsg.push("Password must be between 6-30 characters");
+}
+
+//ajax type == TYPE
+if(!errors){
+var sendata={};
+sendata.ftype=type;
+sendata.fnickname=null;
+if(nickname){
+sendata.fnickname=encodeURIComponent(nickname.replace(/\"/g,'&quot;'));
+}
+sendata.femail=encodeURIComponent(email.replace(/\"/g,'&quot;'));
+sendata.fpass=encodeURIComponent(password.replace(/\"/g,'&quot;'));
+sendata.gid=thisgamegid;
+
+//
+// send login / sign up
+//
+sendAjax(JSON.stringify(sendata), 'ajax.php',  function(response){
+
+  if(response.success===true&&response.uid>0){
+  document.getElementById("createloginBtnMain").innerText="Success!";
+  document.getElementById("createloginBtnMain").className+=" btnSuccessMsg";
+
+  //get user profile from JSON
+  showUserInfo(response);
+
+  try{
+  postMessage('login','*');
+  }catch(e){
+    console.log(e);
+  }
+
+  setTimeout(function(){
+  document.getElementById("createloginBtnMain").className="main_hs_btn viewranks btnSuccessMsg";
+  fade(document.getElementById("leaderboard-modal"));
+  setTimeout(function(){
+  	document.getElementById("leaderboard-wrapper").remove();
+  	document.getElementById("leaderboard-modal").remove();
+
+  	if(responders){
+    try{
+      if(responders.rating){
+    	  submitRating(responders.rating,true);
+    	}
+    }catch(e){
+      console.log(e);
+    }
+  	}
+  }, 200);
+  }, 600);
+  }else{
+  //if error message, show
+  //if success, load high score board as user
+  document.getElementById("createloginBtnMain").innerText=originalTxt;
+  //document.getElementById("createloginBtnMain").classList.remove("btnloading");
+  document.getElementById("createloginBtnMain").className="main_hs_btn viewranks";
+  document.getElementById("createloginBtnMain").disabled = false;
+
+  //add errors to form
+  var errorMsgDiv = document.createElement("div");
+  errorMsgDiv.id="errorsubmit";
+  errorMsgDiv.className="error_msg";
+  var errorMsgDivTxt=document.createTextNode(response.errors);
+  errorMsgDiv.appendChild(errorMsgDivTxt);
+  document.getElementById("signupFormWrap").insertBefore( errorMsgDiv,document.getElementById("loginit"));
+  }
+});
+}else{
+document.getElementById("createloginBtnMain").innerText=originalTxt;
+document.getElementById("createloginBtnMain").classList.remove("btnloading");
+document.getElementById("createloginBtnMain").disabled = false;
+
+//add errors to form
+var errorMsgDiv = document.createElement("div");
+errorMsgDiv.id="errorsubmit";
+errorMsgDiv.className="error_msg";
+var errorMsgDivTxt=document.createTextNode(errorMsg[0]);
+errorMsgDiv.appendChild(errorMsgDivTxt);
+document.getElementById("signupFormWrap").insertBefore( errorMsgDiv,document.getElementById("loginit"));
+}
+return false;
+}
+
+//
+// mobile menu
+//
+var mobileMenuOpen=false;
+var isDragging=false;
+
+var mobileMenuToggle=function(){
+  console.log("is drag? ", isDragging);
+  if(isDragging){
+    return;
+  }
+  var menuBtn=document.getElementById('mobilerightnew');
+
+  if(mobileMenuOpen){
+    mobileMenuOpen=false;
+    menuBtn.className="showmbtn";
+    //
+    // close menu
+    //
+    if(document.getElementById('mobilemenu')){
+      document.getElementById('mobilemenu').remove();
+    }
+    if(document.getElementById('mobilerightnew')){
+      document.getElementById('mobilerightnew').className="showmbtn";
+    }
+    if(document.getElementById('minividbtnnewl')){
+      document.getElementById('minividbtnnewl').className="showittomob showit";
+    }
+  }else{
+    mobileMenuOpen=true;
+    menuBtn.className="menuopen showmbtn";
+    //
+    // open menu, create div and fill
+    //
+    var mobileMenu=document.createElement('div');
+    mobileMenu.id='mobilemenu';
+    var insideHtml='<div class="wrapit"><a class="sitename" onclick="callPageClick(\'https://lagged.com/\')" title="Lagged">Lagged</a><div class="menuopenbtns"><button onclick="mobileMenuToggle();" class="returngame">Return to Game</button><button onclick="callPageClick(\'https://lagged.com\')" class="exitgame">Exit</button></div><div class="whitebitbarmob">'+document.getElementById('gamecontrols').cloneNode(true).innerHTML+'</div><div class="whitebitbarmob moregamersnt"><h4>Games you might like</h4>'+document.getElementById('bottomgames').cloneNode(true).innerHTML+'<a href="https://lagged.com/c/popular" class="play_btn" title="More Games" style="box-shadow: 0 0 4px 0 rgb(0 0 0 / 50%);margin-top:17px">More Games</a></div></div>';
+    mobileMenu.innerHTML=insideHtml;
+    document.body.appendChild(mobileMenu);
+    if(document.getElementById('mobilerightnew')){
+      document.getElementById('mobilerightnew').className="";
+    }
+    if(document.getElementById('minividbtnnewl')){
+      document.getElementById('minividbtnnewl').className="showittomob";
+    }
+  }
+
+  callPageClick(false);
+
+}
+
+var callPageClick=function(goToPage){
+  if(goToPage){
+    window.open(goToPage,"_parent");
+    // try{
+    //   adBreak({
+    //     type: 'next',
+    //     name: 'next-level',
+    //     beforeAd: function beforeAd() {
+    //       disableButtons();
+    //     },
+    //     afterAd: function afterAd() {
+
+    //         window.open(goToPage,"_parent");
+
+    //     },
+    //     adBreakDone: function adBreakDone(){
+    //         window.open(goToPage,"_parent");
+    //     }
+    //   });
+    // }catch(e){
+    //   console.log(e);
+    // }
+  }
+}
+
+//
+// fullscreen the game
+//
+var isFullscreen=false;
+var isFullscreenNew=false;
+var toggleFullscreen=function(){
+if(!isFullscreenNew){
+  isFullscreenNew=true;
+  try{
+   document.getElementById('game').className="gamearea fullscreen";
+   document.getElementById('gamecontrols').className="controls fullscreen";
+ }catch(e){
+   console.log(e);
+  }
+    if(mobileMenuOpen){
+      mobileMenuToggle();
+      var exitFullBtn=document.createElement('div');
+      exitFullBtn.id="exitfullscreen";
+      exitFullBtn.innerText="Exit";
+      exitFullBtn.onclick=function(){
+        toggleFullscreen();
+      }
+      document.body.appendChild(exitFullBtn);
+    }
+}else{
+  isFullscreenNew=false;
+  try{
+   document.getElementById('game').className="gamearea";
+   document.getElementById('gamecontrols').className="controls";
+ }catch(e){
+   console.log(e);
+  }
+  if(document.getElementById('exitfullscreen')){
+    document.getElementById('exitfullscreen').remove();
+  }
+}
+
+callPageClick(false);
+}
+
+function sendGtagEvent(){
+  try{
+      console.log("send ad conversion");
+      if(aFoundValue){
+        var conValue=aValueRules[1]/1000;
+        gtag('event', 'conversion', {
+          'send_to': 'AW-1055364430/cX1uCOOx4LcBEM6qnvcD',
+          'value': conValue,
+          'currency': 'USD'
+        });
+      }else{
+        gtag('event', 'conversion', {'send_to': 'AW-1055364430/cX1uCOOx4LcBEM6qnvcD'});
+      }
+  }catch(e){
+    console.log(e);
+  }
+}
+
+function showGameAfterAd(){
+console.log("old: show game after ad");
+// try{
+//   adBreak({
+//     type: 'next',
+//     name: 'next-level',
+//     beforeAd: function beforeAd() {
+//       disableButtons();
+//     },
+//     afterAd: function afterAd() {
+//       enableButtons(false);
+//     },
+//     adBreakDone: function adBreakDone(){
+//       console.log("ad break done");
+//     }
+//   });
+// }catch(e){
+//   console.log(e);
+// }
+}
+
+function newLevel(level){
+  console.log("level: ", level);
+  try{
+    adBreak({
+      type: 'next',
+      name: 'next-level',
+      beforeAd: function beforeAd() {
+        disableButtons();sendGtagEvent();
+      },
+      afterAd: function afterAd() {
+        enableButtons(false);
+      },
+      adBreakDone: function adBreakDone(){
+        console.log("ad break done");
+      }
+    });
+  }catch(e){
+    console.log(e);
+  }
+}
+
+function fade(element) {
+var op = 1;  // initial opacity
+var timer = setInterval(function () {
+   if (op <= 0.1){
+       clearInterval(timer);
+       element.style.display = 'none';
+   }
+   element.style.opacity = op;
+   element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+   op -= op * 0.1;
+}, 13);
+}
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+//
+// make mobile menu dragable
+// 
+var supportsTouch=false;
+try{
+  supportsTouch = 'ontouchstart' in window;
+}catch(e){
+  console.log(e);
+}
+
+var isNotFirstTime=false;
+function dragElement(elmnt) {
+  if(isNotFirstTime){
+    return;
+  }
+	var pos2 = 0, pos4 = 0;
+  if(supportsTouch){
+	  elmnt.ontouchstart = dragFingerDown;
+  }else{
+    elmnt.onmousedown = dragMouseDown;
+    elmnt.onmouseleave = closeDragElementMouse;
+  }
+
+  function dragFingerDown(e){
+    e = e || window.event;
+    var touchEvt = e.targetTouches[0];
+    pos4 = touchEvt.pageY;
+    document.ontouchend = closeDragElement;
+    document.ontouchmove = elementDrag;
+  }
+  
+	function dragMouseDown(e) {
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElementMouse;
+      document.onmousemove = elementDragMouse;
+	}
+  
+	function elementDrag(e) {
+	  e = e || window.event;
+    
+	  var touchEvt = e.targetTouches[0];
+	  // calculate the new cursor position:
+	  pos2 = pos4 - touchEvt.pageY;
+	  pos4 = touchEvt.pageY;
+  
+    var offSetCheck=175;
+    if(window.innerHeight < window.innerWidth){
+      offSetCheck=80;
+    }
+
+	  // set the element's new position:
+	  if((elmnt.offsetTop - pos2)>0&&(elmnt.offsetTop - pos2)<(window.innerHeight-offSetCheck)){
+	    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+     isDragging=true;
+    }
+	}
+
+  var dragCnt=0;
+
+  function elementDragMouse(e) {
+    e = e || window.event;
+    e.preventDefault();
+
+    if(pos4!=e.clientY){
+
+      pos2 = pos4 - e.clientY;
+      pos4 = e.clientY;
+
+      var offSetCheck=175;
+      if(window.innerHeight < window.innerWidth){
+        offSetCheck=80;
+      }
+  
+      if((elmnt.offsetTop - pos2)>0&&(elmnt.offsetTop - pos2)<(window.innerHeight-offSetCheck)){
+        dragCnt++;
+        if(dragCnt>2){
+          elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+          elmnt.style.cursor="grab";
+          isDragging=true;
+        }
+      }
+
+    }
+  }
+  
+	function closeDragElement() {
+	  /* stop moving when mouse button is released:*/
+	  document.ontouchend = null;
+	  document.ontouchmove = null;
+    setTimeout(function(){
+      isDragging=false;
+    },60);
+	}
+
+  function closeDragElementMouse() {
+    dragCnt=0;
+    document.onmouseup = null;
+    document.onmousemove = null;
+    elmnt.style.cursor="pointer";
+    setTimeout(function(){
+      isDragging=false;
+    },60);
+  }
+  isNotFirstTime=true;
+}
+
+function hashChanged() {
+  if (location.hash === "#google_vignette") {
+  console.log("send conversion");
+      try{
+        console.log("send ad conversion");
+        if(aFoundValue){
+          var conValue=aValueRules[0]/1000;
+          gtag('event', 'conversion', {
+            'send_to': 'AW-1055364430/nrMSCMzy8-0YEM6qnvcD',
+            'value': conValue,
+            'currency': 'USD'
+          });
+        }else{
+          gtag('event', 'conversion', {'send_to': 'AW-1055364430/nrMSCMzy8-0YEM6qnvcD'});
+        }
+    }catch(e){
+      console.log(e);
+    }
+  }
+}
+window.onhashchange = hashChanged;
+
+Element.prototype.remove=function(){this.parentElement.removeChild(this)},NodeList.prototype.remove=HTMLCollection.prototype.remove=function(){for(var e=this.length-1;e>=0;e--)this[e]&&this[e].parentElement&&this[e].parentElement.removeChild(this[e])};

@@ -1,0 +1,1202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head profile="http://gmpg.org/xfn/11">
+        <script src="/mobiledetect.js"></script>
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+        <link rel="dns-prefetch" href="//www.googletagservices.com">
+        <link rel="dns-prefetch" href="//www.googletagmanager.com">
+        <link rel="dns-prefetch" href="//partner.googleadservices.com">
+        <link rel="dns-prefetch" href="//tpc.googlesyndication.com">
+        <link rel="dns-prefetch" href="//securepubads.g.doubleclick.net">
+        <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+        <link rel="dns-prefetch" href="//www.google.com">
+        <link rel="dns-prefetch" href="//static.doubleclick.net">
+        <link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
+        <link rel="dns-prefetch" href="//facebook.com">
+        <link rel="dns-prefetch" href="//static.xx.fbcdn.net">
+        <link rel="dns-prefetch" href="//www.google-analytics.com">
+        <link rel="dns-prefetch" href="//adservice.google.com">
+        <link rel="dns-prefetch" href="//csi.gstatic.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://www.googletagmanager.com">
+        <link rel="preconnect" href="https://www.googletagservices.com">
+        <link rel="preconnect" href="https://tpc.googlesyndication.com">
+        <link rel="preconnect" href="https://partner.googleadservices.com">
+        <link rel="preconnect" href="https://tpc.googlesyndication.com">
+        <link rel="preconnect" href="https://securepubads.g.doubleclick.net">
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+        <link rel="preconnect" href="https://static.doubleclick.net">
+        <link rel="preconnect" href="https://googleads.g.doubleclick.net">
+        <link rel="preconnect" href="https://facebook.com">
+        <link rel="preconnect" href="https://static.xx.fbcdn.net">
+        <link rel="preconnect" href="https://www.google-analytics.com">
+        <link rel="preconnect" href="https://adservice.google.com">
+        <link rel="preconnect" href="https://csi.gstatic.com">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Not Found</title>
+        <meta name="description" content="Get Funky with Thousands of Free Online Games!"/>
+        <link rel="alternate" type="application/rss+xml" href="https://funkypotato.com/?feed=rss2" title="Play Free HTML5, WebGL &amp; Flash Games on FunkyPotato.com! latest posts"/>
+        <link rel="alternate" type="application/rss+xml" href="https://funkypotato.com/?feed=comments-rss2" title="Play Free HTML5, WebGL &amp; Flash Games on FunkyPotato.com! latest comments"/>
+        <link rel="pingback" href="https://funkypotato.com/xmlrpc.php"/>
+        <link rel="shortcut icon" href="https://funkypotato.com/favicon.ico"/>
+        <meta name='robots' content='max-image-preview:large'/>
+        <link rel='stylesheet' id='wp-block-library-css' href='https://funkypotato.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2' type='text/css' media='all'/>
+        <style id='classic-theme-styles-inline-css' type='text/css'>
+            /*! This file is auto-generated */
+            .wp-block-button__link {
+                color: #fff;
+                background-color: #32373c;
+                border-radius: 9999px;
+                box-shadow: none;
+                text-decoration: none;
+                padding: calc(.667em + 2px) calc(1.333em + 2px);
+                font-size: 1.125em
+            }
+
+            .wp-block-file__button {
+                background: #32373c;
+                color: #fff;
+                text-decoration: none
+            }
+        </style>
+        <style id='global-styles-inline-css' type='text/css'>
+            body {
+                --wp--preset--color--black: #000000;
+                --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                --wp--preset--color--white: #ffffff;
+                --wp--preset--color--pale-pink: #f78da7;
+                --wp--preset--color--vivid-red: #cf2e2e;
+                --wp--preset--color--luminous-vivid-orange: #ff6900;
+                --wp--preset--color--luminous-vivid-amber: #fcb900;
+                --wp--preset--color--light-green-cyan: #7bdcb5;
+                --wp--preset--color--vivid-green-cyan: #00d084;
+                --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                --wp--preset--color--vivid-cyan-blue: #0693e3;
+                --wp--preset--color--vivid-purple: #9b51e0;
+                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+                --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+                --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+                --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+                --wp--preset--font-size--small: 13px;
+                --wp--preset--font-size--medium: 20px;
+                --wp--preset--font-size--large: 36px;
+                --wp--preset--font-size--x-large: 42px;
+                --wp--preset--spacing--20: 0.44rem;
+                --wp--preset--spacing--30: 0.67rem;
+                --wp--preset--spacing--40: 1rem;
+                --wp--preset--spacing--50: 1.5rem;
+                --wp--preset--spacing--60: 2.25rem;
+                --wp--preset--spacing--70: 3.38rem;
+                --wp--preset--spacing--80: 5.06rem;
+                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+            }
+
+            :where(.is-layout-flex) {
+                gap: 0.5em;
+            }
+
+            :where(.is-layout-grid) {
+                gap: 0.5em;
+            }
+
+            body .is-layout-flow > .alignleft {
+                float: left;
+                margin-inline-start: 0;margin-inline-end: 2em;}
+
+            body .is-layout-flow > .alignright {
+                float: right;
+                margin-inline-start: 2em;margin-inline-end: 0;}
+
+            body .is-layout-flow > .aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            body .is-layout-constrained > .alignleft {
+                float: left;
+                margin-inline-start: 0;margin-inline-end: 2em;}
+
+            body .is-layout-constrained > .alignright {
+                float: right;
+                margin-inline-start: 2em;margin-inline-end: 0;}
+
+            body .is-layout-constrained > .aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+                max-width: var(--wp--style--global--content-size);
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            body .is-layout-constrained > .alignwide {
+                max-width: var(--wp--style--global--wide-size);
+            }
+
+            body .is-layout-flex {
+                display: flex;
+            }
+
+            body .is-layout-flex {
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            body .is-layout-flex > * {
+                margin: 0;
+            }
+
+            body .is-layout-grid {
+                display: grid;
+            }
+
+            body .is-layout-grid > * {
+                margin: 0;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            .has-black-color {
+                color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-color {
+                color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-color {
+                color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-color {
+                color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-color {
+                color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-color {
+                color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-color {
+                color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-color {
+                color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-color {
+                color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-color {
+                color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-color {
+                color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-color {
+                color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-background-color {
+                background-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-background-color {
+                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-background-color {
+                background-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-background-color {
+                background-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-background-color {
+                background-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-background-color {
+                background-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-background-color {
+                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-background-color {
+                background-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-border-color {
+                border-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-border-color {
+                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-border-color {
+                border-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-border-color {
+                border-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-border-color {
+                border-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-border-color {
+                border-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-border-color {
+                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-border-color {
+                border-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+            }
+
+            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+            }
+
+            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+            }
+
+            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+            }
+
+            .has-cool-to-warm-spectrum-gradient-background {
+                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+            }
+
+            .has-blush-light-purple-gradient-background {
+                background: var(--wp--preset--gradient--blush-light-purple) !important;
+            }
+
+            .has-blush-bordeaux-gradient-background {
+                background: var(--wp--preset--gradient--blush-bordeaux) !important;
+            }
+
+            .has-luminous-dusk-gradient-background {
+                background: var(--wp--preset--gradient--luminous-dusk) !important;
+            }
+
+            .has-pale-ocean-gradient-background {
+                background: var(--wp--preset--gradient--pale-ocean) !important;
+            }
+
+            .has-electric-grass-gradient-background {
+                background: var(--wp--preset--gradient--electric-grass) !important;
+            }
+
+            .has-midnight-gradient-background {
+                background: var(--wp--preset--gradient--midnight) !important;
+            }
+
+            .has-small-font-size {
+                font-size: var(--wp--preset--font-size--small) !important;
+            }
+
+            .has-medium-font-size {
+                font-size: var(--wp--preset--font-size--medium) !important;
+            }
+
+            .has-large-font-size {
+                font-size: var(--wp--preset--font-size--large) !important;
+            }
+
+            .has-x-large-font-size {
+                font-size: var(--wp--preset--font-size--x-large) !important;
+            }
+
+            .wp-block-navigation a:where(:not(.wp-element-button)) {
+                color: inherit;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            .wp-block-pullquote {
+                font-size: 1.5em;
+                line-height: 1.6;
+            }
+        </style>
+        <link rel='stylesheet' id='cookie-law-info-css' href='https://funkypotato.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css?ver=3.1.6' type='text/css' media='all'/>
+        <link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://funkypotato.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css?ver=3.1.6' type='text/css' media='all'/>
+        <link rel='stylesheet' id='kk-star-ratings-css' href='https://funkypotato.com/wp-content/plugins/kk-star-ratings/public/css/kk-star-ratings.css?ver=4.2.0' type='text/css' media='all'/>
+        <style id='kk-star-ratings-inline-css' type='text/css'>
+            .kk-star-ratings .kksr-stars .kksr-star {
+                margin-right: 0px;
+            }
+
+            [dir="rtl"] .kk-star-ratings .kksr-stars .kksr-star {
+                margin-left: 0px;
+                margin-right: 0;
+            }
+        </style>
+        <script type='text/javascript' src='https://funkypotato.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+        <script type='text/javascript' src='https://funkypotato.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+        <script type='text/javascript' src='https://funkypotato.com/wp-content/themes/arras/js/superfish/hoverIntent.js' async='async' id='hoverintent-js'></script>
+        <script type='text/javascript' src='https://funkypotato.com/wp-content/themes/arras/js/superfish/superfish.js' async='async' id='superfish-js'></script>
+        <script type='text/javascript' id='cookie-law-info-js-extra'>
+            /* <![CDATA[ */
+            var Cli_Data = {
+                "nn_cookie_ids": [],
+                "cookielist": [],
+                "non_necessary_cookies": [],
+                "ccpaEnabled": "",
+                "ccpaRegionBased": "",
+                "ccpaBarEnabled": "",
+                "strictlyEnabled": ["necessary", "obligatoire"],
+                "ccpaType": "gdpr",
+                "js_blocking": "",
+                "custom_integration": "",
+                "triggerDomRefresh": "",
+                "secure_cookies": ""
+            };
+            var cli_cookiebar_settings = {
+                "animate_speed_hide": "500",
+                "animate_speed_show": "500",
+                "background": "#ffffff",
+                "border": "#444",
+                "border_on": "",
+                "button_1_button_colour": "#000",
+                "button_1_button_hover": "#000000",
+                "button_1_link_colour": "#fff",
+                "button_1_as_button": "1",
+                "button_1_new_win": "",
+                "button_2_button_colour": "#333",
+                "button_2_button_hover": "#292929",
+                "button_2_link_colour": "#444",
+                "button_2_as_button": "",
+                "button_2_hidebar": "1",
+                "button_3_button_colour": "#000",
+                "button_3_button_hover": "#000000",
+                "button_3_link_colour": "#fff",
+                "button_3_as_button": "1",
+                "button_3_new_win": "",
+                "button_4_button_colour": "#a5a5a5",
+                "button_4_button_hover": "#848484",
+                "button_4_link_colour": "#fff",
+                "button_4_as_button": "1",
+                "button_7_button_colour": "#61a229",
+                "button_7_button_hover": "#4e8221",
+                "button_7_link_colour": "#fff",
+                "button_7_as_button": "1",
+                "button_7_new_win": "",
+                "font_family": "inherit",
+                "header_fix": "",
+                "notify_animate_hide": "1",
+                "notify_animate_show": "1",
+                "notify_div_id": "#cookie-law-info-bar",
+                "notify_position_horizontal": "right",
+                "notify_position_vertical": "bottom",
+                "scroll_close": "",
+                "scroll_close_reload": "",
+                "accept_close_reload": "",
+                "reject_close_reload": "",
+                "showagain_tab": "1",
+                "showagain_background": "#fff",
+                "showagain_border": "#000",
+                "showagain_div_id": "#cookie-law-info-again",
+                "showagain_x_position": "100px",
+                "text": "#000",
+                "show_once_yn": "",
+                "show_once": "10000",
+                "logging_on": "",
+                "as_popup": "",
+                "popup_overlay": "1",
+                "bar_heading_text": "Funky Potato Games  Cares About Your Privacy",
+                "cookie_bar_as": "popup",
+                "popup_showagain_position": "bottom-right",
+                "widget_position": "left"
+            };
+            var log_object = {
+                "ajax_url": "https:\/\/funkypotato.com\/wp-admin\/admin-ajax.php"
+            };
+            /* ]]> */
+        </script>
+        <script type='text/javascript' src='https://funkypotato.com/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js?ver=3.1.6' id='cookie-law-info-js'></script>
+        <link rel="https://api.w.org/" href="https://funkypotato.com/wp-json/"/>
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://funkypotato.com/xmlrpc.php?rsd"/>
+        <link rel="stylesheet" href="https://funkypotato.com/wp-content/themes/arras/css/styles/blue.css" type="text/css" media="screen,projection"/>
+        <link rel="stylesheet" href="https://funkypotato.com/wp-content/themes/arras/css/layouts/2c-r-fixed.css" type="text/css"/>
+        <!-- Generated by Arras WP Theme -->
+        <style type="text/css">
+            .posts-default li {
+                width: 195px;
+                height: 155px;
+            }
+
+            .posts-default img, .posts-default .entry-thumbnails-link {
+                width: 185px;
+                height: 103px;
+            }
+
+            .posts-default .entry-meta {
+                width: 185px;
+            }
+
+            .posts-default .entry-thumbnails {
+                width: 195px;
+                height: 113px;
+            }
+
+            .posts-quick .entry-thumbnails img {
+                width: 115px;
+                height: 86px;
+            }
+
+            .posts-quick .entry-meta {
+                width: 115px;
+            }
+
+            .featured {
+                height: 250px;
+            }
+
+            .featured-article {
+                width: 520px;
+                height: 240px;
+            }
+
+            .featured-article img {
+                width: 520px;
+                height: 240px;
+            }
+
+            #controls {
+                width: 490px;
+                top: 105px;
+            }
+
+            #controls .next {
+                left: 490px;
+            }
+
+            .featured-entry {
+                height: 80px;
+                top: -80px;
+            }
+
+            .featured-slideshow-inner {
+                height: 240px
+            }
+
+            body {
+                background: s s s s s !important;
+            }
+
+            #main {
+                background: url(https://funkypotato.com/wp-content/themes/arras/images/foreground.png) !important;
+            }
+
+            .featured-stories-summary {
+                margin-left: 52px;
+            }
+
+            .single .post .entry-photo img, .single-post .entry-photo img {
+                width: 185px;
+                height: 103px;
+            }
+
+            .blog-name a {
+                background: url(https://funkypotato.com/images/fp-logo3.gif) no-repeat;
+                text-indent: -9000px;
+                width: 680px;
+                height: 86px;
+                display: block;
+            }
+
+            .footer-sidebar {
+                width: 920px;
+            }
+        </style>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+
+                $('.sf-menu').superfish({
+                    autoArrows: true,
+                    speed: 'fast',
+                    dropShadows: 'true'
+                });
+
+            });
+        </script>
+        <!-- Dynamic Widgets by QURL loaded - http://www.dynamic-widgets.com //-->
+        <link rel="stylesheet" href="https://funkypotato.com/wp-content/themes/arras/user.css" type="text/css" media="screen,projection"/>
+        <noscript>
+            <style id="rocket-lazyload-nojs-css">
+                .rll-youtube-player, [data-lazy-src] {
+                    display: none !important;
+                }
+            </style>
+        </noscript>
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0]
+                  , j = d.createElement(s)
+                  , dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            }
+            )(window, document, 'script', 'dataLayer', 'GTM-GVNS');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!-- Google Adsense Ads -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6758345584634727" crossorigin="anonymous"></script>
+        <!-- Cookie Consent - Personalized Ads -->
+        <script>
+            function getCookie(cname) {
+                let name = cname + "=";
+                let ca = document.cookie.split(';');
+                for (let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+
+            var adstatus = getCookie("cookielawinfo-checkbox-advertisement");
+            console.log(adstatus);
+
+            if (adstatus == "no") {
+                console.log("Ads Personalization is OFF!");
+                var adsvar = 1;
+                (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
+            } else if (adstatus == 'yes') {
+                console.log("Ads Personalization is ON!");
+                var adsvar = 0;
+                (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 0;
+            }
+        </script>
+        <!-- End Google Adsense Ads -->
+    </head>
+    <body class="error404 layout-2c-r-fixed no-js style-blue">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MSMPMC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <script type="text/javascript">
+            //<![CDATA[
+            (function() {
+                var c = document.body.className;
+                c = c.replace(/no-js/, 'js');
+                document.body.className = c;
+            }
+            )();
+            //]]>
+        </script>
+        <div id="top-menu" class="clearfix"></div>
+        <!-- #top-menu -->
+        <div id="header">
+            <div id="branding" class="clearfix">
+                <div class="logo">
+                    <span class="blog-name">
+                        <a href="https://funkypotato.com">Play Free HTML5, WebGL &amp;Flash Games on FunkyPotato.com!</a>
+                    </span>
+                    <span class="blog-description">Get Funky with Thousands of Free Online Games!</span>
+                </div>
+                <div id="searchbar">
+                    <form method="get" class="searchform clearfix" action="https://funkypotato.com/">
+                        <input type="text" value="Search..." name="s" class="s" onfocus="this.value=''"/>
+                        <input type="submit" class="searchsubmit" value="Search" title="Search Play Free HTML5, WebGL &amp; Flash Games on FunkyPotato.com!"/>
+                    </form>
+                </div>
+            </div>
+            <!-- #branding -->
+        </div>
+        <!-- #header -->
+        <div id="nav">
+            <div id="nav-content" class="clearfix">
+                <div class="menu-main-menu-container">
+                    <ul id="menu-main-menu" class="sf-menu menu clearfix">
+                        <li id="menu-item-24450" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24450">
+                            <a href="https://funkypotato.com/category/2-players/">2 PLAYERS</a>
+                        </li>
+                        <li id="menu-item-5139" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5139">
+                            <a href="https://funkypotato.com/category/3d-games/">3D</a>
+                        </li>
+                        <li id="menu-item-1111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1111">
+                            <a title="Action and ArcadecGames" href="https://funkypotato.com/category/action-arcade-games/">ACTION &#038;ARCADE</a>
+                        </li>
+                        <li id="menu-item-1116" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1116">
+                            <a title="Adventure Games" href="https://funkypotato.com/category/adventure-games/">ADVENTURE</a>
+                        </li>
+                        <li id="menu-item-1114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1114">
+                            <a title="Board, Card  and Casino Games" href="https://funkypotato.com/category/board-card-casino-games/">BOARD, CARD &#038;CASINO</a>
+                        </li>
+                        <li id="menu-item-1113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1113">
+                            <a title="Driving Games" href="https://funkypotato.com/category/driving-games/">DRIVING</a>
+                        </li>
+                        <li id="menu-item-5397" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5397">
+                            <a title="Fighting Games" href="https://funkypotato.com/category/fighting-games/">FIGHTING</a>
+                        </li>
+                        <li id="menu-item-2084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2084">
+                            <a title="Games for Girls" href="https://funkypotato.com/category/girls-games/">GIRLS</a>
+                        </li>
+                        <li id="menu-item-32484" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32484">
+                            <a title="Idle Click Games" href="https://funkypotato.com/category/idle-click-games/">IDLE CLICK</a>
+                        </li>
+                        <li id="menu-item-1120" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1120">
+                            <a title="Games for Kids" href="https://funkypotato.com/category/kids-games/">KIDS</a>
+                        </li>
+                        <li id="menu-item-27347" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27347">
+                            <a title="MMO Games" href="https://funkypotato.com/category/mmo/">MMO</a>
+                        </li>
+                        <li id="menu-item-1119" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1119">
+                            <a title="Platform Games" href="https://funkypotato.com/category/platform-games/">PLATFORM</a>
+                        </li>
+                        <li id="menu-item-1117" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1117">
+                            <a title="Puzzle Games" href="https://funkypotato.com/category/puzzle-games/">PUZZLE</a>
+                        </li>
+                        <li id="menu-item-6400" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6400">
+                            <a title="Retro Games" href="https://funkypotato.com/category/retro-games/">RETRO</a>
+                        </li>
+                        <li id="menu-item-1118" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1118">
+                            <a title="Shooting Games" href="https://funkypotato.com/category/shooting-games/">SHOOTING</a>
+                        </li>
+                        <li id="menu-item-1112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1112">
+                            <a title="Sport Games" href="https://funkypotato.com/category/sport-games/">SPORT</a>
+                        </li>
+                        <li id="menu-item-1597" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1597">
+                            <a title="STRATEGY &#038; SIMULATION GAMES" href="https://funkypotato.com/category/strategy-simulation-games/">STRATEGY &#038;SIMULATION</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="quick-nav clearfix">
+                    <li>
+                        <a id="rss" title="Play Free HTML5, WebGL &amp; Flash Games on FunkyPotato.com! RSS Feed" href="https://funkypotato.com/?feed=rss2">RSS Feed</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- #nav-content -->
+        </div>
+        <!-- Ads Header Condition -->
+        <div id="ads_header_home_970px" class="clearfix">
+            <div id="top_banner_970px">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6758345584634727" crossorigin="anonymous"></script>
+                <!-- [FP] Top 970x90 -->
+                <ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-6758345584634727" data-ad-slot="7044033947"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+        <!-- #nav -->
+        <div id="wrapper">
+            <div id="main" class="clearfix">
+                <div id="container" class="clearfix">
+                    <div id="content" class="section">
+                        <div class="single-post">
+                            <h1 class="entry-title">Error 404 - Not Found</h1>
+                            <div class="entry-content clearfix">
+                                <p>
+                                    <strong>We're very sorry, but that page doesn't exist or has been moved.</strong>
+                                    <br/>Please make sure you have the right URL.
+                                </p>
+                                <p>If you still can't find what you're looking for, try using the search form below.</p>
+                                <form method="get" class="searchform clearfix" action="https://funkypotato.com/">
+                                    <input type="text" value="Search..." name="s" class="s" onfocus="this.value=''"/>
+                                    <input type="submit" class="searchsubmit" value="Search" title="Search Play Free HTML5, WebGL &amp; Flash Games on FunkyPotato.com!"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- #content -->
+                </div>
+                <!-- #container -->
+                <div id="primary" class="aside main-aside sidebar">
+                    <ul class="xoxo">
+                        <li id="categories-3" class="widgetcontainer clearfix">
+                            <h5 class="widgettitle">GAME CATEGORIES</h5>
+                            <ul>
+                                <li class="cat-item cat-item-381">
+                                    <a href="https://funkypotato.com/category/2-players/">2 Players</a>
+                                </li>
+                                <li class="cat-item cat-item-368">
+                                    <a href="https://funkypotato.com/category/3d-games/">3D</a>
+                                </li>
+                                <li class="cat-item cat-item-1">
+                                    <a href="https://funkypotato.com/category/action-arcade-games/">Action &amp;Arcade</a>
+                                </li>
+                                <li class="cat-item cat-item-9">
+                                    <a href="https://funkypotato.com/category/adventure-games/">Adventure</a>
+                                </li>
+                                <li class="cat-item cat-item-28">
+                                    <a href="https://funkypotato.com/category/board-card-casino-games/">Board, Card &amp;Casino</a>
+                                </li>
+                                <li class="cat-item cat-item-10">
+                                    <a href="https://funkypotato.com/category/driving-games/">Driving</a>
+                                </li>
+                                <li class="cat-item cat-item-6">
+                                    <a href="https://funkypotato.com/category/fighting-games/">Fighting</a>
+                                </li>
+                                <li class="cat-item cat-item-222">
+                                    <a href="https://funkypotato.com/category/girls-games/">Girls</a>
+                                </li>
+                                <li class="cat-item cat-item-745">
+                                    <a href="https://funkypotato.com/category/idle-click-games/">Idle Click</a>
+                                </li>
+                                <li class="cat-item cat-item-158">
+                                    <a href="https://funkypotato.com/category/kids-games/">Kids</a>
+                                </li>
+                                <li class="cat-item cat-item-1049">
+                                    <a href="https://funkypotato.com/category/mmo/">MMO</a>
+                                </li>
+                                <li class="cat-item cat-item-147">
+                                    <a href="https://funkypotato.com/category/platform-games/">Platform</a>
+                                </li>
+                                <li class="cat-item cat-item-15">
+                                    <a href="https://funkypotato.com/category/puzzle-games/">Puzzle</a>
+                                </li>
+                                <li class="cat-item cat-item-133">
+                                    <a href="https://funkypotato.com/category/retro-games/">Retro</a>
+                                </li>
+                                <li class="cat-item cat-item-84">
+                                    <a href="https://funkypotato.com/category/shooting-games/">Shooting</a>
+                                </li>
+                                <li class="cat-item cat-item-17">
+                                    <a href="https://funkypotato.com/category/sport-games/">Sport</a>
+                                </li>
+                                <li class="cat-item cat-item-119">
+                                    <a href="https://funkypotato.com/category/strategy-simulation-games/">Strategy &amp;Simulation</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="custom_html-4" class="widget_text widgetcontainer clearfix">
+                            <div class="textwidget custom-html-widget">
+                                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6758345584634727" crossorigin="anonymous"></script>
+                                <!-- [FP] Right 160x600 -->
+                                <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-6758345584634727" data-ad-slot="4099024856"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                        </li>
+                        <li id="tag_cloud-2" class="widgetcontainer clearfix">
+                            <h5 class="widgettitle">FUNKY TAGS</h5>
+                            <div class="widget-tag-cloud tags">
+                                <a href="https://funkypotato.com/tag/90s/" class="tag-cloud-link tag-link-645 tag-link-position-1" style="font-size: 8.6796116504854pt;" aria-label="90s (150 items)">90s</a>
+                                <a href="https://funkypotato.com/tag/alien/" class="tag-cloud-link tag-link-620 tag-link-position-2" style="font-size: 9.631067961165pt;" aria-label="Alien (177 items)">Alien</a>
+                                <a href="https://funkypotato.com/tag/animals/" class="tag-cloud-link tag-link-88 tag-link-position-3" style="font-size: 16.019417475728pt;" aria-label="Animals (525 items)">Animals</a>
+                                <a href="https://funkypotato.com/tag/army/" class="tag-cloud-link tag-link-218 tag-link-position-4" style="font-size: 11.26213592233pt;" aria-label="Army (236 items)">Army</a>
+                                <a href="https://funkypotato.com/tag/battle/" class="tag-cloud-link tag-link-235 tag-link-position-5" style="font-size: 10.446601941748pt;" aria-label="Battle (202 items)">Battle</a>
+                                <a href="https://funkypotato.com/tag/bizarre/" class="tag-cloud-link tag-link-271 tag-link-position-6" style="font-size: 14.932038834951pt;" aria-label="Bizarre (438 items)">Bizarre</a>
+                                <a href="https://funkypotato.com/tag/car/" class="tag-cloud-link tag-link-384 tag-link-position-7" style="font-size: 11.941747572816pt;" aria-label="Car (262 items)">Car</a>
+                                <a href="https://funkypotato.com/tag/car-race/" class="tag-cloud-link tag-link-455 tag-link-position-8" style="font-size: 9.3592233009709pt;" aria-label="Car Race (168 items)">Car Race</a>
+                                <a href="https://funkypotato.com/tag/cartoon/" class="tag-cloud-link tag-link-97 tag-link-position-9" style="font-size: 10.990291262136pt;" aria-label="Cartoon (222 items)">Cartoon</a>
+                                <a href="https://funkypotato.com/tag/classic-flash-no-need-for-plugin/" class="tag-cloud-link tag-link-1740 tag-link-position-10" style="font-size: 19.961165048544pt;" aria-label="Classic Flash (no need for plugin) (1,023 items)">Classic Flash (no need for plugin)</a>
+                                <a href="https://funkypotato.com/tag/economy/" class="tag-cloud-link tag-link-299 tag-link-position-11" style="font-size: 8pt;" aria-label="Economy (135 items)">Economy</a>
+                                <a href="https://funkypotato.com/tag/escape/" class="tag-cloud-link tag-link-276 tag-link-position-12" style="font-size: 11.941747572816pt;" aria-label="Escape (264 items)">Escape</a>
+                                <a href="https://funkypotato.com/tag/fantasy/" class="tag-cloud-link tag-link-278 tag-link-position-13" style="font-size: 12.621359223301pt;" aria-label="Fantasy (294 items)">Fantasy</a>
+                                <a href="https://funkypotato.com/tag/food/" class="tag-cloud-link tag-link-438 tag-link-position-14" style="font-size: 9.3592233009709pt;" aria-label="Food (167 items)">Food</a>
+                                <a href="https://funkypotato.com/tag/football/" class="tag-cloud-link tag-link-55 tag-link-position-15" style="font-size: 12.757281553398pt;" aria-label="Football (300 items)">Football</a>
+                                <a href="https://funkypotato.com/tag/funny/" class="tag-cloud-link tag-link-306 tag-link-position-16" style="font-size: 10.582524271845pt;" aria-label="Funny (209 items)">Funny</a>
+                                <a href="https://funkypotato.com/tag/future/" class="tag-cloud-link tag-link-301 tag-link-position-17" style="font-size: 9.495145631068pt;" aria-label="Future (172 items)">Future</a>
+                                <a href="https://funkypotato.com/tag/horror/" class="tag-cloud-link tag-link-56 tag-link-position-18" style="font-size: 9.0873786407767pt;" aria-label="Horror (162 items)">Horror</a>
+                                <a href="https://funkypotato.com/tag/html5/" class="tag-cloud-link tag-link-682 tag-link-position-19" style="font-size: 22pt;" aria-label="HTML5 (1,436 items)">HTML5</a>
+                                <a href="https://funkypotato.com/tag/iq/" class="tag-cloud-link tag-link-453 tag-link-position-20" style="font-size: 8.9514563106796pt;" aria-label="IQ (157 items)">IQ</a>
+                                <a href="https://funkypotato.com/tag/japan/" class="tag-cloud-link tag-link-292 tag-link-position-21" style="font-size: 8.6796116504854pt;" aria-label="Japan (150 items)">Japan</a>
+                                <a href="https://funkypotato.com/tag/maze/" class="tag-cloud-link tag-link-80 tag-link-position-22" style="font-size: 10.038834951456pt;" aria-label="Maze (190 items)">Maze</a>
+                                <a href="https://funkypotato.com/tag/medieval/" class="tag-cloud-link tag-link-407 tag-link-position-23" style="font-size: 9.0873786407767pt;" aria-label="Medieval (162 items)">Medieval</a>
+                                <a href="https://funkypotato.com/tag/mouse-only/" class="tag-cloud-link tag-link-619 tag-link-position-24" style="font-size: 11.533980582524pt;" aria-label="Mouse only (244 items)">Mouse only</a>
+                                <a href="https://funkypotato.com/tag/multiplayer/" class="tag-cloud-link tag-link-191 tag-link-position-25" style="font-size: 9.9029126213592pt;" aria-label="Multiplayer (184 items)">Multiplayer</a>
+                                <a href="https://funkypotato.com/tag/mystery/" class="tag-cloud-link tag-link-272 tag-link-position-26" style="font-size: 11.398058252427pt;" aria-label="Mystery (239 items)">Mystery</a>
+                                <a href="https://funkypotato.com/tag/nintendo/" class="tag-cloud-link tag-link-165 tag-link-position-27" style="font-size: 12.21359223301pt;" aria-label="Nintendo (274 items)">Nintendo</a>
+                                <a href="https://funkypotato.com/tag/no-flash/" class="tag-cloud-link tag-link-1751 tag-link-position-28" style="font-size: 19.961165048544pt;" aria-label="No Flash (1,023 items)">No Flash</a>
+                                <a href="https://funkypotato.com/tag/oldschool/" class="tag-cloud-link tag-link-427 tag-link-position-29" style="font-size: 14.932038834951pt;" aria-label="Oldschool (436 items)">Oldschool</a>
+                                <a href="https://funkypotato.com/tag/physics/" class="tag-cloud-link tag-link-159 tag-link-position-30" style="font-size: 17.242718446602pt;" aria-label="Physics (638 items)">Physics</a>
+                                <a href="https://funkypotato.com/tag/pixel/" class="tag-cloud-link tag-link-443 tag-link-position-31" style="font-size: 11.398058252427pt;" aria-label="Pixel (238 items)">Pixel</a>
+                                <a href="https://funkypotato.com/tag/point-and-click/" class="tag-cloud-link tag-link-440 tag-link-position-32" style="font-size: 15.203883495146pt;" aria-label="Point and Click (461 items)">Point and Click</a>
+                                <a href="https://funkypotato.com/tag/race/" class="tag-cloud-link tag-link-47 tag-link-position-33" style="font-size: 9.2233009708738pt;" aria-label="Race (164 items)">Race</a>
+                                <a href="https://funkypotato.com/tag/rescue/" class="tag-cloud-link tag-link-526 tag-link-position-34" style="font-size: 8.1359223300971pt;" aria-label="Rescue (137 items)">Rescue</a>
+                                <a href="https://funkypotato.com/tag/rpg/" class="tag-cloud-link tag-link-71 tag-link-position-35" style="font-size: 10.038834951456pt;" aria-label="RPG (191 items)">RPG</a>
+                                <a href="https://funkypotato.com/tag/run/" class="tag-cloud-link tag-link-401 tag-link-position-36" style="font-size: 8.1359223300971pt;" aria-label="Run (138 items)">Run</a>
+                                <a href="https://funkypotato.com/tag/skill/" class="tag-cloud-link tag-link-81 tag-link-position-37" style="font-size: 10.174757281553pt;" aria-label="Skill (194 items)">Skill</a>
+                                <a href="https://funkypotato.com/tag/soccer/" class="tag-cloud-link tag-link-53 tag-link-position-38" style="font-size: 12.757281553398pt;" aria-label="Soccer (298 items)">Soccer</a>
+                                <a href="https://funkypotato.com/tag/soldier/" class="tag-cloud-link tag-link-217 tag-link-position-39" style="font-size: 9.495145631068pt;" aria-label="Soldier (171 items)">Soldier</a>
+                                <a href="https://funkypotato.com/tag/space/" class="tag-cloud-link tag-link-200 tag-link-position-40" style="font-size: 9.9029126213592pt;" aria-label="Space (185 items)">Space</a>
+                                <a href="https://funkypotato.com/tag/stickman/" class="tag-cloud-link tag-link-82 tag-link-position-41" style="font-size: 8.6796116504854pt;" aria-label="Stickman (150 items)">Stickman</a>
+                                <a href="https://funkypotato.com/tag/unity/" class="tag-cloud-link tag-link-760 tag-link-position-42" style="font-size: 11.126213592233pt;" aria-label="Unity (229 items)">Unity</a>
+                                <a href="https://funkypotato.com/tag/war/" class="tag-cloud-link tag-link-95 tag-link-position-43" style="font-size: 15.339805825243pt;" aria-label="War (472 items)">War</a>
+                                <a href="https://funkypotato.com/tag/webgl/" class="tag-cloud-link tag-link-1025 tag-link-position-44" style="font-size: 17.514563106796pt;" aria-label="WebGL (678 items)">WebGL</a>
+                                <a href="https://funkypotato.com/tag/zombie/" class="tag-cloud-link tag-link-75 tag-link-position-45" style="font-size: 12.485436893204pt;" aria-label="Zombie (286 items)">Zombie</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- #primary -->
+                <div id="secondary" class="aside main-aside sidebar">
+                    <ul class="xoxo">
+                        <!-- Widgetized sidebar, if you have the plugin installed.  -->
+                        <li></li>
+                    </ul>
+                </div>
+                <!-- #secondary -->
+            </div>
+            <!-- #main -->
+            <div id="footer">
+                <div class="footer-sidebar-container clearfix">
+                    <ul id="footer-sidebar-1" class="footer-sidebar clearfix xoxo">
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="footer-message">
+                    <p class="floatright">
+                        <a class="arras" href="https://www.funkypotato.com/">
+                            <strong>Get funky with Funky Potato Free Online Games!</strong>
+                        </a>
+                    </p>
+                    <p>Funky Potato - Play Free Online Games with Funky Potato! We have epic Flash, HTML5 and Unity games for everyone. All games are copyright of their respective right holders and owners.</p>
+                    <a href="https://m.funkypotato.com">Mobile Site </a>
+                    |
+<a href="https://www.facebook.com/FunkyPotatoGames">Funky Potato Games on Facebook </a>
+                    |
+<a href="https://funkypotato.com/privacy-policy/">Privacy & Cookies Policy </a>
+                    |
+<a href="https://funkypotato.com/contact-us/">Contact us </a>
+                </div>
+                <!-- .footer-message -->
+            </div>
+        </div>
+        <!-- #wrapper -->
+        <!--googleoff: all-->
+        <div id="cookie-law-info-bar" data-nosnippet="true">
+            <h5 class="cli_messagebar_head">Funky Potato Games  Cares About Your Privacy</h5>
+            <span>
+                We use cookies to register site usage statistics and to personalize the ads. Please let us know if you agree to receive all of these cookies or customize your settings. If you agree to ads personalization, your personal data will be used for customization and personalization of ads. <br>
+                <a id="wt-cli-accept-all-btn" role='button' data-cli_action="accept_all" class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button">Accept All Cookies</a>
+                <a role='button' class="medium cli-plugin-button cli-plugin-main-button cli_settings_button">Customize settings</a>
+                <br>
+                <br>
+                <a href="https://funkypotato.com/privacy-policy/" id="CONSTANT_OPEN_URL" target="_blank" class="cli-plugin-main-link">[Privacy Policy]</a>
+                <br/>
+            </span>
+        </div>
+        <div id="cookie-law-info-again" data-nosnippet="true">
+            <span id="cookie_hdr_showagain">Change Your Privacy Settings</span>
+        </div>
+        <div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+            <div class="cli-modal-dialog" role="document">
+                <div class="cli-modal-content cli-bar-popup">
+                    <button type="button" class="cli-modal-close" id="cliModalClose">
+                        <svg class="" viewBox="0 0 24 24">
+                            <path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path>
+                            <path d="M0 0h24v24h-24z" fill="none"></path>
+                        </svg>
+                        <span class="wt-cli-sr-only">Close</span>
+                    </button>
+                    <div class="cli-modal-body">
+                        <div class="cli-container-fluid cli-tab-container">
+                            <div class="cli-row">
+                                <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                                    <div class="cli-privacy-overview">
+                                        <h4>Privacy Overview</h4>
+                                        <div class="cli-privacy-content">
+                                            <div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+                                        </div>
+                                        <a class="cli-privacy-readmore" aria-label="Show more" role="button" data-readmore-text="Show more" data-readless-text="Show less"></a>
+                                    </div>
+                                </div>
+                                <div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+                                    <div class="cli-tab-section">
+                                        <div class="cli-tab-header">
+                                            <a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">Necessary							</a>
+                                            <div class="wt-cli-necessary-checkbox">
+                                                <input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked"/>
+                                                <label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+                                            </div>
+                                            <span class="cli-necessary-caption">Always Enabled</span>
+                                        </div>
+                                        <div class="cli-tab-content">
+                                            <div class="cli-tab-pane cli-fade" data-id="necessary">
+                                                <div class="wt-cli-cookie-description">Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information.								</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cli-tab-section">
+                                        <div class="cli-tab-header">
+                                            <a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="technical" data-toggle="cli-toggle-tab">Technical (ads or content delivery)							</a>
+                                            <div class="cli-switch">
+                                                <input type="checkbox" id="wt-cli-checkbox-technical" class="cli-user-preference-checkbox" data-id="checkbox-technical"/>
+                                                <label for="wt-cli-checkbox-technical" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled">
+                                                    <span class="wt-cli-sr-only">Technical (ads or content delivery)</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="cli-tab-content">
+                                            <div class="cli-tab-pane cli-fade" data-id="technical">
+                                                <div class="wt-cli-cookie-description">Your device can receive and send information that allows you to see and interact with ads and content.
+								</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cli-tab-section">
+                                        <div class="cli-tab-header">
+                                            <a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab">Analytics							</a>
+                                            <div class="cli-switch">
+                                                <input type="checkbox" id="wt-cli-checkbox-analytics" class="cli-user-preference-checkbox" data-id="checkbox-analytics"/>
+                                                <label for="wt-cli-checkbox-analytics" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled">
+                                                    <span class="wt-cli-sr-only">Analytics</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="cli-tab-content">
+                                            <div class="cli-tab-pane cli-fade" data-id="analytics">
+                                                <div class="wt-cli-cookie-description">Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+								</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cli-tab-section">
+                                        <div class="cli-tab-header">
+                                            <a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">Ads Personalization							</a>
+                                            <div class="cli-switch">
+                                                <input type="checkbox" id="wt-cli-checkbox-advertisement" class="cli-user-preference-checkbox" data-id="checkbox-advertisement"/>
+                                                <label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled">
+                                                    <span class="wt-cli-sr-only">Ads Personalization</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="cli-tab-content">
+                                            <div class="cli-tab-pane cli-fade" data-id="advertisement">
+                                                <div class="wt-cli-cookie-description">
+                                                    Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads. If you agree to advertisement cookies, you also agree to share the data with all partners <a href="https://funkypotato.com/privacy-policy/#google-ad-partners">listed on this page ⧉</a>
+                                                    .   
+You can manage the ads sharing preferences by <a href="https://optout.aboutads.info/?c=2&amp;lang=EN">clicking here ⧉</a>
+                                                    .
+								
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cli-modal-footer">
+                        <div class="wt-cli-element cli-container-fluid cli-tab-container">
+                            <div class="cli-row">
+                                <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                                    <div class="cli-tab-footer wt-cli-privacy-overview-actions">
+                                        <a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE &amp;ACCEPT</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+        <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+        <!--googleon: all-->
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+            });
+        </script>
+        <link rel='stylesheet' id='cookie-law-info-table-css' href='https://funkypotato.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css?ver=3.1.6' type='text/css' media='all'/>
+        <script type='text/javascript' src='https://funkypotato.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+        <script type='text/javascript' src='https://funkypotato.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.2' id='jquery-ui-tabs-js'></script>
+        <script type='text/javascript' id='kk-star-ratings-js-extra'>
+            /* <![CDATA[ */
+            var kk_star_ratings = {
+                "action": "kk-star-ratings",
+                "endpoint": "https:\/\/funkypotato.com\/wp-admin\/admin-ajax.php",
+                "nonce": "ab5bf5f37d"
+            };
+            /* ]]> */
+        </script>
+        <script type='text/javascript' src='https://funkypotato.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js?ver=4.2.0' id='kk-star-ratings-js'></script>
+        <script>
+            window.lazyLoadOptions = {
+                elements_selector: "img[data-lazy-src],.rocket-lazyload",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") {
+                        if (element.classList.contains("lazyloaded")) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }
+            };
+            window.addEventListener('LazyLoad::Initialized', function(e) {
+                var lazyLoadInstance = e.detail.instance;
+
+                if (window.MutationObserver) {
+                    var observer = new MutationObserver(function(mutations) {
+                        var image_count = 0;
+                        var iframe_count = 0;
+                        var rocketlazy_count = 0;
+
+                        mutations.forEach(function(mutation) {
+                            for (i = 0; i < mutation.addedNodes.length; i++) {
+                                if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                    return;
+                                }
+
+                                if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                    return;
+                                }
+
+                                images = mutation.addedNodes[i].getElementsByTagName('img');
+                                is_image = mutation.addedNodes[i].tagName == "IMG";
+                                iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                                is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                                rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                                image_count += images.length;
+                                iframe_count += iframes.length;
+                                rocketlazy_count += rocket_lazy.length;
+
+                                if (is_image) {
+                                    image_count += 1;
+                                }
+
+                                if (is_iframe) {
+                                    iframe_count += 1;
+                                }
+                            }
+                        });
+
+                        if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) {
+                            lazyLoadInstance.update();
+                        }
+                    }
+                    );
+
+                    var b = document.getElementsByTagName("body")[0];
+                    var config = {
+                        childList: true,
+                        subtree: true
+                    };
+
+                    observer.observe(b, config);
+                }
+            }, false);
+        </script>
+        <script data-no-minify="1" async src="https://funkypotato.com/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script>
+    </body>
+</html>

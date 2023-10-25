@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/" xmlns:moz="https://www.mozilla.org/2006/browser/search/">
+<ShortName>Lagged</ShortName>
+<Description>Search Lagged</Description>
+<Image height="16" width="16" type="image/x-icon">https://lagged.com/favicon-192.png</Image>
+<Url type="text/html" method="get" template="https://lagged.com/sitesearch/{searchTerms}"/>
+<moz:SearchForm>https://lagged.com/sitesearch/</moz:SearchForm>
+</OpenSearchDescription>

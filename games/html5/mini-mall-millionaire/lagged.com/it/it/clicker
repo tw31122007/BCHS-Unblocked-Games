@@ -1,0 +1,337 @@
+<!DOCTYPE html><html lang="it"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>Giochi Di Click - Lagged</title>
+<meta name="description" content="Gioca a 192 giochi di click online gratis su Lagged. Gioca subito a giochi di click gratuitamente online." />
+<link rel="search" href="https://lagged.com/it/opensearch_desc.xml" type="application/opensearchdescription+xml" title="Lagged" />
+<link rel="alternate" type="application/rss+xml" title="Giochi" href="https://lagged.com/it/rss/" />
+<link rel="manifest" href="https://lagged.com/it/manifest.json">
+<meta name="theme-color" content="#2a6490" />
+<link rel="image_src" href="https://imgs2.dab3games.com/thief-puzzle-929.png" />
+<meta property="og:image" content="https://imgs2.dab3games.com/thief-puzzle-929.png" />
+<meta property="og:title" content="Giochi Di Click" />
+<meta property="og:url" content="https://lagged.com/it/it/clicker" />
+<link rel="canonical" href="https://lagged.com/it/it/clicker" />
+<link rel="alternate" hreflang="ar" href="https://lagged.me/ar/clicker" />
+<link rel="alternate" hreflang="bg" href="https://lagged.bg/bg/clicker" />
+<link rel="alternate" hreflang="el" href="https://lagged.gr/el/clicker" />
+<link rel="alternate" hreflang="fi" href="https://lagged.fi/fi/clicker" />
+<link rel="alternate" hreflang="fr" href="https://lagged.fr/fr/clicker" />
+<link rel="alternate" hreflang="hi" href="https://lagged.in/hi/clicker" />
+<link rel="alternate" hreflang="id" href="https://lagged.id/id/clicker" />
+<link rel="alternate" hreflang="it" href="https://lagged.com/it/it/clicker" />
+<link rel="alternate" hreflang="ja" href="https://lagged.jp/ja/clicker" />
+<link rel="alternate" hreflang="ko" href="https://lagged.kr/ko/clicker" />
+<link rel="alternate" hreflang="nl" href="https://spellen2.com/nl/clicker" />
+<link rel="alternate" hreflang="pl" href="https://lagged.pl/pl/clicker" />
+<link rel="alternate" hreflang="ro" href="https://lagged.ro/ro/clicker" />
+<link rel="alternate" hreflang="ru" href="https://lagged.ru/ru/clicker" />
+<link rel="alternate" hreflang="sv" href="https://lagged.se/sv/clicker" />
+<link rel="alternate" hreflang="th" href="https://lagged.com/th/th/clicker" />
+<link rel="alternate" hreflang="vi" href="https://lagged.vn/vi/clicker" />
+<link rel="alternate" hreflang="zh" href="https://lagged.cn/zh/clicker" />
+<link rel="alternate" hreflang="tr" href="https://oyun.io/tr/hızlı-tıklama-oyunları" />
+<link rel="alternate" hreflang="es" href="https://lagged.es/es/juegos-de-hacer-clic" />
+<link rel="alternate" hreflang="pt-BR" href="https://lagged.com.br/pt/jogos-clicker" />
+<link rel="alternate" hreflang="de" href="https://spiel2.com/de/clicker-spiele" />
+<link rel="alternate" hreflang="en" href="https://lagged.com/en/clicker" />
+<link rel="alternate" hreflang="x-default" href="https://lagged.com/en/clicker" />
+<link rel="amphtml" href="https://lagged.com/it/amp/clicker">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@LaggedGames" />
+<meta name="twitter:title" content="Giochi Di Click" />
+<meta name="twitter:description" content="Giochi Di Click - Lagged" />
+<meta name="twitter:image" content="https://imgs2.dab3games.com/thief-puzzle-929.png" />
+<meta property="og:site_name" content="Lagged">
+<meta property="og:type" content="game" />
+<meta property="fb:app_id" content="614526822036983" />
+<link href="https://plus.google.com/+LaggedGames" rel="publisher" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://lagged.com/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://lagged.com/images/icon/touch-icon-iphone.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9FX471252"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-E9FX471252');
+gtag('config', 'AW-1055364430');
+</script>
+</head><body>
+<div id="wrapper"><div id="header"><div id="logo">
+<div class="wrapit"><div class="topperleft">
+<a class="sitename" href="https://lagged.com/it/" title="Lagged">Lagged</a>
+</div>
+<div id="ajaxsrwr" class="ajax_search" style="display:none">
+<form id="ajaxform" action="https://lagged.com/it/search.php" method="post" onsubmit="return false;">
+<input id="ajaxbar" onkeydown="ajaxSearch(event);" oninput="ajaxSearchUp(this.value);" type="text" name="query" placeholder="Ricerca" class="form-control" value required autocomplete="off">
+<button id="searchbtn" type="submit" onclick="ajaxSubmit(event);">Ricerca</button>
+</form>
+</div>
+<div class="topperight">
+<button id="togglesearchr" class="headerbtn search" title="Ricerca" onclick="toggleAjaxSearch();">Ricerca</button>
+<a href="https://lagged.com/it/top" class="headerbtn top" title="Classifica">Classifica</a>
+<a href="https://lagged.com/it/menu" class="headerbtn menu" title="Menù">Menù</a>
+</div></div></div></div>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"url":"https://lagged.com/it/it/g/thief-puzzle","name":"Thief Puzzle","image":"https://imgs2.dab3games.com/thief-puzzle-929.png"},{"@type":"ListItem","position":2,"url":"https://lagged.com/it/it/g/race-clicker","name":"Race Clicker","image":"https://imgs2.dab3games.com/race-clicker-noob-game317.png"},{"@type":"ListItem","position":3,"url":"https://lagged.com/it/it/g/troll-thief-2","name":"Troll Thief 2","image":"https://imgs2.dab3games.com/troll-thief-2-game29.png"},{"@type":"ListItem","position":4,"url":"https://lagged.com/it/it/g/troll-thief","name":"Troll Thief","image":"https://imgs2.dab3games.com/troll-boss-game904.png"},{"@type":"ListItem","position":5,"url":"https://lagged.com/it/it/g/escape-from-prison","name":"Escape from Prison","image":"https://imgs2.dab3games.com/escape-from-prison-game.png"},{"@type":"ListItem","position":6,"url":"https://lagged.com/it/it/g/merge-miners","name":"Merge Miners","image":"https://imgs2.dab3games.com/merge-miner-game444.png"},{"@type":"ListItem","position":7,"url":"https://lagged.com/it/it/g/merge-toilet--skibidi-battle-master","name":"Merge Toilet - Skibidi Battle Master","image":"https://imgs2.dab3games.com/merge-toilet-game192.png"},{"@type":"ListItem","position":8,"url":"https://lagged.com/it/it/g/thief-puzzle-2","name":"Thief Puzzle 2","image":"https://imgs2.dab3games.com/thief-puzzle-2-game24.png"},{"@type":"ListItem","position":9,"url":"https://lagged.com/it/it/g/huggy-wuggy-merge","name":"Huggy Wuggy Merge","image":"https://imgs2.dab3games.com/huggy-wuggy-merge14.png"},{"@type":"ListItem","position":10,"url":"https://lagged.com/it/it/g/grindcraft-2","name":"Grindcraft 2","image":"https://imgs2.dab3games.com/grindcraft-2-game.jpg"},{"@type":"ListItem","position":11,"url":"https://lagged.com/it/it/g/merge-master","name":"Merge Master","image":"https://imgs2.dab3games.com/merge-master-game13.png"},{"@type":"ListItem","position":12,"url":"https://lagged.com/it/it/g/pull-him-out","name":"Pull Him Out","image":"https://imgs2.dab3games.com/pull-him-out-game.png"},{"@type":"ListItem","position":13,"url":"https://lagged.com/it/it/g/dogecoin-miner","name":"Dogecoin Miner","image":"https://imgs2.dab3games.com/dogecoin-miner-game.png"},{"@type":"ListItem","position":14,"url":"https://lagged.com/it/it/g/save-the-girl","name":"Save the Girl","image":"https://imgs2.dab3games.com/save-the-girl-game.png"},{"@type":"ListItem","position":15,"url":"https://lagged.com/it/it/g/tap-tap-run","name":"Tap Tap Run","image":"https://imgs2.dab3games.com/tap-tap-run-game305.png"},{"@type":"ListItem","position":16,"url":"https://lagged.com/it/it/g/superhero-race-clicker","name":"Superhero: Race Clicker","image":"https://imgs2.dab3games.com/race-clicker-game123.png"},{"@type":"ListItem","position":17,"url":"https://lagged.com/it/it/g/idle-miners","name":"Idle Miners","image":"https://imgs2.dab3games.com/idle-miners-game.jpg"},{"@type":"ListItem","position":18,"url":"https://lagged.com/it/it/g/dance-clicker","name":"Dance Clicker","image":"https://imgs2.dab3games.com/dance-clicker-3282.png"},{"@type":"ListItem","position":19,"url":"https://lagged.com/it/it/g/trump-clicker","name":"Trump Clicker","image":"https://imgs2.dab3games.com/trump-clicker-haha-funny.jpg"},{"@type":"ListItem","position":20,"url":"https://lagged.com/it/it/g/lifting-hero275","name":"Lifting Hero","image":"https://imgs2.dab3games.com/lifting-hero-game35.png"},{"@type":"ListItem","position":21,"url":"https://lagged.com/it/it/g/pizza-clicker-tycoon","name":"Pizza Clicker Tycoon","image":"https://imgs2.dab3games.com/pizza-clicker-tycoon-game.png"},{"@type":"ListItem","position":22,"url":"https://lagged.com/it/it/g/merge-cakes","name":"Merge Cakes","image":"https://imgs2.dab3games.com/merge-cakes-game.png"},{"@type":"ListItem","position":23,"url":"https://lagged.com/it/it/g/old-tv","name":"Old TV","image":"https://imgs2.dab3games.com/old-tv-game.png"},{"@type":"ListItem","position":24,"url":"https://lagged.com/it/it/g/idle-gym-tycoon","name":"Idle Gym Tycoon","image":"https://imgs2.dab3games.com/idle-gym-tycoon-game9.png"},{"@type":"ListItem","position":25,"url":"https://lagged.com/it/it/g/merge-mine-idle-clicker","name":"Merge Mine: Idle Clicker","image":"https://imgs2.dab3games.com/merge-mine-idle-clicker-6982.png"},{"@type":"ListItem","position":26,"url":"https://lagged.com/it/it/g/hit-the-computer","name":"Hit the Computer","image":"https://imgs2.dab3games.com/hit-the-computer-game.png"},{"@type":"ListItem","position":27,"url":"https://lagged.com/it/it/g/how-to-loot","name":"How to Loot","image":"https://imgs2.dab3games.com/how-to-loot-game15.png"},{"@type":"ListItem","position":28,"url":"https://lagged.com/it/it/g/farm-factory","name":"Farm Factory","image":"https://imgs2.dab3games.com/farm-factory-game178.png"},{"@type":"ListItem","position":29,"url":"https://lagged.com/it/it/g/popsicle-clicker","name":"Popsicle Clicker","image":"https://imgs2.dab3games.com/popsicle-clicker-game18.png"},{"@type":"ListItem","position":30,"url":"https://lagged.com/it/it/g/idle-mining-empire","name":"Idle Mining Empire","image":"https://imgs2.dab3games.com/idle-mining-empire4106.png"},{"@type":"ListItem","position":31,"url":"https://lagged.com/it/it/g/poop-clicker-2","name":"Poop Clicker 2","image":"https://imgs2.dab3games.com/poop-clicker-2-game.jpg"},{"@type":"ListItem","position":32,"url":"https://lagged.com/it/it/g/halloween-idle-world","name":"Halloween Idle World","image":"https://imgs2.dab3games.com/halloween-idle-world-game.png"},{"@type":"ListItem","position":33,"url":"https://lagged.com/it/it/g/destroy-it","name":"Destroy It","image":"https://imgs2.dab3games.com/destroy-it-game.png"},{"@type":"ListItem","position":34,"url":"https://lagged.com/it/it/g/whack-your-ex","name":"Whack Your Ex","image":"https://imgs2.dab3games.com/whack-your-ex-game.png"},{"@type":"ListItem","position":35,"url":"https://lagged.com/it/it/g/idle-farm-world","name":"Idle Farm World","image":"https://imgs2.dab3games.com/idle-farm-world-game47.png"},{"@type":"ListItem","position":36,"url":"https://lagged.com/it/it/g/fidget-toys-3d","name":"Fidget Toys 3D","image":"https://imgs2.dab3games.com/fidget-toys-3d-game37.png"},{"@type":"ListItem","position":37,"url":"https://lagged.com/it/it/g/smash-my-car","name":"Smash My Car","image":"https://imgs2.dab3games.com/smash-my-car-game.jpg"},{"@type":"ListItem","position":38,"url":"https://lagged.com/it/it/g/poop","name":"Poop","image":"https://imgs2.dab3games.com/poop-games.jpg"},{"@type":"ListItem","position":39,"url":"https://lagged.com/it/it/g/angry-boss","name":"Angry Boss","image":"https://imgs2.dab3games.com/angry-boss-game.png"},{"@type":"ListItem","position":40,"url":"https://lagged.com/it/it/g/supermarket","name":"Supermarket","image":"https://imgs2.dab3games.com/supermarket-game.png"},{"@type":"ListItem","position":41,"url":"https://lagged.com/it/it/g/idle-basketball","name":"Idle Basketball","image":"https://imgs2.dab3games.com/idle-basketball-game25.png"},{"@type":"ListItem","position":42,"url":"https://lagged.com/it/it/g/miner-gold-idle","name":"Miner Gold Idle","image":"https://imgs2.dab3games.com/miner-gold-idle295.png"},{"@type":"ListItem","position":43,"url":"https://lagged.com/it/it/g/businessman-clicker","name":"Business Clicker","image":"https://imgs2.dab3games.com/businessman-clicker-game.png"},{"@type":"ListItem","position":44,"url":"https://lagged.com/it/it/g/idle-evolve","name":"Idle Evolve","image":"https://imgs2.dab3games.com/idle-evolve-game.jpg"},{"@type":"ListItem","position":45,"url":"https://lagged.com/it/it/g/gpu-mining","name":"GPU Mining","image":"https://imgs2.dab3games.com/gpu-mining-9403885.png"},{"@type":"ListItem","position":46,"url":"https://lagged.com/it/it/g/money-clicker","name":"Money Clicker","image":"https://imgs2.dab3games.com/money-clicker-game.jpg"},{"@type":"ListItem","position":47,"url":"https://lagged.com/it/it/g/fantasy-merger","name":"Fantasy Merger","image":"https://imgs2.dab3games.com/fantasy-merger-1732.png"},{"@type":"ListItem","position":48,"url":"https://lagged.com/it/it/g/idle-factory","name":"Factory Clicker","image":"https://imgs2.dab3games.com/idle-factory-game.png"},{"@type":"ListItem","position":49,"url":"https://lagged.com/it/it/g/space-defense-idle","name":"Space Defense Idle","image":"https://imgs2.dab3games.com/space-defense-idle283.png"},{"@type":"ListItem","position":50,"url":"https://lagged.com/it/it/g/idle-farm","name":"Idle Farm","image":"https://imgs2.dab3games.com/idle-farm-game.png"},{"@type":"ListItem","position":51,"url":"https://lagged.com/it/it/g/idle-startup-tycoon","name":"Idle Startup Tycoon","image":"https://imgs2.dab3games.com/idle-startup-hero.png"},{"@type":"ListItem","position":52,"url":"https://lagged.com/it/it/g/idle-farming-business","name":"Idle Farming Business","image":"https://imgs2.dab3games.com/idle-farming-business-8047.png"},{"@type":"ListItem","position":53,"url":"https://lagged.com/it/it/g/city-builder","name":"City Builder","image":"https://imgs2.dab3games.com/city-builder-17327.png"},{"@type":"ListItem","position":54,"url":"https://lagged.com/it/it/g/pepe-coin-clicker","name":"Pepe Coin Clicker","image":"https://imgs2.dab3games.com/pepe-coin-clicker-game180.png"},{"@type":"ListItem","position":55,"url":"https://lagged.com/it/it/g/burger-clicker","name":"Burger Clicker","image":"https://imgs2.dab3games.com/burger-clicker-game.jpg"},{"@type":"ListItem","position":56,"url":"https://lagged.com/it/it/g/idle-doodle-city","name":"Idle Doodle City","image":"https://imgs2.dab3games.com/idle-doodle-city-game8.png"},{"@type":"ListItem","position":57,"url":"https://lagged.com/it/it/g/idle-oasis","name":"Idle Oasis","image":"https://imgs2.dab3games.com/idle-oasis-game.png"},{"@type":"ListItem","position":58,"url":"https://lagged.com/it/it/g/merge-candies","name":"Merge Candies","image":"https://imgs2.dab3games.com/merge-candies-game47.png"},{"@type":"ListItem","position":59,"url":"https://lagged.com/it/it/g/pop-it-puzzle","name":"Pop It Puzzle","image":"https://imgs2.dab3games.com/pop-it-puzzle-game4.png"},{"@type":"ListItem","position":60,"url":"https://lagged.com/it/it/g/merge-cafe","name":"Merge Cafe","image":"https://imgs2.dab3games.com/merge-cafe-game9.png"},{"@type":"ListItem","position":61,"url":"https://lagged.com/it/it/g/yolo-dogecoin","name":"Yolo Dogecoin","image":"https://imgs2.dab3games.com/yolo-dogecoin-game34.png"},{"@type":"ListItem","position":62,"url":"https://lagged.com/it/it/g/lit-ape-nft-generator","name":"LIT Ape NFT Generator","image":"https://imgs2.dab3games.com/bored-ape-clicker655.png"},{"@type":"ListItem","position":63,"url":"https://lagged.com/it/it/g/meowfia-evolution","name":"Meowfia Evolution","image":"https://imgs2.dab3games.com/meowfia-evolution-game.jpg"}]}</script>
+<div id="breadcrumbs"><div class="wrapit2" itemscope itemtype="http://schema.org/BreadcrumbList">
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it"><span itemprop="name">Lagged</span></a><meta itemprop="position" content="1" /></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/clicker" class="bitem active"><span itemprop="name">Giochi Di Click</span></a><meta itemprop="position" content="2" /></span></div></div>
+<div class="wrapit extrapad">
+<div class="ad970" style="max-height:100px;max-width:970px;overflow:hidden;padding-bottom:5px">
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-full-width-responsive="true" data-ad-client="ca-pub-6893876361346206" data-ad-slot="5153389645"></ins>
+</div>
+<div class="page-header" style="margin:0 0 10px 0;width:100%">
+<h1 style="font-size:24px;margin-bottom:3px">Giochi Di Click</h1></div>
+<div id="category_games">
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/thief-puzzle" title="Thief Puzzle">Thief Puzzle</a><img src="https://imgs2.dab3games.com/thief-puzzle-929.png" width="200" height="200" alt="Thief Puzzle" /><span class="thumbname"><span>Thief Puzzle</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/race-clicker" title="Race Clicker">Race Clicker</a><img src="https://imgs2.dab3games.com/race-clicker-noob-game317.png" width="200" height="200" alt="Race Clicker" /><span class="thumbname"><span>Race Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/troll-thief-2" title="Troll Thief 2">Troll Thief 2</a><img src="https://imgs2.dab3games.com/troll-thief-2-game29.png" width="200" height="200" alt="Troll Thief 2" /><span class="thumbname"><span>Troll Thief 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/troll-thief" title="Troll Thief">Troll Thief</a><img src="https://imgs2.dab3games.com/troll-boss-game904.png" width="200" height="200" alt="Troll Thief" /><span class="thumbname"><span>Troll Thief</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/escape-from-prison" title="Escape from Prison">Escape from Prison</a><img src="https://imgs2.dab3games.com/escape-from-prison-game.png" width="200" height="200" alt="Escape from Prison" /><span class="thumbname"><span>Escape from Prison</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/merge-miners" title="Merge Miners">Merge Miners</a><img src="https://imgs2.dab3games.com/merge-miner-game444.png" width="200" height="200" alt="Merge Miners" /><span class="thumbname"><span>Merge Miners</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/merge-toilet--skibidi-battle-master" title="Merge Toilet - Skibidi Battle Master">Merge Toilet - Skibidi Battle Master</a><img src="https://imgs2.dab3games.com/merge-toilet-game192.png" width="200" height="200" alt="Merge Toilet - Skibidi Battle Master" /><span class="thumbname"><span>Merge Toilet - Skibidi Battle Master</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/thief-puzzle-2" title="Thief Puzzle 2">Thief Puzzle 2</a><img src="https://imgs2.dab3games.com/thief-puzzle-2-game24.png" width="200" height="200" alt="Thief Puzzle 2" /><span class="thumbname"><span>Thief Puzzle 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/huggy-wuggy-merge" title="Huggy Wuggy Merge">Huggy Wuggy Merge</a><img src="https://imgs2.dab3games.com/huggy-wuggy-merge14.png" width="200" height="200" alt="Huggy Wuggy Merge" /><span class="thumbname"><span>Huggy Wuggy Merge</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/grindcraft-2" title="Grindcraft 2">Grindcraft 2</a><img src="https://imgs2.dab3games.com/grindcraft-2-game.jpg" width="200" height="200" alt="Grindcraft 2" /><span class="thumbname"><span>Grindcraft 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/merge-master" title="Merge Master">Merge Master</a><img src="https://imgs2.dab3games.com/merge-master-game13.png" width="200" height="200" alt="Merge Master" /><span class="thumbname"><span>Merge Master</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/pull-him-out" title="Pull Him Out">Pull Him Out</a><img src="https://imgs2.dab3games.com/pull-him-out-game.png" width="200" height="200" alt="Pull Him Out" /><span class="thumbname"><span>Pull Him Out</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/dogecoin-miner" title="Dogecoin Miner">Dogecoin Miner</a><img src="https://imgs2.dab3games.com/dogecoin-miner-game.png" width="200" height="200" alt="Dogecoin Miner" /><span class="thumbname"><span>Dogecoin Miner</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/save-the-girl" title="Save the Girl">Save the Girl</a><img src="https://imgs2.dab3games.com/save-the-girl-game.png" width="200" height="200" alt="Save the Girl" /><span class="thumbname"><span>Save the Girl</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/tap-tap-run" title="Tap Tap Run">Tap Tap Run</a><img src="https://imgs2.dab3games.com/tap-tap-run-game305.png" width="200" height="200" alt="Tap Tap Run" /><span class="thumbname"><span>Tap Tap Run</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/superhero-race-clicker" title="Superhero: Race Clicker">Superhero: Race Clicker</a><img src="https://imgs2.dab3games.com/race-clicker-game123.png" width="200" height="200" alt="Superhero: Race Clicker" /><span class="thumbname"><span>Superhero: Race Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-miners" title="Idle Miners">Idle Miners</a><img src="https://imgs2.dab3games.com/idle-miners-game.jpg" width="200" height="200" alt="Idle Miners" /><span class="thumbname"><span>Idle Miners</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/dance-clicker" title="Dance Clicker">Dance Clicker</a><img src="https://imgs2.dab3games.com/dance-clicker-3282.png" width="200" height="200" alt="Dance Clicker" /><span class="thumbname"><span>Dance Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/trump-clicker" title="Trump Clicker">Trump Clicker</a><img src="https://imgs2.dab3games.com/trump-clicker-haha-funny.jpg" width="200" height="200" alt="Trump Clicker" /><span class="thumbname"><span>Trump Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/lifting-hero275" title="Lifting Hero">Lifting Hero</a><img src="https://imgs2.dab3games.com/lifting-hero-game35.png" width="200" height="200" alt="Lifting Hero" /><span class="thumbname"><span>Lifting Hero</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/pizza-clicker-tycoon" title="Pizza Clicker Tycoon">Pizza Clicker Tycoon</a><img src="https://imgs2.dab3games.com/pizza-clicker-tycoon-game.png" width="200" height="200" alt="Pizza Clicker Tycoon" /><span class="thumbname"><span>Pizza Clicker Tycoon</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/merge-cakes" title="Merge Cakes">Merge Cakes</a><img src="https://imgs2.dab3games.com/merge-cakes-game.png" width="200" height="200" alt="Merge Cakes" /><span class="thumbname"><span>Merge Cakes</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/old-tv" title="Old TV">Old TV</a><img src="https://imgs2.dab3games.com/old-tv-game.png" width="200" height="200" alt="Old TV" /><span class="thumbname"><span>Old TV</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-gym-tycoon" title="Idle Gym Tycoon">Idle Gym Tycoon</a><img src="https://imgs2.dab3games.com/idle-gym-tycoon-game9.png" width="200" height="200" alt="Idle Gym Tycoon" /><span class="thumbname"><span>Idle Gym Tycoon</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/merge-mine-idle-clicker" title="Merge Mine: Idle Clicker">Merge Mine: Idle Clicker</a><img src="https://imgs2.dab3games.com/merge-mine-idle-clicker-6982.png" width="200" height="200" alt="Merge Mine: Idle Clicker" /><span class="thumbname"><span>Merge Mine: Idle Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/hit-the-computer" title="Hit the Computer">Hit the Computer</a><img src="https://imgs2.dab3games.com/hit-the-computer-game.png" width="200" height="200" alt="Hit the Computer" /><span class="thumbname"><span>Hit the Computer</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/how-to-loot" title="How to Loot">How to Loot</a><img src="https://imgs2.dab3games.com/how-to-loot-game15.png" width="200" height="200" alt="How to Loot" /><span class="thumbname"><span>How to Loot</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/farm-factory" title="Farm Factory">Farm Factory</a><img src="https://imgs2.dab3games.com/farm-factory-game178.png" width="200" height="200" alt="Farm Factory" /><span class="thumbname"><span>Farm Factory</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/popsicle-clicker" title="Popsicle Clicker">Popsicle Clicker</a><img src="https://imgs2.dab3games.com/popsicle-clicker-game18.png" width="200" height="200" alt="Popsicle Clicker" /><span class="thumbname"><span>Popsicle Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-mining-empire" title="Idle Mining Empire">Idle Mining Empire</a><img src="https://imgs2.dab3games.com/idle-mining-empire4106.png" width="200" height="200" alt="Idle Mining Empire" /><span class="thumbname"><span>Idle Mining Empire</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/poop-clicker-2" title="Poop Clicker 2">Poop Clicker 2</a><img src="https://imgs2.dab3games.com/poop-clicker-2-game.jpg" width="200" height="200" alt="Poop Clicker 2" /><span class="thumbname"><span>Poop Clicker 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/halloween-idle-world" title="Halloween Idle World">Halloween Idle World</a><img src="https://imgs2.dab3games.com/halloween-idle-world-game.png" width="200" height="200" alt="Halloween Idle World" /><span class="thumbname"><span>Halloween Idle World</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/destroy-it" title="Destroy It">Destroy It</a><img src="https://imgs2.dab3games.com/destroy-it-game.png" width="200" height="200" alt="Destroy It" /><span class="thumbname"><span>Destroy It</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/whack-your-ex" title="Whack Your Ex">Whack Your Ex</a><img src="https://imgs2.dab3games.com/whack-your-ex-game.png" width="200" height="200" alt="Whack Your Ex" /><span class="thumbname"><span>Whack Your Ex</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-farm-world" title="Idle Farm World">Idle Farm World</a><img src="https://imgs2.dab3games.com/idle-farm-world-game47.png" width="200" height="200" alt="Idle Farm World" /><span class="thumbname"><span>Idle Farm World</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/fidget-toys-3d" title="Fidget Toys 3D">Fidget Toys 3D</a><img src="https://imgs2.dab3games.com/fidget-toys-3d-game37.png" width="200" height="200" alt="Fidget Toys 3D" /><span class="thumbname"><span>Fidget Toys 3D</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/smash-my-car" title="Smash My Car">Smash My Car</a><img src="https://imgs2.dab3games.com/smash-my-car-game.jpg" width="200" height="200" alt="Smash My Car" /><span class="thumbname"><span>Smash My Car</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/poop" title="Poop">Poop</a><img src="https://imgs2.dab3games.com/poop-games.jpg" width="200" height="200" alt="Poop" /><span class="thumbname"><span>Poop</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/angry-boss" title="Angry Boss">Angry Boss</a><img src="https://imgs2.dab3games.com/angry-boss-game.png" width="200" height="200" alt="Angry Boss" /><span class="thumbname"><span>Angry Boss</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/supermarket" title="Supermarket">Supermarket</a><img src="https://imgs2.dab3games.com/supermarket-game.png" width="200" height="200" alt="Supermarket" /><span class="thumbname"><span>Supermarket</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-basketball" title="Idle Basketball">Idle Basketball</a><img src="https://imgs2.dab3games.com/idle-basketball-game25.png" width="200" height="200" alt="Idle Basketball" /><span class="thumbname"><span>Idle Basketball</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/miner-gold-idle" title="Miner Gold Idle">Miner Gold Idle</a><img src="https://imgs2.dab3games.com/miner-gold-idle295.png" width="200" height="200" alt="Miner Gold Idle" /><span class="thumbname"><span>Miner Gold Idle</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/businessman-clicker" title="Business Clicker">Business Clicker</a><img src="https://imgs2.dab3games.com/businessman-clicker-game.png" width="200" height="200" alt="Business Clicker" /><span class="thumbname"><span>Business Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-evolve" title="Idle Evolve">Idle Evolve</a><img src="https://imgs2.dab3games.com/idle-evolve-game.jpg" width="200" height="200" alt="Idle Evolve" /><span class="thumbname"><span>Idle Evolve</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/gpu-mining" title="GPU Mining">GPU Mining</a><img src="https://imgs2.dab3games.com/gpu-mining-9403885.png" width="200" height="200" alt="GPU Mining" /><span class="thumbname"><span>GPU Mining</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/money-clicker" title="Money Clicker">Money Clicker</a><img src="https://imgs2.dab3games.com/money-clicker-game.jpg" width="200" height="200" alt="Money Clicker" /><span class="thumbname"><span>Money Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/fantasy-merger" title="Fantasy Merger">Fantasy Merger</a><img src="https://imgs2.dab3games.com/fantasy-merger-1732.png" width="200" height="200" alt="Fantasy Merger" /><span class="thumbname"><span>Fantasy Merger</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-factory" title="Factory Clicker">Factory Clicker</a><img src="https://imgs2.dab3games.com/idle-factory-game.png" width="200" height="200" alt="Factory Clicker" /><span class="thumbname"><span>Factory Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/space-defense-idle" title="Space Defense Idle">Space Defense Idle</a><img src="https://imgs2.dab3games.com/space-defense-idle283.png" width="200" height="200" alt="Space Defense Idle" /><span class="thumbname"><span>Space Defense Idle</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-farm" title="Idle Farm">Idle Farm</a><img src="https://imgs2.dab3games.com/idle-farm-game.png" width="200" height="200" alt="Idle Farm" /><span class="thumbname"><span>Idle Farm</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-startup-tycoon" title="Idle Startup Tycoon">Idle Startup Tycoon</a><img src="https://imgs2.dab3games.com/idle-startup-hero.png" width="200" height="200" alt="Idle Startup Tycoon" /><span class="thumbname"><span>Idle Startup Tycoon</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-farming-business" title="Idle Farming Business">Idle Farming Business</a><img src="https://imgs2.dab3games.com/idle-farming-business-8047.png" width="200" height="200" alt="Idle Farming Business" /><span class="thumbname"><span>Idle Farming Business</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/city-builder" title="City Builder">City Builder</a><img src="https://imgs2.dab3games.com/city-builder-17327.png" width="200" height="200" alt="City Builder" /><span class="thumbname"><span>City Builder</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/pepe-coin-clicker" title="Pepe Coin Clicker">Pepe Coin Clicker</a><img src="https://imgs2.dab3games.com/pepe-coin-clicker-game180.png" width="200" height="200" alt="Pepe Coin Clicker" /><span class="thumbname"><span>Pepe Coin Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/burger-clicker" title="Burger Clicker">Burger Clicker</a><img src="https://imgs2.dab3games.com/burger-clicker-game.jpg" width="200" height="200" alt="Burger Clicker" /><span class="thumbname"><span>Burger Clicker</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-doodle-city" title="Idle Doodle City">Idle Doodle City</a><img src="https://imgs2.dab3games.com/idle-doodle-city-game8.png" width="200" height="200" alt="Idle Doodle City" /><span class="thumbname"><span>Idle Doodle City</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/idle-oasis" title="Idle Oasis">Idle Oasis</a><img src="https://imgs2.dab3games.com/idle-oasis-game.png" width="200" height="200" alt="Idle Oasis" /><span class="thumbname"><span>Idle Oasis</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/merge-candies" title="Merge Candies">Merge Candies</a><img src="https://imgs2.dab3games.com/merge-candies-game47.png" width="200" height="200" alt="Merge Candies" /><span class="thumbname"><span>Merge Candies</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/pop-it-puzzle" title="Pop It Puzzle">Pop It Puzzle</a><img src="https://imgs2.dab3games.com/pop-it-puzzle-game4.png" width="200" height="200" alt="Pop It Puzzle" /><span class="thumbname"><span>Pop It Puzzle</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/merge-cafe" title="Merge Cafe">Merge Cafe</a><img src="https://imgs2.dab3games.com/merge-cafe-game9.png" width="200" height="200" alt="Merge Cafe" /><span class="thumbname"><span>Merge Cafe</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/yolo-dogecoin" title="Yolo Dogecoin">Yolo Dogecoin</a><img src="https://imgs2.dab3games.com/yolo-dogecoin-game34.png" width="200" height="200" alt="Yolo Dogecoin" /><span class="thumbname"><span>Yolo Dogecoin</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/lit-ape-nft-generator" title="LIT Ape NFT Generator">LIT Ape NFT Generator</a><img src="https://imgs2.dab3games.com/bored-ape-clicker655.png" width="200" height="200" alt="LIT Ape NFT Generator" /><span class="thumbname"><span>LIT Ape NFT Generator</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/meowfia-evolution" title="Meowfia Evolution">Meowfia Evolution</a><img src="https://imgs2.dab3games.com/meowfia-evolution-game.jpg" width="200" height="200" alt="Meowfia Evolution" /><span class="thumbname"><span>Meowfia Evolution</span></span></div></div>
+</div>
+<a href="https://lagged.com/it/c/popular" style="padding:10px 0;font-size:1.6em;margin-top:15px;margin-bottom:5px" class="play_btn" title="Più giochi">Più giochi</a>
+<div id="categories"><h3 class="homepage extbtn">Giochi Correlati</h3>
+<div class="category_main"><div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/it/it/io" title="giochi io"><img src="https://imgs2.dab3games.com/rackem-io-game.jpg" alt="giochi io" width="40" height="40">GIOCHI IO</a></li>
+<li><a href="https://lagged.com/it/it/two-player" title="giochi con due giocatori"><img src="https://imgs2.dab3games.com/12-minibattles-game.png" alt="giochi con due giocatori" width="40" height="40">GIOCHI CON DUE GIOCATORI</a></li>
+<li><a href="https://lagged.com/it/it/arcade" title="giochi arcade"><img src="https://imgs2.dab3games.com/bitlife-life-simulator1560.png" alt="giochi arcade" width="40" height="40">GIOCHI ARCADE</a></li>
+<li><a href="https://lagged.com/it/it/police" title="giochi di polizia"><img src="https://imgs2.dab3games.com/stickman-gta-game19.png" alt="giochi di polizia" width="40" height="40">GIOCHI DI POLIZIA</a></li>
+<li><a href="https://lagged.com/it/it/puzzle" title="giochi di puzzle"><img src="https://imgs2.dab3games.com/draw-and-guess-game.jpg" alt="giochi di puzzle" width="40" height="40">GIOCHI DI PUZZLE</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/it/it/shooting" title="giochi sparatutto"><img src="https://imgs2.dab3games.com/ninja-clash-heroes-game.png" alt="giochi sparatutto" width="40" height="40">GIOCHI SPARATUTTO</a></li>
+<li><a href="https://lagged.com/it/it/stickman" title="gioco stickman"><img src="https://imgs2.dab3games.com/troll-thief-2-game29.png" alt="gioco stickman" width="40" height="40">GIOCO STICKMAN</a></li>
+<li><a href="https://lagged.com/it/it/airplane" title="giochi di aeroplani"><img src="https://imgs2.dab3games.com/air-fight-game.jpg" alt="giochi di aeroplani" width="40" height="40">GIOCHI DI AEROPLANI</a></li>
+<li><a href="https://lagged.com/it/it/clicker" title="giochi di click"><img src="https://imgs2.dab3games.com/troll-boss-game904.png" alt="giochi di click" width="40" height="40">GIOCHI DI CLICK</a></li>
+<li><a href="https://lagged.com/it/it/ninja" title="giochi di ninja"><img src="https://imgs2.dab3games.com/the-last-ninja-game.jpg" alt="giochi di ninja" width="40" height="40">GIOCHI DI NINJA</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/it/it/basketball" title="giochi di basket"><img src="https://imgs2.dab3games.com/flappy-dunk-online.jpg" alt="giochi di basket" width="40" height="40">GIOCHI DI BASKET</a></li>
+<li><a href="https://lagged.com/it/it/friv" title="giochi friv"><img src="https://imgs2.dab3games.com/geometry-jump-game.png" alt="giochi friv" width="40" height="40">GIOCHI FRIV</a></li>
+<li><a href="https://lagged.com/it/it/racing" title="giochi di corse automobilistiche"><img src="https://imgs2.dab3games.com/race-clicker-noob-game317.png" alt="giochi di corse automobilistiche" width="40" height="40">GIOCHI DI CORSE AUTOMOBILISTICHE</a></li>
+<li><a href="https://lagged.com/it/it/football" title="giochi di calcio"><img src="https://imgs2.dab3games.com/touchdown-3d1.png" alt="giochi di calcio" width="40" height="40">GIOCHI DI CALCIO</a></li>
+<li><a href="https://lagged.com/it/it/soccer" title="giochi di calcio"><img src="https://imgs2.dab3games.com/penalty-shooters-game.jpg" alt="giochi di calcio" width="40" height="40">GIOCHI DI CALCIO</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/it/it/car" title="giochi di automobili"><img src="https://imgs2.dab3games.com/killer-city-game.png" alt="giochi di automobili" width="40" height="40">GIOCHI DI AUTOMOBILI</a></li>
+<li><a href="https://lagged.com/it/it/running" title="giochi a tempo"><img src="https://imgs2.dab3games.com/skateboard-surf-game.png" alt="giochi a tempo" width="40" height="40">GIOCHI A TEMPO</a></li>
+<li><a href="https://lagged.com/it/it/girl" title="giochi per ragazze"><img src="https://imgs2.dab3games.com/ice-cream-inc-game.png" alt="giochi per ragazze" width="40" height="40">GIOCHI PER RAGAZZE</a></li>
+<li><a href="https://lagged.com/it/it/dress-up" title="giochi di vestiti"><img src="https://imgs2.dab3games.com/tom-angela-dressup43.png" alt="giochi di vestiti" width="40" height="40">GIOCHI DI VESTITI</a></li>
+<li><a href="https://lagged.com/it/it/snake" title="giochi di serpenti"><img src="https://imgs2.dab3games.com/slither-io-game.jpg" alt="giochi di serpenti" width="40" height="40">GIOCHI DI SERPENTI</a></li>
+</ul></div></div>
+</div>
+<h2 style="float: left;width: 100%;text-align: center;padding: 0;">Gioco Giochi Di Click su Lagged</h2>
+<p class="tagdesc" style="margin-top:5px;background-color:#f8f8f8">Goditi uno dei nostri <b>192</b> giochi giochi di click online gratuiti su qualsiasi dispositivo. Su lagged.com troverai alcuni dei migliori giochi giochi di click, tra cui molte delle nostre creazioni esclusive Lagged. Gioca a uno qualsiasi dei nostri giochi giochi di click sul tuo telefono cellulare, tablet o PC. Gioca ai titoli di successo come Thief Puzzle, Race Clicker, Troll Thief 2 e molti altri. Per più giochi vai alla nostra migliore pagina dei giochi migliori.</p>
+<h3 class="homepage martop15">I migliori giochi Giochi Di Click</h3>
+<div class="cat_menu_link"><a href="https://lagged.com/it/it/g/thief-puzzle" title="Thief Puzzle">Thief Puzzle</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/it/it/g/race-clicker" title="Race Clicker">Race Clicker</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/it/it/g/troll-thief-2" title="Troll Thief 2">Troll Thief 2</a></div>
+<h3 class="homepage" style="margin:15px 0 10px 0">Giochi più giocati</h3>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/drawthis2" title="Draw This 2">Draw This 2</a><img src="https://imgs2.dab3games.com/draw-and-guess-game.jpg" width="200" height="200" alt="Draw This 2" /><span class="thumbname"><span>Draw This 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/elastic-man" title="Elastic Man">Elastic Man</a><img src="https://imgs2.dab3games.com/elastic-man-game.png" width="200" height="200" alt="Elastic Man" /><span class="thumbname"><span>Elastic Man</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/blob-opera" title="Blob Opera">Blob Opera</a><img src="https://imgs2.dab3games.com/blob-opera-game.png" width="200" height="200" alt="Blob Opera" /><span class="thumbname"><span>Blob Opera</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/going-balls19" title="Going Balls">Going Balls</a><img src="https://imgs2.dab3games.com/rolling-the-ball-1591.png" width="200" height="200" alt="Going Balls" /><span class="thumbname"><span>Going Balls</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/bitlife-life-simulator" title="BitLife Life Simulator">BitLife Life Simulator</a><img src="https://imgs2.dab3games.com/bitlife-life-simulator1560.png" width="200" height="200" alt="BitLife Life Simulator" /><span class="thumbname"><span>BitLife Life Simulator</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/scary-neighbor-online" title="Scary Neighbor Online">Scary Neighbor Online</a><img src="https://imgs2.dab3games.com/scary-neighbor50.png" width="200" height="200" alt="Scary Neighbor Online" /><span class="thumbname"><span>Scary Neighbor Online</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/magic-tiles" title="Magic Tiles">Magic Tiles</a><img src="https://imgs2.dab3games.com/magic-tiles-game.jpg" width="200" height="200" alt="Magic Tiles" /><span class="thumbname"><span>Magic Tiles</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/stair-race-3d" title="Stair Race 3D">Stair Race 3D</a><img src="https://imgs2.dab3games.com/stair-race-3d-game572.png" width="200" height="200" alt="Stair Race 3D" /><span class="thumbname"><span>Stair Race 3D</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/minecraft-online" title="Minecraft Online">Minecraft Online</a><img src="https://imgs2.dab3games.com/minecraft-online-game.jpg" width="200" height="200" alt="Minecraft Online" /><span class="thumbname"><span>Minecraft Online</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/murder-mafia" title="Murder Mafia">Murder Mafia</a><img src="https://imgs2.dab3games.com/murder-mafia-game360.png" width="200" height="200" alt="Murder Mafia" /><span class="thumbname"><span>Murder Mafia</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/tiles-hop" title="Tiles Hop">Tiles Hop</a><img src="https://imgs2.dab3games.com/tiles-hop-game.png" width="200" height="200" alt="Tiles Hop" /><span class="thumbname"><span>Tiles Hop</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/toilet-race" title="Toilet Race">Toilet Race</a><img src="https://imgs2.dab3games.com/toilet-race-game269.png" width="200" height="200" alt="Toilet Race" /><span class="thumbname"><span>Toilet Race</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/choir" title="Choir">Choir</a><img src="https://imgs2.dab3games.com/choir-game.png" width="200" height="200" alt="Choir" /><span class="thumbname"><span>Choir</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/skateboard-surf" title="Skateboard Surf">Skateboard Surf</a><img src="https://imgs2.dab3games.com/skateboard-surf-game.png" width="200" height="200" alt="Skateboard Surf" /><span class="thumbname"><span>Skateboard Surf</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/thief-puzzle" title="Thief Puzzle">Thief Puzzle</a><img src="https://imgs2.dab3games.com/thief-puzzle-929.png" width="200" height="200" alt="Thief Puzzle" /><span class="thumbname"><span>Thief Puzzle</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/tall-man-runner" title="Tall Man Runner">Tall Man Runner</a><img src="https://imgs2.dab3games.com/tall-man-run40.png" width="200" height="200" alt="Tall Man Runner" /><span class="thumbname"><span>Tall Man Runner</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/backrooms-escape-1" title="Backrooms Escape 1">Backrooms Escape 1</a><img src="https://imgs2.dab3games.com/backrooms-escape-1-1038.png" width="200" height="200" alt="Backrooms Escape 1" /><span class="thumbname"><span>Backrooms Escape 1</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/cube-frenzy" title="Cube Frenzy">Cube Frenzy</a><img src="https://imgs2.dab3games.com/cube-frenzy-game.png" width="200" height="200" alt="Cube Frenzy" /><span class="thumbname"><span>Cube Frenzy</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/lemon-opera" title="Lemon Opera">Lemon Opera</a><img src="https://imgs2.dab3games.com/screamers-2263.png" width="200" height="200" alt="Lemon Opera" /><span class="thumbname"><span>Lemon Opera</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/love-doge" title="Love Doge">Love Doge</a><img src="https://imgs2.dab3games.com/doge-love-game.png" width="200" height="200" alt="Love Doge" /><span class="thumbname"><span>Love Doge</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/hide-the-evidence" title="Hide the Evidence">Hide the Evidence</a><img src="https://imgs2.dab3games.com/hide-the-evidence-game233.png" width="200" height="200" alt="Hide the Evidence" /><span class="thumbname"><span>Hide the Evidence</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/poppy-playtime-chapter-2" title="Poppy Playtime Chapter 2">Poppy Playtime Chapter 2</a><img src="https://imgs2.dab3games.com/poppy-playtime-chapter-2-game-legs.png" width="200" height="200" alt="Poppy Playtime Chapter 2" /><span class="thumbname"><span>Poppy Playtime Chapter 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/ice-cream-inc" title="Ice Cream Inc.">Ice Cream Inc.</a><img src="https://imgs2.dab3games.com/ice-cream-inc-game.png" width="200" height="200" alt="Ice Cream Inc." /><span class="thumbname"><span>Ice Cream Inc.</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/it/it/g/shape-shift-run" title="Shape Shift Run">Shape Shift Run</a><img src="https://imgs2.dab3games.com/shape-shift-run-game16.png" width="200" height="200" alt="Shape Shift Run" /><span class="thumbname"><span>Shape Shift Run</span></span></div></div>
+</div>
+<script>
+var keepscroll=true;
+var gamecnt=63;
+var newGamesLoading=false;
+var gtagg=72;
+window.onscroll=function(){
+if(keepscroll&&!newGamesLoading){
+var scelemt=document.getElementById("category_games");
+if((document.documentElement.scrollTop||document.body.scrollTop)>scelemt.offsetHeight+150-window.innerHeight){
+newGamesLoading=true;
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+var response=this.responseText;
+response=response.replace(")]}',","");
+response=JSON.parse(response);
+if(!response.errors){
+gamecnt=response.cnt;
+//loop/insert new games
+for (var i = 0, len = response.games.length; i < len; i++) {
+var gamethumbwrap = document.createElement("div");
+gamethumbwrap.className="thumbWrapper newboxshadow";
+var gamethumbwrap2 = document.createElement("div");
+var gameThumbLink = document.createElement('a');
+gameThumbLink.setAttribute('href', "https://lagged.com/it/it/g/"+response.games[i].url_key);
+gameThumbLink.setAttribute('title', response.games[i].name);
+var gameThumbLinkName=document.createTextNode(response.games[i].name);
+gameThumbLink.appendChild(gameThumbLinkName);
+var gameThumbThumb = document.createElement('img');
+gameThumbThumb.setAttribute('src', "https://imgs2.dab3games.com/"+response.games[i].thumb);
+gameThumbThumb.setAttribute('alt', response.games[i].name);
+gameThumbThumb.setAttribute('width', "200");
+gameThumbThumb.setAttribute('height', "200");
+gamethumbwrap2.appendChild(gameThumbLink);
+gamethumbwrap2.appendChild(gameThumbThumb);
+var gameSpanFirst = document.createElement('span');
+gameSpanFirst.className="thumbname";
+var gameSpanSec = document.createElement('span');
+gameSpanSec.appendChild(gameThumbLinkName);
+gameSpanFirst.appendChild(gameSpanSec);
+gamethumbwrap2.appendChild(gameSpanFirst);
+if(response.games[i].has_scores==="1"){
+var gameSpanAward1 = document.createElement('span');
+gameSpanAward1.className="awards-bit";
+gamethumbwrap2.appendChild(gameSpanAward1);
+}
+if(response.games[i].has_achs==="1"){
+var gameSpanAward2 = document.createElement('span');
+gameSpanAward2.className="awards-bit2";
+if(response.games[i].has_scores==="1"){
+gameSpanAward2.className="awards-bit2 awardbitpad";
+}
+gamethumbwrap2.appendChild(gameSpanAward2);
+}
+gamethumbwrap.appendChild(gamethumbwrap2);
+category_games.appendChild(gamethumbwrap);
+}
+if(response.keepgoing===true){
+newGamesLoading=false;
+}else{
+keepscroll=false;
+}
+}else{
+keepscroll=false;
+}
+}
+};
+xhttp.open("POST", "https://lagged.com/it/api/ajax_tags.php", true);
+xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+xhttp.send("tagid="+gtagg+"&cnt="+gamecnt);
+}
+}
+};
+</script>
+<footer id="footer">
+<div class="footwrap"><div class="footlead">
+<a href="https://lagged.com/it" title="Lagged" class="footerlogo">Lagged</a>
+<button id="togglelnbtn" onclick="toggleLang();" class="footsocial flag">Italiano</button>
+<div id="togglelang">
+<a href="https://lagged.com/en/clicker" hreflang="en" title="Lagged.com">English <span>(Engelsk)</span></a>
+<a href="https://spiel2.com/de/clicker-spiele" hreflang="de" class="de" title="Spiel2.com">Deutsche <span>(Tysk)</span></a>
+<a href="https://lagged.com.br/pt/jogos-clicker" hreflang="pt-BR" class="pt" title="Lagged.com.br">Português <span>(Portugisiska)</span></a>
+<a href="https://lagged.es/es/juegos-de-hacer-clic" hreflang="es" class="es" title="Lagged.es">Español <span>(Spanska)</span></a>
+<a href="https://oyun.io/tr/hızlı-tıklama-oyunları" hreflang="tr" class="tr" title="Oyun.io">Türkçe <span>(Turkiska)</span></a>
+<a href="https://lagged.me/ar/clicker" hreflang="ar" class="ar" title="Lagged.me">عربى <span>(Arabiska)</span></a>
+<a href="https://lagged.bg/bg/clicker" hreflang="bg" class="bg" title="Lagged.bg">български <span>(Bulgaro)</span></a>
+<a href="https://lagged.gr/el/clicker" hreflang="el" class="el" title="Lagged.gr">Ελληνικά <span>(Greco)</span></a>
+<a href="https://lagged.fi/fi/clicker" hreflang="fi" class="fi" title="Lagged.fi">Suomalainen <span>(Finnish)</span></a>
+<a href="https://lagged.fr/fr/clicker" hreflang="fr" class="fr" title="Lagged.fr">Français <span>(Franska)</span></a>
+<a href="https://lagged.in/hi/clicker" hreflang="hi" class="hi" title="Lagged.in">हिन्दी <span>(Hindi)</span></a>
+<a href="https://lagged.id/id/clicker" hreflang="id" class="id" title="Lagged.id">Indonesia <span>(Indonesiska)</span></a>
+<a href="https://lagged.com/it/it/clicker" hreflang="it" class="it active" title="Lagged.com/it">Italiano</a>
+<a href="https://lagged.jp/ja/clicker" hreflang="ja" class="ja" title="Lagged.jp">日本 <span>(Japanska)</span></a>
+<a href="https://lagged.kr/ko/clicker" hreflang="ko" class="ko" title="Lagged.kr">한국어 <span>(Koreanska)</span></a>
+<a href="https://spellen2.com/nl/clicker" hreflang="nl" class="nl" title="Spellen2.com">Nederlands <span>(Holländska)</span></a>
+<a href="https://lagged.pl/pl/clicker" hreflang="pl" class="pl" title="Lagged.pl">Polski <span>(Putsa)</span></a>
+<a href="https://lagged.ro/ro/clicker" hreflang="ro" class="ro" title="Lagged.ro">Română <span>(Rumeno)</span></a>
+<a href="https://lagged.ru/ru/clicker" hreflang="ru" class="ru" title="Lagged.ru">Pусский <span>(Ryska)</span></a>
+<a href="https://lagged.se/sv/clicker" hreflang="sv" class="sv" title="Lagged.se">Svenska <span>(Svedese)</span></a>
+<a href="https://lagged.com/th/th/clicker" hreflang="th" class="th" title="Lagged.com/th">ไทย <span>(Thai)</span></a>
+<a href="https://lagged.vn/vi/clicker" hreflang="vi" class="vi" title="Lagged.vn">Tiếng Việt <span>(Vietnamesiska)</span></a>
+<a href="https://lagged.cn/zh/clicker" hreflang="zh" class="zh" title="Lagged.cn">中国人 <span>(Kinesiska)</span></a>
+</div>
+<a href="https://www.youtube.com/lagged" target="_blank" rel="noopener noreferrer" class="footsocial yt">YouTube</a>
+</div><div class="footsub"><a href="https://lagged.com/it/contact">Contattaci</a><a href="https://lagged.com/it/privacy">Informativa sulla privacy</a></div>
+<div class="footend"><p>Lagged è la migliore piattaforma per giochi online. Sfida i tuoi amici a migliaia di giochi diversi su PC, tablet o dispositivi mobili. Competi per punteggi alti e per ottenere risultati così da scalare la nostra classifica globale.</p><p>&copy; Lagged 2023</p>
+</div>
+</div>
+</footer>
+</div>
+<link rel="stylesheet" href="https://lagged.com/it/js/v2/styles.css" media="all">
+<script src="https://lagged.com/it/js/v2/customchannels.js"></script>
+<script src="https://lagged.com/it/js/v2/site.js"></script>
+</body></html>

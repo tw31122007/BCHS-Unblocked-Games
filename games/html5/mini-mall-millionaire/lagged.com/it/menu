@@ -1,0 +1,134 @@
+<!DOCTYPE html><html lang="it"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>Menù - Lagged</title>
+<meta name="description" content="Giochi online gratuiti" />
+<link rel="search" href="https://lagged.com/it/opensearch_desc.xml" type="application/opensearchdescription+xml" title="Lagged" />
+<link rel="alternate" type="application/rss+xml" title="Giochi" href="https://lagged.com/it/rss/" />
+<link rel="manifest" href="https://lagged.com/it/manifest.json">
+<meta name="theme-color" content="#2a6490" />
+<meta property="og:title" content="Menù - Lagged" />
+<meta property="og:site_name" content="Lagged">
+<meta property="og:type" content="game" />
+<meta property="fb:app_id" content="614526822036983" />
+<link href="https://plus.google.com/+LaggedGames" rel="publisher" />
+<meta property="og:url" content="https://lagged.com/it/menu" />
+<meta property="og:image" content="https://imgs2.dab3games.com/share-site.jpg" />
+<link rel="alternate" hreflang="ar" href="https://lagged.me/menu" />
+<link rel="alternate" hreflang="bg" href="https://lagged.bg/menu" />
+<link rel="alternate" hreflang="el" href="https://lagged.gr/menu" />
+<link rel="alternate" hreflang="fi" href="https://lagged.fi/menu" />
+<link rel="alternate" hreflang="fr" href="https://lagged.fr/menu" />
+<link rel="alternate" hreflang="hi" href="https://lagged.in/menu" />
+<link rel="alternate" hreflang="id" href="https://lagged.id/menu" />
+<link rel="alternate" hreflang="it" href="https://lagged.com/it/menu" />
+<link rel="alternate" hreflang="ja" href="https://lagged.jp/menu" />
+<link rel="alternate" hreflang="ko" href="https://lagged.kr/menu" />
+<link rel="alternate" hreflang="nl" href="https://spellen2.com/menu" />
+<link rel="alternate" hreflang="pl" href="https://lagged.pl/menu" />
+<link rel="alternate" hreflang="ro" href="https://lagged.ro/menu" />
+<link rel="alternate" hreflang="ru" href="https://lagged.ru/menu" />
+<link rel="alternate" hreflang="sv" href="https://lagged.se/menu" />
+<link rel="alternate" hreflang="th" href="https://lagged.com/th/menu" />
+<link rel="alternate" hreflang="vi" href="https://lagged.vn/menu" />
+<link rel="alternate" hreflang="zh" href="https://lagged.cn/menu" />
+<link rel="alternate" hreflang="tr" href="https://oyun.io/menu" />
+<link rel="alternate" hreflang="es" href="https://lagged.es/menu" />
+<link rel="alternate" hreflang="pt-BR" href="https://lagged.com.br/menu" />
+<link rel="alternate" hreflang="de" href="https://spiel2.com/menu" />
+<link rel="alternate" hreflang="en" href="https://lagged.com/menu" />
+<link rel="alternate" hreflang="x-default" href="https://lagged.com/menu" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://lagged.com/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://lagged.com/images/icon/touch-icon-iphone.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9FX471252"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-E9FX471252');
+gtag('config', 'AW-1055364430');
+</script>
+</head><body>
+<div id="wrapper"><div id="header"><div id="logo">
+<div class="wrapit"><div class="topperleft">
+<a class="sitename" href="https://lagged.com/it/" title="Lagged">Lagged</a>
+</div>
+<div id="ajaxsrwr" class="ajax_search" style="display:none">
+<form id="ajaxform" action="https://lagged.com/it/search.php" method="post" onsubmit="return false;">
+<input id="ajaxbar" onkeydown="ajaxSearch(event);" oninput="ajaxSearchUp(this.value);" type="text" name="query" placeholder="Ricerca" class="form-control" value required autocomplete="off">
+<button id="searchbtn" type="submit" onclick="ajaxSubmit(event);">Ricerca</button>
+</form>
+</div>
+<div class="topperight">
+<button id="togglesearchr" class="headerbtn search" title="Ricerca" onclick="toggleAjaxSearch();">Ricerca</button>
+<a href="https://lagged.com/it/top" class="headerbtn top" title="Classifica">Classifica</a>
+<a onclick="window.history.back();" class="headerbtn menu" title="Menù">Menù</a>
+</div></div></div></div>
+<div class="wrapit extrapad" style="max-width:900px;float:none;margin:0 auto;padding-top:15px;clear:both">
+<div class="page-header" style="margin-bottom:0">
+<ul class="nav nav-pills">
+<li role="presentation" class="active"><a href="https://lagged.com/it/login">Login</a></li>
+<li role="presentation"><a href="https://lagged.com/it/signup">Creare un profilo</a></li>
+</ul></div>
+<form method="post" action="https://lagged.com/it/login?submit" id="loginit">
+<div class="form-group" style="margin-bottom:12px">
+<label for="exampleInputEmail1">La tua email</label>
+<input type="email" name="user_name" class="form-control" id="exampleInputEmail1" placeholder="E-mail" required>
+</div>
+<div class="form-group" style="margin-bottom:12px">
+<label for="exampleInputPassword1">La tua password</label>
+<input type="password" class="form-control" id="exampleInputPassword1" name="user_password" placeholder="password" autocomplete="off" required>
+</div>
+<button type="submit" class="btn btn-full btn-bigtxt">Login</button>
+</form>
+<div class="cat_menu_link"><a href="https://lagged.com/it/help/password/">Ha dimenticato la password?</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/it/history">Storia del gioco</a></div>
+<div class="cat_menu_link awardmenulink secondawardln"><a href="https://lagged.com/it/awards">Gioco di successo</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/it/c/new">Nuovi giochi</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/it/c/popular">Giochi popolari</a></div>
+<div class="category_main"><div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/it/it/io" title="giochi io"><img src="https://imgs2.dab3games.com/rackem-io-game.jpg" alt="giochi io" width="40" height="40">GIOCHI IO</a></li>
+<li><a href="https://lagged.com/it/it/two-player" title="giochi con due giocatori"><img src="https://imgs2.dab3games.com/12-minibattles-game.png" alt="giochi con due giocatori" width="40" height="40">GIOCHI CON DUE GIOCATORI</a></li>
+<li><a href="https://lagged.com/it/it/arcade" title="giochi arcade"><img src="https://imgs2.dab3games.com/bitlife-life-simulator1560.png" alt="giochi arcade" width="40" height="40">GIOCHI ARCADE</a></li>
+<li><a href="https://lagged.com/it/it/police" title="giochi di polizia"><img src="https://imgs2.dab3games.com/stickman-gta-game19.png" alt="giochi di polizia" width="40" height="40">GIOCHI DI POLIZIA</a></li>
+<li><a href="https://lagged.com/it/it/puzzle" title="giochi di puzzle"><img src="https://imgs2.dab3games.com/draw-and-guess-game.jpg" alt="giochi di puzzle" width="40" height="40">GIOCHI DI PUZZLE</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/it/it/shooting" title="giochi sparatutto"><img src="https://imgs2.dab3games.com/ninja-clash-heroes-game.png" alt="giochi sparatutto" width="40" height="40">GIOCHI SPARATUTTO</a></li>
+<li><a href="https://lagged.com/it/it/stickman" title="gioco stickman"><img src="https://imgs2.dab3games.com/troll-thief-2-game29.png" alt="gioco stickman" width="40" height="40">GIOCO STICKMAN</a></li>
+<li><a href="https://lagged.com/it/it/airplane" title="giochi di aeroplani"><img src="https://imgs2.dab3games.com/air-fight-game.jpg" alt="giochi di aeroplani" width="40" height="40">GIOCHI DI AEROPLANI</a></li>
+<li><a href="https://lagged.com/it/it/clicker" title="giochi di click"><img src="https://imgs2.dab3games.com/troll-boss-game904.png" alt="giochi di click" width="40" height="40">GIOCHI DI CLICK</a></li>
+<li><a href="https://lagged.com/it/it/ninja" title="giochi di ninja"><img src="https://imgs2.dab3games.com/the-last-ninja-game.jpg" alt="giochi di ninja" width="40" height="40">GIOCHI DI NINJA</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/it/it/basketball" title="giochi di basket"><img src="https://imgs2.dab3games.com/flappy-dunk-online.jpg" alt="giochi di basket" width="40" height="40">GIOCHI DI BASKET</a></li>
+<li><a href="https://lagged.com/it/it/friv" title="giochi friv"><img src="https://imgs2.dab3games.com/geometry-jump-game.png" alt="giochi friv" width="40" height="40">GIOCHI FRIV</a></li>
+<li><a href="https://lagged.com/it/it/racing" title="giochi di corse automobilistiche"><img src="https://imgs2.dab3games.com/race-clicker-noob-game317.png" alt="giochi di corse automobilistiche" width="40" height="40">GIOCHI DI CORSE AUTOMOBILISTICHE</a></li>
+<li><a href="https://lagged.com/it/it/football" title="giochi di calcio"><img src="https://imgs2.dab3games.com/touchdown-3d1.png" alt="giochi di calcio" width="40" height="40">GIOCHI DI CALCIO</a></li>
+<li><a href="https://lagged.com/it/it/soccer" title="giochi di calcio"><img src="https://imgs2.dab3games.com/penalty-shooters-game.jpg" alt="giochi di calcio" width="40" height="40">GIOCHI DI CALCIO</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/it/it/car" title="giochi di automobili"><img src="https://imgs2.dab3games.com/killer-city-game.png" alt="giochi di automobili" width="40" height="40">GIOCHI DI AUTOMOBILI</a></li>
+<li><a href="https://lagged.com/it/it/running" title="giochi a tempo"><img src="https://imgs2.dab3games.com/skateboard-surf-game.png" alt="giochi a tempo" width="40" height="40">GIOCHI A TEMPO</a></li>
+<li><a href="https://lagged.com/it/it/girl" title="giochi per ragazze"><img src="https://imgs2.dab3games.com/ice-cream-inc-game.png" alt="giochi per ragazze" width="40" height="40">GIOCHI PER RAGAZZE</a></li>
+<li><a href="https://lagged.com/it/it/dress-up" title="giochi di vestiti"><img src="https://imgs2.dab3games.com/tom-angela-dressup43.png" alt="giochi di vestiti" width="40" height="40">GIOCHI DI VESTITI</a></li>
+<li><a href="https://lagged.com/it/it/snake" title="giochi di serpenti"><img src="https://imgs2.dab3games.com/slither-io-game.jpg" alt="giochi di serpenti" width="40" height="40">GIOCHI DI SERPENTI</a></li>
+</ul></div></div>
+</div>
+</div>
+<div style="float:left;clear:both;width:100%;height:50px;background-color: #f8f8f8;"></div>
+<link rel="stylesheet" href="https://lagged.com/it/js/v2/styles.css" media="all">
+<script src="https://lagged.com/it/js/v2/customchannels.js"></script>
+<script src="https://lagged.com/it/js/v2/site.js"></script>
+</body></html>

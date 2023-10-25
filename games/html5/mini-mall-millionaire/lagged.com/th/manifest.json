@@ -1,0 +1,36 @@
+{
+  "short_name": "Lagged",
+  "name": "Lagged",
+  "icons": [
+    {
+      "src": "/images/icon/48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/images/icon/96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/icon/144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/icon/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon/icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "standalone",
+  "background_color": "#2a6490",
+  "theme_color": "#2a6490",
+  "start_url": "/?utm_source=PWA&utm_medium=direct&utm_campaign=home_screen",
+  "scope": "/"
+}

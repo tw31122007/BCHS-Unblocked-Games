@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="it"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>Contattaci - Lagged</title>
+<meta name="description" content="Contattaci ora utilizzando il nostro modulo." />
+<link rel="search" href="https://lagged.com/it/opensearch_desc.xml" type="application/opensearchdescription+xml" title="Lagged" />
+<link rel="alternate" type="application/rss+xml" title="Giochi" href="https://lagged.com/it/rss/" />
+<link rel="manifest" href="https://lagged.com/it/manifest.json">
+<meta name="theme-color" content="#2a6490" />
+<meta property="og:title" content="Contattaci - Lagged" />
+<meta property="og:site_name" content="Lagged">
+<meta property="og:type" content="game" />
+<meta property="fb:app_id" content="614526822036983" />
+<link href="https://plus.google.com/+LaggedGames" rel="publisher" />
+<meta property="og:url" content="https://lagged.com/it/contact" />
+<meta property="og:image" content="https://imgs2.dab3games.com/share-site.jpg" />
+<link rel="alternate" hreflang="ar" href="https://lagged.me/contact" />
+<link rel="alternate" hreflang="bg" href="https://lagged.bg/contact" />
+<link rel="alternate" hreflang="el" href="https://lagged.gr/contact" />
+<link rel="alternate" hreflang="fi" href="https://lagged.fi/contact" />
+<link rel="alternate" hreflang="fr" href="https://lagged.fr/contact" />
+<link rel="alternate" hreflang="hi" href="https://lagged.in/contact" />
+<link rel="alternate" hreflang="id" href="https://lagged.id/contact" />
+<link rel="alternate" hreflang="it" href="https://lagged.com/it/contact" />
+<link rel="alternate" hreflang="ja" href="https://lagged.jp/contact" />
+<link rel="alternate" hreflang="ko" href="https://lagged.kr/contact" />
+<link rel="alternate" hreflang="nl" href="https://spellen2.com/contact" />
+<link rel="alternate" hreflang="pl" href="https://lagged.pl/contact" />
+<link rel="alternate" hreflang="ro" href="https://lagged.ro/contact" />
+<link rel="alternate" hreflang="ru" href="https://lagged.ru/contact" />
+<link rel="alternate" hreflang="sv" href="https://lagged.se/contact" />
+<link rel="alternate" hreflang="th" href="https://lagged.com/th/contact" />
+<link rel="alternate" hreflang="vi" href="https://lagged.vn/contact" />
+<link rel="alternate" hreflang="zh" href="https://lagged.cn/contact" />
+<link rel="alternate" hreflang="tr" href="https://oyun.io/i̇letişim" />
+<link rel="alternate" hreflang="es" href="https://lagged.es/contáctenos" />
+<link rel="alternate" hreflang="pt-BR" href="https://lagged.com.br/contato" />
+<link rel="alternate" hreflang="de" href="https://spiel2.com/contact" />
+<link rel="alternate" hreflang="en" href="https://lagged.com/contact" />
+<link rel="alternate" hreflang="x-default" href="https://lagged.com/contact" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://lagged.com/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://lagged.com/images/icon/touch-icon-iphone.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9FX471252"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-E9FX471252');
+gtag('config', 'AW-1055364430');
+</script>
+</head><body>
+<div id="wrapper"><div id="header"><div id="logo">
+<div class="wrapit"><div class="topperleft">
+<a class="sitename" href="https://lagged.com/it/" title="Lagged">Lagged</a>
+</div>
+<div id="ajaxsrwr" class="ajax_search" style="display:none">
+<form id="ajaxform" action="https://lagged.com/it/search.php" method="post" onsubmit="return false;">
+<input id="ajaxbar" onkeydown="ajaxSearch(event);" oninput="ajaxSearchUp(this.value);" type="text" name="query" placeholder="Ricerca" class="form-control" value required autocomplete="off">
+<button id="searchbtn" type="submit" onclick="ajaxSubmit(event);">Ricerca</button>
+</form>
+</div>
+<div class="topperight">
+<button id="togglesearchr" class="headerbtn search" title="Ricerca" onclick="toggleAjaxSearch();">Ricerca</button>
+<a href="https://lagged.com/it/top" class="headerbtn top" title="Classifica">Classifica</a>
+<a href="https://lagged.com/it/menu" class="headerbtn menu" title="Menù">Menù</a>
+</div></div></div></div>
+<div class="wrapit extrapad">
+<div class="page-header">
+<h1>Contattaci</h1>
+</div>
+<p class="bg-caution signuppage" style="background-color:#f8f8f8;font-size:16px"><a style="font-size:16px" href="https://lagged.dev/" target="_blank" rel="noreferrer">&#8594; Clicca qui per continuare</a></p>
+<form method="post" action="https://lagged.com/it/contact?submit" id="loginit">
+<div class="form-group">
+<label for="exampleInputEmail1">E-mail</label>
+<input autofocus type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail" required>
+</div>
+<div class="form-group">
+<label for="exampleInputEmail2">Materia</label>
+<input type="text" name="subject" class="form-control" id="exampleInputEmail2" placeholder="Materia" required>
+</div>
+<div class="form-group">
+<label for="exampleInputEmail3">Messaggio</label>
+<textarea id="exampleInputEmail3" class="form-control" name="message" placeholder="Messaggio" required style="height:100px"></textarea>
+</div>
+<button type="submit" class="btn btn-full btn-bigtxt">Inviare</button>
+</form>
+</div>
+<footer id="footer">
+<div class="footwrap"><div class="footlead">
+<a href="https://lagged.com/it" title="Lagged" class="footerlogo">Lagged</a>
+<button id="togglelnbtn" onclick="toggleLang();" class="footsocial flag">Italiano</button>
+<div id="togglelang">
+<a href="https://lagged.com/contact" hreflang="en" title="Lagged.com">English <span>(Engelsk)</span></a>
+<a href="https://spiel2.com/contact" hreflang="de" class="de" title="Spiel2.com">Deutsche <span>(Tysk)</span></a>
+<a href="https://lagged.com.br/contato" hreflang="pt-BR" class="pt" title="Lagged.com.br">Português <span>(Portugisiska)</span></a>
+<a href="https://lagged.es/contáctenos" hreflang="es" class="es" title="Lagged.es">Español <span>(Spanska)</span></a>
+<a href="https://oyun.io/i̇letişim" hreflang="tr" class="tr" title="Oyun.io">Türkçe <span>(Turkiska)</span></a>
+<a href="https://lagged.me/contact" hreflang="ar" class="ar" title="Lagged.me">عربى <span>(Arabiska)</span></a>
+<a href="https://lagged.bg/contact" hreflang="bg" class="bg" title="Lagged.bg">български <span>(Bulgaro)</span></a>
+<a href="https://lagged.gr/contact" hreflang="el" class="el" title="Lagged.gr">Ελληνικά <span>(Greco)</span></a>
+<a href="https://lagged.fi/contact" hreflang="fi" class="fi" title="Lagged.fi">Suomalainen <span>(Finnish)</span></a>
+<a href="https://lagged.fr/contact" hreflang="fr" class="fr" title="Lagged.fr">Français <span>(Franska)</span></a>
+<a href="https://lagged.in/contact" hreflang="hi" class="hi" title="Lagged.in">हिन्दी <span>(Hindi)</span></a>
+<a href="https://lagged.id/contact" hreflang="id" class="id" title="Lagged.id">Indonesia <span>(Indonesiska)</span></a>
+<a href="https://lagged.com/it/contact" hreflang="it" class="it active" title="Lagged.com/it">Italiano</a>
+<a href="https://lagged.jp/contact" hreflang="ja" class="ja" title="Lagged.jp">日本 <span>(Japanska)</span></a>
+<a href="https://lagged.kr/contact" hreflang="ko" class="ko" title="Lagged.kr">한국어 <span>(Koreanska)</span></a>
+<a href="https://spellen2.com/contact" hreflang="nl" class="nl" title="Spellen2.com">Nederlands <span>(Holländska)</span></a>
+<a href="https://lagged.pl/contact" hreflang="pl" class="pl" title="Lagged.pl">Polski <span>(Putsa)</span></a>
+<a href="https://lagged.ro/contact" hreflang="ro" class="ro" title="Lagged.ro">Română <span>(Rumeno)</span></a>
+<a href="https://lagged.ru/contact" hreflang="ru" class="ru" title="Lagged.ru">Pусский <span>(Ryska)</span></a>
+<a href="https://lagged.se/contact" hreflang="sv" class="sv" title="Lagged.se">Svenska <span>(Svedese)</span></a>
+<a href="https://lagged.com/th/contact" hreflang="th" class="th" title="Lagged.com/th">ไทย <span>(Thai)</span></a>
+<a href="https://lagged.vn/contact" hreflang="vi" class="vi" title="Lagged.vn">Tiếng Việt <span>(Vietnamesiska)</span></a>
+<a href="https://lagged.cn/contact" hreflang="zh" class="zh" title="Lagged.cn">中国人 <span>(Kinesiska)</span></a>
+</div>
+<a href="https://www.youtube.com/lagged" target="_blank" rel="noopener noreferrer" class="footsocial yt">YouTube</a>
+</div><div class="footsub"><a href="https://lagged.com/it/contact">Contattaci</a><a href="https://lagged.com/it/privacy">Informativa sulla privacy</a></div>
+<div class="footend"><p>Lagged è la migliore piattaforma per giochi online. Sfida i tuoi amici a migliaia di giochi diversi su PC, tablet o dispositivi mobili. Competi per punteggi alti e per ottenere risultati così da scalare la nostra classifica globale.</p><p>&copy; Lagged 2023</p>
+</div>
+</div>
+</footer>
+</div>
+<link rel="stylesheet" href="https://lagged.com/it/js/v2/styles.css" media="all">
+<script src="https://lagged.com/it/js/v2/customchannels.js"></script>
+<script src="https://lagged.com/it/js/v2/site.js"></script>
+</body></html>

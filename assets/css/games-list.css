@@ -939,6 +939,9 @@
 .cards .btd-6 {
     background-image: url("/assets/img/thumbnails/bloons-td-6.png");
 }
+.cards .jetpack-joyride {
+    background-image: url("/assets/img/thumbnails/jetpack-joyride.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

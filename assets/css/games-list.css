@@ -942,6 +942,15 @@
 .cards .jetpack-joyride {
     background-image: url("/assets/img/thumbnails/jetpack-joyride.png");
 }
+.cards .helix-jump {
+    background-image: url("/assets/img/thumbnails/helix-jump.png");
+}
+.cards .hexgl {
+    background-image: url("/assets/img/thumbnails/hexgl.png");
+}
+.cards .duck-life-6 {
+    background-image: url("/assets/img/thumbnails/duck-life-6.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

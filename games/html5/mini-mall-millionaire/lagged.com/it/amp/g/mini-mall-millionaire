@@ -1,0 +1,94 @@
+<!doctype html>
+<html amp lang="it">
+<head>
+<meta charset="utf-8">
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<title>Mini Mall Millionaire - Gioco di Mini Mall Millionaire in linea</title>
+<link rel="canonical" href="https://lagged.com/it/it/g/mini-mall-millionaire">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+<script type="application/ld+json">{"@context": "http://schema.org",
+"@type": "WebApplication","applicationCategory": "Game","operatingSystem":"Windows, Linux, OSX, Android, iOS","name": "Mini Mall Millionaire","applicationSubCategory": "giochi per ragazze Game","creator":{"@type":"Organization","name":"Lagged"},"description":"Cerca di diventare milionario aprendo diversi negozi nel centro commerciale locale. Cerca di mantenere felici i tuoi clienti mentre espandi la tua attività e diventi ricco. Continua ad aggiornare i tuoi negozi, espandendoti in nuove aree e attirando abbastanza visitatori per realizzare un profitto.",
+"aggregateRating":{"@type":"AggregateRating","ratingValue":95,"bestRating":100,"worstRating":1,"ratingCount":581},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"http://schema.org/InStock"},"image": ["https://imgs2.dab3games.com/mini-mall-millionaire-game.png"]}</script>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<style amp-custom>
+#header,#wrapper,h1,h2,h3{width:100%;float:left}.play_btn,a,button{outline:0}#footer,#play_btn,.ad970{text-align:center}.imgwrapgame:hover,a.searchlink:hover,button:hover{cursor:pointer}body,div,h1,h2,h3,html,p{margin:0;padding:0}h1,h2,h3{font-size:100%;font-weight:400;clear:both}#play_btn,h3{font-weight:700}button{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:10px}body{font-family:Arial,Helvetica,sans-serif;font-size:12px;background-color:#fefefe}a,a:link{color:#337ab7;text-decoration:none}a:hover{text-decoration:underline}h1,h2{font-size:18px}h3{font-size:15px}h2{padding-bottom:10px}.wrapit,.wrapit2{max-width:1800px;min-width:300px;margin:0 auto;}#wrapper{background-color:#f8f8f8}#header{background-color:#2a6490}.wrapit{float:left;width:98%;padding:0 1%}.wrapit2{display:block;width:100%}.wrapit.maindiv{padding:0;margin:0 auto;width:100%;background-color:#eee}#logo{float:left;height:60px;width:100%}.wrapit a.sitename{display:block;position:relative;height:60px;width:160px;float:left;text-indent:-9999px}.wrapit a.sitename:before{content:'';width:160px;height:46px;position:absolute;top:8px;left:1px;background:url(https://lagged.com/images/lgcm1.png) 0 0 no-repeat;background-size:250px 125px}.game_info_right p a.inlinelink{float:none;display:inline;padding:0;clear:none}#breadcrumbs{font-size:15px;float:left;clear:both;overflow:hidden;line-height:32px;height:32px;background-color:#eee;width:98%;padding:0 1%}#breadcrumbs a{float:left;padding-right:5px}#breadcrumbs a:hover{color:#2a6490;text-decoration:none}#breadcrumbs a.bitem{padding-left:2px}#breadcrumbs a.bitem:before{content:'\203A\00a0';color:#CF0085}#play_btn:before,.awardflare:before,a.searchlink:before{content:''}.awardflare{float:left;clear:both;width:170px;margin-top:5px;position:relative;padding-left:27px;height:23px;line-height:23px}.awardflare:before{height:23px;left:0;width:23px;top:0;position:absolute;background:url(https://lagged.com/images/lgcm1.png) -268px -75px no-repeat;background-size:300px 150px}.awardflare.flarethumb:before{background-position:-268px -129px}#play_btn{float:left;display:block;color:#fff;font-size:1.4em;border-radius:5px;background-color:#2a6490;border:0}#play_btn:hover{background-color:#5886A9}.topperleft{float:left;width:160px}.toppercenter{float:left;width:auto;line-height:60px;height:60px;max-width:320px;overflow:hidden;color:#fff;margin-left:15px}.toppercenter h1{font-size:18px;letter-spacing:.03em}.topperight{float:right;width:136px;height:60px;margin-top:0}a.searchlink{float:left;width:39px;text-indent:-9999px;position:relative;height:39px;background-color:#2a638f;border-radius:5px}a.searchlink:before{width:30px;height:30px;position:absolute;left:5px;top:5px;background:url(https://lagged.com/images/lgcm1.png) -267px -35px no-repeat;background-size:300px 150px}.vidthumb,.vidthumb a{width:100%;float:left}a.searchlink.searchicon{margin-right:7px}a.searchlink.searchicon:before{background-position:-235px -33px;height:31px;top:5px}.vidthumb{position:relative;margin-bottom:10px}.vidthumb a:hover .title{color:#999}.vidthumb a{display:block}.vidthumb .runtime{position:absolute;bottom:0;right:55%;background-color:rgba(0,0,0,.6);color:#fff;width:40px;height:20px;line-height:20px;text-align:center}.vidthumb .title{float:left;width:52%;color:#000;font-size:16px;padding:5px 0 0 3%}.game-ftvids{float:left;clear:both;width:100%;margin:10px 0;padding:10px 0;border-bottom:1px solid #ddd;border-top:1px solid #ddd}.realvidstuf{border-top:0;padding-top:0}.game-ftvids h3{text-transform:uppercase;color:#000;font-size:13px;padding-bottom:5px;letter-spacing:1.5px}.game-ftvids .vidthumb{width:200px;margin:0 10px 10px 0}p.gametags-more strong{font-size:15px}p.gametags-more a{background-color:#fff;border-radius:5px;border: solid 1px #ddd;padding:0;margin:6px 12px 6px 0;clear:none}.game_info_boxs,.game_info_left,.game_info_right{float:left}.game-ftvids .vidthumb .runtime{right:0;bottom:auto;top:92.5px;font-size:12px}.game-ftvids .vidthumb .title{width:100%;clear:both;padding:4px 0 0 1px;font-size:14px}.ad970,.game_info_wrapper{width:100%;clear:both}.ad970{max-width:970px;margin:5px auto}.game_info_wrapper{max-width:980px;margin:10px auto 20px;height:300px;color:#111}.game_info_boxs{margin:8px 17px 0 17px;border-radius: 3px;box-shadow: 0 4px 4px 0 rgba(0,0,0,.15);background-color: #fff;padding: 32px;width: calc(100% - 98px);}.game_info_left{width:98%;padding:1%;position:relative}.game_info_left div{float:left;width:83%;padding-left:2%}.game_info_left #play_btn{clear:both;width:auto;padding:0 22px 0 37px;margin:15px 0 0;text-shadow:none;position:relative;line-height:44px}#play_btn:before{position:absolute;font-size:30px;line-height:32px;font-weight:700;top:50%;margin-top:-8px;width:15px;height:17px;left:12px;color:#fff;background:url(https://lagged.com/images/lgcm1.png) -68px -74px;background-size:300px 150px}.game_info_right{clear:both;width:96%;padding:0 2% 2%;font-size:15px;letter-spacing:1px;margin:10px 0}.game_info_left h2{font-size:24px;margin:0;padding:8px 0 4px}.game_info_right p{float:left;clear:both;padding:5px 0;overflow:hidden;font-size:13px}.game_info_right p a{font-size:14px;padding:3px 3px 0;float:left}.game_info_right p a:last-child{padding-bottom:0}#footer{width:100%;margin:0 auto 5px;font-size:13px;float:left;clear:both}#footer p{width:94%;padding:0 3%}#footer .footwrap{float:left;clear:both;width:100%;margin:10px 0;padding:15px 0 0;text-align:left}#footer .footlead{background-color:#004b76;float:left;clear:both;width:96%;padding:12px 2%;height:35px}#footer .footerlogo{display:block;float:left;text-indent:-9999px;background:url(https://lagged.com/images/lgcm1.png) 0 -105px no-repeat;background-size:300px 150px;width:180px;height:35px}#footer .footsocial{width:30px;height:30px;margin-top:2px;border-radius:3px;display:block;float:right;text-indent:-9999px;background:url(https://lagged.com/images/lgcm1.png) -240px 0 no-repeat;background-size:300px 150px}#footer .footsocial.yt{margin-left:10px;background-position:-270px 0}#footer .footsub{background-color:#e5e5e5;float:left;clear:both;width:96%;padding:5px 2%;height:30px}#footer .footsub a{float:left;display:block;padding-right:30px;font-size:14px;color:#222;line-height:30px}#footer .footend{float:left;clear:both;font-size:14px;width:96%;padding:5px 2%;margin-top:10px}#footer .footend p{padding:0 0 10px;width:100%;max-width:900px}a.headerbtn{float:left;width:44px;text-indent:-9999px;position:relative;height:60px;margin-right:4px}a.headerbtn:before{content:'';width:28px;height:28px;position:absolute;left:9px;top:17px;background:url(https://lagged.com/images/lgcm1.png) -240px -37px no-repeat;background-size:300px 150px}a.headerbtn.top:before{background-position:-211px 0}a.headerbtn.menu{border:0;margin-right:0;width:40px;padding-right:0}a.headerbtn.menu:before{background-position:-274px -37px}@media (min-width:1800px){.wrapit{float:none;clear:both}.wrapit.maindiv{margin-top:0;padding-top:15px}}@media (max-width:1025px){.toppercenter{max-width:220px}}@media (max-width:800px){.ad970,.game_info_wrapper,.wrapit.maindiv{margin-top:0}.game_info_left{padding:2%;width:96%}.game_info_left h2{padding-top:8px;line-height:26px}.wrapit{width:96%;padding:0 2%}.toppercenter{display:none}.game_info_left .game_info_left div{float:left;width:67%;padding-left:3%}}@media (max-width:450px){.game-ftvids .vidthumb{width:100%;padding-bottom:10px}.game_info_left h2{padding-top:5px;line-height:26px}.ad970{min-height:100px}}a.play_btn:before{content:'';position:absolute;font-size:30px;line-height:32px;font-weight:700;top:50%;margin-top:-8px;width:15px;height:17px;color:#fff;left:50%;margin-left:-82px;background:url(https://lagged.com/images/lgcm1.png) -68px -74px;background-size:300px 150px}a.play_btn{clear:both;width:auto;text-shadow:none;position:relative;border:0;width:100%;margin:15px 0 0;font-size:18px;border-radius:3px;line-height:46px;font-family:Arial;text-align:center;background-color:#2a6490;color:#fff;float:left;font-weight:700}.gameinleftnew{float:left;width:190px;padding:0 30px 0 0}.imgwrapgame{float:left;width:190px;max-width:190px;padding:0;position:relative}.ampnewfloat p{line-height:19px;font-size:12px;padding-top:12px;clear:both}.ampnewfloat h2{line-height:26px;font-size:24px;margin:0;color:#111;padding:0;font-weight:700}div.rativebtnbit{width:100%;padding:0;margin-top:5px}.game_info_left img{border-radius:3px;box-shadow:0 0 1px rgba(0,0,0,.4)}.game_info_left img{float:left;width:190px;height:190px;border-radius:3px;box-shadow:0 0 1px rgba(0,0,0,.4)}.ampnewfloat{float:left;width:calc(100% - 260px);padding:0 40px 0 0}@media (max-width:800px){.imgwrapgame{max-width:190px}}@media (max-width:450px){.imgwrapgame{width:100%;height:auto;max-width:none}.ampnewfloat{width:100%;padding:0;margin:0;clear:both}.gameinleftnew{float:none;margin:0 auto;height:275px}.game_info_left img{width:100%;height:auto;margin:0 auto;max-width:250px;float:none;display:block}.imgwrapgame a:before{display:block;content:'';position:absolute;top:75px;left:75px;width:40px;height:40px;background-color:#000;border-radius:25px;background:#000 url(https://lagged.com/images/lgcm1.png) -54px -62px;background-size:300px 150px;opacity:.8;z-index:1}}
+</style>
+
+</head>
+<body>
+<div id="wrapper"><div id="header"><div id="logo">
+<div class="wrapit"><div class="topperleft">
+<a class="sitename" href="https://lagged.com/it" title="Lagged">Lagged</a>
+</div>
+<div class="toppercenter"><h1>Mini Mall Millionaire</h1></div>
+<div class="topperight">
+  <a href="https://lagged.com/it/search/" class="headerbtn search">Ricerca</a>
+  <a href="https://lagged.com/it/top" class="headerbtn top" title="Classifica">Classifica</a>
+  <a href="https://lagged.com/it/menu" class="headerbtn menu" title="Menù">Menù</a>
+</div></div></div></div>
+<div id="breadcrumbs"><div class="wrapit2" itemscope itemtype="http://schema.org/BreadcrumbList">
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it"><span itemprop="name">Lagged</span></a><meta itemprop="position" content="1" /></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/girl" class="bitem"><span itemprop="name">Giochi Per Ragazze</span></a><meta itemprop="position" content="2" /></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/upgrade" class="bitem"><span itemprop="name">Giochi Di Incremento</span></a><meta itemprop="position" content="3" /></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/g/mini-mall-millionaire" class="bitem active"><span itemprop="name">Mini Mall Millionaire</span></a><meta itemprop="position" content="4" /></span></div></div>
+<div class="wrapit maindiv">
+<div class="game_info_wrapper"><div class="game_info_boxs">
+<div class="gameinleftnew">
+<div id="game-img-click" class="imgwrapgame"><a href="https://lagged.com/it/it/g/mini-mall-millionaire" rel="nofollow"><amp-img src="https://imgs2.dab3games.com/mini-mall-millionaire-game.png" alt="Mini Mall Millionaire" width="200" height="200" layout="responsive" /></a>
+</div>
+<a href="https://lagged.com/it/it/g/mini-mall-millionaire" class="play_btn" rel="nofollow">Gioca Subito</a>
+</div>
+
+<div class="ampnewfloat">
+<h2>Gioco Mini Mall Millionaire</h2>
+<p>Cerca di diventare milionario aprendo diversi negozi nel centro commerciale locale. Cerca di mantenere felici i tuoi clienti mentre espandi la tua attività e diventi ricco. Continua ad aggiornare i tuoi negozi, espandendoti in nuove aree e attirando abbastanza visitatori per realizzare un profitto.</p>
+<b>Come giocare</b>: Clicca o tocca per interagire</p>
+<div class="rativebtnbit">
+<span class="awardflare flarethumb">Al 95% piace questo</span>
+</div></div>
+
+<div class="game_info_right">
+<div class="game-ftvids">
+<p class="gametags-more"><strong>Più giochi</strong><br><a title="giochi per ragazze" href="https://lagged.com/it/it/girl"><amp-img src="https://imgs2.dab3games.com/ice-cream-inc-game.png" alt="giochi per ragazze" width="50" height="50" /><span>Giochi Per Ragazze</span></a><a title="giochi di incremento" href="https://lagged.com/it/it/upgrade"><amp-img src="https://imgs2.dab3games.com/dino-qwert242.png" alt="giochi di incremento" width="50" height="50" /><span>Giochi Di Incremento</span></a><a title="giochi di click" href="https://lagged.com/it/it/clicker"><amp-img src="https://imgs2.dab3games.com/troll-boss-game904.png" alt="giochi di click" width="50" height="50" /><span>Giochi Di Click</span></a></p>
+</div>
+<div class="game-ftvids realvidstuf">
+<h3>Video in primo piano</h3>
+<div class="vidthumb"><a href="https://lagged.com/it/watch/360" title="Mini Mall Millionaire Full Game Walkthrough">
+<amp-img src="https://imgs2.dab3games.com/mini-mall-millionaire-walkthrough.jpg" alt="Video" layout="responsive" width="400" height="225" />
+<span class="runtime">30:00</span>
+<span class="title">Mini Mall Millionaire Full Game Walkthrough</span></a></div>
+</div>
+<p>Mini Mall Millionaire è un gioco giochi per ragazze online che abbiamo scelto appositamente per Lagged.com. Questo è uno dei nostri giochi giochi per ragazze per cellulari preferiti. Basta cliccare il grande tasto Gioca per iniziare a divertirti. Se cerchi più titoli come questo, dai un'occhiata a Dama o DrawThis. Più più giochi gratuiti, da' un'occhiata alla nostra pagina dei migliori giochi in assoluto.</p>
+</div></div></div>
+<footer id="footer">
+<div class="footwrap"><div class="footlead">
+<a href="https://lagged.com/it" title="Lagged" class="footerlogo">Lagged</a>
+<a href="https://www.youtube.com/lagged" target="_blank" rel="noopener noreferrer" class="footsocial yt">YouTube</a><a href="https://www.facebook.com/LaggedGames/" target="_blank" rel="noopener noreferrer" class="footsocial fb">Facebook</a>
+</div><div class="footsub"><a href="https://lagged.com/it/contact">Contattaci</a><a href="https://lagged.com/it/privacy">Informativa sulla privacy</a></div>
+<div class="footend"><p>Lagged è la migliore piattaforma per giochi online. Sfida i tuoi amici a migliaia di giochi diversi su PC, tablet o dispositivi mobili. Competi per punteggi alti e per ottenere risultati così da scalare la nostra classifica globale.</p><p>&copy; Lagged 2023</p>
+</div>
+</div>
+</footer>
+</div>
+
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+"vars": {
+"account": "G-E9FX471252"
+},
+"triggers": {
+"trackPageview": {
+"on": "visible",
+"request": "pageview"
+}
+}
+}
+</script>
+</amp-analytics>
+
+</body>
+</html>

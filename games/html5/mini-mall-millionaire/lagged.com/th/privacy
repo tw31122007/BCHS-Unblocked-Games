@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="th"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>นโยบายความเป็นส่วนตัว - Lagged</title>
+<meta name="description" content="นโยบายความเป็นส่วนตัวและเงื่อนไขการใช้งานของเรา" />
+<link rel="search" href="https://lagged.com/th/opensearch_desc.xml" type="application/opensearchdescription+xml" title="Lagged" />
+<link rel="alternate" type="application/rss+xml" title="игры" href="https://lagged.com/th/rss/" />
+<link rel="manifest" href="https://lagged.com/th/manifest.json">
+<meta name="theme-color" content="#2a6490" />
+<meta property="og:title" content="นโยบายความเป็นส่วนตัว - Lagged" />
+<meta property="og:site_name" content="Lagged">
+<meta property="og:type" content="game" />
+<meta property="fb:app_id" content="614526822036983" />
+<link href="https://plus.google.com/+LaggedGames" rel="publisher" />
+<meta property="og:url" content="https://lagged.com/th/privacy" />
+<meta property="og:image" content="https://imgs2.dab3games.com/share-site.jpg" />
+<link rel="alternate" hreflang="ar" href="https://lagged.me/privacy" />
+<link rel="alternate" hreflang="bg" href="https://lagged.bg/privacy" />
+<link rel="alternate" hreflang="el" href="https://lagged.gr/privacy" />
+<link rel="alternate" hreflang="fi" href="https://lagged.fi/privacy" />
+<link rel="alternate" hreflang="fr" href="https://lagged.fr/privacy" />
+<link rel="alternate" hreflang="hi" href="https://lagged.in/privacy" />
+<link rel="alternate" hreflang="id" href="https://lagged.id/privacy" />
+<link rel="alternate" hreflang="it" href="https://lagged.com/it/privacy" />
+<link rel="alternate" hreflang="ja" href="https://lagged.jp/privacy" />
+<link rel="alternate" hreflang="ko" href="https://lagged.kr/privacy" />
+<link rel="alternate" hreflang="nl" href="https://spellen2.com/privacy" />
+<link rel="alternate" hreflang="pl" href="https://lagged.pl/privacy" />
+<link rel="alternate" hreflang="ro" href="https://lagged.ro/privacy" />
+<link rel="alternate" hreflang="ru" href="https://lagged.ru/privacy" />
+<link rel="alternate" hreflang="sv" href="https://lagged.se/privacy" />
+<link rel="alternate" hreflang="th" href="https://lagged.com/th/privacy" />
+<link rel="alternate" hreflang="vi" href="https://lagged.vn/privacy" />
+<link rel="alternate" hreflang="zh" href="https://lagged.cn/privacy" />
+<link rel="alternate" hreflang="tr" href="https://oyun.io/gizlilik" />
+<link rel="alternate" hreflang="es" href="https://lagged.es/intimidad" />
+<link rel="alternate" hreflang="pt-BR" href="https://lagged.com.br/privacidade" />
+<link rel="alternate" hreflang="de" href="https://spiel2.com/privacy" />
+<link rel="alternate" hreflang="en" href="https://lagged.com/privacy" />
+<link rel="alternate" hreflang="x-default" href="https://lagged.com/privacy" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://lagged.com/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://lagged.com/images/icon/touch-icon-iphone.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S1XQ1HZS9"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-8S1XQ1HZS9');
+gtag('config', 'AW-1055364430');
+</script>
+</head><body>
+<div id="wrapper"><div id="header"><div id="logo">
+<div class="wrapit"><div class="topperleft">
+<a class="sitename" href="https://lagged.com/th/" title="Lagged">Lagged</a>
+</div>
+<div id="ajaxsrwr" class="ajax_search" style="display:none">
+<form id="ajaxform" action="https://lagged.com/th/search.php" method="post" onsubmit="return false;">
+<input id="ajaxbar" onkeydown="ajaxSearch(event);" oninput="ajaxSearchUp(this.value);" type="text" name="query" placeholder="ค้นหา" class="form-control" value required autocomplete="off">
+<button id="searchbtn" type="submit" onclick="ajaxSubmit(event);">ค้นหา</button>
+</form>
+</div>
+<div class="topperight">
+<button id="togglesearchr" class="headerbtn search" onclick="toggleAjaxSearch();">ค้นหา</button>
+<a href="https://lagged.com/th/top" class="headerbtn top" title="ด้านบน">ด้านบน</a>
+<a href="https://lagged.com/th/menu" class="headerbtn menu" title="เมนู">เมนู</a>
+</div></div></div></div>
+<div class="wrapit maindiv noftgames">
+<div class="page-header">
+<h1 style="padding-top:10px">Lagged: นโยบายความเป็นส่วนตัว</h1>
+</div>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+This Privacy Policy describes how your personal information is collected, used, and shared when you visit https://lagged.com/ and/or https://lagged.com/th (the "Site").
+</p>
+<h4 style="font-weight:bold;font-size:16px;width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">PERSONAL INFORMATION WE COLLECT</h4>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages or products that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer to this automatically-collected information as "Device Information."
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+We collect Device Information using the following technologies:
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+- "Cookies" are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit <a href="http://www.allaboutcookies.org" target="_blank">http://www.allaboutcookies.org</a>.
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+- "Log files" track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+Additionally when you register an account on the Site, we collect your email address. A real and verified email address is not required to register an account. If you verify your email address we will opt you in to our weekly mailing list. You can opt out of the mailing list by clicking the unsubscribe button in the email, replying to the email directly or contact us using the information below.
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+When we talk about "Personal Information" in this Privacy Policy, we are talking both about Device Information and Order Information.
+</p>
+<h4 style="font-weight:bold;font-size:16px;width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">SHARING YOUR PERSONAL INFORMATION</h4>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+We use Google Analytics to help us understand how our customers use the Site--you can read more about how Google uses your Personal Information here: <a href="ttps://www.google.com/intl/en/policies/privacy/" target="_blank">https://www.google.com/intl/en/policies/privacy/</a>. You can also opt-out of Google Analytics here: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a>.
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.
+</p>
+<h4 style="font-weight:bold;font-size:16px;width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">BEHAVIOURAL ADVERTISING</h4>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s ("NAI") educational page at <a href="http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work" target="_blank">http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work</a>.
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+You can opt out of targeted advertising by:
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+GOOGLE - <a href="https://www.google.com/settings/ads/anonymous" target="_blank">https://www.google.com/settings/ads/anonymous</a>
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at: <a href="http://optout.aboutads.info/" target="_blank">http://optout.aboutads.info/</a>.
+</p>
+<h4 style="font-weight:bold;font-size:16px;width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">DO NOT TRACK</h4>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+Please note that we do not alter our Site’s data collection and use practices when we see a Do Not Track signal from your browser.</p>
+<h4 style="font-weight:bold;font-size:16px;width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">YOUR RIGHTS</h4>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.</p>
+<h4 style="font-weight:bold;font-size:16px;width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">MINORS</h4>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">The Site is not intended for individuals under the age of 13.</p>
+<h4 style="font-weight:bold;font-size:16px;width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">CHANGES</h4>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.</p>
+<h4 style="font-weight:bold;font-size:16px;width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">TERMS OF USE</h4>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">Lagged and their affiliates are not responsible for anything that you upload, say or otherwise do at lagged.com and lagged.com.br. By using our site or registering at our site you agree to not upload any copyrighted material that you do not have the rights to, link to any inappropriate material and to be respectful in your interaction with other members.
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+This Site is offered and made available only to users thirteen (13) years of age or older. If you are not yet 13 years old or the required greater age for certain features, please discontinue using the Site immediately, or if for any reason, you do not agree with all of the terms and conditions contained in this Agreement, please discontinue using the Site immediately because by using or attempting to use the Site, you certify that you are at least 13 years of age (or other required greater age for certain features, where applicable) and meet any other eligibility requirements of the Site.
+</p><p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+By using our website you agree to our terms of use and agree with our privacy policy.
+</p>
+<h4 style="font-weight:bold;font-size:16px;width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">CONTACT US</h4>
+<p style="width:90%;float:left;clear:both;margin:0 3%;font-size:15px;padding:5px 1%">
+For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="22464340624e43454547460c414d4f">[email&#160;protected]</a>.
+</p>
+<footer id="footer">
+<div class="footwrap"><div class="footlead">
+<a href="https://lagged.com/th" title="Lagged" class="footerlogo">Lagged</a>
+<button id="togglelnbtn" onclick="toggleLang();" class="footsocial flag">ไทย</button>
+<div id="togglelang">
+<a href="https://lagged.com/privacy" hreflang="en" title="Lagged.com">English <span>(ภาษาอังกฤษ)</span></a>
+<a href="https://spiel2.com/privacy" hreflang="de" class="de" title="Spiel2.com">Deutsche <span>(เยอรมัน)</span></a>
+<a href="https://lagged.com.br/privacidade" hreflang="pt-BR" class="pt" title="Lagged.com.br">Português <span>(โปรตุเกส)</span></a>
+<a href="https://lagged.es/intimidad" hreflang="es" class="es" title="Lagged.es">Español <span>(ภาษาสเปน)</span></a>
+<a href="https://oyun.io/gizlilik" hreflang="tr" class="tr" title="Oyun.io">Türkçe <span>(ตุรกี)</span></a>
+<a href="https://lagged.me/privacy" hreflang="ar" class="ar" title="Lagged.me">عربى <span>(ภาษาอาหรับ)</span></a>
+<a href="https://lagged.bg/privacy" hreflang="bg" class="bg" title="Lagged.bg">български <span>(บัลแกเรีย)</span></a>
+<a href="https://lagged.gr/privacy" hreflang="el" class="el" title="Lagged.gr">Ελληνικά <span>(กรีก)</span></a>
+<a href="https://lagged.fi/privacy" hreflang="fi" class="fi" title="Lagged.fi">Suomalainen <span>(ภาษาฟินแลนด์)</span></a>
+<a href="https://lagged.fr/privacy" hreflang="fr" class="fr" title="Lagged.fr">Français <span>(ภาษาฝรั่งเศส)</span></a>
+<a href="https://lagged.in/privacy" hreflang="hi" class="hi" title="Lagged.in">हिन्दी <span>(ภาษาฮินดี)</span></a>
+<a href="https://lagged.id/privacy" hreflang="id" class="id" title="Lagged.id">Indonesia <span>(ชาวอินโดนีเซีย)</span></a>
+<a href="https://lagged.com/it/privacy" hreflang="it" class="it" title="Lagged.com/it">Italiano <span>(ภาษาอิตาลี)</span></a>
+<a href="https://lagged.jp/privacy" hreflang="ja" class="ja" title="Lagged.jp">日本 <span>(ญี่ปุ่น)</span></a>
+<a href="https://lagged.kr/privacy" hreflang="ko" class="ko" title="Lagged.kr">한국어 <span>(เกาหลี)</span></a>
+<a href="https://spellen2.com/privacy" hreflang="nl" class="nl" title="Spellen2.com">Nederlands <span>(ดัตช์)</span></a>
+<a href="https://lagged.pl/privacy" hreflang="pl" class="pl" title="Lagged.pl">Polski <span>(ขัด)</span></a>
+<a href="https://lagged.ro/privacy" hreflang="ro" class="ro" title="Lagged.ro">Română <span>(ภาษาโรมาเนีย)</span></a>
+<a href="https://lagged.ru/privacy" hreflang="ru" class="ru" title="Lagged.ru">Pусский <span>(รัสเซีย)</span></a>
+<a href="https://lagged.se/privacy" hreflang="sv" class="sv" title="Lagged.se">Svenska <span>(ภาษาสวีเดน)</span></a>
+<a href="https://lagged.com/th/privacy" hreflang="th" class="th active" title="Lagged.com/th">ไทย</a>
+<a href="https://lagged.vn/privacy" hreflang="vi" class="vi" title="Lagged.vn">Tiếng Việt <span>(ภาษาเวียดนาม)</span></a>
+<a href="https://lagged.cn/privacy" hreflang="zh" class="zh" title="Lagged.cn">中国人 <span>(ชาวจีน)</span></a>
+</div>
+<a href="https://www.youtube.com/lagged" target="_blank" rel="noopener noreferrer" class="footsocial yt">YouTube</a>
+</div><div class="footsub"><a href="https://lagged.com/th/contact">ติดต่อเรา</a><a href="https://lagged.com/th/privacy">นโยบายความเป็นส่วนตัว</a></div>
+<div class="footend"><p>Lagged คือ แพลตฟอร์มเกมออนไลน์ที่ดีที่สุด ท้าทายเพื่อนของคุณให้มาเล่นเกมนับพันเกมที่หลากหลาย โดยสามารถเล่นได้ทั้งบนพีซี แท็บเล็ตหรืออุปกรณ์มือถือ ทำคะแนนในเกมให้สูงและรับรางวัลความสำเร็จเพื่อไต่อันดับกระดานผู้นำที่ทำคะแนนได้จากทั่วโลก.</p><p>&copy; Lagged 2023</p>
+</div>
+</div>
+</footer>
+</div>
+<link rel="stylesheet" href="https://lagged.com/th/js/v2/styles.css" media="all">
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://lagged.com/th/js/v2/customchannels.js"></script>
+<script src="https://lagged.com/th/js/v2/site.js"></script>
+</body></html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html><html lang="th"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>เมนู - Lagged</title>
+<meta name="description" content="เข้าสู่ระบบและดูเกม - Lagged" />
+<link rel="search" href="https://lagged.com/th/opensearch_desc.xml" type="application/opensearchdescription+xml" title="Lagged" />
+<link rel="alternate" type="application/rss+xml" title="игры" href="https://lagged.com/th/rss/" />
+<link rel="manifest" href="https://lagged.com/th/manifest.json">
+<meta name="theme-color" content="#2a6490" />
+<meta property="og:title" content="เมนู - Lagged" />
+<meta property="og:site_name" content="Lagged">
+<meta property="og:type" content="game" />
+<meta property="fb:app_id" content="614526822036983" />
+<link href="https://plus.google.com/+LaggedGames" rel="publisher" />
+<meta property="og:url" content="https://lagged.com/th/menu" />
+<meta property="og:image" content="https://imgs2.dab3games.com/share-site.jpg" />
+<link rel="alternate" hreflang="ar" href="https://lagged.me/menu" />
+<link rel="alternate" hreflang="bg" href="https://lagged.bg/menu" />
+<link rel="alternate" hreflang="el" href="https://lagged.gr/menu" />
+<link rel="alternate" hreflang="fi" href="https://lagged.fi/menu" />
+<link rel="alternate" hreflang="fr" href="https://lagged.fr/menu" />
+<link rel="alternate" hreflang="hi" href="https://lagged.in/menu" />
+<link rel="alternate" hreflang="id" href="https://lagged.id/menu" />
+<link rel="alternate" hreflang="it" href="https://lagged.com/it/menu" />
+<link rel="alternate" hreflang="ja" href="https://lagged.jp/menu" />
+<link rel="alternate" hreflang="ko" href="https://lagged.kr/menu" />
+<link rel="alternate" hreflang="nl" href="https://spellen2.com/menu" />
+<link rel="alternate" hreflang="pl" href="https://lagged.pl/menu" />
+<link rel="alternate" hreflang="ro" href="https://lagged.ro/menu" />
+<link rel="alternate" hreflang="ru" href="https://lagged.ru/menu" />
+<link rel="alternate" hreflang="sv" href="https://lagged.se/menu" />
+<link rel="alternate" hreflang="th" href="https://lagged.com/th/menu" />
+<link rel="alternate" hreflang="vi" href="https://lagged.vn/menu" />
+<link rel="alternate" hreflang="zh" href="https://lagged.cn/menu" />
+<link rel="alternate" hreflang="tr" href="https://oyun.io/menu" />
+<link rel="alternate" hreflang="es" href="https://lagged.es/menu" />
+<link rel="alternate" hreflang="pt-BR" href="https://lagged.com.br/menu" />
+<link rel="alternate" hreflang="de" href="https://spiel2.com/menu" />
+<link rel="alternate" hreflang="en" href="https://lagged.com/menu" />
+<link rel="alternate" hreflang="x-default" href="https://lagged.com/menu" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://lagged.com/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://lagged.com/images/icon/touch-icon-iphone.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S1XQ1HZS9"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-8S1XQ1HZS9');
+gtag('config', 'AW-1055364430');
+</script>
+</head><body>
+<div id="wrapper"><div id="header"><div id="logo">
+<div class="wrapit"><div class="topperleft">
+<a class="sitename" href="https://lagged.com/th/" title="Lagged">Lagged</a>
+</div>
+<div id="ajaxsrwr" class="ajax_search" style="display:none">
+<form id="ajaxform" action="https://lagged.com/th/search.php" method="post" onsubmit="return false;">
+<input id="ajaxbar" onkeydown="ajaxSearch(event);" oninput="ajaxSearchUp(this.value);" type="text" name="query" placeholder="ค้นหา" class="form-control" value required autocomplete="off">
+<button id="searchbtn" type="submit" onclick="ajaxSubmit(event);">ค้นหา</button>
+</form>
+</div>
+<div class="topperight">
+<button id="togglesearchr" class="headerbtn search" onclick="toggleAjaxSearch();">ค้นหา</button>
+<a href="https://lagged.com/th/top" class="headerbtn top" title="ด้านบน">ด้านบน</a>
+<a onclick="window.history.back();" class="headerbtn menu" title="เมนู">เมนู</a>
+</div></div></div></div>
+<div class="wrapit extrapad" style="max-width:900px;float:none;margin:0 auto;padding-top:15px;clear:both">
+<div class="page-header" style="margin-bottom:0">
+<ul class="nav nav-pills">
+<li role="presentation" class="active"><a href="https://lagged.com/th/login">เข้าระบบ</a></li>
+<li role="presentation"><a href="https://lagged.com/th/signup">สมัครสมาชิกฟรี</a></li>
+</ul></div>
+<form method="post" action="https://lagged.com/th/login?submit" id="loginit">
+<div class="form-group" style="margin-bottom:12px">
+<label for="exampleInputEmail1">ที่อยู่อีเมลของคุณ</label>
+<input type="email" name="user_name" class="form-control" id="exampleInputEmail1" placeholder="ที่อยู่อีเมลของคุณ" required>
+</div>
+<div class="form-group" style="margin-bottom:12px">
+<label for="exampleInputPassword1">รหัสผ่านของคุณ</label>
+<input type="password" class="form-control" id="exampleInputPassword1" name="user_password" placeholder="รหัสผ่านของคุณ" autocomplete="off" required>
+</div>
+<button type="submit" class="btn btn-full btn-bigtxt">เข้าระบบ</button>
+</form>
+<div class="cat_menu_link"><a href="https://lagged.com/th/help/password/">ลืมรหัสผ่านใช่ไหม?</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/th/history">ประวัติเกมของคุณ</a></div>
+<div class="cat_menu_link awardmenulink secondawardln"><a href="https://lagged.com/th/awards">เกมความสำเร็จ</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/th/c/new">เกมใหม่</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/th/c/popular">เกมยอดนิยม</a></div>
+<div class="category_main"><div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/th/th/io" title="เกมไอโอ"><img src="https://imgs2.dab3games.com/rackem-io-game.jpg" alt="เกมไอโอ" width="40" height="40">เกมไอโอ</a></li>
+<li><a href="https://lagged.com/th/th/two-player" title="เกมผู้เล่นสองคน"><img src="https://imgs2.dab3games.com/12-minibattles-game.png" alt="เกมผู้เล่นสองคน" width="40" height="40">เกมผู้เล่นสองคน</a></li>
+<li><a href="https://lagged.com/th/th/arcade" title="เกมอาเขต"><img src="https://imgs2.dab3games.com/bitlife-life-simulator1560.png" alt="เกมอาเขต" width="40" height="40">เกมอาเขต</a></li>
+<li><a href="https://lagged.com/th/th/police" title="เกมตำรวจ"><img src="https://imgs2.dab3games.com/stickman-gta-game19.png" alt="เกมตำรวจ" width="40" height="40">เกมตำรวจ</a></li>
+<li><a href="https://lagged.com/th/th/puzzle" title="เกมปริศนา"><img src="https://imgs2.dab3games.com/draw-and-guess-game.jpg" alt="เกมปริศนา" width="40" height="40">เกมปริศนา</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/th/th/shooting" title="เกมยิงปืน"><img src="https://imgs2.dab3games.com/ninja-clash-heroes-game.png" alt="เกมยิงปืน" width="40" height="40">เกมยิงปืน</a></li>
+<li><a href="https://lagged.com/th/th/stickman" title="เกมสติ๊กแมน"><img src="https://imgs2.dab3games.com/troll-thief-2-game29.png" alt="เกมสติ๊กแมน" width="40" height="40">เกมสติ๊กแมน</a></li>
+<li><a href="https://lagged.com/th/th/airplane" title="เกมเครื่องบิน"><img src="https://imgs2.dab3games.com/air-fight-game.jpg" alt="เกมเครื่องบิน" width="40" height="40">เกมเครื่องบิน</a></li>
+<li><a href="https://lagged.com/th/th/clicker" title="เกมคลิก"><img src="https://imgs2.dab3games.com/troll-boss-game904.png" alt="เกมคลิก" width="40" height="40">เกมคลิก</a></li>
+<li><a href="https://lagged.com/th/th/ninja" title="เกมนินจา"><img src="https://imgs2.dab3games.com/the-last-ninja-game.jpg" alt="เกมนินจา" width="40" height="40">เกมนินจา</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/th/th/basketball" title="เกมบาสเก็ตบอล"><img src="https://imgs2.dab3games.com/flappy-dunk-online.jpg" alt="เกมบาสเก็ตบอล" width="40" height="40">เกมบาสเก็ตบอล</a></li>
+<li><a href="https://lagged.com/th/th/friv" title="เกม friv"><img src="https://imgs2.dab3games.com/geometry-jump-game.png" alt="เกม friv" width="40" height="40">เกม friv</a></li>
+<li><a href="https://lagged.com/th/th/racing" title="เกมแข่งรถ"><img src="https://imgs2.dab3games.com/race-clicker-noob-game317.png" alt="เกมแข่งรถ" width="40" height="40">เกมแข่งรถ</a></li>
+<li><a href="https://lagged.com/th/th/football" title="เกมฟุตบอล"><img src="https://imgs2.dab3games.com/touchdown-3d1.png" alt="เกมฟุตบอล" width="40" height="40">เกมฟุตบอล</a></li>
+<li><a href="https://lagged.com/th/th/soccer" title="เกมซ็อคเกอร์"><img src="https://imgs2.dab3games.com/penalty-shooters-game.jpg" alt="เกมซ็อคเกอร์" width="40" height="40">เกมซ็อคเกอร์</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/th/th/car" title="เกมรถยนต์"><img src="https://imgs2.dab3games.com/killer-city-game.png" alt="เกมรถยนต์" width="40" height="40">เกมรถยนต์</a></li>
+<li><a href="https://lagged.com/th/th/running" title="เกมวิ่ง"><img src="https://imgs2.dab3games.com/skateboard-surf-game.png" alt="เกมวิ่ง" width="40" height="40">เกมวิ่ง</a></li>
+<li><a href="https://lagged.com/th/th/girl" title="เกมสำหรับเด็กผู้หญิง"><img src="https://imgs2.dab3games.com/ice-cream-inc-game.png" alt="เกมสำหรับเด็กผู้หญิง" width="40" height="40">เกมสำหรับเด็กผู้หญิง</a></li>
+<li><a href="https://lagged.com/th/th/dress-up" title="เกมแต่งตัว"><img src="https://imgs2.dab3games.com/tom-angela-dressup43.png" alt="เกมแต่งตัว" width="40" height="40">เกมแต่งตัว</a></li>
+<li><a href="https://lagged.com/th/th/snake" title="เกมงู"><img src="https://imgs2.dab3games.com/slither-io-game.jpg" alt="เกมงู" width="40" height="40">เกมงู</a></li>
+</ul></div></div>
+</div>
+</div>
+<div style="float:left;clear:both;width:100%;height:50px;background-color: #f8f8f8;"></div>
+<link rel="stylesheet" href="https://lagged.com/th/js/v2/styles.css" media="all">
+<script src="https://lagged.com/th/js/v2/customchannels.js"></script>
+<script src="https://lagged.com/th/js/v2/site.js"></script>
+</body></html>

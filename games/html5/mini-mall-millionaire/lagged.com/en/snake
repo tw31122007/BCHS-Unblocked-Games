@@ -1,0 +1,455 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>Snake Games - Free Online Snake Games on Lagged.com</title>
+<meta name="description" content="Play the best snake games online at Lagged.com. We have 65 free online snake games that can be played on PC, mobile and tablets. Enjoy titles like Slither.io, Snake.io and many more free games.">
+<link rel="search" href="https://lagged.com/opensearch_desc.xml" type="application/opensearchdescription+xml" title="Lagged">
+<link rel="alternate" type="application/rss+xml" title="New Games" href="https://lagged.com/rss/">
+<link rel="manifest" href="https://lagged.com/manifest.json">
+<meta name="theme-color" content="#2a6490">
+<link rel="image_src" href="https://imgs2.dab3games.com/slither-io-game.jpg">
+<meta property="og:image" content="https://imgs2.dab3games.com/slither-io-game.jpg">
+<meta property="og:title" content="Snake Games">
+<meta property="og:url" content="https://lagged.com/en/snake">
+<link rel="canonical" href="https://lagged.com/en/snake">
+<link rel="amphtml" href="https://lagged.com/amp/snake">
+<link rel="alternate" hreflang="en" href="https://lagged.com/en/snake">
+<link rel="alternate" hreflang="de" href="https://spiel2.com/de/schlangen-spiele">
+<link rel="alternate" hreflang="es" href="https://lagged.es/es/juegos-de-serpientes">
+<link rel="alternate" hreflang="pt-BR" href="https://lagged.com.br/pt/jogos-da-cobra">
+<link rel="alternate" hreflang="ar" href="https://lagged.me/ar/snake">
+<link rel="alternate" hreflang="bg" href="https://lagged.bg/bg/snake">
+<link rel="alternate" hreflang="el" href="https://lagged.gr/el/snake">
+<link rel="alternate" hreflang="fi" href="https://lagged.fi/fi/snake">
+<link rel="alternate" hreflang="fr" href="https://lagged.fr/fr/snake">
+<link rel="alternate" hreflang="hi" href="https://lagged.in/hi/snake">
+<link rel="alternate" hreflang="id" href="https://lagged.id/id/snake">
+<link rel="alternate" hreflang="it" href="https://lagged.com/it/it/snake">
+<link rel="alternate" hreflang="ja" href="https://lagged.jp/ja/snake">
+<link rel="alternate" hreflang="ko" href="https://lagged.kr/ko/snake">
+<link rel="alternate" hreflang="nl" href="https://spellen2.com/nl/snake">
+<link rel="alternate" hreflang="pl" href="https://lagged.pl/pl/snake">
+<link rel="alternate" hreflang="ro" href="https://lagged.ro/ro/snake">
+<link rel="alternate" hreflang="ru" href="https://lagged.ru/ru/snake">
+<link rel="alternate" hreflang="sv" href="https://lagged.se/sv/snake">
+<link rel="alternate" hreflang="th" href="https://lagged.com/th/th/snake">
+<link rel="alternate" hreflang="vi" href="https://lagged.vn/vi/snake">
+<link rel="alternate" hreflang="zh" href="https://lagged.cn/zh/snake">
+<link rel="alternate" hreflang="tr" href="https://oyun.io/tr/yılan-oyunları">
+<link rel="alternate" hreflang="x-default" href="https://lagged.com/en/snake">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@LaggedGames">
+<meta name="twitter:title" content="Snake Games">
+<meta name="twitter:description" content="Play Snake Games online for free on Lagged.com.">
+<meta name="twitter:image" content="https://imgs2.dab3games.com/slither-io-game.jpg">
+<meta property="og:site_name" content="Lagged">
+<meta property="og:type" content="game">
+<meta property="fb:app_id" content="614526822036983">
+<link href="https://plus.google.com/+LaggedGames" rel="publisher">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://lagged.com/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://lagged.com/images/icon/touch-icon-iphone.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F16JC3ZS20"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+gtag('config', 'AW-1055364430');gtag('config', 'G-F16JC3ZS20');</script>
+</head><body>
+<div id="wrapper"><div id="header"><div id="logo">
+<div class="wrapit"><div class="topperleft">
+<a class="sitename" href="https://lagged.com/" title="Lagged">Lagged</a>
+</div>
+<div class="toppercenter">
+<h1>Snake Games</h1>
+</div>
+<div class="topperight">
+<button id="togglesearchr" class="headerbtn search" title="Search" onclick="toggleAjaxSearch();">Search</button>
+<a href="https://lagged.com/menu" class="headerbtn menu" title="Menu">Menu</a>
+</div></div></div></div>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"url":"https://lagged.com/en/g/slither-io","name":"Slither.io","image":"https://imgs2.dab3games.com/slither-io-game.jpg"},{"@type":"ListItem","position":2,"url":"https://lagged.com/en/g/snakeio","name":"Snake.io","image":"https://imgs2.dab3games.com/snake-io-funny-game34.png"},{"@type":"ListItem","position":3,"url":"https://lagged.com/en/g/snake-run-race-3d","name":"Snake Run Race 3D","image":"https://imgs2.dab3games.com/snake-run-race-3d369.png"},{"@type":"ListItem","position":4,"url":"https://lagged.com/en/g/trainsio","name":"Trains.io","image":"https://imgs2.dab3games.com/trains-io-game44.png"},{"@type":"ListItem","position":5,"url":"https://lagged.com/en/g/death-worm","name":"Death Worm","image":"https://imgs2.dab3games.com/death-worm-game.jpg"},{"@type":"ListItem","position":6,"url":"https://lagged.com/en/g/snake-battle","name":"Snake Battle","image":"https://imgs2.dab3games.com/snake-battle-game.png"},{"@type":"ListItem","position":7,"url":"https://lagged.com/en/g/deep-worm-2","name":"Deep Worm 2","image":"https://imgs2.dab3games.com/deep-worm-2-game.png"},{"@type":"ListItem","position":8,"url":"https://lagged.com/en/g/deep-worm","name":"Deep Worm","image":"https://imgs2.dab3games.com/deep-worm-game.png"},{"@type":"ListItem","position":9,"url":"https://lagged.com/en/g/happy-snakes","name":"Happy Snakes","image":"https://imgs2.dab3games.com/happy-snakes-game.jpg"},{"@type":"ListItem","position":10,"url":"https://lagged.com/en/g/conquer","name":"Conquer","image":"https://imgs2.dab3games.com/conquer-game.jpg"},{"@type":"ListItem","position":11,"url":"https://lagged.com/en/g/dragon-vs-bricks","name":"Dragon vs Bricks","image":"https://imgs2.dab3games.com/dragon-vs-bricks-game-sm.png"},{"@type":"ListItem","position":12,"url":"https://lagged.com/en/g/red-snake-3d","name":"Red Snake 3D","image":"https://imgs2.dab3games.com/red-snake-3d-game30.png"},{"@type":"ListItem","position":13,"url":"https://lagged.com/en/g/train-snake","name":"Train Snake","image":"https://imgs2.dab3games.com/train-snake-game.png"},{"@type":"ListItem","position":14,"url":"https://lagged.com/en/g/narwhale-io","name":"Narwhale.io","image":"https://imgs2.dab3games.com/narwhale-io-game.jpg"},{"@type":"ListItem","position":15,"url":"https://lagged.com/en/g/snake-blast","name":"Snake Blast","image":"https://imgs2.dab3games.com/snake-blast-game.jpg"},{"@type":"ListItem","position":16,"url":"https://lagged.com/en/g/snake-falls","name":"Snake Falls","image":"https://imgs2.dab3games.com/snake-fall-game1.png"},{"@type":"ListItem","position":17,"url":"https://lagged.com/en/g/snake-blast-2","name":"Snake Blast 2","image":"https://imgs2.dab3games.com/snake-blast-2-game.png"},{"@type":"ListItem","position":18,"url":"https://lagged.com/en/g/snake-rush60","name":"Snake Rush","image":"https://imgs2.dab3games.com/snake-rush-game4.png"},{"@type":"ListItem","position":19,"url":"https://lagged.com/en/g/snake-classic760","name":"Snake Classic","image":"https://imgs2.dab3games.com/snake-game-online36.png"},{"@type":"ListItem","position":20,"url":"https://lagged.com/en/g/cool-math-snake","name":"Cool Math Snake","image":"https://imgs2.dab3games.com/cool-math-snake-game.png"},{"@type":"ListItem","position":21,"url":"https://lagged.com/en/g/cute-snake","name":"Cute Snake","image":"https://imgs2.dab3games.com/cute-snake-game6.png"},{"@type":"ListItem","position":22,"url":"https://lagged.com/en/g/snake-attack","name":"Snake Attack","image":"https://imgs2.dab3games.com/snake-attack-game.jpg"},{"@type":"ListItem","position":23,"url":"https://lagged.com/en/g/snake-blockade","name":"Snake Blockade","image":"https://imgs2.dab3games.com/snake-blockage-game859.png"},{"@type":"ListItem","position":24,"url":"https://lagged.com/en/g/snake-pro","name":"Snake Pro","image":"https://imgs2.dab3games.com/snake-pro-game.jpg"},{"@type":"ListItem","position":25,"url":"https://lagged.com/en/g/neon-snake","name":"Neon Snake","image":"https://imgs2.dab3games.com/neon-snake1-game.png"},{"@type":"ListItem","position":26,"url":"https://lagged.com/en/g/snake-go","name":"Snake Go","image":"https://imgs2.dab3games.com/snake-go-game158.png"},{"@type":"ListItem","position":27,"url":"https://lagged.com/en/g/snake-rush","name":"Snake Rush","image":"https://imgs2.dab3games.com/snake-rush-game.png"},{"@type":"ListItem","position":28,"url":"https://lagged.com/en/g/snake-and-blocks","name":"Snake and Blocks","image":"https://imgs2.dab3games.com/snake-and-blocks-game.jpg"},{"@type":"ListItem","position":29,"url":"https://lagged.com/en/g/smart-slither","name":"Smart Slither","image":"https://imgs2.dab3games.com/smart-slither-game.jpg"},{"@type":"ListItem","position":30,"url":"https://lagged.com/en/g/snake-color-break","name":"Snake Color Break","image":"https://imgs2.dab3games.com/snake-color-break-game.png"},{"@type":"ListItem","position":31,"url":"https://lagged.com/en/g/king-of-snakes","name":"King of Snakes","image":"https://imgs2.dab3games.com/king-of-snakes-game.png"},{"@type":"ListItem","position":32,"url":"https://lagged.com/en/g/snake-vs-block-online","name":"Snake vs Block Online","image":"https://imgs2.dab3games.com/snake-vs-block-game.jpg"},{"@type":"ListItem","position":33,"url":"https://lagged.com/en/g/spacial-snake","name":"Spacial Snake","image":"https://imgs2.dab3games.com/spacial-snake-game26.png"},{"@type":"ListItem","position":34,"url":"https://lagged.com/en/g/light-worm","name":"Light Worm","image":"https://imgs2.dab3games.com/light-worm-game1.png"},{"@type":"ListItem","position":35,"url":"https://lagged.com/en/g/diagonal","name":"Diagonal","image":"https://imgs2.dab3games.com/diagonal-game14.png"},{"@type":"ListItem","position":36,"url":"https://lagged.com/en/g/lightspeed-challenge","name":"Lightspeed Challenge","image":"https://imgs2.dab3games.com/lightspeed-challenge-6190.png"},{"@type":"ListItem","position":37,"url":"https://lagged.com/en/g/goby-snaker","name":"Snacking Snake","image":"https://imgs2.dab3games.com/snack-snake1-game.png"},{"@type":"ListItem","position":38,"url":"https://lagged.com/en/g/snake-land","name":"Snake Land","image":"https://imgs2.dab3games.com/snake-land-game.jpg"},{"@type":"ListItem","position":39,"url":"https://lagged.com/en/g/worms-zone-a-slithery-snake","name":"Worms Zone a Slithery Snake","image":"https://imgs2.dab3games.com/worms-zone-a-slithery-snake8238.png"},{"@type":"ListItem","position":40,"url":"https://lagged.com/en/g/gulper-io","name":"Gulper.io","image":"https://imgs2.dab3games.com/gulper-io-game.png"},{"@type":"ListItem","position":41,"url":"https://lagged.com/en/g/wormate-io","name":"Wormate.io","image":"https://imgs2.dab3games.com/wormate-io-game-dk4.jpg"},{"@type":"ListItem","position":42,"url":"https://lagged.com/en/g/silly-snakes","name":"Silly Snakes","image":"https://imgs2.dab3games.com/silly-snakes-game.jpg"},{"@type":"ListItem","position":43,"url":"https://lagged.com/en/g/zapper-io","name":"Zapper.io","image":"https://imgs2.dab3games.com/zapper-io-game.png"},{"@type":"ListItem","position":44,"url":"https://lagged.com/en/g/snake-party","name":"Snake Party","image":"https://imgs2.dab3games.com/snake-party-game.png"},{"@type":"ListItem","position":45,"url":"https://lagged.com/en/g/crazy-snake-io","name":"Crazy Snake IO","image":"https://imgs2.dab3games.com/crazy-snake-io5.png"},{"@type":"ListItem","position":46,"url":"https://lagged.com/en/g/curve-fever-pro","name":"Curve Fever Pro","image":"https://imgs2.dab3games.com/curve-fever-pro-game.png"},{"@type":"ListItem","position":47,"url":"https://lagged.com/en/g/classicsnake-io","name":"ClassicSnake.io","image":"https://imgs2.dab3games.com/classic-snakes-io-game.jpg"},{"@type":"ListItem","position":48,"url":"https://lagged.com/en/g/supersnake","name":"SuperSnake.io","image":"https://imgs2.dab3games.com/super-snake-io.jpg"},{"@type":"ListItem","position":49,"url":"https://lagged.com/en/g/angry-snakes","name":"Angry Snakes","image":"https://imgs2.dab3games.com/angry-snakes-game-8ks.jpg"},{"@type":"ListItem","position":50,"url":"https://lagged.com/en/g/snakes-and-ladders-online","name":"Snakes and Ladders Online","image":"https://imgs2.dab3games.com/snakes-ladders-online694.png"},{"@type":"ListItem","position":51,"url":"https://lagged.com/en/g/snakes-and-ladders-deluxe","name":"Snakes and Ladders Deluxe","image":"https://imgs2.dab3games.com/snakes-and-ladders-deluxe-game.jpg"},{"@type":"ListItem","position":52,"url":"https://lagged.com/en/g/brickz","name":"BrickZ","image":"https://imgs2.dab3games.com/brickz-game-0ap.png"},{"@type":"ListItem","position":53,"url":"https://lagged.com/en/g/snake-classic","name":"Snake Classic","image":"https://imgs2.dab3games.com/snake-classic-game.jpg"},{"@type":"ListItem","position":54,"url":"https://lagged.com/en/g/snakes-and-ladders","name":"Snakes and Ladders","image":"https://imgs2.dab3games.com/snakes-and-ladders-game.jpg"},{"@type":"ListItem","position":55,"url":"https://lagged.com/en/g/fruit-snake","name":"Fruit Snake","image":"https://imgs2.dab3games.com/fruit-snake-game.jpg"},{"@type":"ListItem","position":56,"url":"https://lagged.com/en/g/black-and-white-snake","name":"Black and White Snake","image":"https://imgs2.dab3games.com/black-and-white-snake-game.jpg"},{"@type":"ListItem","position":57,"url":"https://lagged.com/en/g/wiggle","name":"Wiggle","image":"https://imgs2.dab3games.com/wiggle-game.png"},{"@type":"ListItem","position":58,"url":"https://lagged.com/en/g/snake-island-3d","name":"Snake Island 3D","image":"https://imgs2.dab3games.com/snake-island-3d-9406.png"},{"@type":"ListItem","position":59,"url":"https://lagged.com/en/g/snake-vs-balls","name":"Snake vs Balls","image":"https://imgs2.dab3games.com/snake-vs-balls1928.png"},{"@type":"ListItem","position":60,"url":"https://lagged.com/en/g/snakes-and-ladders-2-the-challenge","name":"Snakes and Ladders 2: The Challenge","image":"https://imgs2.dab3games.com/snakes-and-ladders--the-game-1801.png"},{"@type":"ListItem","position":61,"url":"https://lagged.com/en/g/streamline","name":"Streamline","image":"https://imgs2.dab3games.com/streamline-game.jpg"},{"@type":"ListItem","position":62,"url":"https://lagged.com/en/g/modern-snake","name":"Modern Snake","image":"https://imgs2.dab3games.com/modern-snake-game.jpg"},{"@type":"ListItem","position":63,"url":"https://lagged.com/en/g/zig-zag","name":"Zig Zag","image":"https://imgs2.dab3games.com/zig-zag-game-dt3.jpg"}]}</script>
+<script type="application/ld+json">{"@context": "http://schema.org",
+"@type": "WebApplication","applicationCategory": "Game","operatingSystem":"Windows, Linux, OSX, Android, iOS","name": "Snake Games","creator":{"@type":"Organization","name":"Lagged"},"description":"Play the best snake games online at Lagged.com. We have 65 free online snake games that can be played on PC, mobile and tablets. Enjoy titles like Slither.io, Snake.io and many more free games.",
+"aggregateRating":{"@type":"AggregateRating","ratingValue":86,"bestRating":100,"worstRating":1,"ratingCount":28620},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"http://schema.org/InStock"},"image": ["https://imgs2.dab3games.com/"]}</script>
+<div class="wrapit extrapad tagpage">
+<div class="page-header">
+<h2>Snake Games</h2></div>
+<div id="category_games">
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/slither-io" title="Slither.io">Slither.io</a><img src="https://imgs2.dab3games.com/slither-io-game.jpg" width="200" height="200" alt="Slither.io Game"><span class="thumbname"><span>Slither.io</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snakeio" title="Snake.io">Snake.io</a><img src="https://imgs2.dab3games.com/snake-io-funny-game34.png" width="200" height="200" alt="Snake.io Game"><span class="thumbname"><span>Snake.io</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-run-race-3d" title="Snake Run Race 3D">Snake Run Race 3D</a><img src="https://imgs2.dab3games.com/snake-run-race-3d369.png" width="200" height="200" alt="Snake Run Race 3D Game"><span class="thumbname"><span>Snake Run Race 3D</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/trainsio" title="Trains.io">Trains.io</a><img src="https://imgs2.dab3games.com/trains-io-game44.png" width="200" height="200" alt="Trains.io Game"><span class="thumbname"><span>Trains.io</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/death-worm" title="Death Worm">Death Worm</a><img src="https://imgs2.dab3games.com/death-worm-game.jpg" width="200" height="200" alt="Death Worm Game"><span class="thumbname"><span>Death Worm</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-battle" title="Snake Battle">Snake Battle</a><img src="https://imgs2.dab3games.com/snake-battle-game.png" width="200" height="200" alt="Snake Battle Game"><span class="thumbname"><span>Snake Battle</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/deep-worm-2" title="Deep Worm 2">Deep Worm 2</a><img src="https://imgs2.dab3games.com/deep-worm-2-game.png" width="200" height="200" alt="Deep Worm 2 Game"><span class="thumbname"><span>Deep Worm 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/deep-worm" title="Deep Worm">Deep Worm</a><img src="https://imgs2.dab3games.com/deep-worm-game.png" width="200" height="200" alt="Deep Worm Game"><span class="thumbname"><span>Deep Worm</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/happy-snakes" title="Happy Snakes">Happy Snakes</a><img src="https://imgs2.dab3games.com/happy-snakes-game.jpg" width="200" height="200" alt="Happy Snakes Game"><span class="thumbname"><span>Happy Snakes</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/conquer" title="Conquer">Conquer</a><img src="https://imgs2.dab3games.com/conquer-game.jpg" width="200" height="200" alt="Conquer Game"><span class="thumbname"><span>Conquer</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/dragon-vs-bricks" title="Dragon vs Bricks">Dragon vs Bricks</a><img src="https://imgs2.dab3games.com/dragon-vs-bricks-game-sm.png" width="200" height="200" alt="Dragon vs Bricks Game"><span class="thumbname"><span>Dragon vs Bricks</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/red-snake-3d" title="Red Snake 3D">Red Snake 3D</a><img src="https://imgs2.dab3games.com/red-snake-3d-game30.png" width="200" height="200" alt="Red Snake 3D Game"><span class="thumbname"><span>Red Snake 3D</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/train-snake" title="Train Snake">Train Snake</a><img src="https://imgs2.dab3games.com/train-snake-game.png" width="200" height="200" alt="Train Snake Game"><span class="thumbname"><span>Train Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/narwhale-io" title="Narwhale.io">Narwhale.io</a><img src="https://imgs2.dab3games.com/narwhale-io-game.jpg" width="200" height="200" alt="Narwhale.io Game"><span class="thumbname"><span>Narwhale.io</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-blast" title="Snake Blast">Snake Blast</a><img src="https://imgs2.dab3games.com/snake-blast-game.jpg" width="200" height="200" alt="Snake Blast Game"><span class="thumbname"><span>Snake Blast</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-falls" title="Snake Falls">Snake Falls</a><img src="https://imgs2.dab3games.com/snake-fall-game1.png" width="200" height="200" alt="Snake Falls Game"><span class="thumbname"><span>Snake Falls</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-blast-2" title="Snake Blast 2">Snake Blast 2</a><img src="https://imgs2.dab3games.com/snake-blast-2-game.png" width="200" height="200" alt="Snake Blast 2 Game"><span class="thumbname"><span>Snake Blast 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-rush60" title="Snake Rush">Snake Rush</a><img src="https://imgs2.dab3games.com/snake-rush-game4.png" width="200" height="200" alt="Snake Rush Game"><span class="thumbname"><span>Snake Rush</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-classic760" title="Snake Classic">Snake Classic</a><img src="https://imgs2.dab3games.com/snake-game-online36.png" width="200" height="200" alt="Snake Classic Game"><span class="thumbname"><span>Snake Classic</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/cool-math-snake" title="Cool Math Snake">Cool Math Snake</a><img src="https://imgs2.dab3games.com/cool-math-snake-game.png" width="200" height="200" alt="Cool Math Snake Game"><span class="thumbname"><span>Cool Math Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/cute-snake" title="Cute Snake">Cute Snake</a><img src="https://imgs2.dab3games.com/cute-snake-game6.png" width="200" height="200" alt="Cute Snake Game"><span class="thumbname"><span>Cute Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-attack" title="Snake Attack">Snake Attack</a><img src="https://imgs2.dab3games.com/snake-attack-game.jpg" width="200" height="200" alt="Snake Attack Game"><span class="thumbname"><span>Snake Attack</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-blockade" title="Snake Blockade">Snake Blockade</a><img src="https://imgs2.dab3games.com/snake-blockage-game859.png" width="200" height="200" alt="Snake Blockade Game"><span class="thumbname"><span>Snake Blockade</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-pro" title="Snake Pro">Snake Pro</a><img src="https://imgs2.dab3games.com/snake-pro-game.jpg" width="200" height="200" alt="Snake Pro Game"><span class="thumbname"><span>Snake Pro</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/neon-snake" title="Neon Snake">Neon Snake</a><img src="https://imgs2.dab3games.com/neon-snake1-game.png" width="200" height="200" alt="Neon Snake Game"><span class="thumbname"><span>Neon Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-go" title="Snake Go">Snake Go</a><img src="https://imgs2.dab3games.com/snake-go-game158.png" width="200" height="200" alt="Snake Go Game"><span class="thumbname"><span>Snake Go</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-rush" title="Snake Rush">Snake Rush</a><img src="https://imgs2.dab3games.com/snake-rush-game.png" width="200" height="200" alt="Snake Rush Game"><span class="thumbname"><span>Snake Rush</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-and-blocks" title="Snake and Blocks">Snake and Blocks</a><img src="https://imgs2.dab3games.com/snake-and-blocks-game.jpg" width="200" height="200" alt="Snake and Blocks Game"><span class="thumbname"><span>Snake and Blocks</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/smart-slither" title="Smart Slither">Smart Slither</a><img src="https://imgs2.dab3games.com/smart-slither-game.jpg" width="200" height="200" alt="Smart Slither Game"><span class="thumbname"><span>Smart Slither</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-color-break" title="Snake Color Break">Snake Color Break</a><img src="https://imgs2.dab3games.com/snake-color-break-game.png" width="200" height="200" alt="Snake Color Break Game"><span class="thumbname"><span>Snake Color Break</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/king-of-snakes" title="King of Snakes">King of Snakes</a><img src="https://imgs2.dab3games.com/king-of-snakes-game.png" width="200" height="200" alt="King of Snakes Game"><span class="thumbname"><span>King of Snakes</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-vs-block-online" title="Snake vs Block Online">Snake vs Block Online</a><img src="https://imgs2.dab3games.com/snake-vs-block-game.jpg" width="200" height="200" alt="Snake vs Block Online Game"><span class="thumbname"><span>Snake vs Block Online</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/spacial-snake" title="Spacial Snake">Spacial Snake</a><img src="https://imgs2.dab3games.com/spacial-snake-game26.png" width="200" height="200" alt="Spacial Snake Game"><span class="thumbname"><span>Spacial Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/light-worm" title="Light Worm">Light Worm</a><img src="https://imgs2.dab3games.com/light-worm-game1.png" width="200" height="200" alt="Light Worm Game"><span class="thumbname"><span>Light Worm</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/diagonal" title="Diagonal">Diagonal</a><img src="https://imgs2.dab3games.com/diagonal-game14.png" width="200" height="200" alt="Diagonal Game"><span class="thumbname"><span>Diagonal</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/lightspeed-challenge" title="Lightspeed Challenge">Lightspeed Challenge</a><img src="https://imgs2.dab3games.com/lightspeed-challenge-6190.png" width="200" height="200" alt="Lightspeed Challenge Game"><span class="thumbname"><span>Lightspeed Challenge</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/goby-snaker" title="Snacking Snake">Snacking Snake</a><img src="https://imgs2.dab3games.com/snack-snake1-game.png" width="200" height="200" alt="Snacking Snake Game"><span class="thumbname"><span>Snacking Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-land" title="Snake Land">Snake Land</a><img src="https://imgs2.dab3games.com/snake-land-game.jpg" width="200" height="200" alt="Snake Land Game"><span class="thumbname"><span>Snake Land</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/worms-zone-a-slithery-snake" title="Worms Zone a Slithery Snake">Worms Zone a Slithery Snake</a><img src="https://imgs2.dab3games.com/worms-zone-a-slithery-snake8238.png" width="200" height="200" alt="Worms Zone a Slithery Snake Game"><span class="thumbname"><span>Worms Zone a Slithery Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/gulper-io" title="Gulper.io">Gulper.io</a><img src="https://imgs2.dab3games.com/gulper-io-game.png" width="200" height="200" alt="Gulper.io Game"><span class="thumbname"><span>Gulper.io</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/wormate-io" title="Wormate.io">Wormate.io</a><img src="https://imgs2.dab3games.com/wormate-io-game-dk4.jpg" width="200" height="200" alt="Wormate.io Game"><span class="thumbname"><span>Wormate.io</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/silly-snakes" title="Silly Snakes">Silly Snakes</a><img src="https://imgs2.dab3games.com/silly-snakes-game.jpg" width="200" height="200" alt="Silly Snakes Game"><span class="thumbname"><span>Silly Snakes</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/zapper-io" title="Zapper.io">Zapper.io</a><img src="https://imgs2.dab3games.com/zapper-io-game.png" width="200" height="200" alt="Zapper.io Game"><span class="thumbname"><span>Zapper.io</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-party" title="Snake Party">Snake Party</a><img src="https://imgs2.dab3games.com/snake-party-game.png" width="200" height="200" alt="Snake Party Game"><span class="thumbname"><span>Snake Party</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/crazy-snake-io" title="Crazy Snake IO">Crazy Snake IO</a><img src="https://imgs2.dab3games.com/crazy-snake-io5.png" width="200" height="200" alt="Crazy Snake IO Game"><span class="thumbname"><span>Crazy Snake IO</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/curve-fever-pro" title="Curve Fever Pro">Curve Fever Pro</a><img src="https://imgs2.dab3games.com/curve-fever-pro-game.png" width="200" height="200" alt="Curve Fever Pro Game"><span class="thumbname"><span>Curve Fever Pro</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/classicsnake-io" title="ClassicSnake.io">ClassicSnake.io</a><img src="https://imgs2.dab3games.com/classic-snakes-io-game.jpg" width="200" height="200" alt="ClassicSnake.io Game"><span class="thumbname"><span>ClassicSnake.io</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/supersnake" title="SuperSnake.io">SuperSnake.io</a><img src="https://imgs2.dab3games.com/super-snake-io.jpg" width="200" height="200" alt="SuperSnake.io Game"><span class="thumbname"><span>SuperSnake.io</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/angry-snakes" title="Angry Snakes">Angry Snakes</a><img src="https://imgs2.dab3games.com/angry-snakes-game-8ks.jpg" width="200" height="200" alt="Angry Snakes Game"><span class="thumbname"><span>Angry Snakes</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snakes-and-ladders-online" title="Snakes and Ladders Online">Snakes and Ladders Online</a><img src="https://imgs2.dab3games.com/snakes-ladders-online694.png" width="200" height="200" alt="Snakes and Ladders Online Game"><span class="thumbname"><span>Snakes and Ladders Online</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snakes-and-ladders-deluxe" title="Snakes and Ladders Deluxe">Snakes and Ladders Deluxe</a><img src="https://imgs2.dab3games.com/snakes-and-ladders-deluxe-game.jpg" width="200" height="200" alt="Snakes and Ladders Deluxe Game"><span class="thumbname"><span>Snakes and Ladders Deluxe</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/brickz" title="BrickZ">BrickZ</a><img src="https://imgs2.dab3games.com/brickz-game-0ap.png" width="200" height="200" alt="BrickZ Game"><span class="thumbname"><span>BrickZ</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-classic" title="Snake Classic">Snake Classic</a><img src="https://imgs2.dab3games.com/snake-classic-game.jpg" width="200" height="200" alt="Snake Classic Game"><span class="thumbname"><span>Snake Classic</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snakes-and-ladders" title="Snakes and Ladders">Snakes and Ladders</a><img src="https://imgs2.dab3games.com/snakes-and-ladders-game.jpg" width="200" height="200" alt="Snakes and Ladders Game"><span class="thumbname"><span>Snakes and Ladders</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/fruit-snake" title="Fruit Snake">Fruit Snake</a><img src="https://imgs2.dab3games.com/fruit-snake-game.jpg" width="200" height="200" alt="Fruit Snake Game"><span class="thumbname"><span>Fruit Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/black-and-white-snake" title="Black and White Snake">Black and White Snake</a><img src="https://imgs2.dab3games.com/black-and-white-snake-game.jpg" width="200" height="200" alt="Black and White Snake Game"><span class="thumbname"><span>Black and White Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/wiggle" title="Wiggle">Wiggle</a><img src="https://imgs2.dab3games.com/wiggle-game.png" width="200" height="200" alt="Wiggle Game"><span class="thumbname"><span>Wiggle</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-island-3d" title="Snake Island 3D">Snake Island 3D</a><img src="https://imgs2.dab3games.com/snake-island-3d-9406.png" width="200" height="200" alt="Snake Island 3D Game"><span class="thumbname"><span>Snake Island 3D</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snake-vs-balls" title="Snake vs Balls">Snake vs Balls</a><img src="https://imgs2.dab3games.com/snake-vs-balls1928.png" width="200" height="200" alt="Snake vs Balls Game"><span class="thumbname"><span>Snake vs Balls</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/snakes-and-ladders-2-the-challenge" title="Snakes and Ladders 2: The Challenge">Snakes and Ladders 2: The Challenge</a><img src="https://imgs2.dab3games.com/snakes-and-ladders--the-game-1801.png" width="200" height="200" alt="Snakes and Ladders 2: The Challenge Game"><span class="thumbname"><span>Snakes and Ladders 2: The Challenge</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/streamline" title="Streamline">Streamline</a><img src="https://imgs2.dab3games.com/streamline-game.jpg" width="200" height="200" alt="Streamline Game"><span class="thumbname"><span>Streamline</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/modern-snake" title="Modern Snake">Modern Snake</a><img src="https://imgs2.dab3games.com/modern-snake-game.jpg" width="200" height="200" alt="Modern Snake Game"><span class="thumbname"><span>Modern Snake</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/zig-zag" title="Zig Zag">Zig Zag</a><img src="https://imgs2.dab3games.com/zig-zag-game-dt3.jpg" width="200" height="200" alt="Zig Zag Game"><span class="thumbname"><span>Zig Zag</span></span></div></div>
+</div>
+<a href="https://lagged.com/c/popular" style="padding:10px 0;font-size:1.6em;margin-top:15px;margin-bottom:5px" class="play_btn">More Games</a>
+<div id="categories"><h3 class="homepage extbtn">Related Games</h3>
+<div class="category_main"><div class="cat_main_wrap">
+<ul><li><a href="https://lagged.com/en/io" title="IO Games"><img src="https://imgs2.dab3games.com/slither-io-game.jpg" alt="IO Games" width="40" height="40">.io Games</a></li>
+<li><a href="https://lagged.com/en/basketball" title="Basketball Games"><img src="https://imgs2.dab3games.com/freethrow-games.jpg" alt="Basketball Games" width="40" height="40">Basketball Games</a></li>
+<li><a href="https://lagged.com/en/car" title="Car Games"><img src="https://imgs2.dab3games.com/country-side-drive-game285.png" alt="Car Games" width="40" height="40">Car Games</a></li>
+<li><a href="https://lagged.com/en/clicker" title="Clicker Games"><img src="https://imgs2.dab3games.com/escape-from-prison-game.png" alt="Clicker Games" width="40" height="40">Clicker Games</a></li>
+<li><a href="https://lagged.com/en/dash" title="Dash Games"><img src="https://imgs2.dab3games.com/geometry-jump-game.png" alt="Dash Games" width="40" height="40">Dash Games</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/en/dentist" title="Dentist Games"><img src="https://imgs2.dab3games.com/funny-dentist-surgery-game.png" alt="Dentist Games" width="40" height="40">Dentist Games</a></li>
+<li><a href="https://lagged.com/en/dirt-bike" title="Dirt Bike Games"><img src="https://imgs2.dab3games.com/xtreme-bike-game.png" alt="Dirt Bike Games" width="40" height="40">Dirt Bike Games</a></li>
+<li><a href="https://lagged.com/en/dress-up" title="Dress Up Games"><img src="https://imgs2.dab3games.com/funny-haircut-game.png" alt="Dress Up Games" width="40" height="40">Dress Up Games</a></li>
+<li><a href="https://lagged.com/en/football" title="Football Games"><img src="https://imgs2.dab3games.com/running-back-game.jpg" alt="Football Games" width="40" height="40">Football Games</a></li>
+<li><a href="https://lagged.com/en/funny" title="Funny Games"><img src="https://imgs2.dab3games.com/toilet-race-game269.png" alt="Funny Games" width="40" height="40">Funny Games</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/en/gun" title="Gun Games"><img src="https://imgs2.dab3games.com/airport-clash-3d-game.png" alt="Gun Games" width="40" height="40">Gun Games</a></li>
+<li><a href="https://lagged.com/en/ninja" title="Ninja Games"><img src="https://imgs2.dab3games.com/the-last-ninja-game.jpg" alt="Ninja Games" width="40" height="40">Ninja Games</a></li>
+<li><a href="https://lagged.com/en/puzzle" title="Puzzle Games"><img src="https://imgs2.dab3games.com/thief-puzzle-929.png" alt="Puzzle Games" width="40" height="40">Puzzle Games</a></li>
+<li><a href="https://lagged.com/en/racing" title="Racing Games"><img src="https://imgs2.dab3games.com/lightning-speed-game.jpg" alt="Racing Games" width="40" height="40">Racing Games</a></li>
+<li><a href="https://lagged.com/en/running" title="Running Games"><img src="https://imgs2.dab3games.com/tall-man-run40.png" alt="Running Games" width="40" height="40">Running Games</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/en/shooting" title="Shooting Games"><img src="https://imgs2.dab3games.com/subway-clash-3d-game.png" alt="Shooting Games" width="40" height="40">Shooting Games</a></li>
+<li><a href="https://lagged.com/en/soccer" title="Soccer Games"><img src="https://imgs2.dab3games.com/smart-soccer-game.jpg" alt="Soccer Games" width="40" height="40">Soccer Games</a></li>
+<li><a href="https://lagged.com/en/truck" title="Truck Games"><img src="https://imgs2.dab3games.com/brain-for-monster-truck-game.jpg" alt="Truck Games" width="40" height="40">Truck Games</a></li>
+<li><a href="https://lagged.com/en/two-player" title="Two Player Games"><img src="https://imgs2.dab3games.com/12-minibattles-game.png" alt="Two Player Games" width="40" height="40">Two Player Games</a></li>
+<li><a href="https://lagged.com/en/upgrade" title="Upgrade Games"><img src="https://imgs2.dab3games.com/hatch-surprise-pets-game18.png" alt="Upgrade Games" width="40" height="40">Upgrade Games</a></li>
+</ul></div></div></div>
+<div id="breadcrumbs"><div class="wrapit2" itemscope itemtype="http://schema.org/BreadcrumbList">
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com"><span itemprop="name">Lagged.com</span></a><meta itemprop="position" content="1"></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/en/skill" class="bitem"><span itemprop="name">Skill Games</span></a><meta itemprop="position" content="2"></span><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/en/snake" class="bitem active"><span itemprop="name">Snake Games</span></a><meta itemprop="position" content="3"></span></div></div>
+<h2 style="float: left;width: 100%;text-align: center;padding: 0;">About Lagged Snake Games</h2>
+<p class="tagdesc" style="margin-top:5px;background-color:#f8f8f8">From the original and classic game Snake to modern multiplayer versions like Slither.io we have got it all at lagged.com. Enjoy one of our many free to play snake games! All ages can enjoy slithering around, gobbling up pellets to grow your reptile. Eat food, growing bigger and avoid any obstacles. You have no legs so slither along and try to top the leaderboards in one of our high score games or unlock any achievements available. Enjoy one of our <b>65</b> free online snake games that can be played on any device. Lagged.com is the home to some of the best snake games including many of our own creations exclusive to Lagged. Play any of our <b>Snake games</b> on your mobile phone, tablet or PC. Play hit titles like Slither.io, Snake.io, Snake Run Race 3D and many more. For more games simply go to our best games page.</p>
+<h3 class="homepage martop15">Best Snake Games</h3>
+<div class="cat_menu_link"><a href="https://lagged.com/en/g/slither-io" title="Slither.io Game">Slither.io</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/en/g/snakeio" title="Snake.io Game">Snake.io</a></div>
+<div class="cat_menu_link"><a href="https://lagged.com/en/g/snake-run-race-3d" title="Snake Run Race 3D Game">Snake Run Race 3D</a></div>
+<h3 class="homepage" style="margin:15px 0 10px 0">Most Played Games</h3>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/drawthis2" title="Draw This 2">Draw This 2</a><img src="https://imgs2.dab3games.com/draw-and-guess-game.jpg" width="200" height="200" alt="Draw This 2 Game" loading="lazy"><span class="thumbname"><span>Draw This 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/elastic-man" title="Elastic Man">Elastic Man</a><img src="https://imgs2.dab3games.com/elastic-man-game.png" width="200" height="200" alt="Elastic Man Game" loading="lazy"><span class="thumbname"><span>Elastic Man</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/blob-opera" title="Blob Opera">Blob Opera</a><img src="https://imgs2.dab3games.com/blob-opera-game.png" width="200" height="200" alt="Blob Opera Game" loading="lazy"><span class="thumbname"><span>Blob Opera</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/going-balls19" title="Going Balls">Going Balls</a><img src="https://imgs2.dab3games.com/rolling-the-ball-1591.png" width="200" height="200" alt="Going Balls Game" loading="lazy"><span class="thumbname"><span>Going Balls</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/bitlife-life-simulator" title="BitLife Life Simulator">BitLife Life Simulator</a><img src="https://imgs2.dab3games.com/bitlife-life-simulator1560.png" width="200" height="200" alt="BitLife Life Simulator Game" loading="lazy"><span class="thumbname"><span>BitLife Life Simulator</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/scary-neighbor-online" title="Scary Neighbor Online">Scary Neighbor Online</a><img src="https://imgs2.dab3games.com/scary-neighbor50.png" width="200" height="200" alt="Scary Neighbor Online Game" loading="lazy"><span class="thumbname"><span>Scary Neighbor Online</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/magic-tiles" title="Magic Tiles">Magic Tiles</a><img src="https://imgs2.dab3games.com/magic-tiles-game.jpg" width="200" height="200" alt="Magic Tiles Game" loading="lazy"><span class="thumbname"><span>Magic Tiles</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/stair-race-3d" title="Stair Race 3D">Stair Race 3D</a><img src="https://imgs2.dab3games.com/stair-race-3d-game572.png" width="200" height="200" alt="Stair Race 3D Game" loading="lazy"><span class="thumbname"><span>Stair Race 3D</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/murder-mafia" title="Murder Mafia">Murder Mafia</a><img src="https://imgs2.dab3games.com/murder-mafia-game360.png" width="200" height="200" alt="Murder Mafia Game" loading="lazy"><span class="thumbname"><span>Murder Mafia</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/minecraft-online" title="Minecraft Online">Minecraft Online</a><img src="https://imgs2.dab3games.com/minecraft-online-game.jpg" width="200" height="200" alt="Minecraft Online Game" loading="lazy"><span class="thumbname"><span>Minecraft Online</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/tiles-hop" title="Tiles Hop">Tiles Hop</a><img src="https://imgs2.dab3games.com/tiles-hop-game.png" width="200" height="200" alt="Tiles Hop Game" loading="lazy"><span class="thumbname"><span>Tiles Hop</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/toilet-race" title="Toilet Race">Toilet Race</a><img src="https://imgs2.dab3games.com/toilet-race-game269.png" width="200" height="200" alt="Toilet Race Game" loading="lazy"><span class="thumbname"><span>Toilet Race</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/choir" title="Choir">Choir</a><img src="https://imgs2.dab3games.com/choir-game.png" width="200" height="200" alt="Choir Game" loading="lazy"><span class="thumbname"><span>Choir</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/skateboard-surf" title="Skateboard Surf">Skateboard Surf</a><img src="https://imgs2.dab3games.com/skateboard-surf-game.png" width="200" height="200" alt="Skateboard Surf Game" loading="lazy"><span class="thumbname"><span>Skateboard Surf</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/thief-puzzle" title="Thief Puzzle">Thief Puzzle</a><img src="https://imgs2.dab3games.com/thief-puzzle-929.png" width="200" height="200" alt="Thief Puzzle Game" loading="lazy"><span class="thumbname"><span>Thief Puzzle</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/tall-man-runner" title="Tall Man Runner">Tall Man Runner</a><img src="https://imgs2.dab3games.com/tall-man-run40.png" width="200" height="200" alt="Tall Man Runner Game" loading="lazy"><span class="thumbname"><span>Tall Man Runner</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/backrooms-escape-1" title="Backrooms Escape 1">Backrooms Escape 1</a><img src="https://imgs2.dab3games.com/backrooms-escape-1-1038.png" width="200" height="200" alt="Backrooms Escape 1 Game" loading="lazy"><span class="thumbname"><span>Backrooms Escape 1</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/cube-frenzy" title="Cube Frenzy">Cube Frenzy</a><img src="https://imgs2.dab3games.com/cube-frenzy-game.png" width="200" height="200" alt="Cube Frenzy Game" loading="lazy"><span class="thumbname"><span>Cube Frenzy</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/lemon-opera" title="Lemon Opera">Lemon Opera</a><img src="https://imgs2.dab3games.com/screamers-2263.png" width="200" height="200" alt="Lemon Opera Game" loading="lazy"><span class="thumbname"><span>Lemon Opera</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/love-doge" title="Love Doge">Love Doge</a><img src="https://imgs2.dab3games.com/doge-love-game.png" width="200" height="200" alt="Love Doge Game" loading="lazy"><span class="thumbname"><span>Love Doge</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/hide-the-evidence" title="Hide the Evidence">Hide the Evidence</a><img src="https://imgs2.dab3games.com/hide-the-evidence-game233.png" width="200" height="200" alt="Hide the Evidence Game" loading="lazy"><span class="thumbname"><span>Hide the Evidence</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/poppy-playtime-chapter-2" title="Poppy Playtime Chapter 2">Poppy Playtime Chapter 2</a><img src="https://imgs2.dab3games.com/poppy-playtime-chapter-2-game-legs.png" width="200" height="200" alt="Poppy Playtime Chapter 2 Game" loading="lazy"><span class="thumbname"><span>Poppy Playtime Chapter 2</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/ice-cream-inc" title="Ice Cream Inc.">Ice Cream Inc.</a><img src="https://imgs2.dab3games.com/ice-cream-inc-game.png" width="200" height="200" alt="Ice Cream Inc. Game" loading="lazy"><span class="thumbname"><span>Ice Cream Inc.</span></span></div></div>
+<div class="thumbWrapper newboxshadow"><div><a href="https://lagged.com/en/g/shape-shift-run" title="Shape Shift Run">Shape Shift Run</a><img src="https://imgs2.dab3games.com/shape-shift-run-game16.png" width="200" height="200" alt="Shape Shift Run Game" loading="lazy"><span class="thumbname"><span>Shape Shift Run</span></span></div></div>
+</div>
+<script>
+var keepscroll=true;
+var gamecnt=63;
+var newGamesLoading=false;
+var gtagg=91;
+window.onscroll=function(){
+if(keepscroll&&!newGamesLoading){
+var scelemt=document.getElementById("category_games");
+if((document.documentElement.scrollTop||document.body.scrollTop)>scelemt.offsetHeight+150-window.innerHeight){
+newGamesLoading=true;
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+var response=this.responseText;
+response=response.replace(")]}',","");
+response=JSON.parse(response);
+if(!response.errors){
+gamecnt=response.cnt;
+//loop/insert new games
+for (var i = 0, len = response.games.length; i < len; i++) {
+var gamethumbwrap = document.createElement("div");
+gamethumbwrap.className="thumbWrapper newboxshadow";
+var gamethumbwrap2 = document.createElement("div");
+var gameThumbLink = document.createElement('a');
+gameThumbLink.setAttribute('href', "https://lagged.com/en/g/"+response.games[i].url_key);
+gameThumbLink.setAttribute('title', response.games[i].name);
+var gameThumbLinkName=document.createTextNode(response.games[i].name);
+gameThumbLink.appendChild(gameThumbLinkName);
+var gameThumbThumb = document.createElement('img');
+gameThumbThumb.setAttribute('src', "https://imgs2.dab3games.com/"+response.games[i].thumb);
+gameThumbThumb.setAttribute('alt', response.games[i].name);
+gameThumbThumb.setAttribute('width', "200");
+gameThumbThumb.setAttribute('height', "200");
+gamethumbwrap2.appendChild(gameThumbLink);
+gamethumbwrap2.appendChild(gameThumbThumb);
+var gameSpanFirst = document.createElement('span');
+gameSpanFirst.className="thumbname";
+var gameSpanSec = document.createElement('span');
+gameSpanSec.appendChild(gameThumbLinkName);
+gameSpanFirst.appendChild(gameSpanSec);
+gamethumbwrap2.appendChild(gameSpanFirst);
+if(response.games[i].has_scores==="1"){
+var gameSpanAward1 = document.createElement('span');
+gameSpanAward1.className="awards-bit";
+gamethumbwrap2.appendChild(gameSpanAward1);
+}
+if(response.games[i].has_achs==="1"){
+var gameSpanAward2 = document.createElement('span');
+gameSpanAward2.className="awards-bit2";
+if(response.games[i].has_scores==="1"){
+gameSpanAward2.className="awards-bit2 awardbitpad";
+}
+gamethumbwrap2.appendChild(gameSpanAward2);
+}
+gamethumbwrap.appendChild(gamethumbwrap2);
+category_games.appendChild(gamethumbwrap);
+}
+if(response.keepgoing===true){
+newGamesLoading=false;
+}else{
+keepscroll=false;
+}
+}else{
+keepscroll=false;
+}
+}
+};
+xhttp.open("POST", "https://lagged.com/api/v2/ajax_tags.php", true);
+xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+xhttp.send("tagid="+gtagg+"&cnt="+gamecnt);
+}
+}
+};
+</script>
+<footer id="footer">
+<div class="footwrap"><div class="footlead">
+<a href="https://lagged.com" title="Lagged.com" class="footerlogo">Lagged.com</a>
+<button onclick="toggleLang();" id="togglelnbtn" class="footsocial flag">English</button>
+<div id="togglelang">
+<a href="https://lagged.com/en/snake" hreflang="en" class="active" title="English - Lagged.com">English</a>
+<a href="https://spiel2.com/de/schlangen-spiele" hreflang="de" class="de" title="Spiel2.com">Deutsche <span>(German)</span></a>
+<a href="https://lagged.com.br/pt/jogos-da-cobra" hreflang="pt-BR" class="pt" title="Português - Lagged.com.br">Português <span>(Portuguese)</span></a>
+<a href="https://lagged.es/es/juegos-de-serpientes" hreflang="es" class="es" title="Lagged.es">Español <span>(Spanish)</span></a>
+<a href="https://oyun.io/tr/yılan-oyunları" hreflang="tr" class="tr" title="Oyun.io">Türkçe <span>(Turkish)</span></a>
+<a href="https://lagged.me/ar/snake" hreflang="ar" class="ar" title="Lagged.me">عربى <span>(Arabic)</span></a>
+<a href="https://lagged.bg/bg/snake" hreflang="bg" class="bg" title="Lagged.bg">български <span>(Bulgarian)</span></a>
+<a href="https://lagged.gr/el/snake" hreflang="el" class="el" title="Lagged.gr">Ελληνικά <span>(Greek)</span></a>
+<a href="https://lagged.fi/fi/snake" hreflang="fi" class="fi" title="Lagged.fi">Suomalainen <span>(Finnish)</span></a>
+<a href="https://lagged.fr/fr/snake" hreflang="fr" class="fr" title="Lagged.fr">Français <span>(French)</span></a>
+<a href="https://lagged.in/hi/snake" hreflang="hi" class="hi" title="Lagged.in">हिन्दी <span>(Hindi)</span></a>
+<a href="https://lagged.id/id/snake" hreflang="id" class="id" title="Lagged.id">Indonesia <span>(Indonesian)</span></a>
+<a href="https://lagged.com/it/it/snake" hreflang="it" class="it" title="Lagged.com/it">Italiano <span>(Italian)</span></a>
+<a href="https://lagged.jp/ja/snake" hreflang="ja" class="ja" title="Lagged.jp">日本 <span>(Japanese)</span></a>
+<a href="https://lagged.kr/ko/snake" hreflang="ko" class="ko" title="Lagged.kr">한국어 <span>(Korean)</span></a>
+<a href="https://spellen2.com/nl/snake" hreflang="nl" class="nl" title="Spellen2.com">Nederlands <span>(Dutch)</span></a>
+<a href="https://lagged.pl/pl/snake" hreflang="pl" class="pl" title="Lagged.pl">Polski <span>(Polish)</span></a>
+<a href="https://lagged.ro/ro/snake" hreflang="ro" class="ro" title="Lagged.ro">Română <span>(Romanian)</span></a>
+<a href="https://lagged.ru/ru/snake" hreflang="ru" class="ru" title="Lagged.ru">Pусский <span>(Russian)</span></a>
+<a href="https://lagged.se/sv/snake" hreflang="sv" class="sv" title="Lagged.se">Svenska <span>(Swedish)</span></a>
+<a href="https://lagged.com/th/th/snake" hreflang="th" class="th" title="Lagged.com/th">ไทย <span>(Thai)</span></a>
+<a href="https://lagged.vn/vi/snake" hreflang="vi" class="vi" title="Lagged.vn">Tiếng Việt <span>(Vietnamese)</span></a>
+<a href="https://lagged.cn/zh/snake" hreflang="zh" class="zh" title="Lagged.cn">中国人 <span>(Chinese)</span></a>
+</div>
+<a href="https://www.youtube.com/lagged" target="_blank" rel="noopener noreferrer" class="footsocial yt">YouTube</a><a href="https://discord.com/invite/ncdDUwyk3W" target="_blank" rel="noopener noreferrer" class="footsocial fb">Discord</a>
+</div><div class="footsub"><a href="https://lagged.com/contact">Contact Us</a><a href="https://lagged.com/faq">FAQ</a><a href="https://lagged.com/privacy">Privacy Policy</a></div>
+<div class="footend">
+<h3>Lagged.com: Snake Games</h3><p>Play the best free online snake games on lagged.com. Compete for high scores and earn achievements by logging into your Lagged account. Join millions of players from around the world by playing our free games on any device. Find any game that you want to play by searching at the top of the page.</p><p>Lagged is the best online games platform. Challenge your friends to thousands of different games that you can play on your pc, tablet or mobile device. Compete for high scores and achievements as you try to climb to the top of our global points leaderboard.</p><p>&copy; Lagged 2023</p>
+</div>
+</div>
+</footer>
+</div>
+<div id="ajaxsrwr" class="ajax_search" style="display:none">
+<div class="searchmodal" onclick="toggleAjaxSearch();"></div>
+<button class="closesrcx" onclick="toggleAjaxSearch();"></button>
+<div class="searchwrap">
+<form id="ajaxform" action="https://lagged.com/search/" method="post" onsubmit="return false;">
+<input id="ajaxbar" onkeydown="ajaxSearch(event);" oninput="ajaxSearchUp(this.value);" type="text" name="query" placeholder="Search for a game" class="form-control" value required autocomplete="off">
+<button id="searchbtn" type="submit" onclick="ajaxSubmit(event);">Search</button>
+</form>
+<div class="ajaxlistdivwrp">
+<div id="ajaxlistdiv" style="display:none"></div>
+<h3 class="searchtitle">Categories you might like</h3>
+<div class="category_main"><div class="cat_main_wrap"><ul>
+<li><a href="https://lagged.com/en/ball" title="Ball Games"><img src="https://imgs2.dab3games.com/rolling-the-ball-1591.png" alt="Ball Games" width="40" height="40" loading="lazy">Ball Games</a></li>
+<li><a href="https://lagged.com/en/car" title="Car Games"><img src="https://imgs2.dab3games.com/lightning-speed-game.jpg" alt="Car Games" width="40" height="40" loading="lazy">Car Games</a></li>
+</ul>
+</div></div><div class="category_main">
+<div class="cat_main_wrap">
+<ul><li><a href="https://lagged.com/en/drawing" title="Drawing Games"><img src="https://imgs2.dab3games.com/draw-and-guess-game.jpg" alt="Drawing Games" width="40" height="40" loading="lazy">Drawing Games</a></li>
+<li><a href="https://lagged.com/en/escape" title="Escape Games"><img src="https://imgs2.dab3games.com/escape-from-prison-game.png" alt="Escape Games" width="40" height="40" loading="lazy">Escape Games</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/en/gun" title="Gun Games"><img src="https://imgs2.dab3games.com/subway-clash-3d-game.png" alt="Gun Games" width="40" height="40" loading="lazy">Gun Games</a></li>
+<li><a href="https://lagged.com/en/puzzle" title="Puzzle Games"><img src="https://imgs2.dab3games.com/thief-puzzle-929.png" alt="Puzzle Games" width="40" height="40" loading="lazy">Puzzle Games</a></li>
+</ul>
+</div></div>
+<div class="category_main">
+<div class="cat_main_wrap">
+<ul>
+<li><a href="https://lagged.com/en/sports" title="Sports Games"><img src="https://imgs2.dab3games.com/running-back-game.jpg" alt="Sports Games" width="40" height="40" loading="lazy">Sports Games</a></li>
+<li><a href="https://lagged.com/en/weird" title="Weird Games"><img src="https://imgs2.dab3games.com/blob-opera-game.png" alt="Weird Games" width="40" height="40" loading="lazy">Weird Games</a></li>
+</ul></div></div>
+<span class="searchtitle">Games you might like</span>
+<div class="thumbWrapper newboxshadow t1"><div>
+<a href="https://lagged.com/en/g/drawthis2" title="Draw This 2">Draw This 2</a>
+<img src="https://imgs2.dab3games.com/draw-and-guess-game.jpg" width="200" height="200" alt="Draw This 2 Game" loading="lazy">
+<span class="thumbname"><span>Draw This 2</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t2"><div>
+<a href="https://lagged.com/en/g/elastic-man" title="Elastic Man">Elastic Man</a>
+<img src="https://imgs2.dab3games.com/elastic-man-game.png" width="200" height="200" alt="Elastic Man Game" loading="lazy">
+<span class="thumbname"><span>Elastic Man</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t3"><div>
+<a href="https://lagged.com/en/g/going-balls19" title="Going Balls">Going Balls</a>
+<img src="https://imgs2.dab3games.com/rolling-the-ball-1591.png" width="200" height="200" alt="Going Balls Game" loading="lazy">
+<span class="thumbname"><span>Going Balls</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t4"><div>
+<a href="https://lagged.com/en/g/scary-neighbor-online" title="Scary Neighbor Online">Scary Neighbor Online</a>
+<img src="https://imgs2.dab3games.com/scary-neighbor50.png" width="200" height="200" alt="Scary Neighbor Online Game" loading="lazy">
+<span class="thumbname"><span>Scary Neighbor Online</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t5"><div>
+<a href="https://lagged.com/en/g/toilet-race" title="Toilet Race">Toilet Race</a>
+<img src="https://imgs2.dab3games.com/toilet-race-game269.png" width="200" height="200" alt="Toilet Race Game" loading="lazy">
+<span class="thumbname"><span>Toilet Race</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t6"><div>
+<a href="https://lagged.com/en/g/minecraft-online" title="Minecraft Online">Minecraft Online</a>
+<img src="https://imgs2.dab3games.com/minecraft-online-game.jpg" width="200" height="200" alt="Minecraft Online Game" loading="lazy">
+<span class="thumbname"><span>Minecraft Online</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t7"><div>
+<a href="https://lagged.com/en/g/bitlife-life-simulator" title="BitLife Life Simulator">BitLife Life Simulator</a>
+<img src="https://imgs2.dab3games.com/bitlife-life-simulator1560.png" width="200" height="200" alt="BitLife Life Simulator Game" loading="lazy">
+<span class="thumbname"><span>BitLife Life Simulator</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t8"><div>
+<a href="https://lagged.com/en/g/ice-cream-inc" title="Ice Cream Inc.">Ice Cream Inc.</a>
+<img src="https://imgs2.dab3games.com/ice-cream-inc-game.png" width="200" height="200" alt="Ice Cream Inc. Game" loading="lazy">
+<span class="thumbname"><span>Ice Cream Inc.</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t9"><div>
+<a href="https://lagged.com/en/g/magic-tiles" title="Magic Tiles">Magic Tiles</a>
+<img src="https://imgs2.dab3games.com/magic-tiles-game.jpg" width="200" height="200" alt="Magic Tiles Game" loading="lazy">
+<span class="thumbname"><span>Magic Tiles</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t10"><div>
+<a href="https://lagged.com/en/g/blob-opera" title="Blob Opera">Blob Opera</a>
+<img src="https://imgs2.dab3games.com/blob-opera-game.png" width="200" height="200" alt="Blob Opera Game" loading="lazy">
+<span class="thumbname"><span>Blob Opera</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t11"><div>
+<a href="https://lagged.com/en/g/phone-case-salon" title="Phone Case Salon">Phone Case Salon</a>
+<img src="https://imgs2.dab3games.com/phone-case-salon-game25.png" width="200" height="200" alt="Phone Case Salon Game" loading="lazy">
+<span class="thumbname"><span>Phone Case Salon</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t12"><div>
+<a href="https://lagged.com/en/g/stair-race-3d" title="Stair Race 3D">Stair Race 3D</a>
+<img src="https://imgs2.dab3games.com/stair-race-3d-game572.png" width="200" height="200" alt="Stair Race 3D Game" loading="lazy">
+<span class="thumbname"><span>Stair Race 3D</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t13"><div>
+<a href="https://lagged.com/en/g/tall-man-runner" title="Tall Man Runner">Tall Man Runner</a>
+<img src="https://imgs2.dab3games.com/tall-man-run40.png" width="200" height="200" alt="Tall Man Runner Game" loading="lazy">
+<span class="thumbname"><span>Tall Man Runner</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t14"><div>
+<a href="https://lagged.com/en/g/poppy-playtime-chapter-2" title="Poppy Playtime Chapter 2">Poppy Playtime Chapter 2</a>
+<img src="https://imgs2.dab3games.com/poppy-playtime-chapter-2-game-legs.png" width="200" height="200" alt="Poppy Playtime Chapter 2 Game" loading="lazy">
+<span class="thumbname"><span>Poppy Playtime Chapter 2</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t15"><div>
+<a href="https://lagged.com/en/g/choir" title="Choir">Choir</a>
+<img src="https://imgs2.dab3games.com/choir-game.png" width="200" height="200" alt="Choir Game" loading="lazy">
+<span class="thumbname"><span>Choir</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t16"><div>
+<a href="https://lagged.com/en/g/ragdoll-swing" title="Ragdoll Swing">Ragdoll Swing</a>
+<img src="https://imgs2.dab3games.com/ragdoll-swing-game.png" width="200" height="200" alt="Ragdoll Swing Game" loading="lazy">
+<span class="thumbname"><span>Ragdoll Swing</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t17"><div>
+<a href="https://lagged.com/en/g/dinosaur-game-qwert" title="Dinosaur Game QWERT">Dinosaur Game QWERT</a>
+<img src="https://imgs2.dab3games.com/dino-qwert242.png" width="200" height="200" alt="Dinosaur Game QWERT Game" loading="lazy">
+<span class="thumbname"><span>Dinosaur Game QWERT</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t18"><div>
+<a href="https://lagged.com/en/g/thief-puzzle" title="Thief Puzzle">Thief Puzzle</a>
+<img src="https://imgs2.dab3games.com/thief-puzzle-929.png" width="200" height="200" alt="Thief Puzzle Game" loading="lazy">
+<span class="thumbname"><span>Thief Puzzle</span></span>
+</div></div>
+</div>
+</div>
+</div>
+<link rel="stylesheet" href="https://lagged.com/js/v4/styles4.css?v=13" media="all">
+<script src="https://lagged.com/js/v4/customchannels.js"></script>
+<script src="https://lagged.com/js/v4/site4.js?v=7"></script>
+</body></html>

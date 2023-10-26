@@ -1,0 +1,310 @@
+<!DOCTYPE html><html lang="it"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>Love Clicker</title>
+<meta name="description" content="Gioca a Love Clicker online su Lagged.com. Love Clicker è uno dei nostri giochi di strategia scelti con cura che può essere giocato su qualsiasi dispositivo." />
+<link rel="search" href="https://lagged.com/it/opensearch_desc.xml" type="application/opensearchdescription+xml" title="Lagged" />
+<link rel="alternate" type="application/rss+xml" title="Giochi" href="https://lagged.com/it/rss/" />
+<link rel="manifest" href="https://lagged.com/it/manifest.json">
+<meta name="theme-color" content="#2a6490" />
+<link rel="image_src" href="https://imgs2.dab3games.com/love-clicker-game.jpg" />
+<meta property="og:image" content="https://imgs2.dab3games.com/love-clicker-game.jpg" />
+<meta property="og:title" content="Love Clicker" />
+<meta property="og:description" content="Gioca a Love Clicker online gratuitamente su Lagged">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@LaggedGames" />
+<meta name="twitter:title" content="Love Clicker" />
+<meta name="twitter:description" content="Gioca a Love Clicker online gratuitamente su Lagged" />
+<meta name="twitter:image" content="https://imgs2.dab3games.com/love-clicker-game.jpg" />
+<link rel="canonical" href="https://lagged.com/it/it/g/love-clicker" />
+<link rel="amphtml" href="https://lagged.com/it/amp/g/love-clicker">
+<link rel="alternate" hreflang="ar" href="https://lagged.me/ar/g/love-clicker" />
+<link rel="alternate" hreflang="bg" href="https://lagged.bg/bg/g/love-clicker" />
+<link rel="alternate" hreflang="el" href="https://lagged.gr/el/g/love-clicker" />
+<link rel="alternate" hreflang="fi" href="https://lagged.fi/fi/g/love-clicker" />
+<link rel="alternate" hreflang="fr" href="https://lagged.fr/fr/g/love-clicker" />
+<link rel="alternate" hreflang="hi" href="https://lagged.in/hi/g/love-clicker" />
+<link rel="alternate" hreflang="id" href="https://lagged.id/id/g/love-clicker" />
+<link rel="alternate" hreflang="it" href="https://lagged.com/it/it/g/love-clicker" />
+<link rel="alternate" hreflang="ja" href="https://lagged.jp/ja/g/love-clicker" />
+<link rel="alternate" hreflang="ko" href="https://lagged.kr/ko/g/love-clicker" />
+<link rel="alternate" hreflang="nl" href="https://spellen2.com/nl/g/love-clicker" />
+<link rel="alternate" hreflang="pl" href="https://lagged.pl/pl/g/love-clicker" />
+<link rel="alternate" hreflang="ro" href="https://lagged.ro/ro/g/love-clicker" />
+<link rel="alternate" hreflang="ru" href="https://lagged.ru/ru/g/love-clicker" />
+<link rel="alternate" hreflang="sv" href="https://lagged.se/sv/g/love-clicker" />
+<link rel="alternate" hreflang="th" href="https://lagged.com/th/th/g/love-clicker" />
+<link rel="alternate" hreflang="vi" href="https://lagged.vn/vi/g/love-clicker" />
+<link rel="alternate" hreflang="zh" href="https://lagged.cn/zh/g/love-clicker" />
+<link rel="alternate" hreflang="tr" href="https://oyun.io/tr/g/love-clicker" />
+<link rel="alternate" hreflang="es" href="https://lagged.es/es/g/love-clicker" />
+<link rel="alternate" hreflang="pt-BR" href="https://lagged.com.br/pt/g/love-clicker" />
+<link rel="alternate" hreflang="de" href="https://spiel2.com/de/g/love-clicker" />
+<link rel="alternate" hreflang="en" href="https://lagged.com/en/g/love-clicker" />
+<link rel="alternate" hreflang="x-default" href="https://lagged.com/en/g/love-clicker" />
+<meta property="og:url" content="https://lagged.com/it/it/g/love-clicker" />
+<meta property="article:tag" content="Giochi Di Strategia" />
+<meta property="article:tag" content="Giochi Di Incremento" />
+<meta property="article:tag" content="Giochi Di Click" />
+<meta property="article:tag" content="Giochi D'amore" />
+<meta property="og:site_name" content="Lagged">
+<meta property="og:type" content="game" />
+<meta property="fb:app_id" content="614526822036983" />
+<link href="https://plus.google.com/+LaggedGames" rel="publisher" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://lagged.com/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://lagged.com/images/icon/touch-icon-iphone.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9FX471252"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-E9FX471252');
+gtag('config', 'AW-1055364430');
+</script>
+</head><body>
+<div id="wrapper" class="gametplenew"><div id="header"><div id="logo">
+<div class="wrapit"><div class="topperleft">
+<a class="sitename" href="https://lagged.com/it/" title="Lagged">Lagged</a>
+</div>
+<div class="toppercenter">
+<h1>Love Clicker</h1>
+</div>
+<div id="ajaxsrwr" class="ajax_search" style="display:none">
+<form id="ajaxform" action="https://lagged.com/it/search.php" method="post" onsubmit="return false;">
+<input id="ajaxbar" onkeydown="ajaxSearch(event);" oninput="ajaxSearchUp(this.value);" type="text" name="query" placeholder="Ricerca" class="form-control" value required autocomplete="off">
+<button id="searchbtn" type="submit" onclick="ajaxSubmit(event);">Ricerca</button>
+</form>
+</div>
+<div class="topperight">
+<button id="togglesearchr" class="headerbtn search" title="Ricerca" onclick="toggleAjaxSearch();">Ricerca</button>
+<a href="https://lagged.com/it/top" class="headerbtn top" title="Classifica">Classifica</a>
+<a href="https://lagged.com/it/menu" class="headerbtn menu" title="Menù">Menù</a>
+</div></div></div></div>
+<script type="application/ld+json">{"@context": "http://schema.org",
+"@type": "WebApplication","applicationCategory": "Game","operatingSystem":"Windows, Linux, OSX, Android, iOS","name": "Love Clicker","applicationSubCategory": "Giochi Di Strategia Game","creator":{"@type":"Organization","name":"Lagged"},"description":"Crea dei bambini in questo divertente clicker d&amp;#39;amore. Tocca semplicemente il cuore, quindi diffondi l&amp;#39;amore su vari aggiornamenti finch&eacute; non puoi sederti e rilassarti nel vero modo dell&amp;#39;ozio.",
+"aggregateRating":{"@type":"AggregateRating","ratingValue":85,"bestRating":100,"worstRating":1,"ratingCount":201},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"http://schema.org/InStock"},"image": ["https://imgs2.dab3games.com/love-clicker-game.jpg"]}</script>
+<div class="wrapit extrapad homepagepad gamepage">
+<div class="ad970 gamenewtpl" style="height:auto;max-width:970px;max-height:100px;min-height:90px;overflow:hidden;margin:0 auto 3px auto">
+<ins class="adsbygoogle maxyheightads" style="display:inline-block;max-width:970px;width:100%;min-height:90px;max-height:100px" data-full-width-responsive="true" data-ad-client="ca-pub-6893876361346206" data-ad-slot="5153389645"></ins>
+</div>
+<div id="gameinmiddle" class="gamesmiddle isloading">
+<div id="game" class="gamearea isloading"></div>
+<div id="gamecontrols" class="controls">
+<div class="controlsleft">
+<a href="https://lagged.com/it/more-games/1338" target="_blank" rel="nofollow"><img src="https://imgs2.dab3games.com/love-clicker-game.jpg" loading="lazy" alt="Love Clicker"><span>Love Clicker</span></a>
+</div><div class="controlsright">
+<button onclick="submitRating(2);" class="likebtn"><span>Come gioco</span></button>
+<button onclick="submitRating(1);" class="dislikebtn"><span>Gioco antipatico</span></button>
+<button onclick="toggleFullscreen();" class="fullscreenbtn"><span>A schermo intero</span></button>
+</div>
+</div>
+<div id="showafterplay" class="newgamesright">
+<div id="pcad" class="ad970"></div>
+</div>
+<button id="mobilerightnew" onclick="setTimeout(function(){mobileMenuToggle();},100);"></button>
+<a href="https://lagged.com/it/more-games/1338" id="minividbtnnewl" class="showittomob" target="_blank">
+<img src="https://imgs2.dab3games.com/idle-love-game.jpg" alt="more games" loading="lazy">
+<span>Di più</span>
+</a>
+</div>
+<div id="pregame" class="game_info_wrapper"><div class="game_info_boxs">
+<div class="game_info_left whitebitbar" style="margin-bottom:20px">
+<div class="gameinleftnew"><div id="game-img-click" class="imgwrapgame" onclick="startLoading();"><img src="https://imgs2.dab3games.com/love-clicker-game.jpg" alt="Love Clicker" width="200" height="200"></div>
+<button style="background-color:#1b73e8;margin-top:10px;min-height:46px;" class="play_btn" onclick="startLoading();" id="clickytext">Giocare</button></div>
+<div>
+<h2>Gioco Love Clicker</h2>
+<p>Crea dei bambini in questo divertente clicker d&#39;amore. Tocca semplicemente il cuore, quindi diffondi l&#39;amore su vari aggiornamenti finché non puoi sederti e rilassarti nel vero modo dell&#39;ozio.</p>
+<p><b>Come giocare</b>: Clicca o tocca per interagire</p>
+<div class="rativebtnbit">
+<span class="awardflare flarethumb">Al 85% così</span>
+</div></div>
+</div></div></div>
+<div class="bottomblock bottomad">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6893876361346206" data-ad-slot="5584073673" data-ad-format="auto" data-full-width-responsive="true"></ins>
+</div>
+<div id="bottomgames" class="bottomblock">
+<div class="thumbWrapper newboxshadow t1"><div>
+<a href="https://lagged.com/it/it/g/idle-love" onclick="sendGtagEvent();">Idle Love</a>
+<img src="https://imgs2.dab3games.com/idle-love-game.jpg" width="200" height="200" alt="Idle Love" loading="lazy">
+<span class="thumbname"><span>Idle Love</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t2"><div>
+<a href="https://lagged.com/it/it/g/miner-gold-idle" onclick="sendGtagEvent();">Miner Gold Idle</a>
+<img src="https://imgs2.dab3games.com/miner-gold-idle295.png" width="200" height="200" alt="Miner Gold Idle" loading="lazy">
+<span class="thumbname"><span>Miner Gold Idle</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t3"><div>
+<a href="https://lagged.com/it/it/g/pepe-coin-clicker" onclick="sendGtagEvent();">Pepe Coin Clicker</a>
+<img src="https://imgs2.dab3games.com/pepe-coin-clicker-game180.png" width="200" height="200" alt="Pepe Coin Clicker" loading="lazy">
+<span class="thumbname"><span>Pepe Coin Clicker</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t4"><div>
+<a href="https://lagged.com/it/it/g/knight-in-love" onclick="sendGtagEvent();">Knight in Love</a>
+<img src="https://imgs2.dab3games.com/knight-in-love-game.jpg" width="200" height="200" alt="Knight in Love" loading="lazy">
+<span class="thumbname"><span>Knight in Love</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t5"><div>
+<a href="https://lagged.com/it/it/g/clicker-monsters" onclick="sendGtagEvent();">Clicker Monsters</a>
+<img src="https://imgs2.dab3games.com/clicker-monsters284.png" width="200" height="200" alt="Clicker Monsters" loading="lazy">
+<span class="thumbname"><span>Clicker Monsters</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t6"><div>
+<a href="https://lagged.com/it/it/g/idle-oasis" onclick="sendGtagEvent();">Idle Oasis</a>
+<img src="https://imgs2.dab3games.com/idle-oasis-game.png" width="200" height="200" alt="Idle Oasis" loading="lazy">
+<span class="thumbname"><span>Idle Oasis</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t7"><div>
+<a href="https://lagged.com/it/it/g/idle-farm-world" onclick="sendGtagEvent();">Idle Farm World</a>
+<img src="https://imgs2.dab3games.com/idle-farm-world-game47.png" width="200" height="200" alt="Idle Farm World" loading="lazy">
+<span class="thumbname"><span>Idle Farm World</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t8"><div>
+<a href="https://lagged.com/it/it/g/lit-ape-nft-generator" onclick="sendGtagEvent();">LIT Ape NFT Generator</a>
+<img src="https://imgs2.dab3games.com/bored-ape-clicker655.png" width="200" height="200" alt="LIT Ape NFT Generator" loading="lazy">
+<span class="thumbname"><span>LIT Ape NFT Generator</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t9"><div>
+<a href="https://lagged.com/it/it/g/hero-simulator" onclick="sendGtagEvent();">Hero Simulator</a>
+<img src="https://imgs2.dab3games.com/hero-simulator-game.jpg" width="200" height="200" alt="Hero Simulator" loading="lazy">
+<span class="thumbname"><span>Hero Simulator</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t10"><div>
+<a href="https://lagged.com/it/it/g/money-clicker" onclick="sendGtagEvent();">Money Clicker</a>
+<img src="https://imgs2.dab3games.com/money-clicker-game.jpg" width="200" height="200" alt="Money Clicker" loading="lazy">
+<span class="thumbname"><span>Money Clicker</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t11"><div>
+<a href="https://lagged.com/it/it/g/pizza-clicker-tycoon" onclick="sendGtagEvent();">Pizza Clicker Tycoon</a>
+<img src="https://imgs2.dab3games.com/pizza-clicker-tycoon-game.png" width="200" height="200" alt="Pizza Clicker Tycoon" loading="lazy">
+<span class="thumbname"><span>Pizza Clicker Tycoon</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t12"><div>
+<a href="https://lagged.com/it/it/g/idle-factory" onclick="sendGtagEvent();">Factory Clicker</a>
+<img src="https://imgs2.dab3games.com/idle-factory-game.png" width="200" height="200" alt="Factory Clicker" loading="lazy">
+<span class="thumbname"><span>Factory Clicker</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t13"><div>
+<a href="https://lagged.com/it/it/g/idle-doodle-city" onclick="sendGtagEvent();">Idle Doodle City</a>
+<img src="https://imgs2.dab3games.com/idle-doodle-city-game8.png" width="200" height="200" alt="Idle Doodle City" loading="lazy">
+<span class="thumbname"><span>Idle Doodle City</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t14"><div>
+<a href="https://lagged.com/it/it/g/fantasy-merger" onclick="sendGtagEvent();">Fantasy Merger</a>
+<img src="https://imgs2.dab3games.com/fantasy-merger-1732.png" width="200" height="200" alt="Fantasy Merger" loading="lazy">
+<span class="thumbname"><span>Fantasy Merger</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t15"><div>
+<a href="https://lagged.com/it/it/g/idle-miners" onclick="sendGtagEvent();">Idle Miners</a>
+<img src="https://imgs2.dab3games.com/idle-miners-game.jpg" width="200" height="200" alt="Idle Miners" loading="lazy">
+<span class="thumbname"><span>Idle Miners</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t16"><div>
+<a href="https://lagged.com/it/it/g/halloween-idle-world" onclick="sendGtagEvent();">Halloween Idle World</a>
+<img src="https://imgs2.dab3games.com/halloween-idle-world-game.png" width="200" height="200" alt="Halloween Idle World" loading="lazy">
+<span class="thumbname"><span>Halloween Idle World</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t17"><div>
+<a href="https://lagged.com/it/it/g/idle-gym-tycoon" onclick="sendGtagEvent();">Idle Gym Tycoon</a>
+<img src="https://imgs2.dab3games.com/idle-gym-tycoon-game9.png" width="200" height="200" alt="Idle Gym Tycoon" loading="lazy">
+<span class="thumbname"><span>Idle Gym Tycoon</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t18"><div>
+<a href="https://lagged.com/it/it/g/farm-factory" onclick="sendGtagEvent();">Farm Factory</a>
+<img src="https://imgs2.dab3games.com/farm-factory-game178.png" width="200" height="200" alt="Farm Factory" loading="lazy">
+<span class="thumbname"><span>Farm Factory</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t19"><div>
+<a href="https://lagged.com/it/it/g/bitcoin-miner" onclick="sendGtagEvent();">Bitcoin Miner</a>
+<img src="https://imgs2.dab3games.com/bitcoin-miner-game.jpg" width="200" height="200" alt="Bitcoin Miner" loading="lazy">
+<span class="thumbname"><span>Bitcoin Miner</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t20"><div>
+<a href="https://lagged.com/it/it/g/merge-jewels" onclick="sendGtagEvent();">Merge Jewels</a>
+<img src="https://imgs2.dab3games.com/merge-jewels-game.png" width="200" height="200" alt="Merge Jewels" loading="lazy">
+<span class="thumbname"><span>Merge Jewels</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t21"><div>
+<a href="https://lagged.com/it/it/g/dogecoin-miner" onclick="sendGtagEvent();">Dogecoin Miner</a>
+<img src="https://imgs2.dab3games.com/dogecoin-miner-game.png" width="200" height="200" alt="Dogecoin Miner" loading="lazy">
+<span class="thumbname"><span>Dogecoin Miner</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t22"><div>
+<a href="https://lagged.com/it/it/g/huggy-wuggy-merge" onclick="sendGtagEvent();">Huggy Wuggy Merge</a>
+<img src="https://imgs2.dab3games.com/huggy-wuggy-merge14.png" width="200" height="200" alt="Huggy Wuggy Merge" loading="lazy">
+<span class="thumbname"><span>Huggy Wuggy Merge</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t23"><div>
+<a href="https://lagged.com/it/it/g/merge-miners" onclick="sendGtagEvent();">Merge Miners</a>
+<img src="https://imgs2.dab3games.com/merge-miner-game444.png" width="200" height="200" alt="Merge Miners" loading="lazy">
+<span class="thumbname"><span>Merge Miners</span></span>
+</div></div>
+<div class="thumbWrapper newboxshadow t24"><div>
+<a href="https://lagged.com/it/it/g/space-defense-idle" onclick="sendGtagEvent();">Space Defense Idle</a>
+<img src="https://imgs2.dab3games.com/space-defense-idle283.png" width="200" height="200" alt="Space Defense Idle" loading="lazy">
+<span class="thumbname"><span>Space Defense Idle</span></span>
+</div></div>
+</div>
+</div>
+<div class="whitebitbar awardsbitvvm">
+<div id="breadcrumbs" style="margin-top:5px;background-color:transparent;width:100%;padding:0;"><div class="wrapit2" itemscope itemtype="http://schema.org/BreadcrumbList">
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it"><span itemprop="name">Lagged.com</span></a><meta itemprop="position" content="1"></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/strategy" class="bitem"><span itemprop="name">Giochi Di Strategia</span></a><meta itemprop="position" content="2"></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/upgrade" class="bitem"><span itemprop="name">Giochi Di Incremento</span></a><meta itemprop="position" content="3"></span>
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://lagged.com/it/it/g/love-clicker" class="bitem active"><span itemprop="name">Love Clicker</span></a><meta itemprop="position" content="4"></span></div></div>
+<p>Love Clicker è un gioco giochi di strategia online che abbiamo scelto appositamente per Lagged.com. Questo è uno dei nostri giochi giochi di strategia per cellulari preferiti. Basta cliccare il grande tasto Gioca per iniziare a divertirti. Se cerchi più titoli come questo, dai un'occhiata a Dama o DrawThis. Più più giochi gratuiti, da' un'occhiata alla nostra pagina dei migliori giochi in assoluto.</p>
+<p class="gametags-more">
+<strong>Più giochi</strong><br>
+<a title="Giochi Di Strategia" href="https://lagged.com/it/it/strategy">Giochi Di Strategia</a>
+<a title="Giochi Di Incremento" href="https://lagged.com/it/it/upgrade">Giochi Di Incremento</a>
+<a title="Giochi Di Click" href="https://lagged.com/it/it/clicker">Giochi Di Click</a>
+<a title="Giochi D'amore" href="https://lagged.com/it/it/love">Giochi D'amore</a>
+</p>
+</div>
+<script>
+var iframesrc="https://lagged.com/api/play2/love-clicker2/";var thisgamegid=1338;
+var adThumb="love-clicker-game.jpg";
+var jsMoreGames=[{"id":764,"thumb":"idle-love-game.jpg","name":"Idle Love","url_key":"idle-love","ordering":1},{"id":4921,"thumb":"miner-gold-idle295.png","name":"Miner Gold Idle","url_key":"miner-gold-idle","ordering":2},{"id":5507,"thumb":"pepe-coin-clicker-game180.png","name":"Pepe Coin Clicker","url_key":"pepe-coin-clicker","ordering":3},{"id":1336,"thumb":"knight-in-love-game.jpg","name":"Knight in Love","url_key":"knight-in-love","ordering":4},{"id":5655,"thumb":"clicker-monsters284.png","name":"Clicker Monsters","url_key":"clicker-monsters","ordering":5},{"id":912,"thumb":"idle-oasis-game.png","name":"Idle Oasis","url_key":"idle-oasis","ordering":6},{"id":3304,"thumb":"idle-farm-world-game47.png","name":"Idle Farm World","url_key":"idle-farm-world","ordering":7},{"id":5069,"thumb":"bored-ape-clicker655.png","name":"LIT Ape NFT Generator","url_key":"lit-ape-nft-generator","ordering":8},{"id":635,"thumb":"hero-simulator-game.jpg","name":"Hero Simulator","url_key":"hero-simulator","ordering":9},{"id":1602,"thumb":"money-clicker-game.jpg","name":"Money Clicker","url_key":"money-clicker","ordering":10},{"id":2445,"thumb":"pizza-clicker-tycoon-game.png","name":"Pizza Clicker Tycoon","url_key":"pizza-clicker-tycoon","ordering":11},{"id":2040,"thumb":"idle-factory-game.png","name":"Factory Clicker","url_key":"idle-factory","ordering":12}];
+var gameOrientation=1;
+var useLaggedapiembed=true;
+</script>
+<footer id="footer">
+<div class="footwrap"><div class="footlead">
+<a href="https://lagged.com/it" title="Lagged" class="footerlogo">Lagged</a>
+<button id="togglelnbtn" onclick="toggleLang();" class="footsocial flag">Italiano</button>
+<div id="togglelang">
+<a href="https://lagged.com/en/g/love-clicker" hreflang="en" title="Lagged.com">English <span>(Engelsk)</span></a>
+<a href="https://spiel2.com/de/g/love-clicker" hreflang="de" class="de" title="Spiel2.com">Deutsche <span>(Tysk)</span></a>
+<a href="https://lagged.com.br/pt/g/love-clicker" hreflang="pt-BR" class="pt" title="Lagged.com.br">Português <span>(Portugisiska)</span></a>
+<a href="https://lagged.es/es/g/love-clicker" hreflang="es" class="es" title="Lagged.es">Español <span>(Spanska)</span></a>
+<a href="https://oyun.io/tr/g/love-clicker" hreflang="tr" class="tr" title="Oyun.io">Türkçe <span>(Turkiska)</span></a>
+<a href="https://lagged.me/ar/g/love-clicker" hreflang="ar" class="ar" title="Lagged.me">عربى <span>(Arabiska)</span></a>
+<a href="https://lagged.bg/bg/g/love-clicker" hreflang="bg" class="bg" title="Lagged.bg">български <span>(Bulgaro)</span></a>
+<a href="https://lagged.gr/el/g/love-clicker" hreflang="el" class="el" title="Lagged.gr">Ελληνικά <span>(Greco)</span></a>
+<a href="https://lagged.fi/fi/g/love-clicker" hreflang="fi" class="fi" title="Lagged.fi">Suomalainen <span>(Finnish)</span></a>
+<a href="https://lagged.fr/fr/g/love-clicker" hreflang="fr" class="fr" title="Lagged.fr">Français <span>(Franska)</span></a>
+<a href="https://lagged.in/hi/g/love-clicker" hreflang="hi" class="hi" title="Lagged.in">हिन्दी <span>(Hindi)</span></a>
+<a href="https://lagged.id/id/g/love-clicker" hreflang="id" class="id" title="Lagged.id">Indonesia <span>(Indonesiska)</span></a>
+<a href="https://lagged.com/it/it/g/love-clicker" hreflang="it" class="it active" title="Lagged.com/it">Italiano</a>
+<a href="https://lagged.jp/ja/g/love-clicker" hreflang="ja" class="ja" title="Lagged.jp">日本 <span>(Japanska)</span></a>
+<a href="https://lagged.kr/ko/g/love-clicker" hreflang="ko" class="ko" title="Lagged.kr">한국어 <span>(Koreanska)</span></a>
+<a href="https://spellen2.com/nl/g/love-clicker" hreflang="nl" class="nl" title="Spellen2.com">Nederlands <span>(Holländska)</span></a>
+<a href="https://lagged.pl/pl/g/love-clicker" hreflang="pl" class="pl" title="Lagged.pl">Polski <span>(Putsa)</span></a>
+<a href="https://lagged.ro/ro/g/love-clicker" hreflang="ro" class="ro" title="Lagged.ro">Română <span>(Rumeno)</span></a>
+<a href="https://lagged.ru/ru/g/love-clicker" hreflang="ru" class="ru" title="Lagged.ru">Pусский <span>(Ryska)</span></a>
+<a href="https://lagged.se/sv/g/love-clicker" hreflang="sv" class="sv" title="Lagged.se">Svenska <span>(Svedese)</span></a>
+<a href="https://lagged.com/th/th/g/love-clicker" hreflang="th" class="th" title="Lagged.com/th">ไทย <span>(Thai)</span></a>
+<a href="https://lagged.vn/vi/g/love-clicker" hreflang="vi" class="vi" title="Lagged.vn">Tiếng Việt <span>(Vietnamesiska)</span></a>
+<a href="https://lagged.cn/zh/g/love-clicker" hreflang="zh" class="zh" title="Lagged.cn">中国人 <span>(Kinesiska)</span></a>
+</div>
+<a href="https://www.youtube.com/lagged" target="_blank" rel="noopener noreferrer" class="footsocial yt">YouTube</a>
+</div><div class="footsub"><a href="https://lagged.com/it/contact">Contattaci</a><a href="https://lagged.com/it/privacy">Informativa sulla privacy</a></div>
+<div class="footend"><p>Lagged è la migliore piattaforma per giochi online. Sfida i tuoi amici a migliaia di giochi diversi su PC, tablet o dispositivi mobili. Competi per punteggi alti e per ottenere risultati così da scalare la nostra classifica globale.</p><p>&copy; Lagged 2023</p>
+</div>
+</div>
+</footer>
+</div>
+<link rel="stylesheet" href="https://lagged.com/it/js/v2/styles.css" media="all">
+<script src="https://lagged.com/it/js/v2/customchannels.js"></script>
+<script src="https://lagged.com/it/js/v2/site.js"></script>
+</body></html>

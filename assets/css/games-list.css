@@ -933,6 +933,12 @@
 .cards .mini-mall-millionaire {
     background-image: url("/assets/img/thumbnails/mini-mall-millionaire.png");
 }
+.cards .fruit-ninja {
+    background-image: url("/assets/img/thumbnails/fruit-ninja.png");
+}
+.cards .btd-6 {
+    background-image: url("/assets/img/thumbnails/bloons-td-6.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

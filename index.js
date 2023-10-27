@@ -33,8 +33,7 @@ form.addEventListener("submit", async (event) => {
   const url = search(address.value, searchEngine.value);
   const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
   localStorage.setItem('storedURL', encodedUrl);
-  localStorage.setItem('app-name', 'Google')
-  localStorage.setItem('app-image', '/assets/img/websites/google.png')
+  localStorage.setItem('shownameandimg', 'false')
   setIframeType('index')
   location.href="/iframe.html"
 });

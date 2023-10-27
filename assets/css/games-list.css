@@ -951,6 +951,30 @@
 .cards .duck-life-6 {
     background-image: url("/assets/img/thumbnails/duck-life-6.png");
 }
+.cards .bad-piggies {
+    background-image: url("/assets/img/thumbnails/bad-piggies.png");
+}
+.cards .gun-mayhem-3 {
+    background-image: url("/assets/img/thumbnails/gun-mayhem-3.png");
+}
+.cards .fnaf-2 {
+    background-image: url("/assets/img/thumbnails/fnaf-2.png");
+}
+.cards .fnaf-3 {
+    background-image: url("/assets/img/thumbnails/fnaf-3.png");
+}
+.cards .fnaf-4 {
+    background-image: url("/assets/img/thumbnails/fnaf-4.png");
+}
+.cards .burrito-bison {
+    background-image: url("/assets/img/thumbnails/burrito-bison.png");
+}
+.cards .cell-machine {
+    background-image: url("/assets/img/thumbnails/cell-machine.png");
+}
+.cards .fluid-simulator {
+    background-image: url("/assets/img/thumbnails/fluid-simulator.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

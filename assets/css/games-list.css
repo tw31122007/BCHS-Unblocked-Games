@@ -975,6 +975,9 @@
 .cards .fluid-simulator {
     background-image: url("/assets/img/thumbnails/fluid-simulator.png");
 }
+.cards .adventure-capitalist {
+    background-image: url("/assets/img/thumbnails/adventure-capitalist.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

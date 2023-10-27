@@ -978,6 +978,18 @@
 .cards .adventure-capitalist {
     background-image: url("/assets/img/thumbnails/adventure-capitalist.png");
 }
+.cards .chibi-knight {
+    background-image: url("/assets/img/thumbnails/chibi-knight.png");
+}
+.cards .champion-island {
+    background-image: url("/assets/img/thumbnails/champion-island.png");
+}
+.cards .circloo {
+    background-image: url("/assets/img/thumbnails/circloo.png");
+}
+.cards .colour-switch {
+    background-image: url("/assets/img/thumbnails/colour-switch.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

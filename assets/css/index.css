@@ -251,3 +251,6 @@ a.box {
 .box.retroarch {
     background-image: url("/assets/img/websites/retroarch.png");
 }
+.box.chatgpt{
+    background-image: url("/assets/img/websites/chatgpt.png");
+}

@@ -99,7 +99,7 @@ body {
         font-size: 16px;
     }
     .search-icon {
-        right: 55px;
+        right: 180px;
     }
 }
 @media (min-width: 401px) and (max-width: 500px) {
@@ -111,7 +111,7 @@ body {
         font-size: 16px;
     }
     .search-icon {
-        right: 55px;
+        right: 180px;
     }
 }
 @media (min-width: 501px) and (max-width: 600px) {
@@ -123,7 +123,7 @@ body {
         font-size: 17px;
     }
     .search-icon {
-        right: 85px;
+        right: 170px;
     }
 }
 @media (min-width: 601px) and (max-width: 700px) {
@@ -135,7 +135,7 @@ body {
         font-size: 18px;
     }
     .search-icon {
-        right: 125px;
+        right: 165px;
     }
 }
 @media (min-width: 701px) {
@@ -147,13 +147,13 @@ body {
         font-size: 20px;
     }
     .search-icon {
-        right: 110px;
+        right: 140px;
     }
     .form__input:hover {
         width: 400px;
     }
     .form__input:hover ~ .search-icon {
-        right: 70px;
+        right: 120px;
     }
 }
 

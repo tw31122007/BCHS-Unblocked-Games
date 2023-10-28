@@ -84,21 +84,65 @@ if (showNameAndImg === 'true') {
   document.getElementById('app-name').style.display = 'none';
   document.getElementById('app-image').style.display = 'none';
 }
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", async function() {
   var alertModal = document.getElementById("alertModal");
-  var alertSpan = alertModal.querySelector(".alert-close-btn");
+  var okButton = document.getElementById("alertOkButton");
 
-  alertSpan.onclick = function() {
-    alertModal.style.display = "none";
-  }
   function showAlertModal() {
     alertModal.style.display = "block";
   }
+  okButton.onclick = function() {
+    alertModal.style.display = "none";
+    localStorage.setItem('modalpopup', 'false');
+  }
 
   if(localStorage.getItem('modalpopup') === 'true') {
+    let modalType = localStorage.getItem('modal-type');
+
+    try {
+      let modalData = await fetchData(modalType);
+      console.log("Setting Text:", modalData.text);
+      
+      // Set title
+      if (modalData.title) {
+          document.getElementById('alertModalTitle').textContent = modalData.title;
+      } else {
+          document.getElementById('alertModalTitle').textContent = "";  // clear if no title is present for this modal type
+      }
+      
+      // Set text
+      if (modalData.text !== "false") {
+          document.getElementById('alertModalText').textContent = modalData.text;
+      }
+      
+      // Show or hide OK button
+      if (modalData.showOkButton) {
+          document.getElementById('alertOkButton').style.display = 'block';
+      } else {
+          document.getElementById('alertOkButton').style.display = 'none';
+      }
+      
       showAlertModal();
-      localStorage.setItem('modalpopup', 'false'); // Reset it
+
+    } catch(error) {
+      console.error("There was an issue:", error);
+    }
   }
 });
-
+function fetchData(type) {
+  return fetch('/assets/json/modal.json')
+  .then(response => {
+      if (!response.ok) {
+          throw new Error("Network response was not ok");
+      }
+      return response.json();
+  })
+  .then(data => {
+      console.log("Fetched modal data:", data);  // Debug log
+      return data[type];
+  })
+  .catch(error => {
+      console.error("There was a problem fetching the modal data:", error);
+      throw error;
+  });
+}

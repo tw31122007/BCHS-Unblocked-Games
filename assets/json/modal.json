@@ -1,0 +1,12 @@
+{
+    "slow": {
+        "title": "Please Wait",
+        "text": "Please be patient, this game will take some time to load.",
+        "showOkButton": true
+    },
+    "slowandbuggy": {
+        "title": "Please Wait",
+        "text": "Please be patient, this game is often slow and buggy at the start, But it will work fine after a moment or two.",
+        "showOkButton": true
+    }
+}

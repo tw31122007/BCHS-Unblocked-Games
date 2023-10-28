@@ -13,7 +13,7 @@ body, html {
 body {
   margin: 0;
   padding: 0;
-  background: #000;
+  background: #121111;
   overflow-x: hidden;
   background-image: url(/assets/img/backgrounds/loading.gif);
   background-repeat: no-repeat;
@@ -22,6 +22,7 @@ body {
   background-size: 50%;
   height: 100vh;
   color: #ffffff;
+  font-family: 'Poppins', sans-serif;
 }
 *, *:before, *:after {
   box-sizing: border-box;
@@ -224,34 +225,129 @@ body.light-theme .back-arrow {
 }
 
 .alert-modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1000; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 200px;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
-
 .alert-modal-content {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 50%;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.alert-close-btn {
+#alertModalText {
+  color: black;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+#alertModalTitle {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: black;
+}
+#alertOkButton {
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: #3a3b3c;
+  color: #fff;
   cursor: pointer;
-  position: absolute;
-  right: 15px;  /* Adjust as needed */
-  top: 10px;    /* Adjust as needed */
-  font-size: 24px; /* Adjust as needed */
+  font-size: 15px;
 }
-.alert-close-btn:hover {
-  color: red;  /* Change color on hover */
+#alertOkButton:hover {
+  transform: scale(1.05);
+  background-color: #2a2b2c; 
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+/* Default styles (for very small screens and mobile) */
+.alert-modal-content {
+  width: 80%;
+}
+#alertModalTitle {
+  font-size: 20px;
+}
+#alertModalText {
+  font-size: 16px;
+}
+#alertOkButton {
+  font-size: 16px;  
+  padding: 10px 20px;
+}
+@media (max-width: 400px) {
+  .alert-modal-content {
+      width: 90%;  
+  }
+  #alertModalTitle {
+      font-size: 22px;
+  }
+  #alertModalText, #alertOkButton {
+      font-size: 18px;
+  }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+  .alert-modal-content {
+      width: 70%;  
+  }
+  #alertModalTitle {
+      font-size: 22px;
+  }
+  #alertModalText, #alertOkButton {
+      font-size: 18px;
+  }
+}
+@media (min-width: 501px) and (max-width: 600px){
+  .alert-modal-content {
+      width: 65%;  
+  }
+  #alertModalTitle {
+      font-size: 24px;
+  }
+  #alertModalText, #alertOkButton {
+      font-size: 20px;
+  }
+}
+@media (min-width: 601px) and (max-width: 700px){
+  .alert-modal-content {
+      width: 60%;  
+  }
+  #alertModalTitle {
+      font-size: 26px;
+  }
+  #alertModalText, #alertOkButton {
+      font-size: 22px;
+  }
+}
+@media (min-width: 701px) and (max-width: 899px){
+  .alert-modal-content {
+      width: 55%;  
+  }
+  #alertModalTitle {
+      font-size: 28px;
+  }
+  #alertModalText, #alertOkButton {
+      font-size: 24px;
+  }
+}
+@media (min-width: 900px) {
+  .alert-modal-content {
+      width: 600px;
+  }
+  #alertModalTitle {
+      font-size: 30px;
+  }
+  #alertModalText, #alertOkButton {
+      font-size: 22px;
+  }
 }

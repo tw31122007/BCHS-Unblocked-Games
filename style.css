@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 .body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
     background: #121111;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 .alert-modal {
 display: block;
@@ -14,58 +25,58 @@ background-color: rgb(0,0,0);
 background-color: rgba(0,0,0,0.4);
 }
 .alert-modal-content {
-background-color: #fefefe;
-margin: auto;
-padding: 20px;
-border: 1px solid #888;
-border-radius: 10px;
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-width: 80%;
-margin-top: 100px;
+    background-color: #fefefe;
+    margin: 20px auto; /* added top and bottom margin */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
 }
 #alertModalText {
-color: black;
-margin-bottom: 15px;
-font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 #alertModalTitle {
-font-weight: bold;
-margin-bottom: 15px;
-color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: black;
 }
 #alertOkButton {
-padding: 10px 20px; 
-border: none; 
-border-radius: 5px; 
-background-color: #3a3b3c;
-color: #fff;
-cursor: pointer;
-font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a3b3c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
 }
 #alertOkButton:hover {
-transform: scale(1.05);
-background-color: #2a2b2c; 
-transition: transform 0.3s ease, background-color 0.3s ease; 
+    transform: scale(1.05);
+    background-color: #2a2b2c;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 #alertModalImg1, #alertModalImg2 {
-max-width: 40%; /* adjust as needed */
-height: auto; /* maintain aspect ratio */
-margin: 0 10px;
+    max-width: 40%; /* adjust as needed */
+    height: auto; /* maintain aspect ratio */
+    margin: 0 10px;
 }
 #alertModalImg1Desc, #alertModalImg2Desc {
-width: 40%; /* match image width for alignment */
-margin-top: 10px; /* some space above descriptions */
-font-size: 14px; /* smaller font for descriptions */
-text-align: center; /* center the descriptions */
+    width: 40%; /* match image width for alignment */
+    margin-top: 10px; /* some space above descriptions */
+    font-size: 14px; /* smaller font for descriptions */
+    text-align: center; /* center the descriptions */
 }
 .alert-images-wrapper {
-display: flex; 
-justify-content: space-around;
-align-items: center;
-margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap; /* added wrap for small screens */
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
 }
 /* Default styles (for very small screens and mobile) */
 #alertModalTitle {

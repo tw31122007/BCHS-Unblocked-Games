@@ -1,0 +1,17 @@
+[
+    {
+        "type": "dual_image",
+        "content": ["image1.jpg", "image2.jpg"],
+        "showOkButton": true
+    },
+    {
+        "type": "single_image",
+        "content": ["image3.jpg"],
+        "showOkButton": false
+    },
+    {
+        "type": "text",
+        "content": ["Some text content."],
+        "showOkButton": true
+    }
+]

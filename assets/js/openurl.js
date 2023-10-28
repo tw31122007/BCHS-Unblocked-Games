@@ -1,6 +1,6 @@
 const form = document.querySelector('form');
 const input = document.querySelector('input');
-
+dd
 function isUrl(val = '') {
     if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
     return false;
@@ -58,3 +58,4 @@ function setWaflashURL(url) {
     localStorage.setItem('waflashurl', url);
     window.location.href = 'waflash.html'; // Redirect to the flash emulator page after setting the SWF URL
 }
+

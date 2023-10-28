@@ -91,6 +91,7 @@ document.addEventListener("DOMContentLoaded", async function() {
   function showAlertModal() {
     alertModal.style.display = "block";
   }
+
   okButton.onclick = function() {
     alertModal.style.display = "none";
     localStorage.setItem('modalpopup', 'false');
@@ -98,30 +99,51 @@ document.addEventListener("DOMContentLoaded", async function() {
 
   if(localStorage.getItem('modalpopup') === 'true') {
     let modalType = localStorage.getItem('modal-type');
+    alertModal.classList.remove('slow', 'slowandbuggy', 'twoimage');
+    alertModal.classList.add(modalType);
 
     try {
       let modalData = await fetchData(modalType);
       console.log("Setting Text:", modalData.text);
-      
+
       // Set title
       if (modalData.title) {
           document.getElementById('alertModalTitle').textContent = modalData.title;
       } else {
           document.getElementById('alertModalTitle').textContent = "";  // clear if no title is present for this modal type
       }
-      
+
       // Set text
       if (modalData.text !== "false") {
           document.getElementById('alertModalText').textContent = modalData.text;
       }
-      
+
       // Show or hide OK button
       if (modalData.showOkButton) {
           document.getElementById('alertOkButton').style.display = 'block';
       } else {
           document.getElementById('alertOkButton').style.display = 'none';
       }
-      
+
+      if (modalType === "twoimage") {
+        let gameName = localStorage.getItem('modal-info');
+        let gameModalData = await fetchGameModalData(gameName);
+        let img1 = document.getElementById('alertModalImg1');
+        let img2 = document.getElementById('alertModalImg2');
+
+        img1.onclick = function() {
+          handleImageAction(gameModalData.img1Action);
+        };
+        img2.onclick = function() {
+          handleImageAction(gameModalData.img2Action);
+        };
+
+        document.getElementById('alertModalImg1').src = gameModalData.img1;
+        document.getElementById('alertModalImg2').src = gameModalData.img2;
+        document.getElementById('alertModalImg1Desc').textContent = gameModalData.img1Desc;
+        document.getElementById('alertModalImg2Desc').textContent = gameModalData.img2Desc;
+      }
+
       showAlertModal();
 
     } catch(error) {
@@ -129,6 +151,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
   }
 });
+
 function fetchData(type) {
   return fetch('/assets/json/modal.json')
   .then(response => {
@@ -145,4 +168,28 @@ function fetchData(type) {
       console.error("There was a problem fetching the modal data:", error);
       throw error;
   });
+}
+
+function fetchGameModalData(game) {
+    return fetch('/assets/json/modal-info.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return response.json();
+        })
+        .then(data => {
+            return data[game];
+        })
+        .catch(error => {
+            console.error("There was a problem fetching the game modal data:", error);
+            throw error;
+        });
+}
+function handleImageAction(action) {
+  for (let key in action) {
+      localStorage.setItem(key, action[key]);
+  }
+  alertModal.style.display = "none";
+  localStorage.setItem('modalpopup', 'false');
 }

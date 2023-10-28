@@ -223,12 +223,19 @@ body.light-theme .back-arrow {
 .theme-selection label {
   margin-right: 15px;
 }
-
+.alert-modal.slow {
+  padding-top: 200px;
+}
+.alert-modal.slowandbuggy {
+  padding-top: 150px;
+}
+.alert-modal.twoimage {
+  padding-top: 100px;
+}
 .alert-modal {
   display: none;
   position: fixed;
   z-index: 1000;
-  padding-top: 200px;
   left: 0;
   top: 0;
   width: 100%;
@@ -246,6 +253,8 @@ body.light-theme .back-arrow {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  width: 80%;
 }
 #alertModalText {
   color: black;
@@ -271,10 +280,24 @@ body.light-theme .back-arrow {
   background-color: #2a2b2c; 
   transition: transform 0.3s ease, background-color 0.3s ease; 
 }
-/* Default styles (for very small screens and mobile) */
-.alert-modal-content {
-  width: 80%;
+#alertModalImg1, #alertModalImg2 {
+  max-width: 40%; /* adjust as needed */
+  height: auto; /* maintain aspect ratio */
+  margin: 0 10px;
 }
+#alertModalImg1Desc, #alertModalImg2Desc {
+  width: 40%; /* match image width for alignment */
+  margin-top: 10px; /* some space above descriptions */
+  font-size: 14px; /* smaller font for descriptions */
+  text-align: center; /* center the descriptions */
+}
+.alert-images-wrapper {
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+/* Default styles (for very small screens and mobile) */
 #alertModalTitle {
   font-size: 20px;
 }

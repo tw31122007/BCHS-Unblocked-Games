@@ -13,7 +13,7 @@ body, html {
 body {
   margin: 0;
   padding: 0;
-  background: #000;
+  background: #121111;
   overflow-x: hidden;
   background-image: url(/assets/img/backgrounds/loading.gif);
   background-repeat: no-repeat;
@@ -22,6 +22,7 @@ body {
   background-size: 50%;
   height: 100vh;
   color: #ffffff;
+  font-family: 'Poppins', sans-serif;
 }
 *, *:before, *:after {
   box-sizing: border-box;

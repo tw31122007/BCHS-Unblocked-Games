@@ -1,0 +1,30 @@
+{
+    "bitlife": {
+        "img1": "/assets/img/modal/flash-player.png",
+        "img2": "/assets/img/modal/html5.png",
+        "img1Desc": "Flash (Old Version)",
+        "img2Desc": "HTML5 (New Version)",
+        "img1Action": {
+            "storedUrl": "https://games.alegithomeworksite.com.au/2048/",
+            "app-name": "Duck Life 5: Treasure Hunt (Old Version)"
+        },
+        "img2Action": {
+            "storedUrl": "https://games.alegithomeworksite.com.au/duck-life-treasurehunt/",
+            "app-name": "Duck Life 5: Treasure Hunt (New Version)"
+        }
+    },
+    "": {
+        "img1": "",
+        "img2": "",
+        "img1Desc": "",
+        "img2Desc": "",
+        "img1Action": {
+            "storedURL": "",
+            "modalpopup": "false"
+        },
+        "img2Action": {
+            "storedURL": "",
+            "modalpopup": "false"
+        }
+    }
+}

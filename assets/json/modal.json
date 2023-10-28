@@ -1,0 +1,17 @@
+{
+    "slow": {
+        "title": "Please Wait",
+        "text": "Please be patient, this game will take some time to load.",
+        "showOkButton": true
+    },
+    "slowandbuggy": {
+        "title": "Please Wait",
+        "text": "Please be patient, this game is often slow and buggy at the start, But it will work fine after a moment or two.",
+        "showOkButton": true
+    },
+    "twoimage": {
+        "title": "Choose What Version",
+        "text": "Duck life treasurehunt has two different versions, the older flash version which is probably the one that you remember and the newer HTML5 version which is a bit different but is more reliable.",
+        "showOkButton": false
+    }
+}

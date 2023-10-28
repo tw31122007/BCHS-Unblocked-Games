@@ -65,9 +65,13 @@ function backtopage() {
   }
 }
 
-const storedURL = localStorage.getItem('storedURL');
-const iframe = document.getElementById('iframe');
-iframe.src = storedURL;
+var iframeUrl = localStorage.getItem('storedURL');
+var iframeElement = document.getElementById('iframe');
+if (iframeUrl) {
+    iframeElement.src = iframeUrl;
+} else {
+    console.error("No URL found in localStorage for the iframe");
+}
 
 function reload() {
   localStorage.setItem('current-url', iframe.src);

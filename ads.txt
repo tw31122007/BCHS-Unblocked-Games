@@ -1,0 +1,64 @@
+#GameMonetize.com
+google.com, pub-5519830896693885, DIRECT, f08c47fec0942fa0
+google.com, pub-4764333688337558, DIRECT, f08c47fec0942fa0
+<!-- google.com, pub-4573231550355221, RESELLER, f08c47fec0942fa0
+pubmatic.com, 160907, DIRECT, 5d62403b186f2ace
+indexexchange.com, 194273, DIRECT, 50b1c356f2c5c8fc
+media.net, 8CU5DERG1, DIRECT
+rhythmone.com, 895733750, DIRECT, a670c89d4a324e47
+video.unrulymedia.com, 895733750, direct
+sovrn.com, 357833, DIRECT, fafdf38b16bf6b2b
+lijit.com, 357833, DIRECT, fafdf38b16bf6b2b
+lijit.com, 357833-eb, DIRECT, fafdf38b16bf6b2b
+advertising.com, 28246, RESELLER
+rubiconproject.com, 11006, RESELLER, 0bfd66d529a55807
+google.com, pub-3769010358500643, RESELLER, f08c47fec0942fa0
+freewheel.tv, 20393, RESELLER
+freewheel.tv, 24377, RESELLER
+onetag.com, 75ab9ccdd190228, DIRECT
+yahoo.com, 58905, RESELLER, e1a5b5b6e3255540
+aol.com, 58905, RESELLER, e1a5b5b6e3255540
+appnexus.com, 13099, RESELLER
+smartadserver.com, 4111, RESELLER
+google.com, pub-8309773808661346, RESELLER, f08c47fec0942fa0
+google.com, pub-6733417337840393, DIRECT, f08c47fec0942fa0
+pubmatic.com, 157335, DIRECT, 5d62403b186f2ace
+rubiconproject.com, 19654, DIRECT, 0bfd66d529a55807
+smartadserver.com, 3277, RESELLER
+contextweb.com, 560288, RESELLER, 89ff185a4c4e857c 
+pubmatic.com, 156439, RESELLER, 5d62403b186f2ace 
+pubmatic.com, 154037, RESELLER, 5d62403b186f2ace 
+rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807 
+openx.com, 537149888, RESELLER, 6a698e2ec38604c6 
+appnexus.com, 3703, RESELLER, f5ab79cb980f11d1 
+districtm.io, 101760, RESELLER, 3fd707be9c4527c3 
+loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b 
+ad.plus, 352349, DIRECT #Video #Display
+xad.com, 958, RESELLER, 81cbf0a75a5e0e9a 
+adwmg.com, 100299, DIRECT
+rhythmone.com, 2564526802, RESELLER, a670c89d4a324e47 
+smaato.com, 1100044045, RESELLER, 07bcf65f187117b4 
+pubnative.net, 1006576, RESELLER, d641df8625486a7b 
+adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER 
+axonix.com, 57264, RESELLER 
+admanmedia.com, 43, RESELLER
+openx.com, 540310752, DIRECT, 6a698e2ec38604c6
+rhythmone.com, 4195999290, DIRECT, a670c89d4a324e47
+rubiconproject.com,  19652  ,DIRECT, 0bfd66d529a55807 
+appnexus.com, 8950, RESELLER
+pubmatic.com,156307,RESELLER,5d62403b186f2ace
+pubmatic.com, 156736, DIRECT, 5d62403b186f2ace
+criteo.com, 155036, DIRECT 
+criteo.com, 174835, DIRECT 
+criteo.com, B-059025, DIRECT, 9fac4a4a87c2a44f
+google.com, pub-1026343505820086, DIRECT, f08c47fec0942fa0
+google.com, pub-7002491002409919, DIRECT, f08c47fec0942fa0
+google.com, pub-9834921707786629, DIRECT, f08c47fec0942fa0
+google.com, pub-6261920351485424, DIRECT, f08c47fec0942fa0
+google.com, pub-3218843770801011, DIRECT, f08c47fec0942fa0
+google.com, pub-6987270876834820, DIRECT, f08c47fec0942fa0
+google.com, pub-9378724246417115, DIRECT, f08c47fec0942fa0 
+google.com, pub-7002491002409919, RESELLER, f08c47fec0942fa0 
+google.com, pub-7002491002409919, DIRECT, f08c47fec0942fa0 
+adingo.jp,26007, RESELLER
+-->

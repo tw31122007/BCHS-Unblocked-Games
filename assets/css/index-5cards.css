@@ -147,13 +147,13 @@ body {
         font-size: 20px;
     }
     .search-icon {
-        right: 100px;
+        right: 140px;
     }
     .form__input:hover {
         width: 400px;
     }
     .form__input:hover ~ .search-icon {
-        right: 70px;
+        right: 120px;
     }
 }
 

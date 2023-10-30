@@ -80,10 +80,30 @@
                 <i class="fa fa-plus"></i>
             </div>
         </div>
-        
-        
       </div>
    </div>
+<!-- Popup Menu HTML with Font Awesome X icon -->
+<div id="addWebsitePopup" class="popup-menu" style="display:none;">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()"><i class="fa-solid fa-x"></i></span>
+        <form id="addWebsiteForm">
+            <label for="imageUrl">Image URL:</label>
+            <input type="text" id="imageUrl" name="imageUrl" placeholder="Image URL" required>
+            
+            <label for="websiteUrl">Website URL:</label>
+            <input type="text" id="websiteUrl" name="websiteUrl" placeholder="Website URL" required>
+            
+            <input type="button" value="Add Box" onclick="addNewBox()">
+        </form>
+    </div>
+</div>
+<!-- Custom Context Menu HTML -->
+<div id="customContextMenu" class="custom-context-menu" style="display: none;">
+    <ul class="context-menu-list">
+        <li id="unpinBox" onclick="unpinBox()">Unpin</li>
+        <li id="reorderBox" onclick="startReorder()">Reorder</li>
+    </ul>
+</div>
     <!-- Footer Start -->
     <footer class="footer-sticky">
         <div class="logo-container">

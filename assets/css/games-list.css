@@ -993,6 +993,24 @@
 .cards .trap-the-cat {
     background-image: url("/assets/img/thumbnails/trap-the-cat.png");
 }
+.cards .adrenaline-challenge {
+    background-image: url("/assets/img/thumbnails/adrenaline-challenge.png");
+}
+.cards .avalanche {
+    background-image: url("/assets/img/thumbnails/avalanche.png");
+}
+.cards .battle-for-gondor {
+    background-image: url("/assets/img/thumbnails/battle-for-gondor.png");
+}
+.cards .the-black-knight {
+    background-image: url("/assets/img/thumbnails/the-black-knight.png");
+}
+.cards .boxhead2play {
+    background-image: url("/assets/img/thumbnails/boxhead2play.png");
+}
+.cards .champion-archer {
+    background-image: url("/assets/img/thumbnails/champion-archer.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

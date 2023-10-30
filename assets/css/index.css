@@ -159,10 +159,12 @@ body {
 
 .box-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 16px;
     padding: 20px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .box, .add-box {
@@ -180,6 +182,12 @@ body {
     background-position: center;
     z-index: 1;
     transition: transform 0.3s ease;
+}
+.box {
+    flex: 1;
+}
+.add-box {
+    flex: 0 0 auto;
 }
 a.box {
     text-decoration: none;
@@ -253,4 +261,64 @@ a.box {
 }
 .box.chatgpt{
     background-image: url("/assets/img/websites/chatgpt.png");
+}
+/* Popup Menu CSS */
+.popup-menu {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0,0.4);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Context Menu CSS */
+.custom-context-menu {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    width: 150px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.context-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+
+.context-menu-list li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.context-menu-list li:hover {
+    background-color: #f0f0f0;
 }

@@ -1011,6 +1011,21 @@
 .cards .champion-archer {
     background-image: url("/assets/img/thumbnails/champion-archer.png");
 }
+.cards .connect-3 {
+    background-image: url("/assets/img/thumbnails/connect-3.png");
+}
+.cards .creative-kill-chamber {
+    background-image: url("/assets/img/thumbnails/creative-kill-chamber.png");
+}
+.cards .csgo-clicker {
+    background-image: url("/assets/img/thumbnails/csgo-clicker.png");
+}
+.cards .cubefield {
+    background-image: url("/assets/img/thumbnails/cubefield.png");
+}
+.cards .skribbl-io {
+    background-image: url("/assets/img/thumbnails/skribbl-io.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

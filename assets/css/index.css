@@ -316,7 +316,7 @@ a.box {
     right: 30px;
     width: 400px;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 12px;
     background-color: #1e2124;
     opacity: 0.85;
     box-shadow: 4px 3px 8px 1px #96969633;

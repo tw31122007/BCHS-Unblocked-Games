@@ -990,6 +990,42 @@
 .cards .colour-switch {
     background-image: url("/assets/img/thumbnails/colour-switch.png");
 }
+.cards .trap-the-cat {
+    background-image: url("/assets/img/thumbnails/trap-the-cat.png");
+}
+.cards .adrenaline-challenge {
+    background-image: url("/assets/img/thumbnails/adrenaline-challenge.png");
+}
+.cards .avalanche {
+    background-image: url("/assets/img/thumbnails/avalanche.png");
+}
+.cards .battle-for-gondor {
+    background-image: url("/assets/img/thumbnails/battle-for-gondor.png");
+}
+.cards .the-black-knight {
+    background-image: url("/assets/img/thumbnails/the-black-knight.png");
+}
+.cards .boxhead2play {
+    background-image: url("/assets/img/thumbnails/boxhead2play.png");
+}
+.cards .champion-archer {
+    background-image: url("/assets/img/thumbnails/champion-archer.png");
+}
+.cards .connect-3 {
+    background-image: url("/assets/img/thumbnails/connect-3.png");
+}
+.cards .creative-kill-chamber {
+    background-image: url("/assets/img/thumbnails/creative-kill-chamber.png");
+}
+.cards .csgo-clicker {
+    background-image: url("/assets/img/thumbnails/csgo-clicker.png");
+}
+.cards .cubefield {
+    background-image: url("/assets/img/thumbnails/cubefield.png");
+}
+.cards .skribbl-io {
+    background-image: url("/assets/img/thumbnails/skribbl-io.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

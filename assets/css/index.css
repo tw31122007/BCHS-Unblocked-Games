@@ -159,10 +159,12 @@ body {
 
 .box-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 16px;
     padding: 20px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .box, .add-box {
@@ -180,6 +182,12 @@ body {
     background-position: center;
     z-index: 1;
     transition: transform 0.3s ease;
+}
+.box {
+    flex: 1;
+}
+.add-box {
+    flex: 0 0 auto;
 }
 a.box {
     text-decoration: none;
@@ -199,7 +207,6 @@ a.box {
     z-index: 2;
     background-color: rgba(65, 63, 63, 1);
 }
-
 .add-box {
     background-color: rgba(65, 63, 63, 0.8);
     cursor: pointer;
@@ -208,16 +215,10 @@ a.box {
     justify-content: center;
     transition: background-color 0.3s ease;
 }
-
 .add-box i {
     font-size: 28px;
     color: #ffffff;
 }
-/* template
-.box. {
-    background-image: url("/assets/img/websites/");
-}
-*/
 .box.youtube {
     background-image: url("/assets/img/websites/youtube.png");
 }
@@ -254,3 +255,112 @@ a.box {
 .box.chatgpt{
     background-image: url("/assets/img/websites/chatgpt.png");
 }
+.popup-menu {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0,0.4);
+}
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.custom-context-menu {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    width: 150px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.context-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+
+.context-menu-list li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.context-menu-list li:hover {
+    background-color: #f0f0f0;
+}
+.recent {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #1e2124;
+    opacity: 0.85;
+    box-shadow: 4px 3px 8px 1px #96969633;
+    -webkit-box-shadow: 4px 3px 8px 1px #96969633;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    font-family: Lato;
+    z-index: 10;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+.recent .activity a{
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.recent .activity .appname{
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+
+}
+.recent .activity .imgcont {
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease;
+}
+.recent .activity .imgcont:hover {
+    transform: scale(1.3);
+    z-index: 11;
+}
+.recent .text5 {
+    margin-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+ }

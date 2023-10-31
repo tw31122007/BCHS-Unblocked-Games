@@ -80,10 +80,61 @@
                 <i class="fa fa-plus"></i>
             </div>
         </div>
-        
-        
       </div>
    </div>
+   <div class="recent">
+    <div class="text5">Resume Playing</div>
+    <div class="activity">
+        <a id="staturl" href="iframe.html"><div onclick="setIframeType('index');localStorage.setItem('shownameandimg', 'true')" id="image" class="imgcont"></div><div id="appname" class="appname"></div></a>
+    </div>
+    <script>
+        document.getElementById("image").style="background-image: url('" + localStorage.getItem('app-image') + "')";
+        document.getElementById("appname").innerHTML = localStorage.getItem('app-name')
+    </script>
+    <script>
+        // Check if the game information is available in localStorage
+        var appImage = localStorage.getItem('app-image');
+        var appName = localStorage.getItem('app-name');
+    
+        // Get the DOM elements
+        var imageElement = document.getElementById("image");
+        var appNameElement = document.getElementById("appname");
+        var recentActivityElement = document.querySelector(".recent .activity");
+    
+        if (appImage && appName && storedURL) {
+            // If all items are available, set the image and app name and make sure the section is visible
+            imageElement.style.backgroundImage = "url('" + appImage + "')";
+            appNameElement.innerHTML = appName;
+            recentActivityElement.onclick = openlastpage;
+            recentActivityElement.parentNode.style.display = 'block'; // Ensures the whole .recent container is visible
+        } else {
+            // If the items are not available, hide the section
+            recentActivityElement.parentNode.style.display = 'none';
+        }        
+    </script>    
+</div>
+<!-- Popup Menu HTML with Font Awesome X icon -->
+<div id="addWebsitePopup" class="popup-menu" style="display:none;">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()"><i class="fa-solid fa-x"></i></span>
+        <form id="addWebsiteForm">
+            <label for="imageUrl">Image URL:</label>
+            <input type="text" id="imageUrl" name="imageUrl" placeholder="Image URL" required>
+            
+            <label for="websiteUrl">Website URL:</label>
+            <input type="text" id="websiteUrl" name="websiteUrl" placeholder="Website URL" required>
+            
+            <input type="button" value="Add Box" onclick="addNewBox()">
+        </form>
+    </div>
+</div>
+<!-- Custom Context Menu HTML -->
+<div id="customContextMenu" class="custom-context-menu" style="display: none;">
+    <ul class="context-menu-list">
+        <li id="unpinBox" onclick="unpinBox()">Unpin</li>
+        <li id="reorderBox" onclick="startReorder()">Reorder</li>
+    </ul>
+</div>
     <!-- Footer Start -->
     <footer class="footer-sticky">
         <div class="logo-container">

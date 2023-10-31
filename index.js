@@ -50,6 +50,7 @@ async function launchURL(openURL) {
   const url = search(openURL, searchEngine.value);
   const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
   localStorage.setItem('storedURL', encodedUrl);
+  localStorage.setItem('shownameandimg', 'false')
   window.location.href="/iframe.html"
 }
 
@@ -58,7 +59,6 @@ function setIframeType(type) {
   localStorage.setItem('iframe-type', type);
 }
 
-// Makes the blinking cursor appear when the searchbar is hovered over
 document.getElementById('uv-address').addEventListener('mouseover', function() {
   this.focus();
 });

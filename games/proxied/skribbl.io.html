@@ -25,6 +25,36 @@
         console.error("Error launching game:", err);
     });
 });
+window.addEventListener('DOMContentLoaded', function() {
+  // Ask user for a URL
+  let userInputURL = prompt("Enter your skribbl.io link here to join, or press cancel to host a game:");
+  // If the user pressed cancel, set the default URL to "skribbl.io"
+  if (userInputURL === null) {
+    userInputURL = "skribbl.io";
+  }
+  launchURL(userInputURL).catch(err => {
+    console.error("Error launching URL:", err);
+  });
+});
+
+async function launchURL(openURL) {
+  try {
+    await registerSW(); // Assuming registerSW is a function you have defined elsewhere to register a service worker
+  } catch (err) {
+    error.textContent = "Failed to register service worker.";
+    errorCode.textContent = err.toString();
+    throw err;
+  }
+
+  // Assuming search is a function you have defined elsewhere to process the URL
+  // and searchEngine is a global variable for the user's chosen search engine
+  const url = search(openURL, searchEngine.value); 
+  const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
+  localStorage.setItem('storedURL', encodedUrl);
+  localStorage.setItem('shownameandimg', 'false');
+  window.location.href="/iframe.html"; // Redirect to the iframe page which will display the proxied URL
+}
+
 </script>
 <script src="/assets/js/settings/index.js"></script>
 <script src="/assets/js/settings.js"></script>

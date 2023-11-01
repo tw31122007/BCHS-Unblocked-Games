@@ -269,3 +269,59 @@ video {
 ::-webkit-scrollbar-thumb:hover {
     background: grey; 
 }
+/* Add these styles to your existing CSS */
+.faq-container {
+    margin-top: -150px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #1e2124;
+    opacity: 0.85;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Slightly visible border */
+    width: 80%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.faq-title {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.faq-item {
+    background-color: rgba(155, 155, 155, 0.3); /* Darker background for each item */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.faq-item summary {
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.faq-item p {
+    color: #ddd;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Style the details/summary dropdown */
+details {
+    border-radius: 5px;
+}
+
+details > summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}

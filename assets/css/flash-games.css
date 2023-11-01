@@ -47,6 +47,7 @@ body {
     padding: 8px 20px 8px 40px;
     text-align: center;
     border: 1px solid #ddd;
+    margin-bottom: 15px;
 }
 .cards {
     display: flex;
@@ -56,14 +57,6 @@ body {
     padding: 0 20px;
     font-family: 'Poppins', sans-serif !important;
     margin-bottom: 40px;
-}
-.cards .g {
-    height: 300px;
-    width: 660px;
-}
-.cards .p {
-    height: 150px;
-    width: 150px;
 }
 .cards a {
     text-decoration: none;
@@ -79,6 +72,13 @@ body {
     background-size: cover;
     background-position: center;
     background-color: white;
+    transition: background-color 0.3s;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+.cards .card:hover {
+    transform: scale(1.3);
+    z-index: 2;
 }
 .cards .card h2 {
     margin-left: 18px;
@@ -224,10 +224,13 @@ body {
         width: 120px;
     }
     .cards .card h2 {
-        font-size: 15px;
+        font-size: 13px;
     }
     #searchInput {
         font-size: 20px;
+    }
+    #searchInput:focus::placeholder, #searchInput:hover::placeholder {
+        opacity: 0;
     }
     .modal-content {
         width: 600px;

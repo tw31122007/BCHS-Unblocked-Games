@@ -45,8 +45,6 @@ function backtopage() {
     window.location.href = '/index.html';
   } else if (type === 'settings') {
     window.location.href = '/settings.html';
-  } else if (type === 'pc-games') {
-    window.location.href = '/pc-games.html';
   } else if (type === 'flash-player') {
     window.location.href = '/flash-player.html';
   } else if (type === 'flash-games') {

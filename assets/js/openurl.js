@@ -58,4 +58,3 @@ function setWaflashURL(url) {
     localStorage.setItem('waflashurl', url);
     window.location.href = 'waflash.html'; // Redirect to the flash emulator page after setting the SWF URL
 }
-

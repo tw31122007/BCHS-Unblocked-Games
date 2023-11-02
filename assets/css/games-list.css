@@ -1026,6 +1026,12 @@
 .cards .skribbl-io {
     background-image: url("/assets/img/thumbnails/skribbl-io.png");
 }
+.cards .johnny-upgrade {
+    background-image: url("/assets/img/thumbnails/johnny-upgrade.png");
+}
+.cards .house-of-hazards {
+    background-image: url("/assets/img/thumbnails/house-of-hazards.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

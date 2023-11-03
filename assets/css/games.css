@@ -47,10 +47,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: grey; 
 }
-/* For Firefox */
-scrollbar-color: white darkgrey;
-scrollbar-width: thin;
-
 
 #searchInput::placeholder {
     text-align: center;

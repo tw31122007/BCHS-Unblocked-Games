@@ -24,6 +24,8 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #vpns {
     background-image: url(/assets/img/backgrounds/2.gif);

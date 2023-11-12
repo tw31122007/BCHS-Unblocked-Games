@@ -43,9 +43,12 @@
             z-index: 1; /* Ensures the text is above the progress fill */
         }
         .checkmark-container {
-            display: none;
+            position: absolute; /* Maintain absolute positioning */
+            top: 0; /* Set top to 0 to align with the top of the progress container */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%) translateY(-100%); /* Center horizontally and move it above the progress bar */
+            display: none; /* It should be hidden initially */
             text-align: center;
-            margin: 20px 0;
         }
         .checkmark {
             font-size: 45px;
@@ -54,6 +57,7 @@
             border-radius: 50%;
             padding: 10px;
             display: inline-block;
+            line-height: 45px; /* Adjust line-height to match font size for vertical centering */
         }
         .status-text {
             display: none; /* Hide initially */
@@ -98,27 +102,11 @@
         const domains = [
             { name: 'hehemaths.gq', url: 'https://hehemaths.gq/assets/img/apps/android.png' },
             { name: 'defnotgxmes.ink', url: 'https://defnotgxmes.ink/assets/img/apps/android.png' },
-            { name: 'alegithomeworksite.com.au', url: 'https://alegithomeworksite.com.au/assets/img/apps/android.png' },
-            { name: 'alegithomeworksite.eu.org', url: 'https://alegithomeworksite.eu.org/assets/img/apps/android.png' },
-            { name: 'alegithomeworksite.online', url: 'https://alegithomeworksite.online/assets/img/apps/android.png' },
-            { name: 'bchs-unblocked.tk', url: 'https://bchs-unblocked.tk/assets/img/apps/android.png' },
-            { name: 'defmaths.online', url: 'https://defmaths.online/assets/img/apps/android.png' },
-            { name: 'geologyrocks.com.au', url: 'https://geologyrocks.com.au/assets/img/apps/android.png' },
-            { name: 'imrunningoutofideas.com.au', url: 'https://imrunningoutofideas.com.au/assets/img/apps/android.png' },
-            { name: 'imrunningoutofideas.online', url: 'https://imrunningoutofideas.online/assets/img/apps/android.png' },
-            { name: 'lolmath.tk', url: 'https://lolmath.tk/assets/img/apps/android.png' },
-            { name: 'maths-isfun.com.au', url: 'https://maths-isfun.com.au/assets/img/apps/android.png' },
-            { name: 'maths-isfun.online', url: 'https://maths-isfun.online/assets/img/apps/android.png' },
-            { name: 'notapr0xy.com.au', url: 'https://notapr0xy.com.au/assets/img/apps/android.png' },
-            { name: 'probnotschoolwork.ink', url: 'https://probnotschoolwork.ink/assets/img/apps/android.png' },
-            { name: 'notapr0xy.online', url: 'https://notapr0xy.online/assets/img/apps/android.png' },
-            { name: 'thisisatotallylegithomeworkwebsite.com.au', url: 'https://thisisatotallylegithomeworkwebsite.com.au/assets/img/apps/android.png' },
-            { name: 'thisisatotallylegithomeworkwebsite.online', url: 'https://thisisatotallylegithomeworkwebsite.online/assets/img/apps/android.png' },
-            { name: 'uc5ntb10ckm3.com.au', url: 'https://uc5ntb10ckm3.com.au/assets/img/apps/android.png' },
-            { name: 'uc5ntb10ckm3.online', url: 'https://uc5ntb10ckm3.online/assets/img/apps/android.png' },
+            // Add more domains as needed
         ];
     
         let successfulChecks = 0;
+        let attemptedChecks = 0;
         const totalDomains = domains.length;
         const progressBar = document.getElementById('progress-bar');
         const progressBarText = document.getElementById('progress-bar-text');
@@ -139,20 +127,12 @@
                 progressBarText.textContent = Math.round(currentProgress) + '%';
             } else {
                 clearInterval(progressInterval); // Clear the interval if progress is 100% or more
-                progressBarFull = true; // Set the flag
-                checkmarkContainer.style.display = 'block';
-                statusText.style.display = 'block';
-                statusText.textContent = successfulChecks + ' links are working';
-                // If all checks are complete by this time, create buttons
-                if (allChecksCompleted()) {
-                    createDomainButtons(workingDomains);
-                }
+                // Instead of setting the flag here, call the finalizeCheck function
+                finalizeCheck();
             }
         }
-        
-        // Function to check if all domain checks have been completed
         function allChecksCompleted() {
-            return domains.length === successfulChecks + workingDomains.length;
+            return attemptedChecks === totalDomains;
         }
     
         function createDomainButtons(workingDomains) {
@@ -175,22 +155,33 @@
                     console.log(domain.name + ' is not blocked.');
                     successfulChecks++;
                     workingDomains.push(domain);
-                    if (progressBarFull && domains.length === successfulChecks + workingDomains.length) {
+                    attemptedChecks++; // Increment attempted checks
+                    // Check if all domains have been checked and progress bar is full
+                    if (allChecksCompleted() && progressBarFull) {
                         createDomainButtons(workingDomains);
                     }
                 };
                 img.onerror = function() {
                     console.log(domain.name + ' might be blocked.');
-                    if (progressBarFull && domains.length === successfulChecks + workingDomains.length) {
+                    attemptedChecks++; // Increment attempted checks
+                    // Check if all domains have been checked and progress bar is full
+                    if (allChecksCompleted() && progressBarFull) {
                         createDomainButtons(workingDomains);
                     }
                 };
                 img.src = domain.url + '?rand=' + Math.random(); // Avoid cache with a random parameter
             });
         }
+        function finalizeCheck() {
+            progressBarFull = true;
+            if (allChecksCompleted()) {
+                createDomainButtons(workingDomains);
+                checkmarkContainer.style.display = 'block'; // Show the checkmark container
+            }
+        }
         
         let progressInterval = setInterval(updateProgressValue, intervalDuration);
-        checkDomains();
+        checkDomains(); // Start checking domains
     </script>    
 </body>
 </html>

@@ -97,8 +97,8 @@ body {
     padding-right: 1px;
     padding-left: 1px;
     text-decoration: none;
-    color: var(--widget-text);
-    background-color: var(--widget-color);
+    color: rgb(255, 255, 255);
+    background-color: #3a3b3ca8;
     box-shadow: 4px 3px 8px 1px #6d6d6d33;
   	-webkit-box-shadow: 4px 3px 8px 1px #6d6d6d33;
 }

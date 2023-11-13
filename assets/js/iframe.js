@@ -49,8 +49,10 @@ function backtopage() {
     window.location.href = '/credits.html';
   } else if (type === 'links') {
     window.location.href = '/links.html';
-  } else if (type === 'index') {
+  } else if (type === 'info') {
     window.location.href = '/index.html';
+  } else if (type === 'home') {
+    window.location.href = '/home.html';
   } else if (type === 'settings') {
     window.location.href = '/settings.html';
   } else if (type === 'websites') {

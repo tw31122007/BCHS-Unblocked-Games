@@ -34,7 +34,7 @@ form.addEventListener("submit", async (event) => {
   const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
   localStorage.setItem('storedURL', encodedUrl);
   localStorage.setItem('shownameandimg', 'false')
-  setIframeType('index')
+  setIframeType('home')
   location.href="/iframe.html"
 });
 

@@ -13,17 +13,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
   }
   
 .main-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;  /* Centers children vertically */
-    height: 100vh;        /* Takes the full viewport height */
+    align-items: center;
+    height: 100vh;
     padding: 20px;
 }
 .title-line1 {
-    margin-bottom: 10px;
     white-space: nowrap;
 }
 .title-line2 {
@@ -39,6 +40,7 @@ body {
     color: #c7c7c7;
     font-family: 'Roboto', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    max-width: 900px;
 }
 
 .left-content {
@@ -48,113 +50,6 @@ body {
     justify-content: center;
     padding-right: 0px;
 }
-
-.browser {
-    width: 40%;
-    border: none;
-    background-color: transparent;
-    position: relative;
-    border-radius: 12px;
-    margin-top: 80px;
-    transform: translateY(-20%);
-    box-shadow: none; /* Removes any box shadow */
-}
-.tabs {
-    display: flex;
-    background: #1c1c1c; /* Set the background color the same as inactive tabs */
-    padding-top: 10px;
-}
-.tab {
-    flex: 1;
-    padding: 5px 10px;
-    text-align: center;
-    cursor: pointer;
-    background-color: #1c1c1c; /* Inactive tabs are darker */
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    margin-right: 5px; /* Slight spacing on the right */
-    border-bottom: none; /* Remove the bottom border to attach tabs to the menu bar */
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-.tab:first-child {
-    margin-left: 10px;  /* Adjust the value as needed */
-}
-.tab:last-child {
-    margin-right: 10px; /* Remove right margin for the last tab */
-}
-.menu-bar {
-    display: flex;
-    align-items: center;
-    background-color: #333;
-    border-top: none;
-    z-index: 10;
-}
-.tab.active {
-    background-color: #333;
-}
-.tab-content {
-    background-color: transparent;
-    height: calc(100% - 80px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 0 0 12px 12px;
-}
-.tab:hover {
-    background: grey;
-    color: white;
-}
-.nav-button {
-    background: none; /* Removes default button background */
-    border: none; /* Removes default border */
-    cursor: pointer;
-    color: white; /* Icon color */
-    font-size: 16px; /* Adjust icon size */
-    margin-right: 10px; /* Spacing between buttons */
-    padding: 8px; /* Padding to provide space for the grey circle on hover */
-    border-radius: 50%; /* Makes the button circular */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-.nav-button:hover {
-    background-color: grey; /* Grey circle on hover */
-}
-#menu-btn {
-    margin-left: 10px;
-    width: 32px;    /* Set a specific width */
-    height: 32px;   /* Set a specific height to match the width */
-    display: flex;  /* Use flex to center the icon */
-    align-items: center;
-    justify-content: center;
-}
-.url-bar {
-    flex: 1;
-    padding: 5px;
-    border-radius: 8px; /* Rounded corners */
-    border: 1px solid #ccc; /* Optional: Add a light border for visual clarity */
-    background-color: #1c1c1c;
-    color: #ccc;
-}
-.url-bar:focus {
-    outline: none;
-}
-.video {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;  /* Hide any overflow content */
-}
-
-video {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 @media (max-width: 350px) {
     .title-line1, .title-line2 {
         font-size: 24px;
@@ -200,10 +95,6 @@ video {
     .left-content {
         padding-left: 0px;
     }
-    .browser {
-        height: 50vh;
-        width: 50vw;
-    }
     .description-text {
         font-size: 17px;
         margin-right: 10px;
@@ -215,10 +106,6 @@ video {
     }
     .left-content {
         padding-left: 0px;
-    }
-    .browser {
-        height: 50vh;
-        width: 50vw;
     }
     .description-text {
         font-size: 18px;
@@ -237,23 +124,14 @@ video {
 }
 @media (min-width: 1401px) {
     .title-line1, .title-line2 {
-        font-size: 75px;
+        font-size: 70px;
     }
     .left-content {
         padding-left: 80px;
     }
-    .browser {
-        height: 340px;
-        width: 545px;
-        margin-right: 80px;
-    }
     .description-text {
-        font-size: 30px;
+        font-size: 22px;
         margin-right: 50px;
-    }
-    video {
-        top: 59%;
-        transform: translate(-50%, -50%) scale(1);
     }
 }
 ::-webkit-scrollbar {
@@ -269,21 +147,18 @@ video {
 ::-webkit-scrollbar-thumb:hover {
     background: grey; 
 }
-/* Add these styles to your existing CSS */
 .faq-container {
-    margin-top: -150px;
+    margin-top: -100px;
     margin-bottom: 50px;
     padding: 20px;
     background: #1e2124;
     opacity: 0.85;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Slightly visible border */
-    width: 80%; /* Adjust the width as needed */
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Open Sans', sans-serif;
 }
-
 .faq-title {
     text-align: center;
     color: #fff;
@@ -291,37 +166,250 @@ video {
     font-size: 28px;
     margin-bottom: 18px;
 }
-
 .faq-item {
-    background-color: rgba(155, 155, 155, 0.3); /* Darker background for each item */
+    background-color: rgba(155, 155, 155, 0.3);
     margin-bottom: 20px;
     border-radius: 5px;
     font-size: 18px;
 }
-
 .faq-item summary {
     color: #fff;
     padding: 10px;
     cursor: pointer;
     font-size: 22px;
 }
-
 .faq-item p {
     color: #ddd;
     padding: 10px;
     margin: 0;
 }
-
-/* Style the details/summary dropdown */
 details {
     border-radius: 5px;
 }
-
 details > summary {
     list-style: none;
     cursor: pointer;
 }
-
 details > summary::-webkit-details-marker {
     display: none;
 }
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif !important;
+    margin-bottom: 40px;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.cards .card {
+    margin: 0 15px 30px;
+    border-radius: 25px;
+    box-shadow: 4px 3px 8px 1px #96969633;
+    -webkit-box-shadow: 4px 3px 8px 1px #96969633;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    transition: background-color 0.3s;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.cards .card:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.cards .card h2 {
+    margin-left: 18px;
+    margin-bottom: 18px;
+    border-radius: 15px;
+    margin-right: 5px;
+    padding-right: 1px;
+    padding-left: 1px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #3a3b3ca8;
+    box-shadow: 4px 3px 8px 1px #6d6d6d33;
+    -webkit-box-shadow: 4px 3px 8px 1px #6d6d6d33;
+}
+
+@media (max-width: 400px) {
+    .cards {
+        padding: 0 10px;
+    }
+    .cards .card {
+        margin: 0 10px 20px;
+        border-radius: 15px;
+    }
+    .cards .p {
+        height: 70px;
+        width: 70px;
+    }
+    .cards .card h2 {
+        font-size: 10px;
+        margin-left: 12px;
+        margin-bottom: 12px;
+    }
+    #searchInput {
+        font-size: 14px;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    .cards {
+        padding: 0 10px;
+    }
+    .cards .card {
+        margin: 0 10px 20px;
+        border-radius: 15px;
+    }
+    .cards .p {
+        height: 70px;
+        width: 70px;
+    }
+    .cards .card h2 {
+        font-size: 10px;
+        margin-left: 12px;
+        margin-bottom: 12px;
+    }
+    #searchInput {
+        font-size: 14px;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px){
+    .cards {
+        padding: 0 10px;
+    }
+    .cards .card {
+        margin: 0 10px 20px;
+        border-radius: 15px;
+    }
+    .cards .p {
+        height: 70px;
+        width: 70px;
+    }
+    .cards .card h2 {
+        font-size: 10px;
+        margin-left: 12px;
+        margin-bottom: 12px;
+    }
+    #searchInput {
+        font-size: 14px;
+    }
+}
+@media (min-width: 601px) and (max-width: 700px){
+    .cards {
+        padding: 0 10px;
+    }
+    .cards .card {
+        margin: 0 10px 20px;
+        border-radius: 15px;
+    }
+    .cards .p {
+        height: 70px;
+        width: 70px;
+    }
+    .cards .card h2 {
+        font-size: 10px;
+        margin-left: 12px;
+        margin-bottom: 12px;
+    }
+    #searchInput {
+        font-size: 14px;
+    }
+}
+@media (min-width: 701px) and (max-width: 899px){
+    .cards {
+        padding: 0 10px;
+    }
+    .cards .card {
+        margin: 0 10px 20px;
+        border-radius: 15px;
+    }
+    .cards .p {
+        height: 100px;
+        width: 100px;
+    }
+    .cards .card h2 {
+        font-size: 14px;
+        margin-left: 12px;
+        margin-bottom: 12px;
+    }
+    #searchInput {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) {
+    .cards .g {
+        height: 96px;
+        width: 211px;
+    }
+    .cards .p {
+        height: 110px;
+        width: 110px;
+    }
+    .cards .card h2 {
+        font-size: 14px;
+    }   
+    .cards {
+        width: 800px;
+    }
+}
+.game-cards-container {
+    background: #1e2124;
+    opacity: 0.85;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px; 
+    width: auto;
+}
+.trending-games-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #1e2124;
+    opacity: 0.85;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-title {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-size: 28px;
+}
+.start-playing-btn {
+    background-color: #525f7a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 12px;
+    width: 240px;
+    font-family: Lato;
+    margin-top: 10px;
+  }
+  .tiny-text {
+    font-size: 12px;
+    text-align: center;
+  }

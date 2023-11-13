@@ -466,16 +466,15 @@ details > summary::-webkit-details-marker {
         width: 110px;
     }
     .cards .card h2 {
-        font-size: 12px;
+        font-size: 14px;
     }   
 }
 .game-cards-container {
     background: rgba(0, 0, 0, 0.8); /* Slightly transparent black background */
-    padding: 15px;
     border-radius: 10px; /* Rounded corners */
     text-align: center;
     color: #fff; /* Text color */
-    font-size: 24px; /* Font size for the "Trending Games" text */
+    font-size: 30px; /* Font size for the "Trending Games" text */
     font-weight: bold;
     margin: 20px; /* Add margin for spacing from the edges of the screen */
     width: auto; /* Allow the container to expand to fit its content */

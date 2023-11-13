@@ -20,12 +20,11 @@ body {
 .main-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;  /* Centers children vertically */
-    height: 100vh;        /* Takes the full viewport height */
+    align-items: center;
+    height: 100vh;
     padding: 20px;
 }
 .title-line1 {
-    margin-bottom: 10px;
     white-space: nowrap;
 }
 .title-line2 {
@@ -51,113 +50,6 @@ body {
     justify-content: center;
     padding-right: 0px;
 }
-
-.browser {
-    width: 40%;
-    border: none;
-    background-color: transparent;
-    position: relative;
-    border-radius: 12px;
-    margin-top: 80px;
-    transform: translateY(-20%);
-    box-shadow: none; /* Removes any box shadow */
-}
-.tabs {
-    display: flex;
-    background: #1c1c1c; /* Set the background color the same as inactive tabs */
-    padding-top: 10px;
-}
-.tab {
-    flex: 1;
-    padding: 5px 10px;
-    text-align: center;
-    cursor: pointer;
-    background-color: #1c1c1c; /* Inactive tabs are darker */
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    margin-right: 5px; /* Slight spacing on the right */
-    border-bottom: none; /* Remove the bottom border to attach tabs to the menu bar */
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-.tab:first-child {
-    margin-left: 10px;  /* Adjust the value as needed */
-}
-.tab:last-child {
-    margin-right: 10px; /* Remove right margin for the last tab */
-}
-.menu-bar {
-    display: flex;
-    align-items: center;
-    background-color: #333;
-    border-top: none;
-    z-index: 10;
-}
-.tab.active {
-    background-color: #333;
-}
-.tab-content {
-    background-color: transparent;
-    height: calc(100% - 80px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 0 0 12px 12px;
-}
-.tab:hover {
-    background: grey;
-    color: white;
-}
-.nav-button {
-    background: none; /* Removes default button background */
-    border: none; /* Removes default border */
-    cursor: pointer;
-    color: white; /* Icon color */
-    font-size: 16px; /* Adjust icon size */
-    margin-right: 10px; /* Spacing between buttons */
-    padding: 8px; /* Padding to provide space for the grey circle on hover */
-    border-radius: 50%; /* Makes the button circular */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-.nav-button:hover {
-    background-color: grey; /* Grey circle on hover */
-}
-#menu-btn {
-    margin-left: 10px;
-    width: 32px;    /* Set a specific width */
-    height: 32px;   /* Set a specific height to match the width */
-    display: flex;  /* Use flex to center the icon */
-    align-items: center;
-    justify-content: center;
-}
-.url-bar {
-    flex: 1;
-    padding: 5px;
-    border-radius: 8px; /* Rounded corners */
-    border: 1px solid #ccc; /* Optional: Add a light border for visual clarity */
-    background-color: #1c1c1c;
-    color: #ccc;
-}
-.url-bar:focus {
-    outline: none;
-}
-.video {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;  /* Hide any overflow content */
-}
-
-video {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 @media (max-width: 350px) {
     .title-line1, .title-line2 {
         font-size: 24px;
@@ -232,13 +124,13 @@ video {
 }
 @media (min-width: 1401px) {
     .title-line1, .title-line2 {
-        font-size: 55px;
+        font-size: 70px;
     }
     .left-content {
         padding-left: 80px;
     }
     .description-text {
-        font-size: 30px;
+        font-size: 22px;
         margin-right: 50px;
     }
 }
@@ -305,7 +197,6 @@ details > summary::-webkit-details-marker {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
     padding: 0 20px;
     font-family: 'Poppins', sans-serif !important;
     margin-bottom: 40px;
@@ -317,7 +208,6 @@ details > summary::-webkit-details-marker {
 
 .cards .card {
     margin: 0 15px 30px;
-    width: calc(20% - 30px); /* Five cards per row */
     border-radius: 25px;
     box-shadow: 4px 3px 8px 1px #96969633;
     -webkit-box-shadow: 4px 3px 8px 1px #96969633;
@@ -468,15 +358,58 @@ details > summary::-webkit-details-marker {
     .cards .card h2 {
         font-size: 14px;
     }   
+    .cards {
+        width: 800px;
+    }
 }
 .game-cards-container {
-    background: rgba(0, 0, 0, 0.8); /* Slightly transparent black background */
-    border-radius: 10px; /* Rounded corners */
+    background: #1e2124;
+    opacity: 0.85;
+    border-radius: 10px;
     text-align: center;
-    color: #fff; /* Text color */
-    font-size: 30px; /* Font size for the "Trending Games" text */
+    color: #fff;
+    font-size: 30px;
     font-weight: bold;
-    margin: 20px; /* Add margin for spacing from the edges of the screen */
-    width: auto; /* Allow the container to expand to fit its content */
+    margin: 20px; 
+    width: auto;
 }
-
+.trending-games-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #1e2124;
+    opacity: 0.85;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-title {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-size: 28px;
+}
+.start-playing-btn {
+    background-color: #525f7a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 12px;
+    width: 240px;
+    font-family: Lato;
+    margin-top: 10px;
+  }
+  .tiny-text {
+    font-size: 12px;
+    text-align: center;
+  }

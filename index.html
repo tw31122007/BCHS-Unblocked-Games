@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7487249208457563"
-     crossorigin="anonymous"></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title></title>
+    <link rel="stylesheet" href="/assets/css/info.css">
     <link rel="stylesheet" href="/assets/css/navbar.css">
-    <link rel="stylesheet" href="/assets/css/index.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/games-list.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>My Drive - Google Drive</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicons/google-drive-ico.ico">
+    <title>My Drive - Google Drive</title>
 </head>
 <body>
     <!-- Start Navbar Code-->
@@ -25,7 +22,7 @@
                 <span class="line line3"></span>
             </div>
             <ul class="menu-items">
-                <li><a href="/index.html">Home</a></li>
+                <li><a href="/home.html">Home</a></li>
                 <li class="dropdown">
                     <span class="nav-title">Games <i class="fa-solid fa-angle-down arrow"></i></span>
                     <ul class="dropdown-menu">
@@ -48,87 +45,100 @@
         </div>
     </nav>
     <!-- End Navbar Code -->
-  <div class="page-container">
-   <div class="content-wrapper">
-      <div id="header">
-      </div>
-      <div id="content" class="center">
-         <div class="large-logo">
-            <p>BCHS</p>
-            <p>Unblocked</p>
-            <p>Games</p>
-         </div>
-         <form id="uv-form">
-            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
-            <div class="search-container">
-                <input id="uv-address" type="text" placeholder="Search Google or type a URL" class="form__input"/>
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+    <div class="main-container">
+        <div class="left-content">
+            <h1 class="title-line1">The Internet Unblocked</h1>
+            <h2 class="title-line2">at your fingertips</h2>
+            <p class="description-text">Browse the web freely, with over 200+ Flash and HTML games to keep you entertained all day long.</p>
+            <a href="/home.html" class="start-playing-btn">Start Playing Now!</a>
+        </div>
+        <div class="game-cards-container">
+            <div class="trending-games-text">
+                <p>Trending Games</p>
             </div>
-         </form>
-          <div class="desc left-margin">
-            <p id="uv-error"></p>
-            <pre id="uv-error-code"></pre>
-          </div>
-          <div class="box-container">
-            <a href="/assets/html/websites/youtube.html" class="box youtube" onclick="setIframeType('index');localStorage.setItem('app-name', 'YouTube');localStorage.setItem('app-image', '/assets/img/websites/youtube.png');localStorage.setItem('shownameandimg', 'true')"></a>
-            <a href="/assets/html/websites/discord.html" class="box discord" onclick="setIframeType('index');localStorage.setItem('app-name', 'Discord');localStorage.setItem('app-image', '/assets/img/websites/discord.png');localStorage.setItem('shownameandimg', 'true')"></a>
-            <a href="/assets/html/websites/twitch.html" class="box twitch" onclick="setIframeType('index');localStorage.setItem('app-name', 'Twitch');localStorage.setItem('app-image', '/assets/img/websites/twitch.png');localStorage.setItem('shownameandimg', 'true')"></a>
-            <a href="/assets/html/websites/retroarch.html" class="box retroarch" onclick="setIframeType('index');localStorage.setItem('app-name', 'Retroarch');localStorage.setItem('app-image', '/assets/img/websites/retroarch.png');localStorage.setItem('shownameandimg', 'true')"></a>
-            <a href="/assets/html/websites/chatgpt.html" class="box chatgpt" onclick="setIframeType('index');localStorage.setItem('app-name', 'ChatGPT (Clone)');localStorage.setItem('app-image', '/assets/img/websites/chatgpt.png');localStorage.setItem('shownameandimg', 'true')"></a>
-            <div class="box add-box" id="addBox">
-                <i class="fa fa-plus"></i>
+            <div class="cards">
+                <a href="/games/proxied/skribbl.io.html"><div class="card p skribbl-io" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', '/games/proxied/skribbl.io.html');localStorage.setItem('app-name', 'Skribbl.io');localStorage.setItem('app-image', '/assets/img/thumbnails/skribbl-io.png')">
+                    <h2 class="black"><i>Skribbl.io</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p bitlife" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/bitlife/');localStorage.setItem('app-name', 'Bitlife');localStorage.setItem('app-image', '/assets/img/thumbnails/bitlife.png')">
+                    <h2 class="black"><i>Bitlife</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p monkey-mart" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/monkey-mart/');localStorage.setItem('app-name', 'Monkey Mart');localStorage.setItem('app-image', '/assets/img/thumbnails/monkey-mart.png')">
+                    <h2 class="black"><i>Monkey Mart</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p stickman-hook" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/stickman-hook/');localStorage.setItem('app-name', 'Stickman Hook');localStorage.setItem('app-image', '/assets/img/thumbnails/stickman-hook.png')">
+                    <h2 class="black"><i>Stickman Hook</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p jetpack-joyride" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/jetpack-joyride/');localStorage.setItem('app-name', 'Jetpack Joyride');localStorage.setItem('app-image', '/assets/img/thumbnails/jetpack-joyride.png')">
+                    <h2 class="black"><i>Jetpack Joyride</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p subway-surfers" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/subway-surfers/');localStorage.setItem('app-name', 'Subway Surfers');localStorage.setItem('app-image', '/assets/img/thumbnails/subway-surfers.png')">
+                    <h2 class="black"><i>Subway Surfers</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p haunt-the-house" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', '/games/flash/ruffle-launcher.html');setSWFUrl('/games/flash/swf/haunt-the-house.swf');localStorage.setItem('app-name', 'Haunt The House');localStorage.setItem('app-image', '/assets/img/thumbnails/haunt-the-house.png')">
+                    <h2 class="black"><i>Haunt The House</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p soccer-random" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/soccer-random/');localStorage.setItem('app-name', 'Soccer Random');localStorage.setItem('app-image', '/assets/img/thumbnails/soccer-random.png')">
+                    <h2 class="black"><i>Soccer Random</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p pvz-2" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/pvz-2/');localStorage.setItem('app-name', 'PvZ 2');localStorage.setItem('app-image', '/assets/img/thumbnails/pvz-2.png')">
+                    <h2 class="black"><i>PvZ 2</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p slope" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/slope/');localStorage.setItem('app-name', 'Slope');localStorage.setItem('app-image', '/assets/img/thumbnails/slope.png')">
+                    <h2 class="black"><i>Slope</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p johnny-upgrade" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', '/games/flash/waflash-launcher.html');setWaflashURL('/games/flash/swf/johnny-upgrade.swf');localStorage.setItem('app-name', 'Johnny Upgrade');localStorage.setItem('app-image', '/assets/img/thumbnails/johnny-upgrade.png')">
+                    <h2 class="black"><i>Johnny Upgrade</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p a1v1-lol" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/1v1-lol/');localStorage.setItem('app-name', '1v1.lol');localStorage.setItem('app-image', '/assets/img/thumbnails/1v1-lol.png')">
+                    <h2 class="black"><i>1v1.lol</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p duck-life-treasure-hunt" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games.defnotgxmes.ink/duck-life-treasurehunt/');localStorage.setItem('app-name', 'Duck Life 5: Treasure Hunt');localStorage.setItem('app-image', '/assets/img/thumbnails/duck-life-treasure-hunt.png')">
+                    <h2 class="black"><i>Duck Life 5: Treasurehunt</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p little-alchemy" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', 'https://games-cloudflare.defnotgxmes.ink/little-alchemy/');localStorage.setItem('app-name', 'Little Alchemy');localStorage.setItem('app-image', '/assets/img/thumbnails/little-alchemy.png')">
+                    <h2 class="black"><i>Little Alchemy</i></h2>
+                </div></a>
+                <a href="/iframe.html"><div class="card p jacksmith" onclick="setIframeType('info');localStorage.setItem('shownameandimg', 'true');localStorage.setItem('storedURL', '/games/flash/ruffle-launcher.html');setSWFUrl('/games/flash/swf/jacksmith.swf');localStorage.setItem('app-name', 'Jacksmith');localStorage.setItem('app-image', '/assets/img/thumbnails/jack-smith.png')">
+                    <h2 class="black"><i>Jacksmith</i></h2>
+                </div></a>
             </div>
         </div>
-      </div>
-   </div>
-   <div class="recent">
-    <div class="text5">Resume Playing</div>
-    <div class="activity">
-        <a id="staturl" href="iframe.html"><div onclick="setIframeType('index');localStorage.setItem('shownameandimg', 'true')" id="image" class="imgcont"></div><div id="appname" class="appname"></div></a>
-    </div>
-    <script>
-        document.getElementById("image").style="background-image: url('" + localStorage.getItem('app-image') + "')";
-        document.getElementById("appname").innerHTML = localStorage.getItem('app-name')
-    </script>
-    <script>
-        var appImage = localStorage.getItem('app-image');
-        var appName = localStorage.getItem('app-name');
-        var recentActivityElement = document.querySelector(".recent .activity");
-    
-        if (appImage && appName && storedURL) {
-            imageElement.style.backgroundImage = "url('" + appImage + "')";
-            appNameElement.innerHTML = appName;
-            recentActivityElement.onclick = openlastpage;
-            recentActivityElement.parentNode.style.display = 'block';
-        } else {
-            recentActivityElement.parentNode.style.display = 'none';
-        }        
-    </script>    
-</div>
-    <!-- Footer Start -->
-    <footer class="footer-sticky">
-        <div class="logo-container">
-            <a>BCHS Unblocked Games</a>
         </div>
-        <nav class="footer-nav">
-            <a href="/iframe.html" onclick="setIframeType('index');localStorage.setItem('shownameandimg', 'false');localStorage.setItem('storedURL', 'https://forms.gle/it3WqC7rxXLx9ePc8');" class="footer-link">Request Games</a>
-            <a href="/iframe.html" onclick="setIframeType('index');localStorage.setItem('shownameandimg', 'false');localStorage.setItem('storedURL', 'https://forms.gle/jgaXfQ6SYuetojyc8');" class="footer-link">Report a Problem</a>
-            <a href="https://github.com/tw31122007/BCHS-Unblocked-Games" target="_blank" class="footer-link">Github</a>
-            <a href="/credits.html" class="footer-link">Credits</a>
-        </nav>
-    </footer>
-    <!-- Footer End -->
-  </div>
-      <script src="uv/uv.bundle.js" defer></script>
-      <script src="uv/uv.config.js" defer></script>
-      <script src="register-sw.js" defer></script>
-      <script src="search.js" defer></script>
-      <script src="index.js" defer></script>
-      <script src="/assets/js/boxes.js"></script>
-      <script src="/assets/js/panic.js" defer></script>
-      <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
-      <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
-      <script src="/assets/js/cloak.js" defer></script>
-      <script src="/assets/js/touchscreen.js"></script>
+<section class="faq-container">
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+    <details class="faq-item">
+        <summary>This Game is Broken/Isn't Working <i class="fa-solid fa-chevron-down"></i></summary>
+        <p>If you find a game that isn't working on this website, make sure to click the "Report a Problem" button thats on the bottom of the screen of most pages and fill out the short survey. Make sure to include detail about which game is having issues and exactly what the problem is.</p>
+    </details>
+    <details class="faq-item">
+        <summary>How Do You Have The Flash Player? <i class="fa-solid fa-chevron-down"></i></summary>
+        <p>While Adobe shut down Flash Player on the 31st of december 2020, i kept a copy of an old offline version that was used for testing and debugging games.</p>
+    </details>
+    <details class="faq-item">
+        <summary>Can You Add This Game? <i class="fa-solid fa-chevron-down"></i></summary>
+        <p>If you want me to add a game to my website, click the "Request Games" button thats on the bottom of the screen on most of the pages of my website and fill out the short survey. Please remember that requesting the game more than once won't make it get added faster.</p>
+    </details>
+    <details class="faq-item">
+        <summary>Can People See What I'm Doing When Using The Proxy/Unblocker?<i class="fa-solid fa-chevron-down"></i></summary>
+        <p>There is a small chance that someone would be able to view what you are doing while using the proxy/unblocker on my website, i personally don't monitor or log what you do on it in any way but your ISP (Internet Service Provider) and your school/work might be able to view it.</p>
+    </details>
+    <details class="faq-item">
+        <summary>Where Did You Get Your Games From? <i class="fa-solid fa-chevron-down"></i></summary>
+        <p>My collection of games are in <a href="https://github.com/tw31122007/HTML-Games-V2">this repository</a> on GitHub. A large majority of these games are from <a href="https://github.com/3kh0">3kh0</a>  but i have downloaded many of my games using website downloading tools such as <a href="https://www.httrack.com/">HTTrack</a> </p>
+    </details>
+</section>
+<section class="about-container">
+    <h2 class="about-title">What is BCHS Unblocked Games?</h2>
+    <p>BCHS Unblocked Games is a website designed to eliminate boredom with its evergrowing collection of 200+ Flash and HTML games to keep you entertained all day long, also allowing you to search the web freely and bypass any restrictions with our blazing fast proxy.</p>
+    <p class="tiny-text">*This info page is here so that i can hopefully get approved for ads.*</p>
+</section>
+    <script src="/assets/js/info.js"></script>
+    <script src="/assets/js/panic.js" defer></script>
+    <input id="key-input" type="text" placeholder="Key" style="display: none;" value="]">
+    <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
+    <script src="/assets/js/cloak.js" defer></script>
+    <script src="/assets/js/touchscreen.js"></script>
+    <script src="/assets/js/openurl.js"></script>
 </body>
 </html>

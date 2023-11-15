@@ -50,10 +50,9 @@ async function launchURL(openURL) {
   const url = search(openURL, searchEngine.value);
   const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
   localStorage.setItem('storedURL', encodedUrl);
-  localStorage.setItem('shownameandimg', 'false')
+  // location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
   window.location.href="/iframe.html"
 }
-
 // Makes the back button on the iframe page go back to the previous page correctly
 function setIframeType(type) {
   localStorage.setItem('iframe-type', type);

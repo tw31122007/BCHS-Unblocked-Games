@@ -1035,6 +1035,12 @@
 .cards .doge-miner-2 {
     background-image: url("/assets/img/thumbnails/doge-miner-2.png");
 }
+.cards .strike-force-heroes {
+    background-image: url("/assets/img/thumbnails/strike-force-heroes.png");
+}
+.cards .jelly-truck {
+    background-image: url("/assets/img/thumbnails/jelly-truck.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

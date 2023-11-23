@@ -97,8 +97,6 @@ body.light-theme {
     -webkit-appearance: none;
     -moz-appearance: none;
     padding: 10px;
-    border-radius: 5px;
-    border: 6px solid var(--border-color);
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: var(--text-color);
@@ -143,8 +141,6 @@ body.light-theme {
     font-family: 'Lato', sans-serif;
     background-color: var(--button-bg-color);
     color: var(--text-color);
-    border: 6px solid var(--border-color);
-    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;

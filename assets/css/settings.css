@@ -76,8 +76,6 @@ body.light-theme {
 
 .input input {
     padding: 10px;
-    border-radius: 5px;
-    border: 6px solid var(--border-color);
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: var(--text-color);
@@ -101,9 +99,6 @@ body.light-theme {
     font-family: 'Lato', sans-serif;
     color: var(--text-color);
     background-color: var(--button-bg-color);
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5"><path fill="var(--text-color)" d="M0 0h10L5 5z"/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 10px center;
     cursor: pointer;
     width: 100%;
     transition: background-color 0.3s ease, border-color 0.3s ease;

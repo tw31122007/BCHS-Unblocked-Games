@@ -183,7 +183,6 @@ body.dark-theme .modal-content {
 body.dark-theme .modal-content select { 
   color: #ffffff;
   border-color: #ffffff;
-  border-radius: 10px;
   background-color: #222; 
 }
 body.dark-theme .buttons {
@@ -202,7 +201,6 @@ body.light-theme .modal-content {
 body.light-theme .modal-content select {
   color: #000000;
   border-color: #000000;
-  border-radius: 10px;
   background-color: #d4caca; 
 }
 body.light-theme .buttons {

@@ -51,7 +51,7 @@
 <div class="content-wrapper">
   <div class="row">
       <div class="box tab-cloaker">
-          <h2>Tab Cloaker</h2>
+          <h2>tab cloak</h2>
           <div class="buttons">
               <select name="Readymade Cloaks" id="premadecloaks" title="Cloaks">
                   <option value="search">Google</option>
@@ -71,11 +71,11 @@
                   </div>
                 </select>
               <div class="buttons-row">
-                  <button class="button button2" onclick="setCloak()">Set</button>
-                  <button class="button button2" onclick="resetTab()">Reset</button>
+                  <button class="button button2" onclick="setCloak()">set</button>
+                  <button class="button button2" onclick="resetTab()">reset</button>
               </div>
           </div>
-          <p class="section-text">Custom Cloaks</p>
+          <p class="section-text">custom cloak</p>
           <div class="input">
               <input id="title" class="input" placeholder="Title" onkeyup="setTitle(this.value)" />
               <input id="icon" class="input" placeholder="Favicon URL" onkeyup="setFavicon(this.value.trim())" />
@@ -83,24 +83,16 @@
           <br>
       </div>
       <div class="box panic-button">
-          <h2>Panic Button</h2>
-          <p>Setup a panic button to automatically hide this website.</p>
+          <h2>panic</h2>
+          <p>when your designated button is pressed it opens up a specific link you specify</p>
           <div class="input">
               <input id="key-input" type="text" placeholder="Key" value="]">
               <input id="website-input" type="text" placeholder="Website" value="https://classroom.gooogle.com">
           </div>
       </div>
-      <div class="box about-blank">
-          <h2>About:Blank</h2>
-          <p>Open this website as an about:blank tab/window to hide it from your search history.</p>
-          <div class="buttons">
-              <button onclick="openNewTab()">About:Blank Tab</button>
-              <button onclick="openNewWindow()">About:Blank Window</button>
-          </div>
-      </div>
       <div class="box theme">
-          <h2>Theme</h2>
-          <p>Customise the theme of certain buttons, boxes, menu items etc...</p>
+          <h2>theme</h2>
+          <p>changes colors of specific elements</p>
           <div class="buttons">
               <select id="themeSelector">
                   <option value="dark">Dark</option>
@@ -109,19 +101,8 @@
           </div>
       </div>
   </div>
-  <!-- Footer Start -->
-  <footer class="footer-sticky">
-    <div class="logo-container">
-        <a>BCHS Unblocked Games</a>
-    </div>
-    <nav class="footer-nav">
-        <a href="/request-games.html" onclick="setIframeType('settings')" class="footer-link">Request Games</a>
-        <a href="/report-a-problem.html" onclick="setIframeType('settings')" class="footer-link">Report a Problem</a>
-        <a href="https://github.com/tw31122007/BCHS-Unblocked-Games" target="_blank" class="footer-link">Github</a>
-        <a href="/credits.html" class="footer-link">Credits</a>
-    </nav>
-</footer>
-<!-- Footer End -->
+
+     
 </div>
   <script src="/assets/js/panic.js"></script>
   <script src="/assets/js/aboutblank.js"></script>

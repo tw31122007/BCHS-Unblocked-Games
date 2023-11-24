@@ -79,14 +79,16 @@
                   <option value="dark">Dark</option>
                   <option value="light">Light</option>
               </select>
-                  <div class="box logo">
-          <h2>theme</h2>
-          <p>changes colors of specific elements</p>
-          <div class="buttons">
-              <select id="themeSelector">
-                  <option value="dark">Dark</option>
-                  <option value="light">Light</option>
-              </select>
+         <div class="box logo">
+          <h2>logo</h2>
+        <p>Change the logo</p>
+          <div class="input">
+          <select id="logoSelector" onchange="changeLogo()">
+          <option value="old">Old Logo</option>
+          <option value="new">New Logo</option>
+            </select>
+            </div>
+            <img id="logo" src="/logo.png" alt="Website Logo" width="50" height="50">
           </div>
       </div>
   </div>

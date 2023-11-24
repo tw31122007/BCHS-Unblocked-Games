@@ -157,7 +157,35 @@ function setCloak() { // applies only to premade cloaks
       break;
   }
 }
+// Function to set the logo
+function setLogo(logo) {
+  if (logo) {
+    document.getElementById("logo").src = logo;
+  } else {
+    document.getElementById("logo").src = settingsDefaultTab.logo;
+  }
 
+  // Update the saved tab data with the new logo
+  var tab = localStorage.getItem("tab");
+
+  if (tab) {
+    try {
+      var tabData = JSON.parse(tab);
+    } catch {
+      var tabData = {};
+    }
+  } else {
+    var tabData = {};
+  }
+
+  if (logo) {
+    tabData.logo = logo;
+  } else {
+    delete tabData.logo;
+  }
+
+  localStorage.setItem("tab", JSON.stringify(tabData));
+}
 // Function to reset the tab settings to default
 function resetTab() {
   document.title = settingsDefaultTab.title;

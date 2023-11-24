@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Clash Display Bold';
+    src: url('/Fonts/Clash Display/ClashDisplay-Bold.otf');
+  }
+  
+  @font-face {
+    font-family: 'Clash Display Semibold';
+    src: url('/Fonts/Clash Display/ClashDisplay-Semibold.otf');
+  }
+  
+  @font-face {
+    font-family: 'Clash Grotesk Medium';
+    src: url('/Fonts/Clash Grotesk/ClashGrotesk-Medium.otf');
+  }
+  
+  :root {
+      --white: #ffffff;
+  
+      --light-gray: #EFEFEF;
+      --gray: #D8D8D8;
+  
+      --black: #000000;
+      --dark-gray: #5E5E5E;
+  
+      --cyan-dark: #28A489;
+      --cyan-normal: #70F1D5;
+      --cyan-light: #CAFFF3;
+  
+      --pink-dark: #AB4787;
+      --pink-normal: #E065B3;
+      --pink-light: #FFB0E2;
+  
+      --yellow-dark: #C9B951;
+      --yellow-normal: #FAE560;
+      --yellow-light: #FFF6BE;
+  
+      --blue-dark: #468DB6;
+      --blue-normal: #54B8F3;
+      --blue-light: #B4E3FF;
+  
+      --purple-dark: #643F9B;
+      --purple-normal: #9260DE;
+      --purple-light: #CDAEFD;
+  } 
+  
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  html, body {
+      color: var(--black);
+  }
+  
+  .no-bounce {
+      outline: none !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      transform: none !important
+  }
+  
+  /* fix for glitch effect when hovering on bottom of elements (thanks to @nathanTi!) */
+  card, button, table tr, a, .switch-container {
+    position: relative;
+  }
+  
+  card:after, button:after, table tr:after, a:after, .switch-container:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: calc(100% + 4px);
+    border-radius: 4px;
+    height: calc(100% + 4px);
+    transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.5);
+    cursor: inherit;
+    border: none;
+      z-index: -1;
+  }
+  
+  .switch-container:after {
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  card:hover:after, button:hover:after, table tr:hover:after, a:hover:after, .switch-container:hover:after {
+    transform: translateX(-5px) translateY(5px);
+  }
+  
+  card:active:after, button:active:after, table tr:active:after, a:active:after, .switch-container:active:after {
+    transform: translateX(-3px) translateY(3px) !important;
+  }
+  button:disabled:after, button:disabled:hover:after, button.disabled:focus-visible:after {
+    transform: none;
+  }
+  
+  
+  h1 {
+      font-size: 64px;
+      line-height: 96px;
+      font-family: 'Clash Display Bold', sans-serif;
+  }
+  
+  h2 {
+      font-size: 48px;
+      line-height: 80px;
+      font-family: 'Clash Display Bold', sans-serif;
+  }
+  
+  h3 {
+      font-size: 32px;
+      line-height: 64px;
+      font-family: 'Clash Display Semibold', sans-serif;
+  }
+  
+  h4 {
+      font-size: 24px;
+      line-height: 48px;
+      font-family: 'Clash Display Semibold', sans-serif;
+  }
+  
+  h5 {
+      font-size: 20px;
+      line-height: 40px;
+      font-family: 'Clash Display Semibold', sans-serif;
+  }
+  
+  h6 {
+      font-size: 16px;
+      line-height: 32px;
+      font-family: 'Clash Display Semibold', sans-serif;
+  }
+  
+  p, b, u, s, li, mark, a, td, th, select {
+      font-size: 16px;
+      line-height: 28px;
+      font-family: 'Clash Grotesk Medium', sans-serif;
+  }
+  
+  ul {
+      margin: 8px 0 8px 0;
+      padding-left: 0;
+      list-style: none;
+  }
+  
+  ul > li {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+  }
+  
+  ul li::before {
+      content: "\2022";
+      border: 1px solid var(--black);
+      border-radius: 50%;
+      width: 4px;
+      height: 4px;
+      display: flex;
+      line-height: 5px;
+      font-size: 16px;
+      justify-content: center;
+  }
+  
+  ul li.cyan::before {
+      color: var(--cyan-normal);	
+  }
+  
+  ul li.pink::before {
+      color: var(--pink-normal);	
+  }
+  
+  ul li.yellow::before {
+      color: var(--yellow-normal);	
+  }
+  
+  ul li.blue::before {
+      color: var(--blue-normal);	
+  }
+  
+  ul li.purple::before {
+      color: var(--purple-normal);	
+  }
+  
+  ol {
+      margin: 8px 0 8px 12px;
+  }
+  
+  ol li.cyan::marker {
+      color: var(--cyan-dark);	
+  }
+  
+  ol li.pink::marker {
+      color: var(--pink-dark);	
+  }
+  
+  ol li.yellow::marker {
+      color: var(--yellow-dark);	
+  }
+  
+  ol li.blue::marker {
+      color: var(--blue-dark);	
+  }
+  
+  ol li.purple::before {
+      color: var(--purple-dark);	
+  }
+  

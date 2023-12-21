@@ -202,17 +202,17 @@ body {
         margin-right: 10px;
     }
     .cards .p {
-        height: 85px;
-        width: 85px;
+        height: 80px;
+        width: 80px;
     }
     .cards .card h2 {
         font-size: 11px;
     }
     .cards .card {
         margin: 0 11px 15px;
-    }
+    } 
     .cards {
-        width: 600px;
+        width: 560px;
     }
     .game-cards-container {
         margin-left: 20px;

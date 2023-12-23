@@ -148,7 +148,7 @@
     background-image: url("/assets/img/thumbnails/doge-2048.png");
 }
 .cards .doge-miner {
-    background-image: url("/assets/img/thumbnails/dogerminer.png");
+    background-image: url("/assets/img/thumbnails/doge-miner.png");
 }
 .cards .doodle-jump {
     background-image: url("/assets/img/thumbnails/doodle-jump.png");
@@ -936,7 +936,7 @@
 .cards .fruit-ninja {
     background-image: url("/assets/img/thumbnails/fruit-ninja.png");
 }
-.cards .btd-6 {
+.cards .bloons-td-6 {
     background-image: url("/assets/img/thumbnails/bloons-td-6.png");
 }
 .cards .jetpack-joyride {

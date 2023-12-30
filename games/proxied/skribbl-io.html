@@ -53,9 +53,6 @@ async function launchURL(openURL) {
   const encodedUrl = __uv$config.prefix + __uv$config.encodeUrl(url);
   localStorage.setItem('storedURL', encodedUrl);
   localStorage.setItem('shownameandimg', 'false');
-  window.location.href="/iframe.html"; // Redirect to the iframe page which will display the proxied URL
+  window.location.href="/iframe-no-nav.html"; // Redirect to the iframe page which will display the proxied URL
 }
-
 </script>
-<script src="/assets/js/settings/index.js"></script>
-<script src="/assets/js/settings.js"></script>

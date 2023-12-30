@@ -6,8 +6,8 @@
 .cards .a2048 {
     background-image: url("/assets/img/thumbnails/2048.png");
 }
-.cards .freddy-fazbears-pizzeria-simulator {
-    background-image: url("/assets/img/thumbnails/freddy-fazbears-pizzeria-simulator.png");
+.cards .pizzeria-simulator {
+    background-image: url("/assets/img/thumbnails/pizzeria-simulator.png");
 }
 .cards .just-one-boss {
     background-image: url("/assets/img/thumbnails/just-one-boss.png");
@@ -102,8 +102,8 @@
 .cards .cars-simulator {
     background-image: url("/assets/img/thumbnails/cars-simulator.png");
 }
-.cards .cluster-truck {
-    background-image: url("/assets/img/thumbnails/cluster-truck.png");
+.cards .cluster-rush {
+    background-image: url("/assets/img/thumbnails/cluster-rush.png");
 }
 .cards .core-ball {
     background-image: url("/assets/img/thumbnails/core-ball.png");
@@ -148,7 +148,7 @@
     background-image: url("/assets/img/thumbnails/doge-2048.png");
 }
 .cards .doge-miner {
-    background-image: url("/assets/img/thumbnails/dogerminer.png");
+    background-image: url("/assets/img/thumbnails/doge-miner.png");
 }
 .cards .doodle-jump {
     background-image: url("/assets/img/thumbnails/doodle-jump.png");
@@ -471,8 +471,8 @@
 .cards .dodge {
     background-image: url("/assets/img/thumbnails/dodge.png");
 }
-.cards .city-blocks {
-    background-image: url("/assets/img/thumbnails/city-blocks.png");
+.cards .city-blocks-2 {
+    background-image: url("/assets/img/thumbnails/city-blocks-2.png");
 }
 .cards .a8-ball-billards-classic {
     background-image: url("/assets/img/thumbnails/8-ball-billards-classic.png");
@@ -612,8 +612,8 @@
 .cards .generic-fishing-game {
     background-image: url("/assets/img/thumbnails/generic-fishing-game.png");
 }
-.cards .game-inside {
-    background-image: url("/assets/img/thumbnails/game-inside.png");
+.cards .game-inside-a-game {
+    background-image: url("/assets/img/thumbnails/game-inside-a-game.png");
 }
 .cards .george-and-the-printer {
     background-image: url("/assets/img/thumbnails/george-and-the-printer.png");
@@ -936,7 +936,7 @@
 .cards .fruit-ninja {
     background-image: url("/assets/img/thumbnails/fruit-ninja.png");
 }
-.cards .btd-6 {
+.cards .bloons-td-6 {
     background-image: url("/assets/img/thumbnails/bloons-td-6.png");
 }
 .cards .jetpack-joyride {

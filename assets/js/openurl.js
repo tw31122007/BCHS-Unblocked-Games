@@ -62,7 +62,7 @@ function setWaflashURL(url) {
 function setGameInfo(gameName, appName, prefix, iframeType, showNameAndImg) {
     function constructURL(gameName, prefix) {
         var allowedDomains = ['desmoscalc.me', 'hehemaths.gq', 'defnotgxmes.ink', 'alegithomeworksite.com.au', 'alegithomeworksite.eu.org', 'alegithomeworksite.online', 'bchs-unblocked.tk', 'defmaths.online', 'geologyrocks.com.au', 'imrunningoutofideas.com.au', 'imrunningoutofideas.online', 'elephantmunchingcontest.com.au', 'elephantmunchingcontest.site', 'elephantmunchingcontest.tech', 'lolmath.tk', 'notapr0xy.com.au', 'notapr0xy.online', 'probnotschoolwork.ink', 'the-toaster-is-a.ninja', 'thisisatotallylegithomeworkwebsite.com.au', 'thisisatotallylegithomeworkwebsite.online']; // List of allowed domains
-        var defaultDomain = 'desmoscalc.me'; // Default domain to use if not in the allowed list
+        var defaultDomain = 'defnotgxmes.ink'; // Default domain to use if not in the allowed list
         var currentDomain = window.location.hostname;
 
         // Check if current domain is in the allowed list

@@ -1,3 +1,9 @@
 tunnel rush (remove adinplay)
 vex 3 (add takes long to load warning)
 papas bakeria (add takes long to load warning)
+cars simulator (add takes long to load warning)
+iframe page might have a little bit fo the screen cut off at the bottom
+make freddys fazbears pizzeria simulator use turbowarp
+get updated osw
+push the square (make it take up more of the viewport)
+

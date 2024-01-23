@@ -36,6 +36,8 @@ form.addEventListener("submit", async (event) => {
   setIframeType('home')
   location.href="/iframe.html"
   localStorage.setItem('shownameandimg', 'false');
+  localStorage.setItem('app-name', 'Google');
+  localStorage.setItem('app-image', '/assets/img/websites/google.png');
 });
 
 async function launchURL(openURL) {

@@ -1,10 +1,4 @@
-tunnel rush (remove adinplay)
-vex 3 (add takes long to load warning)
-papas bakeria (add takes long to load warning)
-cars simulator (add takes long to load warning)
 iframe page might have a little bit fo the screen cut off at the bottom
-make freddys fazbears pizzeria simulator use turbowarp
-get updated osw
 push the square (make it take up more of the viewport)
 backflip dive 3d (shows scroll bars on both sides)
 basket bros.io (remove built in ads)
@@ -17,6 +11,20 @@ clean up.io (remove unity webgl footer)
 flippy fish (unity webgl make it take up more of the viewport)
 froggys battle (unity webgl make it take up more of the viewport)
 george and the printer (unity webgl make it take up more of the viewport)
+burning man 2 (unity webgl make it take up more of the viewport)
+rocking sky trip (unity webgl make it take up more of the viewport)
+n-gon (needs better logo)
+frying nemo (make it take up more of the viewport)
+60 second burger run (find html version) (make it take up more of the viewport)
+alien invaders.io (remove unity webgl footer)
+cut the rope (make it take up more of the viewport)
+jelly truck (make it take up more of the viewport)
+
+
+
+
+	
+
 
 
 

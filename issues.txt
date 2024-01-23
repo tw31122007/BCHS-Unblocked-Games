@@ -6,4 +6,11 @@ iframe page might have a little bit fo the screen cut off at the bottom
 make freddys fazbears pizzeria simulator use turbowarp
 get updated osw
 push the square (make it take up more of the viewport)
+backflip dive 3d (shows scroll bars on both sides)
+basket bros.io (remove built in ads)
+basketball legends 2020 (remove enjoy4fun.com home button)
+basketball.io (make it take up more of the viewport)
+aspiring artists (make it take up more of the viewport)
+
+
 

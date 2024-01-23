@@ -11,6 +11,15 @@ basket bros.io (remove built in ads)
 basketball legends 2020 (remove enjoy4fun.com home button)
 basketball.io (make it take up more of the viewport)
 aspiring artists (make it take up more of the viewport)
+duke dashington remastered (remove enjoy4fun.com home button)
+kart fight.io (remove unity webgl footer)
+clean up.io (remove unity webgl footer)
+flippy fish (unity webgl make it take up more of the viewport)
+froggys battle (unity webgl make it take up more of the viewport)
+george and the printer (unity webgl make it take up more of the viewport)
+
+
+
 
 
 

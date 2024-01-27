@@ -90,3 +90,4 @@ if (showNameAndImg === 'true') {
   document.getElementById('app-name').style.display = 'none';
   document.getElementById('app-image').style.display = 'none';
 }
+

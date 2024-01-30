@@ -156,6 +156,11 @@ body {
         right: 120px;
     }
 }
+@media (max-width: 799px) {
+    .recent {
+        display: none;
+    }
+}
 
 .box-container {
     display: flex;

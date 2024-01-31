@@ -53,7 +53,6 @@ body {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    height: 40px;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
     background-color: rgba(147, 141, 141, 0.8);
     text-align: center;
@@ -96,10 +95,22 @@ body {
     }
     .form__input {
         width: 80vw;
-        font-size: 16px;
+        height: 40px;
+        font-size: 17px;
     }
     .search-icon {
-        right: 180px;
+        right: 40px;
+    }
+    .box-container {
+        gap: 6px;
+    }
+    .box, .add-box {
+        width: 10px;
+        height: 55px;
+        padding: 5px;
+    }
+    .add-box {
+        display: none!important;
     }
 }
 @media (min-width: 401px) and (max-width: 500px) {
@@ -108,10 +119,22 @@ body {
     }
     .form__input {
         width: 280px;
+        height: 40px;
         font-size: 16px;
     }
     .search-icon {
-        right: 180px;
+        right: 55px;
+    }
+    .box-container {
+        gap: 6px;
+    }
+    .box, .add-box {
+        width: 10px;
+        height: 60px;
+        padding: 5px;
+    }
+    .add-box {
+        display: none!important;
     }
 }
 @media (min-width: 501px) and (max-width: 600px) {
@@ -123,7 +146,18 @@ body {
         font-size: 17px;
     }
     .search-icon {
-        right: 170px;
+        right: 75px;
+    }
+    .box-container {
+        gap: 8px;
+    }
+    .box, .add-box {
+        width: 80px;
+        height: 70px;
+        padding: 5px;
+    }
+    .add-box {
+        display: none!important;
     }
 }
 @media (min-width: 601px) and (max-width: 700px) {
@@ -131,14 +165,65 @@ body {
         font-size: 56px;
     }
     .form__input {
-        width: 300px;
-        font-size: 18px;
+        width: 400px;
+        font-size: 24px;
     }
     .search-icon {
-        right: 165px;
+        right: 80px;
+    }
+    .box-container {
+        gap: 8px;
+    }
+    .box, .add-box {
+        width: 90px;
+        height: 90px;
+        padding: 5px;
+    }
+    .add-box {
+        display: none!important;
     }
 }
-@media (min-width: 701px) {
+@media (min-width: 701px) and (max-width: 800px) {
+    .large-logo {
+        font-size: 56px;
+    }
+    .form__input {
+        width: 500px;
+        font-size: 26px;
+    }
+    .search-icon {
+        right: 80px;
+    }
+    .box-container {
+        gap: 8px;
+    }
+    .box, .add-box {
+        width: 90px;
+        height: 90px;
+        padding: 5px;
+    }
+}
+@media (min-width: 801px) and (max-width: 900px) {
+    .large-logo {
+        font-size: 56px;
+    }
+    .form__input {
+        width: 500px;
+        font-size: 26px;
+    }
+    .search-icon {
+        right: 80px;
+    }
+    .box-container {
+        gap: 8px;
+    }
+    .box, .add-box {
+        width: 90px;
+        height: 90px;
+        padding: 5px;
+    }
+}
+@media (min-width: 901px) {
     .large-logo {
         font-size: 56px;
     }
@@ -147,25 +232,31 @@ body {
         font-size: 20px;
     }
     .search-icon {
-        right: 140px;
+        right: 100px;
     }
-    .form__input:hover {
-        width: 400px;
+    .box-container {
+        gap: 15px;
     }
-    .form__input:hover ~ .search-icon {
-        right: 120px;
+    .box, .add-box {
+        width: 80px;
+        height: 80px;
+        padding: 5px;
     }
 }
-@media (max-width: 799px) {
+/* This hides the continue playing box */
+@media (max-width: 700px) {
     .recent {
         display: none;
     }
 }
-
+@media (max-width: 700px) {
+    .logo-small {
+        display: none;
+    }
+}
 .box-container {
     display: flex;
     justify-content: flex-start;
-    gap: 16px;
     padding: 20px;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -173,16 +264,12 @@ body {
 }
 
 .box, .add-box {
-    width: 80px;
-    height: 80px;
     border-radius: 12px;
     background-color: #f4f4f4;
-    display: flex;
     align-items: center;
     cursor: pointer;
     transition: background-color 0.3s;
     justify-content: space-between;
-    padding: 10px;
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -190,9 +277,6 @@ body {
 }
 .box {
     flex: 1;
-}
-.add-box {
-    flex: 0 0 auto;
 }
 a.box {
     text-decoration: none;
@@ -215,10 +299,9 @@ a.box {
 .add-box {
     background-color: rgba(65, 63, 63, 0.8);
     cursor: pointer;
-    display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.3s ease;
+    flex: 0 0 auto;
 }
 .add-box i {
     font-size: 28px;

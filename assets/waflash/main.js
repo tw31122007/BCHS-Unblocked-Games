@@ -6,5 +6,5 @@ let is_mobile = /Mobi/i.test(window.navigator.userAgent); if (is_mobile) {
         const canvasElement = document.getElementById('canvas'); let focused = false; return function (ev) {
             if (ev.target == canvasElement) { if (!focused) { canvasElement.focus(); focused = true; } } else { if (focused) { focused = false; } } return true;
         }
-    })()); import { createWaflash } from 'https://cdn.jsdelivr.net/gh/nate-games/waflash@main/waflash-player.min.js';
+    })()); import { createWaflash } from 'https://cdn.jsdelivr.net/gh/tw31122007/BCHS-Unblocked-Games@main/assets/waflash/waflash-player.min.js';
 createWaflash(gameConfig.swfUrl, window.wafOptions || {});

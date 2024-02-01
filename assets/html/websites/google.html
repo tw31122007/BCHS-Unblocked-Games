@@ -25,6 +25,10 @@
     launchURL('google.com').catch(err => {
         console.error("Error launching game:", err);
     });
+    localStorage.setItem('app-name', 'Google');
+    localStorage.setItem('app-image', '/assets/img/websites/google.png');
+    localStorage.setItem('shownameandimg', 'false')
+    setIframeType('home');
 });
 </script>
 <script src="/assets/js/settings/index.js"></script>

@@ -343,6 +343,9 @@ a.box {
 .box.chatgpt{
     background-image: url("/assets/img/websites/chatgpt.png");
 }
+.box.movie-web{
+    background-image: url("/assets/img/websites/movie-web.png");
+}
 .popup-menu {
     display: none;
     position: fixed;

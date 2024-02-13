@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7487249208457563"
+     crossorigin="anonymous"></script>
+  <title>My Drive - Google Drive</title>
+  <link rel="icon" type="image/x-icon" href="icon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="ruffle.js"></script>
+  <meta name="google" content="notranslate">
+</head>
+<body>
+  <div id="swf-container"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      localStorage.setItem('swfurl', 'game.swf');
+        const swfUrl = localStorage.getItem('swfurl');
+        if (swfUrl) {
+            let embedElem = document.createElement('embed');
+            embedElem.src = swfUrl;
+            embedElem.type = 'application/x-shockwave-flash';
+            
+            const maxWidth = window.innerWidth;
+            const maxHeight = window.innerHeight;
+            const originalWidth = 800;
+            const originalHeight = 600;
+            const aspectRatio = originalWidth / originalHeight;
+
+            if (maxWidth / aspectRatio <= maxHeight) {
+                embedElem.width = maxWidth;
+                embedElem.height = maxWidth / aspectRatio;
+            } else {
+                embedElem.width = maxHeight * aspectRatio;
+                embedElem.height = maxHeight;
+            }
+            document.getElementById('swf-container').appendChild(embedElem);
+        } else {
+            alert("No SWF URL found in localStorage!");
+        }
+    });
+</script>
+</body>
+</html>

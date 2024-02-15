@@ -1,2 +1,0 @@
-onclick="setGameInfo('', '', 'games-cloudflare', 'games', true)
-

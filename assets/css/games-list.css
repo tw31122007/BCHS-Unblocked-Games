@@ -1098,6 +1098,9 @@
 .cards .tidal-wave {
     background-image: url("/assets/img/thumbnails/tidal-wave.png");
 }
+.cards .minecraft-classic {
+    background-image: url("/assets/img/thumbnails/minecraft-classic.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

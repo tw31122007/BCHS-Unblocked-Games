@@ -1101,6 +1101,9 @@
 .cards .minecraft-classic {
     background-image: url("/assets/img/thumbnails/minecraft-classic.png");
 }
+.cards .little-alchemy-2 {
+    background-image: url("/assets/img/thumbnails/little-alchemy-2.png");
+}
 .cards . {
     background-image: url("/assets/img/thumbnails/.png");
 }

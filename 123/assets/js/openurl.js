@@ -62,7 +62,7 @@ function setWaflashURL(url) {
 function setGameInfo(gameName, appName, prefix, iframeType, showNameAndImg) {
     function constructURL(gameName, prefix) {
         var allowedDomains = ['alegithomeworksite.com.au', 'alegithomeworksite.eu.org', 'alegithomeworksite.online', 'bchsubl0ckedgxmes.co.uk', 'bchsubl0ckedgxmes.uk', 'defnotgxmes.ink', 'desmoscalc.me', 'elephantmunchingcontest.com.au', 'elephantmunchingcontest.site', 'elephantmunchingcontest.tech', 'geologyrocks.com.au', 'imrunningoutofideas.com.au', 'imrunningoutofideas.online', 'notapr0xy.com.au', 'notapr0xy.online', 'pizzafuneral.com.au', 'pizzafuneral.online', 'pizzafuneral.site', 'pizzafuneral.store', 'pizzafuneral.xyz', 'probnotschoolwork.ink', 'thefastestturtle.online', 'the-toaster-is-a.ninja', 'thisisatotallylegithomeworkwebsite.com.au', 'thisisatotallylegithomeworkwebsite.online', 'tylerisawesome.co.uk', 'tylerisawesome.uk', 'uc5ntb10ckm3.com.au', 'uc5ntb10ckm3.online', 'thefastestlearner.com.au', 'thefastestlearner.online', 'thefastestlearner.store', 'thefastestlearner.xyz', 'schoolisawesome.online'];
-        var defaultDomain = 'notapr0xy.com.au'; // Default domain to use if not in the allowed list
+        var defaultDomain = 'alegithomeworksite.online'; // Default domain to use if not in the allowed list
         var currentDomain = window.location.hostname;
 
         // Check if current domain is in the allowed list
@@ -74,7 +74,7 @@ function setGameInfo(gameName, appName, prefix, iframeType, showNameAndImg) {
     }
 
     var gameURL = constructURL(gameName, prefix);
-    var appImage = `/assets/img/thumbnails/${gameName}.png`; // Construct the image path
+    var appImage = `/123/assets/img/thumbnails/${gameName}.png`; // Construct the image path
 
     setIframeType(iframeType); // Set iframe type
     localStorage.setItem('shownameandimg', showNameAndImg ? 'true' : 'false');

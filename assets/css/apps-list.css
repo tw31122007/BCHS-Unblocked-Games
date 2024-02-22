@@ -1,32 +1,32 @@
 /* Template:
 .cards . {
-    background-image: url(/assets/img/apps/);
+    background-image: url(assets/img/apps/);
 }
 */
 .cards .setup-vpn {
-    background-image: url(/assets/img/apps/setup-vpn.png);
+    background-image: url(assets/img/apps/setup-vpn.png);
 }
 .cards .hotspot-shield {
-    background-image: url(/assets/img/apps/hotspot-shield.png);
+    background-image: url(assets/img/apps/hotspot-shield.png);
 }
 .cards .proton-vpn {
-    background-image: url(/assets/img/apps/proton-vpn.png);
+    background-image: url(assets/img/apps/proton-vpn.png);
 }
 .cards .x-vpn {
-    background-image: url(/assets/img/apps/x-vpn.png);
+    background-image: url(assets/img/apps/x-vpn.png);
 }
 .cards .autoclicker {
-    background-image: url(/assets/img/apps/auto-clicker.png);
+    background-image: url(assets/img/apps/auto-clicker.png);
 }
 .cards .wallpaper-engine {
-    background-image: url(/assets/img/apps/wallpaper-engine.png);
+    background-image: url(assets/img/apps/wallpaper-engine.png);
 }
 .cards .hyper-write {
-    background-image: url(/assets/img/apps/hyperwrite.png);
+    background-image: url(assets/img/apps/hyperwrite.png);
 }
 .cards .flash-player {
-    background-image: url(/assets/img/apps/flash-player.png);
+    background-image: url(assets/img/apps/flash-player.png);
 }
 .cards .hola {
-    background-image: url(/assets/img/apps/hola.png);
+    background-image: url(assets/img/apps/hola.png);
 }

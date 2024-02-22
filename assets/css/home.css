@@ -9,7 +9,7 @@ body {
   padding: 0;
   background-image: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
-        url(/assets/img/backgrounds/1.gif);
+        url(../img/backgrounds/1.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -308,43 +308,43 @@ a.box {
     color: #ffffff;
 }
 .box.youtube {
-    background-image: url("/assets/img/websites/youtube.png");
+    background-image: url("../img/websites/youtube.png");
 }
 .box.reddit {
-    background-image: url("/assets/img/websites/reddit.png");
+    background-image: url("../img/websites/reddit.png");
 }
 .box.google {
-    background-image: url("/assets/img/websites/google.png");
+    background-image: url("../img/websites/google.png");
 }
 .box.tiktok {
-    background-image: url("/assets/img/websites/tiktok.png");
+    background-image: url("../img/websites/tiktok.png");
 }
 .box.spotify {
-    background-image: url("/assets/img/websites/spotify.png");
+    background-image: url("../img/websites/spotify.png");
 }
 .box.discord {
-    background-image: url("/assets/img/websites/discord.png");
+    background-image: url("../img/websites/discord.png");
 }
 .box.twitter {
-    background-image: url("/assets/img/websites/twitter.png");
+    background-image: url("../img/websites/twitter.png");
 }
 .box.twitch {
-    background-image: url("/assets/img/websites/twitch.png");
+    background-image: url("../img/websites/twitch.png");
 }
 .box.y8 {
-    background-image: url("/assets/img/websites/y8.png");
+    background-image: url("../img/websites/y8.png");
 }
 .box.coolmath-games {
-    background-image: url("/assets/img/websites/coolmath-games.png");
+    background-image: url("../img/websites/coolmath-games.png");
 }
 .box.retroarch {
-    background-image: url("/assets/img/websites/retroarch.png");
+    background-image: url("../img/websites/retroarch.png");
 }
 .box.chatgpt{
-    background-image: url("/assets/img/websites/chatgpt.png");
+    background-image: url("../img/websites/chatgpt.png");
 }
 .box.movie-web{
-    background-image: url("/assets/img/websites/movie-web.png");
+    background-image: url("../img/websites/movie-web.png");
 }
 .popup-menu {
     display: none;

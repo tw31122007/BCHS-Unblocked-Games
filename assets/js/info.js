@@ -7,7 +7,7 @@ const videoSourceElement = videoElement.querySelector('source');
 // Function to set the default URL and video when the page loads
 function setDefaults() {
     urlBar.value = `https://${window.location.hostname}/`;
-    videoSourceElement.setAttribute('src', '/assets/img/tutorial/info-tab-1.mp4');
+    videoSourceElement.setAttribute('src', 'assets/img/tutorial/info-tab-1.mp4');
     videoElement.load();
     videoElement.play();
 }

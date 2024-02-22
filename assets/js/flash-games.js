@@ -19,5 +19,5 @@ okButton.onclick = function() {
 
 // Open Flash Player download page in a new tab when "Download Flash Player" is clicked
 downloadButton.onclick = function() {
-    window.open("/flash-player.html", "_blank"); 
+    window.open("flash-player.html", "_blank"); 
 }

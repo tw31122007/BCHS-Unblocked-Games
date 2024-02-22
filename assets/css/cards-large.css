@@ -28,10 +28,10 @@ body {
     text-decoration: none;
 }
 #vpns {
-    background-image: url(/assets/img/backgrounds/2.gif);
+    background-image: url(../img/backgrounds/2.gif);
 }
 #flash-player {
-    background-image: url(/assets/img/backgrounds/3.gif);
+    background-image: url(../img/backgrounds/3.gif);
 }
 .home {
     margin-top: 64px;
@@ -112,42 +112,42 @@ body {
 }
 /* template
 .cards . {
-    background-image: url(/assets/img/);
+    background-image: url(assets/img/);
 }
 */
 .cards .red-ball-4 {
-    background-image: url(/assets/img/flash-games/red-ball-4.png);
+    background-image: url(assets/img/flash-games/red-ball-4.png);
 }
 .cards .windows {
-    background-image: url(/assets/img/apps/windows.png);
+    background-image: url(assets/img/apps/windows.png);
 }
 .cards .macos {
-    background-image: url(/assets/img/apps/macos.jpg);
+    background-image: url(assets/img/apps/macos.jpg);
 }
 .cards .linux {
-    background-image: url(/assets/img/apps/linux.png);
+    background-image: url(assets/img/apps/linux.png);
 }
 .cards .setup-vpn {
-    background-image: url(/assets/img/apps/setup-vpn.png);
+    background-image: url(assets/img/apps/setup-vpn.png);
 }
 .cards .hotspot-shield {
-    background-image: url(/assets/img/apps/hotspot-shield.png);
+    background-image: url(assets/img/apps/hotspot-shield.png);
 }
 .cards .proton-vpn {
-    background-image: url(/assets/img/apps/proton-vpn.png);
+    background-image: url(assets/img/apps/proton-vpn.png);
 }
 .cards .x-vpn {
-    background-image: url(/assets/img/apps/x-vpn.png);
+    background-image: url(assets/img/apps/x-vpn.png);
 }
 .cards .android {
-    background-image: url(/assets/img/apps/android.png);
+    background-image: url(assets/img/apps/android.png);
 }
 .cards .chrome {
-    background-image: url(/assets/img/apps/chrome.png);
+    background-image: url(assets/img/apps/chrome.png);
 }
 .cards .firefox {
-    background-image: url(/assets/img/apps/firefox.png);
+    background-image: url(assets/img/apps/firefox.png);
 }
 .cards .edge {
-    background-image: url(/assets/img/apps/edge.png);
+    background-image: url(assets/img/apps/edge.png);
 }

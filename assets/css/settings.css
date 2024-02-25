@@ -5,7 +5,7 @@
 body {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url(/assets/img/backgrounds/11.gif);
+        url(../img/backgrounds/11.gif);
     background-size: cover;
     color: var(--text-color);
     font-family: 'Lato', sans-serif;

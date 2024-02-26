@@ -17,7 +17,7 @@ body {
     min-height: 100vh;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), 
-        url(/assets/img/backgrounds/6.gif);
+        url(../img/backgrounds/6.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

@@ -1,38 +1,38 @@
 /* Template:
 .cards . {
-    background-image: url(/assets/img/websites/);
+    background-image: url(../img/websites/);
 }
 */
 .cards .google {
-    background-image: url(/assets/img/websites/google.png);
+    background-image: url(../img/websites/google.png);
 }
 .cards .spotify {
-    background-image: url(/assets/img/websites/spotify.png);
+    background-image: url(../img/websites/spotify.png);
 }
 .cards .youtube {
-    background-image: url(/assets/img/websites/youtube.png);
+    background-image: url(../img/websites/youtube.png);
 }
 .cards .twitch {
-    background-image: url(/assets/img/websites/twitch.png);
+    background-image: url(../img/websites/twitch.png);
 }
 .cards .reddit {
-    background-image: url(/assets/img/websites/reddit.png);
+    background-image: url(../img/websites/reddit.png);
 }
 .cards .twitter {
-    background-image: url(/assets/img/websites/twitter.png);
+    background-image: url(../img/websites/twitter.png);
 }
 .cards .discord {
-    background-image: url(/assets/img/websites/discord.png);
+    background-image: url(../img/websites/discord.png);
 }
 .cards .tiktok {
-    background-image: url(/assets/img/websites/tiktok.png);
+    background-image: url(../img/websites/tiktok.png);
 }
 .cards .retroarch {
-    background-image: url(/assets/img/websites/retroarch.png);
+    background-image: url(../img/websites/retroarch.png);
 }
 .cards .coolmath-games {
-    background-image: url(/assets/img/websites/coolmath-games.png);
+    background-image: url(../img/websites/coolmath-games.png);
 }
 .cards .y8 {
-    background-image: url(/assets/img/websites/y8.png);
+    background-image: url(../img/websites/y8.png);
 }

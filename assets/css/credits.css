@@ -6,7 +6,7 @@ html,
 body {
   justify-content: center;
   align-items: center;
-  background-image: url('/assets/img/backgrounds/4.gif');
+  background-image: url('assets/img/backgrounds/4.gif');
   background-size: cover;
   height: 100%;
   width: 100%;

@@ -15,7 +15,7 @@
 }
 body {
     min-height: 100vh;
-    background-image: url(/assets/img/backgrounds/5.gif);
+    background-image: url(../img/backgrounds/5.gif);
     background-attachment: fixed;
     display: flex;
     flex-direction: column;

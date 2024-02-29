@@ -52,7 +52,7 @@ body {
 }
 @media (max-width: 350px) {
     .title-line1, .title-line2 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .left-content {
         padding-left: 0px;
@@ -80,13 +80,13 @@ body {
 }
 @media (min-width: 351px) and (max-width: 500px) {
     .title-line1, .title-line2 {
-        font-size: 40px;
+        font-size: 31px;
     }
     .left-content {
         padding-left: 0px;
     }
     .description-text {
-        font-size: 17px;
+        font-size: 14px;
         margin-right: 10px;
     }
     .cards .p {
@@ -104,6 +104,10 @@ body {
     }
     .game-cards-container {
         margin-left: 20px;
+    }
+    .start-playing-btn {
+        width: 220px;
+        font-size: 14px;
     }
 }
 @media (min-width: 501px) and (max-width: 600px) {
@@ -545,9 +549,7 @@ details > summary::-webkit-details-marker {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
     border-radius: 12px;
-    width: 240px;
     font-family: Lato;
     margin-top: 10px;
 }

@@ -100,7 +100,7 @@ body {
         font-size: 10px;
     }
     .cards .card {
-        margin: 0 11px 15px;
+        margin: 0 15px 15px;
     }
     
     .cards {
@@ -397,17 +397,17 @@ body {
 @media (max-width: 900px) {
     .main-container {
         flex-direction: column;
-        align-items: center; /* Centers the content horizontally */
-        justify-content: center; /* Adjust this as needed to space out your items vertically */
+        align-items: center;
+        justify-content: center;
     }
 
     .left-content, .game-cards-container {
-        width: 100%; /* Makes each child take full width of the container */
-        padding: 0 20px; /* Adds some padding on the sides */
+        width: 100%;
+        padding: 0 20px;
     }
 
     .game-cards-container {
-        margin-top: 20px; /* Adds some space between the text/button and the game boxes */
+        margin-top: 20px; 
     }
 }
 

@@ -79,8 +79,11 @@ body {
     }
 }
 @media (min-width: 351px) and (max-width: 500px) {
+    .title-line1 {
+        padding-top: 400px;
+    }
     .title-line1, .title-line2 {
-        font-size: 31px;
+        font-size: 28px;
     }
     .left-content {
         padding-left: 0px;
@@ -90,17 +93,18 @@ body {
         margin-right: 10px;
     }
     .cards .p {
-        height: 85px;
-        width: 85px;
+        height: 70px;
+        width: 70px;
     }
     .cards .card h2 {
-        font-size: 11px;
+        font-size: 10px;
     }
     .cards .card {
         margin: 0 11px 15px;
     }
+    
     .cards {
-        width: 600px;
+        width: 90vw;
     }
     .game-cards-container {
         margin-left: 20px;
@@ -552,6 +556,7 @@ details > summary::-webkit-details-marker {
     border-radius: 12px;
     font-family: Lato;
     margin-top: 10px;
+    max-width: 240px;
 }
 .tiny-text {
     font-size: 12px;

@@ -190,10 +190,12 @@ body.dark-theme .modal-content select {
 body.dark-theme .buttons {
   border-color: #ffffff;
 }
-
 body.light-theme {
-  background-color: #ffffff; 
+  background-color: #121111;
   color: #000000;
+}
+body.light-theme .buttons {
+  background-color: #ffffff;
 }
 body.light-theme .modal-content {
   border-color: black;

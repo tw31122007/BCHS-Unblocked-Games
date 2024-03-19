@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/backgrounds/3.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.changelog {
+    max-width: 800px;
+    margin: 50px auto; /* Adjust the margin to center the floating box */
+    padding: 20px;
+    background-color: #1e2124; /* Color for the floating box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Drop shadow for the floating box */
+    color: white; /* Text color */
+}
+.update {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.version {
+    font-weight: bold;
+    color: #333;
+    float: left; /* Align to the left */
+    margin-right: 10px; /* Add some space between version and date */
+}
+.date {
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 5px;
+    float: left; /* Align to the left */
+    margin-right: 10px; /* Add some space between date and title */
+}
+.title {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white; /* Main title color */
+}
+.description {
+    margin-top: 10px;
+    color: #bbb; /* Slightly darker color for description text */
+}
+.image {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}

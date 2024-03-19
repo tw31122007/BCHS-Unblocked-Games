@@ -52,7 +52,7 @@ body {
 }
 @media (max-width: 350px) {
     .title-line1, .title-line2 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .left-content {
         padding-left: 0px;
@@ -79,31 +79,39 @@ body {
     }
 }
 @media (min-width: 351px) and (max-width: 500px) {
+    .title-line1 {
+        padding-top: 400px;
+    }
     .title-line1, .title-line2 {
-        font-size: 40px;
+        font-size: 28px;
     }
     .left-content {
         padding-left: 0px;
     }
     .description-text {
-        font-size: 17px;
+        font-size: 14px;
         margin-right: 10px;
     }
     .cards .p {
-        height: 85px;
-        width: 85px;
+        height: 70px;
+        width: 70px;
     }
     .cards .card h2 {
-        font-size: 11px;
+        font-size: 10px;
     }
     .cards .card {
-        margin: 0 11px 15px;
+        margin: 0 15px 15px;
     }
+    
     .cards {
-        width: 600px;
+        width: 90vw;
     }
     .game-cards-container {
         margin-left: 20px;
+    }
+    .start-playing-btn {
+        width: 220px;
+        font-size: 14px;
     }
 }
 @media (min-width: 501px) and (max-width: 600px) {
@@ -386,6 +394,23 @@ body {
         margin-left: 20px;
     }
 }
+@media (max-width: 900px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-content, .game-cards-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .game-cards-container {
+        margin-top: 20px; 
+    }
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -528,11 +553,10 @@ details > summary::-webkit-details-marker {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
     border-radius: 12px;
-    width: 240px;
     font-family: Lato;
     margin-top: 10px;
+    max-width: 240px;
 }
 .tiny-text {
     font-size: 12px;

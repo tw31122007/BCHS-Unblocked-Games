@@ -225,3 +225,18 @@ body.light-theme .back-arrow {
 .theme-selection label {
   margin-right: 15px;
 }
+@media (max-width: 650px) {
+  #app-name,
+  #app-image {
+      display: none !important;
+  }
+}
+@media (max-height: 500px) {
+  .buttons {
+      display: none;
+  }
+
+  #iframe {
+      height: calc(100vh - 55px + 55px); /* Adjust the height to fill the space */
+  }
+}

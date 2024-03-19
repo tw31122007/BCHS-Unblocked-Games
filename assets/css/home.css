@@ -104,13 +104,10 @@ body {
     .box-container {
         gap: 6px;
     }
-    .box, .add-box {
+    .box {
         width: 10px;
         height: 55px;
         padding: 5px;
-    }
-    .add-box {
-        display: none!important;
     }
 }
 @media (min-width: 401px) and (max-width: 500px) {
@@ -128,13 +125,10 @@ body {
     .box-container {
         gap: 6px;
     }
-    .box, .add-box {
+    .box {
         width: 10px;
         height: 60px;
         padding: 5px;
-    }
-    .add-box {
-        display: none!important;
     }
 }
 @media (min-width: 501px) and (max-width: 600px) {
@@ -151,13 +145,10 @@ body {
     .box-container {
         gap: 8px;
     }
-    .box, .add-box {
+    .box {
         width: 80px;
         height: 70px;
         padding: 5px;
-    }
-    .add-box {
-        display: none!important;
     }
 }
 @media (min-width: 601px) and (max-width: 700px) {
@@ -174,13 +165,10 @@ body {
     .box-container {
         gap: 8px;
     }
-    .box, .add-box {
+    .box {
         width: 90px;
         height: 90px;
         padding: 5px;
-    }
-    .add-box {
-        display: none!important;
     }
 }
 @media (min-width: 701px) and (max-width: 800px) {
@@ -197,7 +185,7 @@ body {
     .box-container {
         gap: 8px;
     }
-    .box, .add-box {
+    .box {
         width: 90px;
         height: 90px;
         padding: 5px;
@@ -217,7 +205,7 @@ body {
     .box-container {
         gap: 8px;
     }
-    .box, .add-box {
+    .box {
         width: 90px;
         height: 90px;
         padding: 5px;
@@ -237,14 +225,13 @@ body {
     .box-container {
         gap: 15px;
     }
-    .box, .add-box {
+    .box {
         width: 80px;
         height: 80px;
         padding: 5px;
     }
 }
-/* This hides the continue playing box */
-@media (max-width: 700px) {
+@media (max-width: 1450px) {
     .recent {
         display: none;
     }
@@ -263,7 +250,7 @@ body {
     align-items: stretch;
 }
 
-.box, .add-box {
+.box {
     border-radius: 12px;
     background-color: #f4f4f4;
     align-items: center;

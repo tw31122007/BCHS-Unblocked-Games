@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/info.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/games-list.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="assets/img/favicons/google-drive-ico.ico">
     <title>My Drive - Google Drive</title>
@@ -137,6 +138,19 @@
         if (window.innerWidth < 1000) {
           window.location.href = 'home.html';
         }
-      </script>      
+      </script>
+      <!-- Footer Start -->
+      <footer class="footer">
+        <div class="logo-container">
+            <a>BCHS Unblocked Games</a>
+        </div>
+        <nav class="footer-nav">
+            <a href="iframe.html" onclick="setIframeType('home');localStorage.setItem('shownameandimg', 'false');localStorage.setItem('storedURL', 'https://forms.gle/it3WqC7rxXLx9ePc8');" class="footer-link">Request Games</a>
+            <a href="iframe.html" onclick="setIframeType('home');localStorage.setItem('shownameandimg', 'false');localStorage.setItem('storedURL', 'https://forms.gle/jgaXfQ6SYuetojyc8');" class="footer-link">Report a Problem</a>
+            <a href="https://github.com/tw31122007/BCHS-Unblocked-Games" target="_blank" class="footer-link">Github</a>
+            <a href="credits.html" class="footer-link">Credits</a>
+        </nav>
+    </footer>
+    <!-- Footer End -->
 </body>
 </html>

@@ -93,8 +93,14 @@
 .cards .bloons-td {
     background-image: url("../img/thumbnails/bloons-td.png");
 }
+.cards .bloons-td-1 {
+    background-image: url("../img/thumbnails/bloons-td.png");
+}
 .cards .bloons-td-2 {
     background-image: url("../img/thumbnails/bloons-td-2.png");
+}
+.cards .papas-cluckeria {
+    background-image: url("../img/thumbnails/papas-cluckeria.png");
 }
 .cards .bloxors {
     background-image: url("../img/thumbnails/bloxors.png");
@@ -162,6 +168,12 @@
 .cards .duck-life-3 {
     background-image: url("../img/thumbnails/duck-life-3.png");
 }
+.cards .super-mario-63 {
+    background-image: url("../img/thumbnails/super-mario-63.png");
+}
+.cards .bullet-heaven-2 {
+    background-image: url("../img/thumbnails/bullet-heaven-2.png");
+}
 .cards .fbwg-1 {
     background-image: url("../img/thumbnails/fbwg-1.png");
 }
@@ -194,6 +206,9 @@
 }
 .cards .google-snake {
     background-image: url("../img/thumbnails/google-snake.png");
+}
+.cards .snake {
+    background-image: url("../img/thumbnails/snake.png");
 }
 .cards .idle-breakout {
     background-image: url("../img/thumbnails/idle-breakout.png");
@@ -287,6 +302,15 @@
 }
 .cards .bloons-td-4-expansion-pack {
     background-image: url("../img/thumbnails/bloons-td-4-expansion-pack.png");
+}
+.cards .electric-man-2 {
+    background-image: url("../img/thumbnails/electric-man-2.png");
+}
+.cards .super-smash-flash {
+    background-image: url("../img/thumbnails/super-smash-flash.png");
+}
+.cards .bloons-td-5 {
+    background-image: url("../img/thumbnails/bloons-td-5.png");
 }
 .cards .worlds-hardest-game {
     background-image: url("../img/thumbnails/worlds-hardest-game.png");
@@ -561,6 +585,30 @@
 .cards .jellydad-hero {
     background-image: url("../img/thumbnails/jellydad-hero.png");
 }
+.cards .atari-breakout {
+    background-image: url("../img/thumbnails/atari-breakout.png");
+}
+.cards .asteroids {
+    background-image: url("../img/thumbnails/asteroids.png");
+}
+.cards .steak-and-jake {
+    background-image: url("../img/thumbnails/steak-and-jake.png");
+}
+.cards .strike-force-kitty-2 {
+    background-image: url("../img/thumbnails/strike-force-kitty-2.png");
+}
+.cards .alien-hominid {
+    background-image: url("../img/thumbnails/alien-hominid.png");
+}
+.cards .amberial {
+    background-image: url("../img/thumbnails/amberial.png");
+}
+.cards .steak-and-jake-midnight-march {
+    background-image: url("../img/thumbnails/steak-and-jake-midnight-march.png");
+}
+.cards .rock-garden {
+    background-image: url("../img/thumbnails/rock-garden.png");
+}
 .cards .linquest {
     background-image: url("../img/thumbnails/linquest.png");
 }
@@ -575,6 +623,12 @@
 }
 .cards .pacman-fps {
     background-image: url("../img/thumbnails/pacman-fps.png");
+}
+.cards .pacman {
+    background-image: url("../img/thumbnails/pacman.png");
+}
+.cards .marios-adventure-2 {
+    background-image: url("../img/thumbnails/marios-adventure.png");
 }
 .cards .super-mario-64 {
     background-image: url("../img/thumbnails/super-mario-64.png");
@@ -776,6 +830,12 @@
 }
 .cards .jacksmith {
     background-image: url("../img/thumbnails/jack-smith.png");
+}
+.cards .cactus-mccoy {
+    background-image: url("../img/thumbnails/cactus-mccoy.png");
+}
+.cards .cactus-mccoy-2 {
+    background-image: url("../img/thumbnails/cactus-mccoy-2.png");
 }
 .cards .portal-flash {
     background-image: url("../img/thumbnails/portal-flash.png");
@@ -1086,6 +1146,36 @@
 .cards .dragon-city {
     background-image: url("../img/thumbnails/dragon-city.png");
 }
+.cards .bomb-it {
+    background-image: url("../img/thumbnails/bomb-it.png");
+}
+.cards .super-fighters {
+    background-image: url("../img/thumbnails/super-fighters.png");
+}
+.cards .wheely {
+    background-image: url("../img/thumbnails/wheely.png");
+}
+.cards .wheely-2 {
+    background-image: url("../img/thumbnails/wheely-2.png");
+}
+.cards .wheely-3 {
+    background-image: url("../img/thumbnails/wheely-3.png");
+}
+.cards .wheely-4 {
+    background-image: url("../img/thumbnails/wheely-4.png");
+}
+.cards .wheely-5 {
+    background-image: url("../img/thumbnails/wheely-5.png");
+}
+.cards .wheely-6 {
+    background-image: url("../img/thumbnails/wheely-6.png");
+}
+.cards .wheely-7 {
+    background-image: url("../img/thumbnails/wheely-7.png");
+}
+.cards .wheely-8 {
+    background-image: url("../img/thumbnails/wheely-8.png");
+}
 .cards .venge-io {
     background-image: url("../img/thumbnails/venge-io.png");
 }
@@ -1104,6 +1194,33 @@
 .cards .little-alchemy-2 {
     background-image: url("../img/thumbnails/little-alchemy-2.png");
 }
-.cards . {
-    background-image: url("../img/thumbnails/.png");
+.cards .bubble-tanks-2 {
+    background-image: url("../img/thumbnails/bubble-tanks-2.png");
+}
+.cards .bubble-shooter {
+    background-image: url("../img/thumbnails/bubble-shooter.png");
+}
+.cards .battle-panic {
+    background-image: url("../img/thumbnails/battle-panic.png");
+}
+.cards .bike-mania {
+    background-image: url("../img/thumbnails/bike-mania.png");
+}
+.cards .bike-mania-2 {
+    background-image: url("../img/thumbnails/bike-mania-2.png");
+}
+.cards .burrito-bison-revenge {
+    background-image: url("../img/thumbnails/burrito-bison-revenge.png");
+}
+.cards .bomb-a-bomb {
+    background-image: url("../img/thumbnails/bomb-a-bomb.png");
+}
+.cards .bowman {
+    background-image: url("../img/thumbnails/bow-man.png");
+}
+.cards .bowman-2 {
+    background-image: url("../img/thumbnails/bow-man-2.png");
+}
+.cards .apple-shooter-2021 {
+    background-image: url("../img/thumbnails/apple-shooter-2021.png");
 }

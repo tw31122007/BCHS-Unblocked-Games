@@ -76,24 +76,7 @@
     <div class="text5">Resume Playing</div>
     <div class="activity">
         <a id="staturl" href="iframe.html"><div onclick="setIframeType('home');localStorage.setItem('shownameandimg', 'true')" id="image" class="imgcont"></div><div id="appname" class="appname"></div></a>
-    </div>
-    <script>
-        document.getElementById("image").style="background-image: url('" + localStorage.getItem('app-image') + "')";
-        document.getElementById("appname").innerHTML = localStorage.getItem('app-name')
-
-        var appImage = localStorage.getItem('app-image');
-        var appName = localStorage.getItem('app-name');
-        var recentActivityElement = document.querySelector(".recent .activity");
-    
-        if (appImage && appName && storedURL) {
-            imageElement.style.backgroundImage = "url('" + appImage + "')";
-            appNameElement.innerHTML = appName;
-            recentActivityElement.onclick = openlastpage;
-            recentActivityElement.parentNode.style.display = 'block';
-        } else {
-            recentActivityElement.parentNode.style.display = 'none';
-        }        
-    </script>    
+    </div>   
     </div>
     <!-- Footer Start -->
     <footer class="footer-sticky">
@@ -120,5 +103,6 @@
       <input id="website-input" type="text" placeholder="Website" style="display: none;" value="https://classroom.gooogle.com">
       <script src="assets/js/cloak.js" defer></script>
       <script src="assets/js/touchscreen.js"></script>
+      <script src="assets/js/home.js"></script>
 </body>
 </html>

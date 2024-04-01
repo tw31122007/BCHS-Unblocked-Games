@@ -93,6 +93,9 @@
 .cards .bloons-td {
     background-image: url("../img/thumbnails/bloons-td.png");
 }
+.cards .bloons-td-1 {
+    background-image: url("../img/thumbnails/bloons-td.png");
+}
 .cards .bloons-td-2 {
     background-image: url("../img/thumbnails/bloons-td-2.png");
 }
@@ -1190,6 +1193,36 @@
 }
 .cards .little-alchemy-2 {
     background-image: url("../img/thumbnails/little-alchemy-2.png");
+}
+.cards .bubble-tanks-2 {
+    background-image: url("../img/thumbnails/bubble-tanks-2.png");
+}
+.cards .bubble-shooter {
+    background-image: url("../img/thumbnails/bubble-shooter.png");
+}
+.cards .battle-panic {
+    background-image: url("../img/thumbnails/battle-panic.png");
+}
+.cards .bike-mania {
+    background-image: url("../img/thumbnails/bike-mania.png");
+}
+.cards .bike-mania-2 {
+    background-image: url("../img/thumbnails/bike-mania-2.png");
+}
+.cards .burrito-bison-revenge {
+    background-image: url("../img/thumbnails/burrito-bison-revenge.png");
+}
+.cards .bomb-a-bomb {
+    background-image: url("../img/thumbnails/bomb-a-bomb.png");
+}
+.cards .bowman {
+    background-image: url("../img/thumbnails/bow-man.png");
+}
+.cards .bowman-2 {
+    background-image: url("../img/thumbnails/bow-man-2.png");
+}
+.cards .apple-shooter-2021 {
+    background-image: url("../img/thumbnails/apple-shooter-2021.png");
 }
 .cards . {
     background-image: url("../img/thumbnails/.png");

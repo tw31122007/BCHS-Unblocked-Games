@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/uv/service/',
-    bare: 'https://bare.alegithomeworksite.eu.org',
+    bare: 'https://bare.alegithomeworksite.eu.org/bear/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: 'uv/uv.handler.js',

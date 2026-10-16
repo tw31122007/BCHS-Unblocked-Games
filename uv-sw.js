@@ -1,5 +1,5 @@
 importScripts("/uv/uv.sw.js");
-// Page scripts are not prefixed, and reCAPTCHA is left unrewritten.
+// Site scripts are not rewritten; the page hooks route their requests.
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));

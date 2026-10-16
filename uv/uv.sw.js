@@ -145,24 +145,9 @@ class UVServiceWorker extends EventEmitter {
 
             if (responseCtx.body) {
                 switch(request.destination) {
-                    case 'script': {
-                        const source = await response.text();
-                        const scriptHost = ultraviolet.meta.url.hostname;
-                        const scriptPath = ultraviolet.meta.url.pathname;
-                        // reCAPTCHA breaks if its source is rewritten. The page hooks
-                        // already send its frames back through this proxy.
-                        const captchaScript = scriptHost === 'www.gstatic.com' || scriptPath.includes('/recaptcha/');
-                        if (captchaScript) {
-                            responseCtx.body = source;
-                            break;
-                        }
-                        try {
-                            responseCtx.body = ultraviolet.js.rewrite(source);
-                        } catch (rewriteError) {
-                            responseCtx.body = source;
-                        }
+                    case 'script':
+                        responseCtx.body = await response.text();
                         break;
-                    }
                     case 'worker': {
                         const source = await response.text();
                         const prefix = `if (!self.__uv && self.importScripts) importScripts('${__uv$config.bundle}', '${__uv$config.config}', '${__uv$config.handler}');\n`;
@@ -173,28 +158,51 @@ class UVServiceWorker extends EventEmitter {
                         }
                         break;
                     }
-                    case 'style':
-                        responseCtx.body = ultraviolet.rewriteCSS(
-                            await response.text()
-                        ); 
+                    case 'style': {
+                        const source = await response.text();
+                        try {
+                            responseCtx.body = ultraviolet.rewriteCSS(source);
+                        } catch (rewriteError) {
+                            responseCtx.body = source;
+                        }
                         break;
+                    }
                 case 'iframe':
                 case 'document':
                         if (isHtml(ultraviolet.meta.url, (responseCtx.headers['content-type'] || ''))) {
-                            responseCtx.body = ultraviolet.rewriteHtml(
-                                await response.text(), 
-                                { 
-                                    document: true ,
+                            let html = await response.text();
+                            const heldScripts = [];
+                            html = html.replace(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi, (full, attrs, body) => {
+                                if (!body) return full;
+                                const id = heldScripts.length;
+                                heldScripts.push(body);
+                                return `<script${attrs} data-uvhold="${id}">0</script>`;
+                            });
+                            let rewritten;
+                            try {
+                                rewritten = ultraviolet.rewriteHtml(html, {
+                                    document: true,
                                     injectHead: ultraviolet.createHtmlInject(
-                                        this.config.handler, 
-                                        this.config.bundle, 
+                                        this.config.handler,
+                                        this.config.bundle,
                                         this.config.config,
-                                        ultraviolet.cookie.serialize(cookies, ultraviolet.meta, true), 
+                                        ultraviolet.cookie.serialize(cookies, ultraviolet.meta, true),
                                         request.referrer
                                     )
-                                }
-                            );      
+                                });
+                            } catch (rewriteError) {
+                                rewritten = html;
+                            }
+                            if (heldScripts.length) {
+                                rewritten = rewritten.replace(/<script\b([^>]*\bdata-uvhold=["'](\d+)["'][^>]*)>[\s\S]*?<\/script>/gi, (full, attrs, id) => {
+                                    const body = heldScripts[Number(id)] || "";
+                                    const clean = attrs.replace(/\sdata-uvhold=["']\d+["']/, "");
+                                    return `<script${clean}>${body}</script>`;
+                                });
+                            }
+                            responseCtx.body = rewritten;
                         };
+                        break;
                 };
             };
 

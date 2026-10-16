@@ -767,7 +767,11 @@ async function __uvHook(window, config = {}, bare = '/bare/') {
     });
 
     client.function.on('function', event => {
-        event.data.script = __uv.rewriteJS(event.data.script);
+        try {
+            event.data.script = __uv.rewriteJS(event.data.script);
+        } catch (error) {
+            // Keep the original source when the rewriter cannot parse it.
+        }
     });
 
     client.function.on('toString', event => {
@@ -1012,7 +1016,11 @@ async function __uvHook(window, config = {}, bare = '/bare/') {
         if (!args.length || typeof args[0] !== 'string') return target.apply(that, args);
         let [script] = args;
 
-        script = __uv.rewriteJS(script);
+        try {
+            script = __uv.rewriteJS(script);
+        } catch (error) {
+            // Google's search bootstrap cannot survive a failed rewrite.
+        }
         return target.call(that, script);
     });
 

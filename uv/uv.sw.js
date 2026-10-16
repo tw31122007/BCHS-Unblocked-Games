@@ -146,12 +146,16 @@ class UVServiceWorker extends EventEmitter {
             if (responseCtx.body) {
                 switch(request.destination) {
                     case 'script':
-                    case 'worker':
-                        responseCtx.body = `if (!self.__uv && self.importScripts) importScripts('${__uv$config.bundle}', '${__uv$config.config}', '${__uv$config.handler}');\n`;
-                        responseCtx.body += ultraviolet.js.rewrite(
-                            await response.text()
-                        );
+                    case 'worker': {
+                        const source = await response.text();
+                        const prefix = `if (!self.__uv && self.importScripts) importScripts('${__uv$config.bundle}', '${__uv$config.config}', '${__uv$config.handler}');\n`;
+                        try {
+                            responseCtx.body = prefix + ultraviolet.js.rewrite(source);
+                        } catch (rewriteError) {
+                            responseCtx.body = prefix + source;
+                        }
                         break;
+                    }
                     case 'style':
                         responseCtx.body = ultraviolet.rewriteCSS(
                             await response.text()

@@ -14,8 +14,6 @@ const DROP_OUTBOUND = new Set([
   "te",
   "trailer",
   "host",
-  "origin",
-  "referer",
   "sec-websocket-key",
   "sec-websocket-version",
   "sec-websocket-extensions",
@@ -30,7 +28,28 @@ const DROP_RESPONSE = new Set([
   "content-length",
   "keep-alive",
   "transfer-encoding",
+  "content-security-policy",
+  "content-security-policy-report-only",
+  "x-frame-options",
+  "cross-origin-embedder-policy",
+  "cross-origin-opener-policy",
+  "cross-origin-resource-policy",
+  "report-to",
+  "nel",
+  "permissions-policy",
+  "feature-policy",
 ]);
+
+// The service worker cannot read these, but the browser still sends them to
+// /bare/. Google's robot check will not draw the captcha without them.
+const BROWSER_HEADERS = [
+  "user-agent",
+  "accept-language",
+  "sec-ch-ua",
+  "sec-ch-ua-mobile",
+  "sec-ch-ua-platform",
+  "sec-ch-ua-full-version-list",
+];
 
 const STATUS_TEXT = {
   200: "OK",
@@ -162,6 +181,20 @@ function outboundHeaders(headerJson) {
   return headers;
 }
 
+function applyBrowserHeaders(headers, request) {
+  for (const name of BROWSER_HEADERS) {
+    if (headers.has(name)) continue;
+    const value = request.headers.get(name);
+    if (value) headers.set(name, value);
+  }
+  if (!headers.has("user-agent")) {
+    headers.set(
+      "user-agent",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    );
+  }
+}
+
 function readRemote(request) {
   const protocol = request.headers.get("x-bare-protocol");
   const host = request.headers.get("x-bare-host");
@@ -238,6 +271,7 @@ async function fetchUpstream(url, method, headers, body) {
 
 async function proxyHttp(request) {
   const { url, headers } = readRemote(request);
+  applyBrowserHeaders(headers, request);
   const method = request.method.toUpperCase();
   const body = method === "GET" || method === "HEAD" ? undefined : await request.arrayBuffer();
   const upstream = await fetchUpstream(url, method, headers, body);

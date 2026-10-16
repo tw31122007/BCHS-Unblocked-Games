@@ -1,5 +1,5 @@
 importScripts("/uv/uv.sw.js");
-// Bare fetches include same-origin cookies so Cloudflare Access can see the preview login.
+// Captcha scripts keep their original source if rewriting fails.
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));

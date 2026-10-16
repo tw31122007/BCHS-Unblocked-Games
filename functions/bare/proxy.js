@@ -177,10 +177,21 @@ function readRemote(request) {
   };
 }
 
+function isDisplayableStatus(status) {
+  return Number.isInteger(status) && status >= 200 && status <= 599;
+}
+
+function safeStatusText(status, text) {
+  const fallback = STATUS_TEXT[status] || "OK";
+  if (typeof text !== "string" || !/^[\t\x20-\x7E]+$/.test(text)) return fallback;
+  return text;
+}
+
 function responseHeaders(upstream) {
   const headers = {};
   upstream.headers.forEach((value, key) => {
     if (DROP_RESPONSE.has(key) || key === "set-cookie") return;
+    if (typeof value !== "string" || /[\r\n]/.test(value)) return;
     headers[key] = value;
   });
 
@@ -193,25 +204,51 @@ function responseHeaders(upstream) {
   return headers;
 }
 
-async function proxyHttp(request) {
-  const { url, headers } = readRemote(request);
-  const method = request.method.toUpperCase();
-  const upstream = await fetch(url, {
+async function fetchUpstream(url, method, headers, body) {
+  // redirect:manual keeps real 301/302 responses so the page can follow them.
+  // On Cloudflare Pages those redirects often arrive as status 0, which the
+  // iframe cannot display. When that happens, follow the redirect here.
+  let upstream = await fetch(url, {
     method,
     headers,
-    body: method === "GET" || method === "HEAD" ? undefined : request.body,
+    body,
     redirect: "manual",
   });
 
+  if (!isDisplayableStatus(upstream.status)) {
+    await upstream.body?.cancel?.();
+    upstream = await fetch(url, {
+      method,
+      headers,
+      body,
+      redirect: "follow",
+    });
+  }
+
+  if (!isDisplayableStatus(upstream.status)) {
+    await upstream.body?.cancel?.();
+    upstream = new Response("This site did not return a page the proxy can show.", {
+      status: 502,
+      headers: { "content-type": "text/plain; charset=utf-8" },
+    });
+  }
+
+  return upstream;
+}
+
+async function proxyHttp(request) {
+  const { url, headers } = readRemote(request);
+  const method = request.method.toUpperCase();
+  const body = method === "GET" || method === "HEAD" ? undefined : await request.arrayBuffer();
+  const upstream = await fetchUpstream(url, method, headers, body);
+  const status = upstream.status;
+
   const wrapped = corsHeaders(request);
-  wrapped.set("x-bare-status", String(upstream.status));
-  wrapped.set(
-    "x-bare-status-text",
-    upstream.statusText || STATUS_TEXT[upstream.status] || "",
-  );
+  wrapped.set("x-bare-status", String(status));
+  wrapped.set("x-bare-status-text", safeStatusText(status, upstream.statusText));
   wrapped.set("x-bare-headers", JSON.stringify(responseHeaders(upstream)));
 
-  return new Response(EMPTY_STATUSES.has(upstream.status) ? null : upstream.body, {
+  return new Response(EMPTY_STATUSES.has(status) ? null : upstream.body, {
     status: 200,
     headers: wrapped,
   });

@@ -195,17 +195,25 @@ class UVServiceWorker extends EventEmitter {
     };
     getBarerResponse(response) {
         const headers = {};
-        const raw = JSON.parse(response.headers.get('x-bare-headers'));
+        const raw = JSON.parse(response.headers.get('x-bare-headers') || '{}') || {};
 
         for (const key in raw) {
-            headers[key.toLowerCase()] = raw[key];
+            const value = raw[key];
+            if (Array.isArray(value)) headers[key.toLowerCase()] = value.map((item) => String(item));
+            else if (value != null) headers[key.toLowerCase()] = String(value);
         };
+
+        let status = Number(response.headers.get('x-bare-status'));
+        if (!Number.isInteger(status) || status < 200 || status > 599) status = 502;
+
+        let statusText = response.headers.get('x-bare-status-text') || '';
+        if (!/^[\t\x20-\x7E]*$/.test(statusText)) statusText = '';
 
         return {
             headers,
-            status: +response.headers.get('x-bare-status'),
-            statusText: response.headers.get('x-bare-status-text'),
-            body: !this.statusCode.empty.includes(+response.headers.get('x-bare-status')) ? response.body : null,
+            status,
+            statusText,
+            body: !this.statusCode.empty.includes(status) ? response.body : null,
         };
     };
     get address() {

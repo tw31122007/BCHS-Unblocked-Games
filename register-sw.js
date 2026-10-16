@@ -25,6 +25,6 @@ async function registerSW() {
 
   // Ultraviolet has a stock `sw.js` script.
   await navigator.serviceWorker.register(stockSW, {
-    scope: __uv$config.prefix,
+    scope: "/",
   });
 }

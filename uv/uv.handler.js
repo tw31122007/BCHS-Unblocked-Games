@@ -112,6 +112,43 @@ async function __uvHook(window, config = {}, bare = '/bare/') {
         __uv.ssWrap = client.storage.emulate(client.storage.sessionStorage, __uv.sessionStorageObj);
     };
 
+    // Google's captcha key only works on google.com. The widget records this
+    // site's real address, so swap that for the proxied page before the frame loads.
+    var rewriteUrl = __uv.rewriteUrl;
+    __uv.rewriteUrl = function (url, meta) {
+        try {
+            if (typeof url === 'string' && url.indexOf(__uv$config.prefix) === -1) {
+                var base = (meta && meta.url) || __uv.meta.url;
+                var abs = new URL(url, base);
+                if (abs.pathname.indexOf('/recaptcha/') !== -1 && abs.searchParams.has('co')) {
+                    var parent = base && base.origin && base.origin !== location.origin ? base.origin : 'https://www.google.com';
+                    var parsed = new URL(parent);
+                    var port = parsed.port || (parsed.protocol === 'https:' ? '443' : '80');
+                    var token = btoa(parsed.protocol + '//' + parsed.hostname + ':' + port).replace(/=+$/g, '.');
+                    if (abs.searchParams.get('co') !== token) {
+                        abs.searchParams.set('co', token);
+                        url = abs.href;
+                    }
+                }
+            }
+        } catch (error) {}
+        return rewriteUrl.call(this, url, meta);
+    };
+
+    try {
+        if (window.top === window && __uv.location.origin && __uv.location.origin !== location.origin) {
+            client.storage.localStorage.setItem('uv-origin', __uv.location.origin);
+            if (window.cookieStore) {
+                window.cookieStore.set({
+                    name: 'uv-origin',
+                    value: __uv.location.origin,
+                    path: '/',
+                    sameSite: 'lax',
+                });
+            }
+        }
+    } catch (error) {}
+
 
 
     let rawBase = window.document ? client.node.baseURI.get.call(window.document) : window.location.href;

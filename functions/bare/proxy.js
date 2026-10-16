@@ -269,8 +269,47 @@ async function fetchUpstream(url, method, headers, body) {
   return upstream;
 }
 
+function recaptchaParent(url, headers) {
+  const referer = headers.get("referer");
+  if (referer) {
+    try {
+      const ref = new URL(referer);
+      const name = ref.hostname;
+      if (
+        name.endsWith("google.com") ||
+        name.endsWith("youtube.com") ||
+        name.endsWith("gstatic.com") ||
+        name.endsWith("recaptcha.net")
+      ) {
+        const port = ref.port || (ref.protocol === "https:" ? "443" : "80");
+        return `${ref.protocol}//${ref.hostname}:${port}`;
+      }
+    } catch {
+      // The sorry-page key is registered for www.google.com.
+    }
+  }
+  return "https://www.google.com:443";
+}
+
+function fixRecaptcha(url, headers) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return url;
+  }
+  if (!parsed.pathname.includes("/recaptcha/") || !parsed.searchParams.has("co")) return url;
+  const origin = recaptchaParent(url, headers);
+  const token = btoa(origin).replace(/=+$/g, ".");
+  if (parsed.searchParams.get("co") === token) return url;
+  parsed.searchParams.set("co", token);
+  return parsed.href;
+}
+
 async function proxyHttp(request) {
-  const { url, headers } = readRemote(request);
+  const remote = readRemote(request);
+  const headers = remote.headers;
+  const url = fixRecaptcha(remote.url, headers);
   applyBrowserHeaders(headers, request);
   const method = request.method.toUpperCase();
   const body = method === "GET" || method === "HEAD" ? undefined : await request.arrayBuffer();

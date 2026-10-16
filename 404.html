@@ -49,13 +49,32 @@
     <script>
       (function () {
         try {
-          var referrer = document.referrer;
+          var path = location.pathname;
+          if (path.indexOf(__uv$config.prefix) === 0) return;
+          if (
+            path === "/" ||
+            path.slice(-5) === ".html" ||
+            path.indexOf("/assets/") === 0 ||
+            path.indexOf("/games/") === 0 ||
+            path.indexOf("/uv/") === 0 ||
+            path.indexOf("/bare/") === 0
+          ) {
+            return;
+          }
+          var origin = null;
+          var referrer = document.referrer || "";
           var prefix = location.origin + __uv$config.prefix;
-          if (!referrer || referrer.indexOf(prefix) !== 0) return;
-          if (location.pathname.indexOf(__uv$config.prefix) === 0) return;
-          var encoded = referrer.slice(prefix.length).split("#")[0].split("?")[0];
-          var origin = new URL(__uv$config.decodeUrl(encoded)).origin;
-          var target = new URL(location.pathname + location.search + location.hash, origin + "/").href;
+          if (referrer.indexOf(prefix) === 0) {
+            var encoded = referrer.slice(prefix.length).split("#")[0].split("?")[0];
+            origin = new URL(__uv$config.decodeUrl(encoded)).origin;
+          }
+          if (!origin) {
+            var match = document.cookie.match(/(?:^|;\s*)uv-origin=([^;]*)/);
+            if (match) origin = decodeURIComponent(match[1]);
+          }
+          if (!origin) origin = localStorage.getItem("uv-origin");
+          if (!origin) return;
+          var target = new URL(path + location.search + location.hash, origin + "/").href;
           location.replace(__uv$config.prefix + __uv$config.encodeUrl(target));
         } catch (error) {}
       })();

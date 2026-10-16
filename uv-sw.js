@@ -1,5 +1,5 @@
 importScripts("/uv/uv.sw.js");
-// Captcha scripts keep their original source if rewriting fails.
+// Page scripts are not prefixed, and reCAPTCHA is left unrewritten.
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));

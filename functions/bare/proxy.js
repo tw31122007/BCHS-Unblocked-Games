@@ -276,11 +276,15 @@ async function proxyHttp(request) {
   const body = method === "GET" || method === "HEAD" ? undefined : await request.arrayBuffer();
   const upstream = await fetchUpstream(url, method, headers, body);
   const status = upstream.status;
+  const echoed = responseHeaders(upstream);
+  if (status >= 300 && status < 400 && echoed["content-type"] === "application/binary") {
+    delete echoed["content-type"];
+  }
 
   const wrapped = corsHeaders(request);
   wrapped.set("x-bare-status", String(status));
   wrapped.set("x-bare-status-text", safeStatusText(status, upstream.statusText));
-  wrapped.set("x-bare-headers", JSON.stringify(responseHeaders(upstream)));
+  wrapped.set("x-bare-headers", JSON.stringify(echoed));
 
   return new Response(EMPTY_STATUSES.has(status) ? null : upstream.body, {
     status: 200,

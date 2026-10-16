@@ -145,7 +145,24 @@ class UVServiceWorker extends EventEmitter {
 
             if (responseCtx.body) {
                 switch(request.destination) {
-                    case 'script':
+                    case 'script': {
+                        const source = await response.text();
+                        const scriptHost = ultraviolet.meta.url.hostname;
+                        const scriptPath = ultraviolet.meta.url.pathname;
+                        // reCAPTCHA breaks if its source is rewritten. The page hooks
+                        // already send its frames back through this proxy.
+                        const captchaScript = scriptHost === 'www.gstatic.com' || scriptPath.includes('/recaptcha/');
+                        if (captchaScript) {
+                            responseCtx.body = source;
+                            break;
+                        }
+                        try {
+                            responseCtx.body = ultraviolet.js.rewrite(source);
+                        } catch (rewriteError) {
+                            responseCtx.body = source;
+                        }
+                        break;
+                    }
                     case 'worker': {
                         const source = await response.text();
                         const prefix = `if (!self.__uv && self.importScripts) importScripts('${__uv$config.bundle}', '${__uv$config.config}', '${__uv$config.handler}');\n`;

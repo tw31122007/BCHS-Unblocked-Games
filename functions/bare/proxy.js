@@ -1,9 +1,7 @@
-// Bare Server v1, the protocol this site's Ultraviolet service worker already speaks.
-// Deployed as a Cloudflare Pages Function at /bare/ so the search bar can
-// load Google (and other http/https pages) inside iframe.html.
+// Bare Server v3. Ultraviolet 3.2 talks to /bare/v3/ with x-bare-url.
 
-const VALID_PROTOCOLS = new Set(["http:", "https:", "ws:", "wss:"]);
 const EMPTY_STATUSES = new Set([204, 205, 304]);
+const MAX_HEADER_VALUE = 3072;
 const DROP_OUTBOUND = new Set([
   "connection",
   "content-length",
@@ -38,10 +36,8 @@ const DROP_RESPONSE = new Set([
   "nel",
   "permissions-policy",
   "feature-policy",
+  "alt-svc",
 ]);
-
-// The service worker cannot read these, but the browser still sends them to
-// /bare/. Google's robot check will not draw the captcha without them.
 const BROWSER_HEADERS = [
   "user-agent",
   "accept-language",
@@ -50,7 +46,6 @@ const BROWSER_HEADERS = [
   "sec-ch-ua-platform",
   "sec-ch-ua-full-version-list",
 ];
-
 const STATUS_TEXT = {
   200: "OK",
   201: "Created",
@@ -70,11 +65,10 @@ const STATUS_TEXT = {
   503: "Service Unavailable",
 };
 
-function bareError(status, message) {
-  return new Response(message, {
-    status,
-    headers: corsHeaders(null),
-  });
+function bareError(status, code, message) {
+  const headers = corsHeaders(null);
+  headers.set("content-type", "application/json; charset=utf-8");
+  return new Response(JSON.stringify({ code, message }), { status, headers });
 }
 
 function corsHeaders(request) {
@@ -94,25 +88,15 @@ function corsHeaders(request) {
 function fromThisSite(request) {
   const host = new URL(request.url).host;
   if (request.headers.get("Sec-Fetch-Site") === "same-origin") return true;
-
-  const origin = request.headers.get("Origin");
-  if (origin) {
+  for (const name of ["Origin", "Referer"]) {
+    const value = request.headers.get(name);
+    if (!value) continue;
     try {
-      if (new URL(origin).host === host) return true;
+      if (new URL(value).host === host) return true;
     } catch {
       return false;
     }
   }
-
-  const referer = request.headers.get("Referer");
-  if (referer) {
-    try {
-      if (new URL(referer).host === host) return true;
-    } catch {
-      return false;
-    }
-  }
-
   return false;
 }
 
@@ -129,13 +113,11 @@ function blockedHost(hostname) {
   ) {
     return true;
   }
-
   const parts = host.split(".");
-  if (parts.length !== 4 || parts.some((part) => !/^\d{1,3}$/.test(part))) {
-    return false;
-  }
-  const [a, b] = parts.map(Number);
-  if ([a, b, ...parts.slice(2).map(Number)].some((n) => n > 255)) return true;
+  if (parts.length !== 4 || parts.some((part) => !/^\d{1,3}$/.test(part))) return false;
+  const nums = parts.map(Number);
+  if (nums.some((n) => n > 255)) return true;
+  const [a, b] = nums;
   return (
     a === 0 ||
     a === 10 ||
@@ -147,27 +129,27 @@ function blockedHost(hostname) {
   );
 }
 
-function remoteURL(protocol, host, port, path) {
-  if (!VALID_PROTOCOLS.has(protocol)) {
-    throw new Error("Unsupported protocol.");
+function joinedBareHeaders(request) {
+  const split = [];
+  for (const [name, value] of request.headers) {
+    if (!name.startsWith("x-bare-headers-")) continue;
+    const id = Number(name.slice("x-bare-headers-".length));
+    if (!Number.isInteger(id) || !value.startsWith(";")) {
+      throw new Error("x-bare-headers was split incorrectly.");
+    }
+    split[id] = value.slice(1);
   }
-  if (!host || blockedHost(host)) {
-    throw new Error("That address cannot be proxied.");
-  }
-  if (!path.startsWith("/")) path = `/${path}`;
-  const secure = protocol === "https:" || protocol === "wss:";
-  const normalPort = !port || port === (secure ? "443" : "80");
-  return `${protocol}//${host}${normalPort ? "" : `:${port}`}${path}`;
+  if (split.length) return split.join("");
+  return request.headers.get("x-bare-headers");
 }
 
 function outboundHeaders(headerJson) {
   let parsed;
   try {
-    parsed = JSON.parse(headerJson);
+    parsed = JSON.parse(headerJson || "{}");
   } catch {
     throw new Error("x-bare-headers was not valid JSON.");
   }
-
   const headers = new Headers();
   for (const [name, value] of Object.entries(parsed)) {
     if (DROP_OUTBOUND.has(name.toLowerCase())) continue;
@@ -196,18 +178,19 @@ function applyBrowserHeaders(headers, request) {
 }
 
 function readRemote(request) {
-  const protocol = request.headers.get("x-bare-protocol");
-  const host = request.headers.get("x-bare-host");
-  const port = request.headers.get("x-bare-port");
-  const path = request.headers.get("x-bare-path");
-  const headerJson = request.headers.get("x-bare-headers");
-  if (!protocol || !host || !port || path === null || !headerJson) {
-    throw new Error("Missing Bare headers.");
+  const raw = request.headers.get("x-bare-url");
+  if (!raw) throw new Error("Missing x-bare-url.");
+  let url;
+  try {
+    url = new URL(raw);
+  } catch {
+    throw new Error("x-bare-url was not a URL.");
   }
-  return {
-    url: remoteURL(protocol, host, port, path),
-    headers: outboundHeaders(headerJson),
-  };
+  if (url.protocol !== "http:" && url.protocol !== "https:") {
+    throw new Error("Unsupported protocol.");
+  }
+  if (blockedHost(url.hostname)) throw new Error("That address cannot be proxied.");
+  return { url: url.href, headers: outboundHeaders(joinedBareHeaders(request)) };
 }
 
 function isDisplayableStatus(status) {
@@ -227,37 +210,31 @@ function responseHeaders(upstream) {
     if (typeof value !== "string" || /[\r\n]/.test(value)) return;
     headers[key] = value;
   });
-
   const cookies =
-    typeof upstream.headers.getSetCookie === "function"
-      ? upstream.headers.getSetCookie()
-      : [];
+    typeof upstream.headers.getSetCookie === "function" ? upstream.headers.getSetCookie() : [];
   if (cookies.length === 1) headers["set-cookie"] = cookies[0];
   else if (cookies.length > 1) headers["set-cookie"] = cookies;
   return headers;
 }
 
-async function fetchUpstream(url, method, headers, body) {
-  // redirect:manual keeps real 301/302 responses so the page can follow them.
-  // On Cloudflare Pages those redirects often arrive as status 0, which the
-  // iframe cannot display. When that happens, follow the redirect here.
-  let upstream = await fetch(url, {
-    method,
-    headers,
-    body,
-    redirect: "manual",
-  });
+function writeBareHeaderJson(target, json) {
+  if (json.length <= MAX_HEADER_VALUE) {
+    target.set("x-bare-headers", json);
+    return;
+  }
+  let id = 0;
+  for (let i = 0; i < json.length; i += MAX_HEADER_VALUE) {
+    target.set(`x-bare-headers-${id}`, `;${json.slice(i, i + MAX_HEADER_VALUE)}`);
+    id += 1;
+  }
+}
 
+async function fetchUpstream(url, method, headers, body) {
+  let upstream = await fetch(url, { method, headers, body, redirect: "manual" });
   if (!isDisplayableStatus(upstream.status)) {
     await upstream.body?.cancel?.();
-    upstream = await fetch(url, {
-      method,
-      headers,
-      body,
-      redirect: "follow",
-    });
+    upstream = await fetch(url, { method, headers, body, redirect: "follow" });
   }
-
   if (!isDisplayableStatus(upstream.status)) {
     await upstream.body?.cancel?.();
     upstream = new Response("This site did not return a page the proxy can show.", {
@@ -265,51 +242,11 @@ async function fetchUpstream(url, method, headers, body) {
       headers: { "content-type": "text/plain; charset=utf-8" },
     });
   }
-
   return upstream;
 }
 
-function recaptchaParent(url, headers) {
-  const referer = headers.get("referer");
-  if (referer) {
-    try {
-      const ref = new URL(referer);
-      const name = ref.hostname;
-      if (
-        name.endsWith("google.com") ||
-        name.endsWith("youtube.com") ||
-        name.endsWith("gstatic.com") ||
-        name.endsWith("recaptcha.net")
-      ) {
-        const port = ref.port || (ref.protocol === "https:" ? "443" : "80");
-        return `${ref.protocol}//${ref.hostname}:${port}`;
-      }
-    } catch {
-      // The sorry-page key is registered for www.google.com.
-    }
-  }
-  return "https://www.google.com:443";
-}
-
-function fixRecaptcha(url, headers) {
-  let parsed;
-  try {
-    parsed = new URL(url);
-  } catch {
-    return url;
-  }
-  if (!parsed.pathname.includes("/recaptcha/") || !parsed.searchParams.has("co")) return url;
-  const origin = recaptchaParent(url, headers);
-  const token = btoa(origin).replace(/=+$/g, ".");
-  if (parsed.searchParams.get("co") === token) return url;
-  parsed.searchParams.set("co", token);
-  return parsed.href;
-}
-
 async function proxyHttp(request) {
-  const remote = readRemote(request);
-  const headers = remote.headers;
-  const url = fixRecaptcha(remote.url, headers);
+  const { url, headers } = readRemote(request);
   applyBrowserHeaders(headers, request);
   const method = request.method.toUpperCase();
   const body = method === "GET" || method === "HEAD" ? undefined : await request.arrayBuffer();
@@ -323,26 +260,11 @@ async function proxyHttp(request) {
   const wrapped = corsHeaders(request);
   wrapped.set("x-bare-status", String(status));
   wrapped.set("x-bare-status-text", safeStatusText(status, upstream.statusText));
-  wrapped.set("x-bare-headers", JSON.stringify(echoed));
-
+  writeBareHeaderJson(wrapped, JSON.stringify(echoed));
   return new Response(EMPTY_STATUSES.has(status) ? null : upstream.body, {
     status: 200,
     headers: wrapped,
   });
-}
-
-function decodeProtocol(protocol) {
-  let result = "";
-  for (let i = 0; i < protocol.length; i++) {
-    const char = protocol[i];
-    if (char === "%") {
-      result += String.fromCharCode(parseInt(protocol.slice(i + 1, i + 3), 16));
-      i += 2;
-    } else {
-      result += char;
-    }
-  }
-  return result;
 }
 
 function pipeSocket(from, to) {
@@ -356,9 +278,7 @@ function pipeSocket(from, to) {
   });
   from.addEventListener("close", (event) => {
     try {
-      if (to.readyState === 0 || to.readyState === 1) {
-        to.close(event.code || 1000, event.reason || "");
-      }
+      if (to.readyState === 0 || to.readyState === 1) to.close(event.code || 1000, event.reason || "");
     } catch {
       // Already closed.
     }
@@ -373,60 +293,99 @@ function pipeSocket(from, to) {
 }
 
 async function proxyWebSocket(request) {
-  const offered = request.headers.get("Sec-WebSocket-Protocol") || "";
-  const [selected, encoded] = offered.split(/,\s*/);
-  if (selected !== "bare" || !encoded) {
-    return bareError(400, "Expected a Bare WebSocket.");
-  }
-
-  const meta = JSON.parse(decodeProtocol(encoded));
-  const remote = meta.remote || {};
-  const url = remoteURL(remote.protocol, remote.host, String(remote.port || ""), remote.path || "/");
-  const headers = outboundHeaders(JSON.stringify(meta.headers || {}));
-  headers.set("Upgrade", "websocket");
-
-  const upstream = await fetch(url, { headers });
-  const remoteSocket = upstream.webSocket;
-  if (!remoteSocket) {
-    return bareError(502, "Upstream refused the WebSocket.");
-  }
-
   const pair = new WebSocketPair();
   const client = pair[0];
   const server = pair[1];
   server.accept();
-  remoteSocket.binaryType = "arraybuffer";
-  remoteSocket.accept();
-  pipeSocket(server, remoteSocket);
-  pipeSocket(remoteSocket, server);
 
-  const responseHeaders = corsHeaders(request);
-  responseHeaders.set("Sec-WebSocket-Protocol", "bare");
-  return new Response(null, {
-    status: 101,
-    webSocket: client,
-    headers: responseHeaders,
-  });
+  const fail = (code, reason) => {
+    try {
+      server.close(code, reason);
+    } catch {
+      // Already closed.
+    }
+  };
+
+  const timer = setTimeout(() => fail(1008, "connect timeout"), 10000);
+  server.addEventListener(
+    "message",
+    async (event) => {
+      clearTimeout(timer);
+      if (typeof event.data !== "string") {
+        fail(1003, "expected text");
+        return;
+      }
+      let message;
+      try {
+        message = JSON.parse(event.data);
+      } catch {
+        fail(1003, "invalid json");
+        return;
+      }
+      if (message?.type !== "connect" || typeof message.remote !== "string") {
+        fail(1003, "expected connect");
+        return;
+      }
+      let remote;
+      try {
+        remote = new URL(message.remote);
+      } catch {
+        fail(1003, "bad url");
+        return;
+      }
+      if ((remote.protocol !== "ws:" && remote.protocol !== "wss:") || blockedHost(remote.hostname)) {
+        fail(1003, "that address cannot be proxied");
+        return;
+      }
+      const headers = outboundHeaders(JSON.stringify(message.headers || {}));
+      headers.set("Upgrade", "websocket");
+      if (Array.isArray(message.protocols) && message.protocols.length) {
+        headers.set("Sec-WebSocket-Protocol", message.protocols.filter((item) => typeof item === "string").join(", "));
+      }
+      try {
+        const upstream = await fetch(remote.href, { headers });
+        const remoteSocket = upstream.webSocket;
+        if (!remoteSocket) {
+          fail(1011, "upstream refused");
+          return;
+        }
+        remoteSocket.accept();
+        const cookies =
+          typeof upstream.headers.getSetCookie === "function" ? upstream.headers.getSetCookie() : [];
+        server.send(
+          JSON.stringify({
+            type: "open",
+            protocol: upstream.headers.get("sec-websocket-protocol") || "",
+            setCookies: cookies,
+          }),
+        );
+        pipeSocket(server, remoteSocket);
+        pipeSocket(remoteSocket, server);
+      } catch {
+        fail(1011, "connect failed");
+      }
+    },
+    { once: true },
+  );
+
+  return new Response(null, { status: 101, webSocket: client });
+}
+
+function versions(request) {
+  const headers = corsHeaders(request);
+  headers.set("content-type", "application/json; charset=utf-8");
+  return new Response(JSON.stringify({ versions: ["v3"] }), { status: 200, headers });
 }
 
 export async function handleBareRequest(request) {
-  const { pathname } = new URL(request.url);
+  const pathname = new URL(request.url).pathname.replace(/\/+$/, "") || "/";
   if (request.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: corsHeaders(request) });
   }
-
-  if (pathname === "/bare" || pathname === "/bare/") {
-    return new Response(JSON.stringify({ versions: ["v1"] }), {
-      headers: { "content-type": "application/json", ...Object.fromEntries(corsHeaders(request)) },
-    });
-  }
-
-  const isV1 =
-    pathname === "/bare/v1" ||
-    pathname === "/bare/v1/" ||
-    pathname.startsWith("/bare/v1/");
-  if (!isV1) return bareError(404, "Not found.");
-  if (!fromThisSite(request)) return bareError(403, "This proxy only serves this site.");
+  if (pathname === "/bare") return versions(request);
+  if (pathname !== "/bare/v3") return bareError(404, "UNKNOWN", "Not found.");
+  if (!request.headers.get("x-bare-url")) return versions(request);
+  if (!fromThisSite(request)) return bareError(403, "FORBIDDEN", "This proxy only serves this site.");
 
   try {
     if (request.headers.get("Upgrade")?.toLowerCase() === "websocket") {
@@ -434,7 +393,7 @@ export async function handleBareRequest(request) {
     }
     return await proxyHttp(request);
   } catch (error) {
-    return bareError(500, error instanceof Error ? error.message : "Proxy request failed.");
+    return bareError(500, "UNKNOWN", error instanceof Error ? error.message : "Proxy request failed.");
   }
 }
 

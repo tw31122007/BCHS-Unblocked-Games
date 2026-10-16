@@ -69,10 +69,24 @@ function backtopage() {
 
 var iframeUrl = localStorage.getItem('storedURL');
 var iframeElement = document.getElementById('iframe');
-if (iframeUrl) {
-    iframeElement.src = iframeUrl;
-} else {
+
+async function openStoredPage() {
+  if (!iframeUrl) {
     console.error("No URL found in localStorage for the iframe");
+    return;
+  }
+  try {
+    if (typeof registerSW === "function") await registerSW();
+  } catch (error) {
+    console.error(error);
+  }
+  iframeElement.src = iframeUrl;
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", openStoredPage);
+} else {
+  openStoredPage();
 }
 
 function reload() {

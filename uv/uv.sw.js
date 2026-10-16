@@ -108,9 +108,12 @@ class UVServiceWorker extends EventEmitter {
 
             const response = await fetch(requestCtx.send);
 
-            if (response.status === 500) {
-                return Promise.reject('');
-            };
+            // Cloudflare Access sits in front of preview links. A response without
+            // Bare headers is from Access or Pages itself, so show that response
+            // directly instead of turning it into a 502.
+            if (!response.headers.has('x-bare-status')) {
+                return response;
+            }
 
             const responseCtx = new ResponseContext(requestCtx, response, this);
             const resEvent = new HookEvent(responseCtx, null, null);
@@ -261,8 +264,10 @@ class RequestContext {
         this.forward = [...worker.headers.forward];
         this.address = worker.address;
         this.body = body || null;
-        this.redirect = request.redirect;
-        this.credentials = 'omit';
+        this.redirect = 'follow';
+        // same-origin sends the Cloudflare Access cookie to /bare/ on this site.
+        // It does not send that cookie when the bare host is a different site.
+        this.credentials = 'same-origin';
         this.mode = request.mode === 'cors' ? request.mode : 'same-origin';
         this.blob = false;
     };

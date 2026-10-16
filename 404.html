@@ -73,6 +73,15 @@
             if (match) origin = decodeURIComponent(match[1]);
           }
           if (!origin) origin = localStorage.getItem("uv-origin");
+          if (!origin) {
+            for (var i = 0; i < localStorage.length; i++) {
+              var key = localStorage.key(i) || "";
+              if (key.slice(-9) === "uv-origin") {
+                origin = localStorage.getItem(key);
+                if (origin) break;
+              }
+            }
+          }
           if (!origin) return;
           var target = new URL(path + location.search + location.hash, origin + "/").href;
           location.replace(__uv$config.prefix + __uv$config.encodeUrl(target));

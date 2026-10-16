@@ -23,8 +23,13 @@ async function registerSW() {
   if (!navigator.serviceWorker)
     throw new Error("Your browser doesn't support service workers.");
 
-  // Ultraviolet has a stock `sw.js` script.
+  // Scope stays with the original registration, so claim "/" as its own worker.
+  // A worker registered only for /uv/service/ never sees /results.
   await navigator.serviceWorker.register(stockSW, {
     scope: "/",
   });
+}
+
+if (typeof window !== "undefined") {
+  registerSW().catch(() => {});
 }

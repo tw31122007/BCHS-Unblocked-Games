@@ -42,7 +42,8 @@ iframe:-ms-fullscreen {
   height: calc(100vh - 55px);
   border: none;
   position: absolute;
-  bottom: 0; 
+  bottom: 0;
+  background: #0f0f0f;
 }
 #swf-container {
   width: 100%;

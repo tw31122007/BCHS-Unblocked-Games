@@ -136,18 +136,73 @@ async function __uvHook(window, config = {}, bare = '/bare/') {
     };
 
     try {
-        if (window.top === window && __uv.location.origin && __uv.location.origin !== location.origin) {
-            client.storage.localStorage.setItem('uv-origin', __uv.location.origin);
+        // The proxied page sits in iframe.html, so it is not window.top.
+        if (window.parent === window.top && __uv.location.origin && __uv.location.origin !== location.origin) {
+            var proxiedOrigin = __uv.location.origin;
+            if (client.storage.setItem) {
+                client.storage.setItem.call(client.storage.localStorage, 'uv-origin', proxiedOrigin);
+            }
             if (window.cookieStore) {
                 window.cookieStore.set({
                     name: 'uv-origin',
-                    value: __uv.location.origin,
+                    value: proxiedOrigin,
                     path: '/',
                     sameSite: 'lax',
                 });
             }
         }
     } catch (error) {}
+
+    function escapedTarget(raw) {
+        if (!raw || typeof raw !== 'string') return null;
+        if (raw.indexOf('javascript:') === 0 || raw.charAt(0) === '#') return null;
+        var resolved;
+        try {
+            resolved = new URL(raw, location.href);
+        } catch (error) {
+            return null;
+        }
+        if (resolved.origin !== location.origin) return null;
+        if (resolved.pathname.indexOf(__uv$config.prefix) === 0) return null;
+        var path = resolved.pathname;
+        if (
+            path === '/' ||
+            path.slice(-5) === '.html' ||
+            path.indexOf('/assets/') === 0 ||
+            path.indexOf('/games/') === 0 ||
+            path.indexOf('/uv/') === 0 ||
+            path.indexOf('/bare/') === 0
+        ) {
+            return null;
+        }
+        try {
+            return new URL(path + resolved.search + resolved.hash, __uv.meta.url).href;
+        } catch (error) {
+            return null;
+        }
+    }
+
+    if (__uv.addEventListener) {
+        __uv.addEventListener.call(document, 'submit', function (event) {
+            var form = event.target;
+            if (!form || !form.getAttribute) return;
+            var target = escapedTarget(form.getAttribute('action') || __uv.meta.url.href);
+            if (!target) return;
+            event.preventDefault();
+            location.href = target;
+        }, true);
+
+        __uv.addEventListener.call(document, 'click', function (event) {
+            if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+            var node = event.target;
+            while (node && node !== document && node.tagName !== 'A') node = node.parentNode;
+            if (!node || node === document || !node.getAttribute) return;
+            var target = escapedTarget(node.getAttribute('href'));
+            if (!target) return;
+            event.preventDefault();
+            location.href = target;
+        }, true);
+    }
 
 
 

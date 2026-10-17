@@ -32,6 +32,7 @@ async function registerSW() {
   if (!self.__uv$config) await loadScript("/uv/uv.config.js");
 
   const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
+  globalThis.__bchsBare = connection;
   await connection.setTransport("/baremod/index.mjs", [location.origin + "/bare/"]);
 
   await navigator.serviceWorker.register(stockSW, { scope: "/" });

@@ -177,8 +177,15 @@ function applyBrowserHeaders(headers, request) {
   }
 }
 
-function readRemote(request) {
-  const raw = request.headers.get("x-bare-url");
+async function readRemote(request) {
+  let raw = request.headers.get("x-bare-url");
+  let method = request.method.toUpperCase();
+  let urlInBody = false;
+  if (request.headers.get("x-bare-url-in-body") === "1") {
+    raw = await request.text();
+    method = (request.headers.get("x-bare-original-method") || "GET").toUpperCase();
+    urlInBody = true;
+  }
   if (!raw) throw new Error("Missing x-bare-url.");
   let url;
   try {
@@ -190,7 +197,7 @@ function readRemote(request) {
     throw new Error("Unsupported protocol.");
   }
   if (blockedHost(url.hostname)) throw new Error("That address cannot be proxied.");
-  return { url: url.href, headers: outboundHeaders(joinedBareHeaders(request)) };
+  return { url: url.href, headers: outboundHeaders(joinedBareHeaders(request)), method, urlInBody };
 }
 
 function isDisplayableStatus(status) {
@@ -230,10 +237,23 @@ function writeBareHeaderJson(target, json) {
 }
 
 async function fetchUpstream(url, method, headers, body) {
-  let upstream = await fetch(url, { method, headers, body, redirect: "manual" });
-  if (!isDisplayableStatus(upstream.status)) {
+  // YouTube's player streams the request and the video at the same time.
+  // Waiting for the whole request body first makes that player give up.
+  const init = { method, headers, redirect: "manual" };
+  if (body !== undefined && body !== null) {
+    init.body = body;
+    init.duplex = "half";
+  }
+  let upstream = await fetch(url, init);
+  const replayable = body === undefined || body === null || body instanceof ArrayBuffer;
+  if (!isDisplayableStatus(upstream.status) && replayable) {
     await upstream.body?.cancel?.();
-    upstream = await fetch(url, { method, headers, body, redirect: "follow" });
+    upstream = await fetch(url, {
+      method,
+      headers,
+      body: body instanceof ArrayBuffer ? body : undefined,
+      redirect: "follow",
+    });
   }
   if (!isDisplayableStatus(upstream.status)) {
     await upstream.body?.cancel?.();
@@ -246,10 +266,11 @@ async function fetchUpstream(url, method, headers, body) {
 }
 
 async function proxyHttp(request) {
-  const { url, headers } = readRemote(request);
+  const remote = await readRemote(request);
+  const { url, headers } = remote;
   applyBrowserHeaders(headers, request);
-  const method = request.method.toUpperCase();
-  const body = method === "GET" || method === "HEAD" ? undefined : await request.arrayBuffer();
+  const method = remote.method;
+  const body = remote.urlInBody || method === "GET" || method === "HEAD" ? undefined : request.body;
   const upstream = await fetchUpstream(url, method, headers, body);
   const status = upstream.status;
   const echoed = responseHeaders(upstream);

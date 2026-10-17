@@ -482,6 +482,12 @@ class ClientV3 extends Client {
         else
             headers.Host = remote.host;
         options.headers = this.createBareHeaders(remote, headers);
+        // Captcha image links and some video links are too long to fit in a header.
+        if (options.headers.get("x-bare-url-in-body") === "1" && body === undefined) {
+            options.method = "POST";
+            options.headers.set("x-bare-original-method", method);
+            options.body = remote.toString();
+        }
         const response = await fetch(this.http + "?cache=" + md5(remote.toString()), options);
         const readResponse = await this.readBareResponse(response);
         return {
@@ -510,7 +516,14 @@ class ClientV3 extends Client {
     }
     createBareHeaders(remote, bareHeaders, forwardHeaders = [], passHeaders = [], passStatus = []) {
         const headers = new Headers();
-        headers.set("x-bare-url", remote.toString());
+        const remoteUrl = remote.toString();
+        if (remoteUrl.length > 1500) {
+            headers.set("x-bare-url", "https://local.invalid/long");
+            headers.set("x-bare-url-in-body", "1");
+        }
+        else {
+            headers.set("x-bare-url", remoteUrl);
+        }
         headers.set("x-bare-headers", JSON.stringify(bareHeaders));
         for (const header of forwardHeaders) {
             headers.append("x-bare-forward-headers", header);

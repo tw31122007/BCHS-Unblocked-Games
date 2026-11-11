@@ -137,7 +137,7 @@ function setCloak() { // applies only to premade cloaks
       location.reload();
       break;
     case "drive": // Google Drive
-      setTitle("My Dive - Google Drive");
+      setTitle("My Drive - Google Drive");
       setFavicon("/assets/img/favicons/google-drive-ico.ico");
       location.reload();
       break;

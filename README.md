@@ -7,7 +7,6 @@ This is the website for BCHS Unblocked Games. It has HTML and Flash games, apps,
 
 - [bchs.pages.dev](https://bchs.pages.dev/)
 - [alegithomeworksite.eu.org](https://alegithomeworksite.eu.org/)
-- [bchs.righttorepairaustralia.com.au](https://bchs.righttorepairaustralia.com.au/)
 - [pizzahutcorporate.info](https://pizzahutcorporate.info/)
 - [pizzahutcorporate.org](https://pizzahutcorporate.org/)
 - [pizzahutcorporate.store](https://pizzahutcorporate.store/)
